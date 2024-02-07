@@ -2,17 +2,20 @@ import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 import CompanyLogo from "../../assets/Demiurge_logo.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
       <nav className="nav_container w-full hover:bg-black hover:transition-all hover:duration-800 py-5 text-white ">
         <div className="max-w-[1280px] h-20 mx-auto flex justify-between items-center">
           <div className="logo_div w-[136px] object-contain">
-            <img
-              src={CompanyLogo}
-              className="w-full h-full"
-              alt="Company_Logo"
-            />
+            <Link to="/">
+              <img
+                src={CompanyLogo}
+                className="w-full h-full"
+                alt="Company_Logo"
+              />
+            </Link>
           </div>
           {/* Menu */}
           <div className="w-[680px] h-full flex items-center justify-between">
