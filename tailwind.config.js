@@ -8,6 +8,9 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./src/assets/backgroundImage')",
+      },
+      fontFamily: {
+        popins: ['Poppins', 'sans-serif']
       }
     },
   },

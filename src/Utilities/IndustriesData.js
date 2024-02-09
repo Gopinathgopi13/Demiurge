@@ -10,13 +10,7 @@ import VideoMarketing from "../assets/SVG/video-marketing.svg";
 import Branding from "../assets/SVG/Branding.svg";
 import Community_M from "../assets/SVG/influencer_Marketing.svg";
 import Website from "../assets/SVG/website-development.svg";
-import websiteDesign from "../assets/SVG/web-design.svg";
-import MblApp from "../assets/SVG/Mobile_App.svg";
-import MblAppDesign from "../assets/SVG/Mobile_App_Design.svg";
-import Blockchain from "../assets/SVG/blockchain-development.svg";
-import leadGen from "../assets/SVG/lead-gen.svg";
-
-const serviceData = [
+const industriesData = [
   {
     id: 1,
     logo: socialMedia,
@@ -101,41 +95,6 @@ const serviceData = [
     description:
       "Optimise the customer experience with a feature-rich and intuitive website design that drives conversions. ",
   },
-  {
-    id: 13,
-    logo: websiteDesign,
-    name: "Website Design",
-    description:
-      "Create an unbeatable foundation for your digital marketing strategy with a website that is both visually stunning and highly performant. ",
-  },
-  {
-    id: 14,
-    logo: MblApp,
-    name: "Mobile App Development",
-    description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
-  },
-  {
-    id: 15,
-    logo: MblAppDesign,
-    name: "Mobile App Design",
-    description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
-  },
-  {
-    id: 16,
-    logo: Blockchain,
-    name: "Blockchain Development",
-    description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
-  },
-  {
-    id: 17,
-    logo: leadGen,
-    name: "Lead Generation",
-    description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
-  },
 ];
 
-export default serviceData;
+export default industriesData;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import CompanyLogo from "../../assets/Demiurge_logo.png";
-import logo from  "../../assets/Demiurge_Logo_White.png"
+import logo from  "../../assets/Demiurge_logo.png"
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -24,7 +24,7 @@ function Navbar() {
   ];
   return (
     <>
-      <nav className="nav_container w-full hover:bg-black hover:transition-all hover:duration-800 py-5 text-white ">
+      <nav className="nav_container w-full sticky top-0 hover:bg-black hover:transition-all hover:duration-800 py-5 text-white ">
         <div className="max-w-[1280px] h-20 mx-auto px-4 flex justify-between items-center">
           <div className="logo_div w-[136px] object-contain">
             <Link to="/">

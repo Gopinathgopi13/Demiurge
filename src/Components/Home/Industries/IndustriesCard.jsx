@@ -1,6 +1,6 @@
 import React from "react";
-import socialMedia from "../../../assets/SVG/Social_media.svg";
-function ServicesCard({ id, logo, name, description }) {
+
+function IndustriesCard({ id, logo, name, description }) {
   return (
     <div className="w-60 text-base">
       <div className=" flex mb-5 items-center gap-2">
@@ -12,4 +12,4 @@ function ServicesCard({ id, logo, name, description }) {
   );
 }
 
-export default ServicesCard;
+export default IndustriesCard;
