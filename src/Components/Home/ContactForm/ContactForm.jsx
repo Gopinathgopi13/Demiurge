@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function ContactForm() {
   return (
-    <div className="w-full bg-[url(E:\Demiurge\src\assets\black_background.jpg)] bg-cover bg-no-repeat mt-20">
+    <div className="w-full bg-[url(black_background.jpg)] bg-cover bg-no-repeat mt-20">
       <div className="w-[1280px] h-[90vh] mx-auto flex items-center">
         <div className="w-2/4 h-[80%] text-white flex flex-col justify-center gap-10">
           <div className="text-5xl font-semibold">

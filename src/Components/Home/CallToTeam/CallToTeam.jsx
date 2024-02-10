@@ -2,9 +2,11 @@ import React from "react";
 
 function CallToTeam() {
   return (
-    <div className="w-full bg-[url(E:\Demiurge\src\assets\black_background.jpg)] h-[700px] flex flex-col justify-center items-center bg-cover bg-no-repeat">
+    <div className="w-full bg-[url(black_background.jpg)] h-[700px] flex flex-col justify-center items-center bg-cover bg-no-repeat">
       <div className="w-[1280px] h-[500px] flex flex-col justify-around items-center m-auto text-center text-white">
-        <div className="text-6xl font-popins font-semibold leading-normal">Partner With a Digital Marketing Agency That Delivers Growth</div>
+        <div className="text-6xl font-popins font-semibold leading-normal">
+          Partner With a Digital Marketing Agency That Delivers Growth
+        </div>
         <div className="text-center text-lg font-popins">
           We’re a full-service digital marketing agency that helps brands that
           want to get noticed and dominate their industry. We love marketing. We
