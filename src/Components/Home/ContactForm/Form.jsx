@@ -17,7 +17,7 @@ function Form() {
             required
           />
           <label
-            for="floating_email"
+            htmlFor="floating_email"
             className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Full Name
@@ -33,7 +33,7 @@ function Form() {
             required
           />
           <label
-            for="floating_email"
+            htmlFor="floating_email"
             className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Email address
@@ -49,7 +49,7 @@ function Form() {
             required
           />
           <label
-            for="floating_email"
+            htmlFor="floating_email"
             className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Phone number
@@ -66,18 +66,12 @@ function Form() {
             required
           />
           <label
-            for="floating_email"
+            htmlFor="floating_email"
             className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
           >
             Describe your requirement
           </label>
         </div>
-
-        {/* <button type="submit"
-            className="btn"  
-        >
-          Submit
-        </button> */}
         <button className="relative inline-block hover:text-white hover:bg-blue-600 px-8 py-4 font-bold uppercase text-blue-600 bg-transparent border-2 border-blue-600 transition duration-500 ease-in-out overflow-hidden group">
           <span className="relative z-10 ">Submit</span>
           <span className="absolute top-0 left-0 w-full h-full hover:bg-blue-600 transform -skew-x-45 transition duration-500 ease-in-out group-hover:w-full"></span>

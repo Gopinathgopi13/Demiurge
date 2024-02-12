@@ -6,6 +6,7 @@ import Industries from "./Industries/Industries";
 import Clients from "./Clients/Clients";
 import ContactForm from "./ContactForm/ContactForm";
 import MainPage from "./Main_Page/MainPage";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
@@ -33,7 +34,9 @@ function Home() {
       <div className="w-full">
         <ContactForm />
       </div>
-      <div className="h-[100vh]"></div>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 }
