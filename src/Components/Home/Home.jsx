@@ -9,23 +9,26 @@ import Footer from "../Footer/Footer";
 import FQA from "../FQA's/FQA";
 import IndustriesComponent from "./Industries_Component/IndustriesComponent";
 import { motion } from "framer-motion";
-
+import backgroundVideo from "../../assets/Background-Video.mp4"
 function Home() {
   return (
     <div className="w-full">
       <motion.div
-        className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)] lg:sticky top-0 z-50"
+        className="lg:sticky top-0 z-50"
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ ease: "easeIn" }}
       >
         <Navbar />
       </motion.div>
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+      <div className="">
+        <video autoPlay loop muted className="absolute -z-30 w-full top-0 left-0 blur-sm border-none object-cover">
+          <source src={backgroundVideo}/>
+        </video>
         <MainPage />
       </div>
       {/* Services */}
-      <div className="w-full">
+      <div className="w-full pt-20">
         <ServiceContainer></ServiceContainer>
       </div>
       <div className="w-full">

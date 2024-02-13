@@ -1,5 +1,3 @@
-// Accordion.js
-
 export default function Accordion(props) {
   return (
     <div className="rounded-lg mb-5 overflow-hidden">
