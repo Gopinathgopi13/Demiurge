@@ -2,8 +2,8 @@ import React from "react";
 
 function Form() {
   return (
-    <div className="h-full w-[80%] bg-white flex justify-center items-center">
-      <form className="mx-auto w-[70%] h-3/4 flex flex-col justify-around">
+    <div className="lg:w-[70%] w-[90%] h-[80%] mx-auto lg:py-20 py-10 bg-white flex justify-center items-center">
+      <form className="mx-auto w-[80%] flex flex-col justify-around gap-7">
         <div className="relative z-0 w-full mb-5 group text-4xl font-medium">
           <div>Tell us about you.</div>
         </div>

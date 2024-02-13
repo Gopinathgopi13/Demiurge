@@ -4,11 +4,11 @@ import clientLogo from "../../../Utilities/ClientLogos";
 function Clients() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="w-[1280px]">
-        <div className="text-6xl font-semibold text-center my-20">
+      <div className="lg:w-[1280px] my-20">
+        <div className="lg:text-6xl text-3xl font-semibold text-center underline">
           Join our growing list of happy clients
         </div>
-        <div className=" grid grid-cols-4 gap-8">
+        <div className=" grid lg:grid-cols-4 grid-cols-2 lg:gap-8">
           {clientLogo.map(({ id, logo }) => {
             return <ClientLogo key={id} logo={logo} />;
           })}

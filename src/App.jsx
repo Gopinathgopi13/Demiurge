@@ -1,25 +1,25 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './Components/Home/Home'
-import Service from './Components/Service/Service'
-import Industries from './Components/Industries/Industries'
-import ContactForm from './Components/Home/ContactForm/ContactForm'
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Service from "./Components/Service/Service";
+import Contact from "./Components/Contact/Contact";
+import Industries from "./Components/Industries/Industries";
+import Work from "./Components/Work/Work";
 
 function App() {
   return (
-  <>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/service' element={<Service/>}/>
-        <Route path='/industries' element={<Industries/>}/>
-        <Route path='/contactForm' element={<ContactForm/>}/>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/' element={<Home/>}/>
-      </Routes>
-    </BrowserRouter>
-  </>
-  )
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
 
-export default App
+export default App;

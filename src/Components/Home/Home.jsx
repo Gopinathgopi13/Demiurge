@@ -2,21 +2,27 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import ServiceContainer from "./Service_Container/ServiceContainer";
 import CallToTeam from "./CallToTeam/CallToTeam";
-import Industries from "./Industries/Industries";
 import Clients from "./Clients/Clients";
 import ContactForm from "./ContactForm/ContactForm";
 import MainPage from "./Main_Page/MainPage";
 import Footer from "../Footer/Footer";
+import FQA from "../FQA's/FQA";
+import IndustriesComponent from "./Industries_Component/IndustriesComponent";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <div className="w-full">
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+      <motion.div
+        className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)] lg:sticky top-0 z-50"
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ ease: "easeIn" }}
+      >
         <Navbar />
-        {/* Main Page */}
-        <div className="w-full">
-          <MainPage/>
-        </div>
+      </motion.div>
+      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+        <MainPage />
       </div>
       {/* Services */}
       <div className="w-full">
@@ -26,7 +32,10 @@ function Home() {
         <CallToTeam />
       </div>
       <div className="w-full">
-        <Industries />
+        <IndustriesComponent />
+      </div>
+      <div>
+        <FQA />
       </div>
       <div className="w-full">
         <Clients />
@@ -35,7 +44,7 @@ function Home() {
         <ContactForm />
       </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
