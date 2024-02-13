@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../Navbar/Navbar";
 import ServiceContainer from "./Service_Container/ServiceContainer";
 import CallToTeam from "./CallToTeam/CallToTeam";
@@ -21,8 +20,8 @@ function Home() {
       >
         <Navbar />
       </motion.div>
-      <div className="">
-        <video autoPlay loop muted className="absolute -z-30 w-full top-0 left-0 blur-sm border-none object-cover">
+      <div className="w-full">
+        <video autoPlay loop muted className="absolute -z-30 w-full h-[100vh] top-0 left-0 blur-sm border-none object-cover">
           <source src={backgroundVideo}/>
         </video>
         <MainPage />
