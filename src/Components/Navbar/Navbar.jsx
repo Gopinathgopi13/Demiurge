@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { FaAngleDown } from "react-icons/fa";
+// import { FaAngleDown } from "react-icons/fa";
 import CompanyLogo from "../../assets/Demiurge_logo.png";
 import logo from "../../assets/Demiurge_logo.png";
 import "./Navbar.css";
@@ -50,7 +50,7 @@ function Navbar() {
   return (
     <>
       <nav className="nav_container w-full sticky top-0 hover:bg-black hover:transition-all hover:duration-800 py-5 text-white ">
-        <div className="max-w-[1280px]  mx-auto flex lg:justify-around justify-between px-4 items-center">
+        <div className="max-w-[1280px]  mx-auto flex px-4 justify-between items-center">
           <div className="logo_div w-[120px] h-[60%] object-cover overflow-hidden">
             <Link to="/">
               <img src={logo} className="w-full h-full" alt="Company_Logo" />
@@ -140,11 +140,8 @@ function Navbar() {
                 <div className=" lg:flex text-white w-[60%] flex flex-col items-center space-y-5 mx-auto">
                   {navItems.map(({ id, text, path }) => {
                     return (
-                      <Link to={path}>
-                        <div
-                          key={id}
-                          className="menu text-lg font-medium h-full flex items-center cursor-pointer  gap-2"
-                        >
+                      <Link to={path} key={id}>
+                        <div className="menu text-lg font-medium h-full flex items-center cursor-pointer  gap-2">
                           <div>{text}</div>
                         </div>
                       </Link>
