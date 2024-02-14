@@ -19,6 +19,7 @@ import leadGen from "../assets/SVG/lead-gen.svg";
 const serviceData = [
   {
     id: 1,
+    path: "/socialMedia",
     logo: socialMedia,
     name: "Social Media",
     description:
@@ -26,6 +27,8 @@ const serviceData = [
   },
   {
     id: 2,
+
+    path: "/",
     logo: SEO,
     name: "SEO",
     description:
@@ -33,6 +36,8 @@ const serviceData = [
   },
   {
     id: 3,
+
+    path: "/",
     logo: paidMedia,
     name: "Paid Media",
     description:
@@ -40,6 +45,8 @@ const serviceData = [
   },
   {
     id: 4,
+
+    path: "/",
     logo: paidSocial,
     name: "Paid Social",
     description:
@@ -47,6 +54,8 @@ const serviceData = [
   },
   {
     id: 5,
+
+    path: "/",
     logo: influMarketing,
     name: "Influencer Marketing",
     description:
@@ -54,6 +63,8 @@ const serviceData = [
   },
   {
     id: 6,
+
+    path: "/",
     logo: Email,
     name: "Email Marketing",
     description:
@@ -61,6 +72,8 @@ const serviceData = [
   },
   {
     id: 7,
+
+    path: "/",
     logo: PR,
     name: "PR",
     description:
@@ -68,6 +81,8 @@ const serviceData = [
   },
   {
     id: 8,
+
+    path: "/",
     logo: Video,
     name: "Video Production",
     description:
@@ -75,6 +90,8 @@ const serviceData = [
   },
   {
     id: 9,
+
+    path: "/",
     logo: VideoMarketing,
     name: "Video Marketing",
     description:
@@ -82,6 +99,7 @@ const serviceData = [
   },
   {
     id: 10,
+    path: "/",
     logo: Branding,
     name: "Branding",
     description:
@@ -89,6 +107,7 @@ const serviceData = [
   },
   {
     id: 11,
+    path: "/",
     logo: Community_M,
     name: "Community Management",
     description:
@@ -96,6 +115,7 @@ const serviceData = [
   },
   {
     id: 12,
+    path: "/",
     logo: Website,
     name: "Website Development",
     description:
@@ -103,6 +123,7 @@ const serviceData = [
   },
   {
     id: 13,
+    path: "/",
     logo: websiteDesign,
     name: "Website Design",
     description:
@@ -110,6 +131,7 @@ const serviceData = [
   },
   {
     id: 14,
+    path: "/",
     logo: MblApp,
     name: "Mobile App Development",
     description:
@@ -117,6 +139,7 @@ const serviceData = [
   },
   {
     id: 15,
+    path: "/",
     logo: MblAppDesign,
     name: "Mobile App Design",
     description:
@@ -124,6 +147,7 @@ const serviceData = [
   },
   {
     id: 16,
+    path: "/",
     logo: Blockchain,
     name: "Blockchain Development",
     description:
@@ -131,6 +155,7 @@ const serviceData = [
   },
   {
     id: 17,
+    path: "/",
     logo: leadGen,
     name: "Lead Generation",
     description:

@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 import FQA from "../FQA's/FQA";
 import IndustriesComponent from "./Industries_Component/IndustriesComponent";
 import { motion } from "framer-motion";
-import backgroundVideo from "../../assets/Background-Video.mp4"
+import backgroundVideo from "../../assets/Background-Video.mp4";
 function Home() {
   return (
     <div className="w-full">
@@ -21,8 +21,13 @@ function Home() {
         <Navbar />
       </motion.div>
       <div className="w-full">
-        <video autoPlay loop muted className="absolute -z-30 w-full h-[100vh] top-0 left-0 blur-sm border-none object-cover">
-          <source src={backgroundVideo}/>
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute -z-30 w-full h-[100vh] top-0 left-0 blur-md border-none object-cover"
+        >
+          <source src={backgroundVideo} />
         </video>
         <MainPage />
       </div>

@@ -1,11 +1,39 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../../Navbar/Navbar";
+import SocialMediaMainPage from "./SocialMediaMainPage";
+import MarketingService from "./MarketingService";
+import OrganicPaid from "./OrganicPaid";
+import Footer from "../../../Footer/Footer";
+import CTA from "./CTA";
+import ContactForm from "../../../Home/ContactForm/ContactForm";
 
 function SocialMedia() {
   return (
-    <div>
-      SEO
+    <div className="w-full">
+      <div className="w-full bg-black">
+        <Navbar />
+      </div>
+      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+        <SocialMediaMainPage />
+      </div>
+      <div>
+        <MarketingService />
+      </div>
+      <div className="bg-[#161616]">
+        <CTA />
+      </div>
+      <div className="my-10">
+        <OrganicPaid />
+      </div>
+
+      <div>
+        <ContactForm />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
-  )
+  );
 }
 
-export default SocialMedia
+export default SocialMedia;

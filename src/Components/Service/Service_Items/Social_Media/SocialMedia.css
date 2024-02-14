@@ -1,0 +1,9 @@
+.backgroundColorGradient {
+  background: #2196f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2196f3,
+    #f44336
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2196f3, #f44336);
+}

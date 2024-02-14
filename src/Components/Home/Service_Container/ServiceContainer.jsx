@@ -15,9 +15,9 @@ function ServiceContainer() {
       </div>
       <div className="grid lg:grid-cols-4 grid-cols-1 gap-9">
         {
-            serviceData.map(({id, logo, name, description}, index)=>{
+            serviceData.map(({id, logo, name, description, path}, index)=>{
                 // console.log(id)
-                return <ServicesCard id={id} logo={logo} name={name} description={description} key={index}/>
+                return <ServicesCard id={id} logo={logo} name={name} description={description} path={path} key={index}/>
             })
         }
       </div>

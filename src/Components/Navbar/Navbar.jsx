@@ -44,12 +44,13 @@ function Navbar() {
     { id: 2, path: "/service", text: "Services" },
     { id: 3, path: "/industries", text: "Industries" },
     { id: 4, path: "/work", text: "Work" },
+    { id: 4, path: "/about", text: "About" },
     { id: 5, path: "/contact", text: "Contact" },
   ];
   return (
     <>
       <nav className="nav_container w-full sticky top-0 hover:bg-black hover:transition-all hover:duration-800 py-5 text-white ">
-        <div className="max-w-[1280px]  mx-auto flex justify-between items-center">
+        <div className="max-w-[1280px]  mx-auto flex lg:justify-around justify-between px-4 items-center">
           <div className="logo_div w-[120px] h-[60%] object-cover overflow-hidden">
             <Link to="/">
               <img src={logo} className="w-full h-full" alt="Company_Logo" />
@@ -58,12 +59,12 @@ function Navbar() {
           {/* Menu */}
           {/* Desktop Navigation */}
           <div className="hidden lg:flex  w-[680px] h-full items-center justify-between">
-            <div className="menu relative text-md font-medium  cursor-pointer  ">
+            <div className="menu relative text-md  cursor-pointer  ">
               <Link to="/" className="flex items-center gap-2">
                 <div>Home</div>
               </Link>
             </div>
-            <div className="menu relative text-md font-medium  cursor-pointer  ">
+            <div className="menu relative text-md  cursor-pointer  ">
               <Link to="/service" className="flex items-center gap-2">
                 <div>Service</div>
                 {/* <div>
@@ -71,7 +72,7 @@ function Navbar() {
                 </div> */}
               </Link>
             </div>
-            <div className="menu relative text-md font-medium  cursor-pointer  ">
+            <div className="menu relative text-md cursor-pointer  ">
               <Link to="/industries" className="flex items-center gap-2">
                 <div>Industries</div>
                 {/* <div>
@@ -80,7 +81,7 @@ function Navbar() {
               </Link>
             </div>
 
-            <div className="menu relative text-md font-medium  cursor-pointer  ">
+            <div className="menu relative text-md  cursor-pointer  ">
               <Link to="/work" className="flex items-center gap-2">
                 <div>Work</div>
                 {/* <div>
@@ -89,7 +90,16 @@ function Navbar() {
               </Link>
             </div>
 
-            <div className="menu relative text-md font-medium  cursor-pointer  ">
+            <div className="menu relative text-md  cursor-pointer  ">
+              <Link to="/about" className="flex items-center gap-2">
+                <div>About</div>
+                {/* <div>
+                  <FaAngleDown />
+                </div> */}
+              </Link>
+            </div>
+
+            <div className="menu relative text-md  cursor-pointer  ">
               <Link to="/contact">
                 <div>Contact</div>
               </Link>
