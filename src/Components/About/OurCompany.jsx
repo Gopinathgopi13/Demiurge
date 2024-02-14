@@ -13,7 +13,7 @@ function OurCompany() {
           </div>
         </div>
         <div className="w-[90%] h-[90%] object-fill border relative">
-          <div className="w-[60%] h-[80%] border absolute bottom-0 left-0 z-20">
+          <div className="w-[60%] h-[80%] border absolute bottom-0 left-0 z-20g">
             <img src="" alt="" />
             <div>
               <span>Lorem, ipsum.</span>
