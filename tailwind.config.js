@@ -7,6 +7,7 @@ export default {
         "hero-pattern": "url('./src/assets/backgroundImage')",
         'AboutBG': "url('./src/assets/AboutBG.png')",
         'AboutBG2': "url('./src/assets/AboutBG2.png')",
+        'BlueBG': "url('./src/assets/blue-background.jpg')"
       },
       fontFamily: {
         popins: ["Poppins", "sans-serif"],

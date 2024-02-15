@@ -1,11 +1,38 @@
-import React from 'react'
+import React from "react";
+import SEOMainPage from "./SEOMainPage";
+import Navbar from "../../../Navbar/Navbar";
+import Footer from "../../../Footer/Footer";
+import ContactForm from "../../../Home/ContactForm/ContactForm";
+import SEOSecondContainer from "./SEOSecondContainer";
+import SEOThirdContainer from "./SEOThirdContainer";
+import SEOFourthConitainer from "./SEOFourthConitainer";
 
 function SEO() {
   return (
-    <div>
-      SEO
+    <div className="w-full">
+      <div className="w-full bg-black">
+        <Navbar />
+      </div>
+      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+        <SEOMainPage />
+      </div>
+      <div>
+        <SEOSecondContainer/>
+      </div>
+      <div>
+        <SEOThirdContainer/>  
+      </div>
+      <div>
+        <SEOFourthConitainer/>
+      </div>
+      <div>
+        <ContactForm />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
-  )
+  );
 }
 
-export default SEO
+export default SEO;

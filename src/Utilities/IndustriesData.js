@@ -14,86 +14,58 @@ const industriesData = [
   {
     id: 1,
     logo: socialMedia,
-    name: "Social Media",
+    name: "Fintech Marketing",
     description:
-      "Engage your audience on their favourite platforms to foster meaningful relationships that build trust. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 2,
     logo: SEO,
-    name: "SEO",
+    name: "Crypto Marketing",
     description:
-      "Employ strategic SEO to increase your visibility in search results and generate a higher volume of targeted traffic. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 3,
     logo: paidMedia,
-    name: "Paid Media",
+    name: "Software Marketing",
     description:
-      "Maximise ROI on your ad spend through paid media specialists with a proven formula for multiplying revenue. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 4,
     logo: paidSocial,
-    name: "Paid Social",
+    name: "Startup Marketing",
     description:
-      "Extend the reach of your brand through laser-focused social ads that amplify awareness and propel sales. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 5,
     logo: influMarketing,
-    name: "Influencer Marketing",
+    name: "Small Business Marketing",
     description:
-      "Turbo-boost engagement and sales with strategic influencer advertising campaigns that create a big buzz around your brand across the web. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 6,
     logo: Email,
-    name: "Email Marketing",
+    name: "eCommerce Marketing",
     description:
-      "Entice customers and prospects to take specific actions using personalised messaging that promotes your brand. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 7,
     logo: PR,
-    name: "PR",
+    name: "Gaming Marketing",
     description:
-      "Leverage stellar media relations expertise to boost brand exposure and positively influence public opinion. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 8,
     logo: Video,
-    name: "Video Production",
+    name: "Esports Marketing",
     description:
-      "Cater to the growing hunger for multimedia digital content through attention-grabbing video production. ",
-  },
-  {
-    id: 9,
-    logo: VideoMarketing,
-    name: "Video Marketing",
-    description:
-      "Generate leads and drive conversions with an effective and creative video strategy that tells your brand story in a compelling way. ",
-  },
-  {
-    id: 10,
-    logo: Branding,
-    name: "Branding",
-    description:
-      "Put the spotlight on your brand and stand out from the crowd with an inspired branding campaign that generates positive PR. ",
-  },
-  {
-    id: 11,
-    logo: Community_M,
-    name: "Community Management",
-    description:
-      "Grow your web presence and build strong, lasting relationships with your target audience through strategic community management. ",
-  },
-  {
-    id: 12,
-    logo: Website,
-    name: "Website Development",
-    description:
-      "Optimise the customer experience with a feature-rich and intuitive website design that drives conversions. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
 ];
 

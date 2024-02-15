@@ -28,7 +28,7 @@ const serviceData = [
   {
     id: 2,
 
-    path: "/",
+    path: "/seo",
     logo: SEO,
     name: "SEO",
     description:
@@ -37,7 +37,7 @@ const serviceData = [
   {
     id: 3,
 
-    path: "/",
+    path: "/ppc",
     logo: paidMedia,
     name: "Paid Media",
     description:
@@ -46,7 +46,7 @@ const serviceData = [
   {
     id: 4,
 
-    path: "/",
+    path: "/paidsocial",
     logo: paidSocial,
     name: "Paid Social",
     description:
@@ -54,16 +54,14 @@ const serviceData = [
   },
   {
     id: 5,
-
-    path: "/",
-    logo: influMarketing,
-    name: "Influencer Marketing",
+    path: "/pr",
+    logo: PR,
+    name: "PR",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 6,
-
     path: "/",
     logo: Email,
     name: "Email Marketing",
@@ -72,25 +70,6 @@ const serviceData = [
   },
   {
     id: 7,
-
-    path: "/",
-    logo: PR,
-    name: "PR",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
-  },
-  {
-    id: 8,
-
-    path: "/",
-    logo: Video,
-    name: "Video Production",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
-  },
-  {
-    id: 9,
-
     path: "/",
     logo: VideoMarketing,
     name: "Video Marketing",
@@ -98,7 +77,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 10,
+    id: 8,
     path: "/",
     logo: Branding,
     name: "Branding",
@@ -106,7 +85,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 11,
+    id: 9,
     path: "/",
     logo: Community_M,
     name: "Community Management",
@@ -114,7 +93,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 12,
+    id: 10,
     path: "/",
     logo: Website,
     name: "Website Development",
@@ -122,7 +101,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 13,
+    id: 11,
     path: "/",
     logo: websiteDesign,
     name: "CGI Advertisement",
@@ -130,7 +109,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 14,
+    id: 12,
     path: "/",
     logo: MblApp,
     name: "Mobile App Development",
@@ -138,7 +117,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 15,
+    id: 13,
     path: "/",
     logo: MblAppDesign,
     name: "AR/VR Advertisement",
@@ -146,7 +125,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 16,
+    id: 14,
     path: "/",
     logo: Blockchain,
     name: "Blockchain Development",
@@ -154,7 +133,7 @@ const serviceData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 17,
+    id: 15,
     path: "/",
     logo: leadGen,
     name: "Lead Generation",

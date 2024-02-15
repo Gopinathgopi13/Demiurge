@@ -100,6 +100,12 @@ function Navbar() {
             </div>
 
             <div className="menu relative text-md  cursor-pointer  ">
+              <Link to="/careers">
+                <div>Careers</div>
+              </Link>
+            </div>
+
+            <div className="menu relative text-md  cursor-pointer  ">
               <Link to="/contact">
                 <div>Contact</div>
               </Link>

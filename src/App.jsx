@@ -7,6 +7,11 @@ import Industries from "./Components/Industries/Industries";
 import Work from "./Components/Work/Work";
 import SocialMedia from "./Components/Service/Service_Items/Social_Media/SocialMedia";
 import About from "./Components/About/About";
+import Careers from "./Components/Careers/Careers";
+import SEO from "./Components/Service/Service_Items/SEO/SEO";
+import PPC from "./Components/Service/Service_Items/Paid_Media/PPC";
+import PaidSocial from "./Components/Service/Service_Items/Paid_Social/PaidSocial";
+import PR from "./Components/Service/Service_Items/PR/PR";
 
 function App() {
   return (
@@ -19,7 +24,12 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/socialMedia" element={<SocialMedia />} />
+          <Route path="/seo" element={<SEO />} />
+          <Route path="/ppc" element={<PPC />} />
+          <Route path="/paidsocial" element={<PaidSocial />} />
+          <Route path="/pr" element={<PR />} />
         </Routes>
       </BrowserRouter>
     </>

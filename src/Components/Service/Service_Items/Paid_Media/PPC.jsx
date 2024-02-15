@@ -1,11 +1,37 @@
-import React from 'react'
+import React from "react";
+import PPCMainPage from "./PPCMainPage";
+import PPCSecondContainer from "./PPCSecondContainer";
+import PPCThirdContainer from "./PPCThirdContainer";
+import Navbar from "../../../Navbar/Navbar";
+import ContactForm from "../../../Home/ContactForm/ContactForm";
+import Footer from "../../../Footer/Footer";
 
 function PPC() {
   return (
-    <div>
-      PPC
+    <div className="w-full">
+      <div className="w-full bg-black">
+        <Navbar />
+      </div>
+      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+        <PPCMainPage />
+      </div>
+      <div>
+        <PPCSecondContainer />
+      </div>
+      <div>
+        <PPCThirdContainer />
+      </div>
+      {/* <div>
+        <SEOFourthConitainer />
+      </div> */}
+      <div>
+        <ContactForm />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
-  )
+  );
 }
 
-export default PPC
+export default PPC;
