@@ -5,6 +5,7 @@ import AboutMainPage from "./AboutMainPage";
 import AboutBG from '../../assets/AboutBG.png'
 import OurTeam from "./OurTeam";
 import OurCompany from "./OurCompany";
+import Footer from "../Footer/Footer";
 function About() {
   return (
     <div>
@@ -19,6 +20,9 @@ function About() {
       </div>
       <div className="">
         <OurTeam/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );

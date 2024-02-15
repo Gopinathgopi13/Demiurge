@@ -1,5 +1,5 @@
-import Founder from "../../assets/3D image/view-3d-practicing-lawyer.jpg";
-import CoFounder from "../../assets/3D image/3d-illustration-businessman-with-glasses-showing-thumbs-up-gesture.jpg";
+import Founder from "../../assets/3D_Image/Founder.jpg";
+import CoFounder from "../../assets/3D_Image/CoFounder.jpg";
 function OurCompany() {
   return (
     <div className="w-full">

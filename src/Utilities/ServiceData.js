@@ -23,7 +23,7 @@ const serviceData = [
     logo: socialMedia,
     name: "Social Media",
     description:
-      "Engage your audience on their favourite platforms to foster meaningful relationships that build trust. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const serviceData = [
     logo: SEO,
     name: "SEO",
     description:
-      "Employ strategic SEO to increase your visibility in search results and generate a higher volume of targeted traffic. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const serviceData = [
     logo: paidMedia,
     name: "Paid Media",
     description:
-      "Maximise ROI on your ad spend through paid media specialists with a proven formula for multiplying revenue. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const serviceData = [
     logo: paidSocial,
     name: "Paid Social",
     description:
-      "Extend the reach of your brand through laser-focused social ads that amplify awareness and propel sales. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const serviceData = [
     logo: influMarketing,
     name: "Influencer Marketing",
     description:
-      "Turbo-boost engagement and sales with strategic influencer advertising campaigns that create a big buzz around your brand across the web. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ const serviceData = [
     logo: Email,
     name: "Email Marketing",
     description:
-      "Entice customers and prospects to take specific actions using personalised messaging that promotes your brand. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ const serviceData = [
     logo: PR,
     name: "PR",
     description:
-      "Leverage stellar media relations expertise to boost brand exposure and positively influence public opinion. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ const serviceData = [
     logo: Video,
     name: "Video Production",
     description:
-      "Cater to the growing hunger for multimedia digital content through attention-grabbing video production. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 9,
@@ -95,7 +95,7 @@ const serviceData = [
     logo: VideoMarketing,
     name: "Video Marketing",
     description:
-      "Generate leads and drive conversions with an effective and creative video strategy that tells your brand story in a compelling way. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 10,
@@ -103,7 +103,7 @@ const serviceData = [
     logo: Branding,
     name: "Branding",
     description:
-      "Put the spotlight on your brand and stand out from the crowd with an inspired branding campaign that generates positive PR. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 11,
@@ -111,7 +111,7 @@ const serviceData = [
     logo: Community_M,
     name: "Community Management",
     description:
-      "Grow your web presence and build strong, lasting relationships with your target audience through strategic community management. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 12,
@@ -119,15 +119,15 @@ const serviceData = [
     logo: Website,
     name: "Website Development",
     description:
-      "Optimise the customer experience with a feature-rich and intuitive website design that drives conversions. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 13,
     path: "/",
     logo: websiteDesign,
-    name: "Website Design",
+    name: "CGI Advertisement",
     description:
-      "Create an unbeatable foundation for your digital marketing strategy with a website that is both visually stunning and highly performant. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 14,
@@ -135,15 +135,15 @@ const serviceData = [
     logo: MblApp,
     name: "Mobile App Development",
     description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 15,
     path: "/",
     logo: MblAppDesign,
-    name: "Mobile App Design",
+    name: "AR/VR Advertisement",
     description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 16,
@@ -151,7 +151,7 @@ const serviceData = [
     logo: Blockchain,
     name: "Blockchain Development",
     description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
     id: 17,
@@ -159,7 +159,7 @@ const serviceData = [
     logo: leadGen,
     name: "Lead Generation",
     description:
-      "Harness the power of technology by creating intuitive and user-friendly digital applications that add value to your business. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
 ];
 
