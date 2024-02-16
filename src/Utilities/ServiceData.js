@@ -2,10 +2,7 @@ import socialMedia from "../assets/SVG/Social_media.svg";
 import SEO from "../assets/SVG/SEO.svg";
 import paidMedia from "../assets/SVG/Paid_Media.svg";
 import paidSocial from "../assets/SVG/Paid_Social.svg";
-import influMarketing from "../assets/SVG/influencer_Marketing.svg";
-import Email from "../assets/SVG/Email_Marketing.svg";
 import PR from "../assets/SVG/PR_Service.svg";
-import Video from "../assets/SVG/Video_Production.svg";
 import VideoMarketing from "../assets/SVG/video-marketing.svg";
 import Branding from "../assets/SVG/Branding.svg";
 import Community_M from "../assets/SVG/influencer_Marketing.svg";
@@ -27,7 +24,6 @@ const serviceData = [
   },
   {
     id: 2,
-
     path: "/seo",
     logo: SEO,
     name: "SEO",
@@ -36,7 +32,6 @@ const serviceData = [
   },
   {
     id: 3,
-
     path: "/ppc",
     logo: paidMedia,
     name: "Paid Media",
@@ -45,7 +40,6 @@ const serviceData = [
   },
   {
     id: 4,
-
     path: "/paidsocial",
     logo: paidSocial,
     name: "Paid Social",

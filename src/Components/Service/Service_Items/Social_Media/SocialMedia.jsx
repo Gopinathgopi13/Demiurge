@@ -6,6 +6,7 @@ import OrganicPaid from "./OrganicPaid";
 import Footer from "../../../Footer/Footer";
 import CTA from "./CTA";
 import ContactForm from "../../../Home/ContactForm/ContactForm";
+import { Outlet } from "react-router-dom";
 
 function SocialMedia() {
   return (
@@ -32,6 +33,7 @@ function SocialMedia() {
       <div>
         <Footer />
       </div>
+      <Outlet/>
     </div>
   );
 }

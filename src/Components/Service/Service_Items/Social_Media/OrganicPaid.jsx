@@ -7,10 +7,10 @@ function OrganicPaid() {
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] grid lg:grid-cols-2 grid-cols-1">
         {/* Organic Container */}
-        <div className="bg-slate-100 w-[90%] rounded-3xl lg:relative left-24 flex flex-col justify-around items-center pr-10">
+        <div className="bg-slate-100 w-[90%] shadow-2xl py-5 px-10 rounded-3xl lg:relative left-24 flex flex-col justify-around items-center pr-10">
           <div className="text-6xl font-semibold">Organic Social</div>
-          <div className="space-y-2 text-lg">
-            <div className="flex items-center gap-4">
+          <div className="space-y-2 text-lg grid grid-cols-2 grid-rows-2">
+            <div className="flex items-center gap-4 ">
               <div>
                 <FaArrowRight size={15} />
               </div>
@@ -80,12 +80,6 @@ function OrganicPaid() {
               <div>
                 <FaArrowRight size={15} />
               </div>{" "}
-              <div>Reporting/analytics</div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div>
-                <FaArrowRight size={15} />
-              </div>{" "}
               <div>Content creation</div>
             </div>
           </div>
@@ -98,7 +92,7 @@ function OrganicPaid() {
         {/* Paid Container */}
         <div className="bg-black text-white w-[90%] rounded-3xl z-20 flex flex-col justify-around items-center">
           <div className="text-6xl font-semibold">Paid Social</div>
-          <div className="space-y-2 text-lg">
+          <div className="space-y-2 text-lg gap-2 grid px-10 grid-cols-2 grid-rows-2">
             <div className="flex items-center gap-4">
               <div>
                 <FaArrowRight size={15} />

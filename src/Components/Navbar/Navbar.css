@@ -1,6 +1,0 @@
-.nav_container:hover .button_continer {
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-  border: none;
-  transition: all 0.2s;
-  padding: 10px;
-}

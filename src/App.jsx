@@ -28,27 +28,32 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/service" element={<Service />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/careers" element={<Careers />} />
+
+          {/* Service */}
+          <Route path="/service" element={<Service />}/>
+          
           <Route path="/socialMedia" element={<SocialMedia />} />
           <Route path="/seo" element={<SEO />} />
           <Route path="/ppc" element={<PPC />} />
           <Route path="/paidsocial" element={<PaidSocial />} />
           <Route path="/pr" element={<PR />} />
           <Route path="/video-marketing" element={<VideoMarketing />} />
-          <Route path="/brand" element={<Branding />} /> 
-          <Route path="/community" element={<Community />} /> 
-          <Route path="/web" element={<Web />} /> 
-          <Route path="/cgi" element={<CGI />} /> 
-          <Route path="/mobile" element={<MobileApp />} /> 
-          <Route path="/blockchain" element={<Blockchain />} /> 
-          <Route path="/lead" element={<LeadGeneration />} /> 
-          <Route path="/arvr" element={<ARVR />} /> 
+          <Route path="/brand" element={<Branding />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/web" element={<Web />} />
+          <Route path="/cgi" element={<CGI />} />
+          <Route path="/mobile" element={<MobileApp />} />
+          <Route path="/blockchain" element={<Blockchain />} />
+          <Route path="/lead" element={<LeadGeneration />} />
+          <Route path="/arvr" element={<ARVR />} />
 
+
+          {/* Industries */}
         </Routes>
       </BrowserRouter>
     </>

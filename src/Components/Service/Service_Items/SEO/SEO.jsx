@@ -10,20 +10,20 @@ import SEOFourthConitainer from "./SEOFourthConitainer";
 function SEO() {
   return (
     <div className="w-full">
-      <div className="w-full bg-black">
-        <Navbar />
-      </div>
       <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+        <div className="w-full sticky top-0">
+          <Navbar />
+        </div>
         <SEOMainPage />
       </div>
       <div>
-        <SEOSecondContainer/>
+        <SEOSecondContainer />
       </div>
       <div>
-        <SEOThirdContainer/>  
+        <SEOThirdContainer />
       </div>
       <div>
-        <SEOFourthConitainer/>
+        <SEOFourthConitainer />
       </div>
       <div>
         <ContactForm />

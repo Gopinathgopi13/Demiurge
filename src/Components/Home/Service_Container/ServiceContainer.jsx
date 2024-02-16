@@ -1,4 +1,4 @@
-import React from "react";
+
 import ServicesCard from "./ServicesCard";
 import serviceData from "../../../Utilities/ServiceData";
 function ServiceContainer() {
@@ -14,18 +14,24 @@ function ServiceContainer() {
         strategic services below:
       </div>
       <div className="grid lg:grid-cols-4 grid-cols-1 gap-9">
-        {
-            serviceData.map(({id, logo, name, description, path}, index)=>{
-                // console.log(id)
-                return <ServicesCard id={id} logo={logo} name={name} description={description} path={path} key={index}/>
-            })
-        }
+        {serviceData.map(({ id, logo, name, description, path }, index) => {
+          // console.log(id)
+          return (
+            <ServicesCard
+              id={id}
+              logo={logo}
+              name={name}
+              description={description}
+              path={path}
+              key={index}
+            />
+          );
+        })}
       </div>
     </div>
   );
 }
 
 export default ServiceContainer;
-
 
 // {id, logo, name, description}

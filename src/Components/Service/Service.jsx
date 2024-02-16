@@ -5,7 +5,6 @@ import ServiceContainer from "../Home/Service_Container/ServiceContainer";
 import ContactForm from "../Home/ContactForm/ContactForm";
 import Clients from "../Home/Clients/Clients";
 import ServiceMainPage from "./ServiceMainPage";
-import { Outlet } from "react-router-dom";
 
 function Service() {
   return (
@@ -28,7 +27,6 @@ function Service() {
       <div>
         <Footer />
       </div>
-      <Outlet />
     </div>
   );
 }
