@@ -5,6 +5,7 @@ import ServiceContainer from "../Home/Service_Container/ServiceContainer";
 import ContactForm from "../Home/ContactForm/ContactForm";
 import Clients from "../Home/Clients/Clients";
 import ServiceMainPage from "./ServiceMainPage";
+import { Outlet } from "react-router-dom";
 
 function Service() {
   return (
@@ -13,7 +14,7 @@ function Service() {
         <Navbar />
       </div>
       <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
-        <ServiceMainPage/>
+        <ServiceMainPage />
       </div>
       <div>
         <ServiceContainer />
@@ -27,6 +28,7 @@ function Service() {
       <div>
         <Footer />
       </div>
+      <Outlet />
     </div>
   );
 }

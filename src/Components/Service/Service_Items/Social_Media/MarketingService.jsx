@@ -23,8 +23,8 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                We know how to navigate the ever-changing landscape and develop
-                creative solutions that achieve real results.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Adipisci non nesciunt beatae. Quasi, aliquid perferendis?
               </div>
             </div>
             <div className="flex gap-4 ">
@@ -32,8 +32,8 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                We understand that digital marketing is about more than just
-                posting a funny meme on Facebook or Twitter.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                ullam aspernatur numquam voluptatibus, quas ex?
               </div>
             </div>
             <div className="flex gap-4 ">
@@ -41,9 +41,8 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                It’s all about developing a relationship with your audience and
-                creating a connection that goes beyond likes, comments, and
-                shares.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                ullam aspernatur numquam voluptatibus, quas ex?
               </div>
             </div>
             <div className="flex gap-4 ">
@@ -51,8 +50,8 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                It also means having a strategy — one that’s based on your
-                unique goals, target audience, and brand persona.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                ullam aspernatur numquam voluptatibus, quas ex? 
               </div>
             </div>
           </div>

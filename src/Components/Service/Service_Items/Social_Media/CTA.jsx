@@ -5,17 +5,18 @@ function CTA() {
   return (
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 py-20 lg:pb-20 text-white flex flex-col justify-center gap-y-14">
-        <div className="lg:text-5xl">
-          Our social media marketing service will help you kickstart your social
-          media presence, develop a strategy, create content, and engage️ with
-          your brand fans.
+        <div className="lg:text-3xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+          molestiae!
         </div>
         <div className="p-5 text-black flex justify-around items-center bg-gray-200">
           <div className="w-[80%] text-xl">
-            We'll also help you track your progress and measure your success so
-            you can see exactly what's working and what isn't. We are
-            comfortable working with all major platforms such as Facebook,
-            Instagram, Twitter, and Snapchat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sit
+            saepe ex ipsam qui, tempore quaerat perferendis impedit aliquid
+            consequatur quia debitis iste explicabo sint. Hic dolorum facere
+            optio autem ab magnam perferendis sunt voluptatum atque animi odit
+            mollitia repudiandae nemo excepturi quasi soluta earum eaque, veniam
+            dignissimos est nesciunt.
           </div>
           <div>
             <Link to="/contactForm">

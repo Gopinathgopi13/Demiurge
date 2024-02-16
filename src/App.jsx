@@ -12,6 +12,15 @@ import SEO from "./Components/Service/Service_Items/SEO/SEO";
 import PPC from "./Components/Service/Service_Items/Paid_Media/PPC";
 import PaidSocial from "./Components/Service/Service_Items/Paid_Social/PaidSocial";
 import PR from "./Components/Service/Service_Items/PR/PR";
+import VideoMarketing from "./Components/Service/Service_Items/Video Marketing/VideoMarketing";
+import Branding from "./Components/Service/Service_Items/Branding/Branding";
+import Community from "./Components/Service/Service_Items/Community Management/Community";
+import Web from "./Components/Service/Service_Items/Web Development/Web";
+import CGI from "./Components/Service/Service_Items/CGI/CGI";
+import MobileApp from "./Components/Service/Service_Items/Mobile App Development/MobileApp";
+import Blockchain from "./Components/Service/Service_Items/Blockchain Development/Blockchain";
+import LeadGeneration from "./Components/Service/Service_Items/Lead Generation/LeadGeneration";
+import ARVR from "./Components/Service/Service_Items/ARVR/ARVR";
 
 function App() {
   return (
@@ -30,6 +39,16 @@ function App() {
           <Route path="/ppc" element={<PPC />} />
           <Route path="/paidsocial" element={<PaidSocial />} />
           <Route path="/pr" element={<PR />} />
+          <Route path="/video-marketing" element={<VideoMarketing />} />
+          <Route path="/brand" element={<Branding />} /> 
+          <Route path="/community" element={<Community />} /> 
+          <Route path="/web" element={<Web />} /> 
+          <Route path="/cgi" element={<CGI />} /> 
+          <Route path="/mobile" element={<MobileApp />} /> 
+          <Route path="/blockchain" element={<Blockchain />} /> 
+          <Route path="/lead" element={<LeadGeneration />} /> 
+          <Route path="/arvr" element={<ARVR />} /> 
+
         </Routes>
       </BrowserRouter>
     </>

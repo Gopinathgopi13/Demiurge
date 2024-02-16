@@ -62,79 +62,71 @@ const serviceData = [
   },
   {
     id: 6,
-    path: "/",
-    logo: Email,
-    name: "Email Marketing",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
-  },
-  {
-    id: 7,
-    path: "/",
+    path: "/video-marketing",
     logo: VideoMarketing,
     name: "Video Marketing",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 8,
-    path: "/",
+    id: 7,
+    path: "/brand",
     logo: Branding,
     name: "Branding",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 9,
-    path: "/",
+    id: 8,
+    path: "/community",
     logo: Community_M,
     name: "Community Management",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 10,
-    path: "/",
+    id: 9,
+    path: "/web",
     logo: Website,
     name: "Website Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 11,
-    path: "/",
+    id: 10,
+    path: "/cgi",
     logo: websiteDesign,
     name: "CGI Advertisement",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 12,
-    path: "/",
+    id: 11,
+    path: "/mobile",
     logo: MblApp,
     name: "Mobile App Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 13,
-    path: "/",
+    id: 12,
+    path: "/arvr",
     logo: MblAppDesign,
     name: "AR/VR Advertisement",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 14,
-    path: "/",
+    id: 13,
+    path: "/blockchain",
     logo: Blockchain,
     name: "Blockchain Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 15,
-    path: "/",
+    id: 14,
+    path: "/lead",
     logo: leadGen,
     name: "Lead Generation",
     description:
