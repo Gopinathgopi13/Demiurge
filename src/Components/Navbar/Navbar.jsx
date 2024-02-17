@@ -7,7 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="text-white hover:bg-black w-full">
-      <div className="w-[1280px] mx-auto flex items-center font-medium justify-around">
+      <div className="lg:w-[1280px] mx-auto flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <a href="/">
             <img src={Logo} alt="logo" className="md:cursor-pointer h-12" />
@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-blue-600 fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
