@@ -45,7 +45,7 @@ const industriesData = [
   },
   {
     id: 5,
-    path: "/",
+    path: "/industries/smallBusiness",
     logo: influMarketing,
     name: "Small Business Marketing",
     description:

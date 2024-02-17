@@ -25,6 +25,7 @@ import CryptoMarketing from "./Components/Industries/Industries Item/Crypto Mark
 import FintechMarketing from "./Components/Industries/Industries Item/Fintect Marketing/FintechMarketing";
 import SoftwareMarketing from "./Components/Industries/Industries Item/Software Marketing/SoftwareMarketing";
 import StartupMarketing from "./Components/Industries/Industries Item/Startup Marketing/StartupMarketing";
+import SmallBusiness from "./Components/Industries/Industries Item/Small Business Marketing/SmallBusiness";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Route path="/industries/fintech" element={<FintechMarketing />} />
           <Route path="/industries/software" element={<SoftwareMarketing />} />
           <Route path="/industries/startup" element={<StartupMarketing />} />
+          <Route path="/industries/smallBusiness" element={<SmallBusiness />} />
         </Routes>
       </BrowserRouter>
     </>
