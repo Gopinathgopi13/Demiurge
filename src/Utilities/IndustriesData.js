@@ -13,6 +13,7 @@ import Website from "../assets/SVG/website-development.svg";
 const industriesData = [
   {
     id: 1,
+    path: "/industries/fintech",
     logo: socialMedia,
     name: "Fintech Marketing",
     description:
@@ -20,6 +21,7 @@ const industriesData = [
   },
   {
     id: 2,
+    path: "/industries/crypto",
     logo: SEO,
     name: "Crypto Marketing",
     description:
@@ -27,6 +29,7 @@ const industriesData = [
   },
   {
     id: 3,
+    path: "/industries/software",
     logo: paidMedia,
     name: "Software Marketing",
     description:
@@ -34,6 +37,7 @@ const industriesData = [
   },
   {
     id: 4,
+    path: "/industries/startup",
     logo: paidSocial,
     name: "Startup Marketing",
     description:
@@ -41,6 +45,7 @@ const industriesData = [
   },
   {
     id: 5,
+    path: "/",
     logo: influMarketing,
     name: "Small Business Marketing",
     description:
@@ -48,6 +53,7 @@ const industriesData = [
   },
   {
     id: 6,
+    path: "/",
     logo: Email,
     name: "eCommerce Marketing",
     description:
@@ -55,6 +61,7 @@ const industriesData = [
   },
   {
     id: 7,
+    path: "/",
     logo: PR,
     name: "Gaming Marketing",
     description:
@@ -62,6 +69,7 @@ const industriesData = [
   },
   {
     id: 8,
+    path: "/",
     logo: Video,
     name: "Esports Marketing",
     description:

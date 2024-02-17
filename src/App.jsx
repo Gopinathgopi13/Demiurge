@@ -21,6 +21,10 @@ import MobileApp from "./Components/Service/Service_Items/Mobile App Development
 import Blockchain from "./Components/Service/Service_Items/Blockchain Development/Blockchain";
 import LeadGeneration from "./Components/Service/Service_Items/Lead Generation/LeadGeneration";
 import ARVR from "./Components/Service/Service_Items/ARVR/ARVR";
+import CryptoMarketing from "./Components/Industries/Industries Item/Crypto Marketing/CryptoMarketing";
+import FintechMarketing from "./Components/Industries/Industries Item/Fintect Marketing/FintechMarketing";
+import SoftwareMarketing from "./Components/Industries/Industries Item/Software Marketing/SoftwareMarketing";
+import StartupMarketing from "./Components/Industries/Industries Item/Startup Marketing/StartupMarketing";
 
 function App() {
   return (
@@ -28,7 +32,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/industries" element={<Industries />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
@@ -53,6 +56,11 @@ function App() {
           <Route path="/service/arvr" element={<ARVR />} />
 
           {/* Industries */}
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/industries/crypto" element={<CryptoMarketing />} />
+          <Route path="/industries/fintech" element={<FintechMarketing />} />
+          <Route path="/industries/software" element={<SoftwareMarketing />} />
+          <Route path="/industries/startup" element={<StartupMarketing />} />
         </Routes>
       </BrowserRouter>
     </>

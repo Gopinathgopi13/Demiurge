@@ -12,11 +12,12 @@ function IndustriesComponent() {
         insights and expertise to help you discover your true potential.
       </div>
       <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-9">
-        {industriesData.map(({ id, logo, name, description }, index) => {
+        {industriesData.map(({ id, logo, name, description, path }, index) => {
           // console.log(id)
           return (
             <IndustriesCard
               id={id}
+              path={path}
               logo={logo}
               name={name}
               description={description}
