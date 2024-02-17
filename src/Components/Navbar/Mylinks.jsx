@@ -61,7 +61,7 @@ export const links = [
   },
   {
     name: "Company",
-    path: "/company",
+    path: "",
     submenu: true,
     sublinks: [
       {

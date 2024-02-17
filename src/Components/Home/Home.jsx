@@ -8,27 +8,19 @@ import Footer from "../Footer/Footer";
 import FQA from "../FQA's/FQA";
 import IndustriesComponent from "./Industries_Component/IndustriesComponent";
 import { motion } from "framer-motion";
-import backgroundVideo from "../../assets/Background-Video.mp4";
+import industriesBG from "../../assets/industriesBG.jpg";
+// import backgroundVideo from "../../assets/Background-Video.mp4";
 function Home() {
   return (
     <div className="w-full">
-      <motion.div
-        className="lg:sticky top-0 z-50"
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        transition={{ ease: "easeIn" }}
-      >
-        <Navbar />
-      </motion.div>
       <div className="w-full">
-        <video
-          autoPlay
-          loop
-          muted
-          className="absolute -z-30 w-full h-[100vh] top-0 left-0 blur-md border-none object-cover"
-        >
-          <source src={backgroundVideo} />
-        </video>
+        <div className="w-full sticky top-0">
+          <Navbar />
+        </div>
+        <img
+          src={industriesBG}
+          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
+        />
         <MainPage />
       </div>
       {/* Services */}

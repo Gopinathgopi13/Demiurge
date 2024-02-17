@@ -9,9 +9,12 @@ function MainPage() {
           Increase sales without lifting a finger
         </div>
         <div className="lg:w-[80%] lg:text-2xl text-justify">
-          A forward-thinking digital marketing agency focused on amplifying your
-          brand's presence through tailored multi-channel marketing strategies,
-          dynamic branding techniques, and imaginative creative designs.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora
+          alias ex distinctio officiis molestiae consequuntur magni labore iure
+          cumque animi nemo quo vel doloremque, iusto corporis praesentium
+          officia? Vero non provident autem ducimus nulla repellendus eveniet
+          doloribus nam incidunt cum molestiae consectetur accusantium minus
+          aliquid debitis repellat, expedita perferendis?
         </div>
         <Link to="/contactForm">
           <div className="lg:px-16 px-10 py-5 lg:text-2xl bg-blue-700 flex items-center gap-4 cursor-pointer">
