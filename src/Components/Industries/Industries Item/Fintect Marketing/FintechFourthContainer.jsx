@@ -4,8 +4,8 @@ function FintechFourthContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto px-4 py-16 space-y-10">
       <div className="md:text-6xl">
-        <span className="text-violet-600">Lorem ipsum dolor sit amt -</span>{" "}
-        consectetur.
+        <span className="text-violet-600">Digital Marketing for Fintech -</span>{" "}
+        Our Services
       </div>
       <div className="text-xl text-center md:px-16 text-gray-600">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic est quod

@@ -53,7 +53,7 @@ const industriesData = [
   },
   {
     id: 6,
-    path: "/",
+    path: "/industries/ecommerce",
     logo: Email,
     name: "eCommerce Marketing",
     description:
@@ -61,7 +61,7 @@ const industriesData = [
   },
   {
     id: 7,
-    path: "/",
+    path: "/industries/gaming",
     logo: PR,
     name: "Gaming Marketing",
     description:
@@ -69,7 +69,7 @@ const industriesData = [
   },
   {
     id: 8,
-    path: "/",
+    path: "/industries/esport",
     logo: Video,
     name: "Esports Marketing",
     description:

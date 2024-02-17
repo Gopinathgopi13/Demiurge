@@ -31,14 +31,17 @@ export const links = [
     sublinks: [
       {
         sublink: [
-          { name: "Fintech Marketing", link: "/" },
-          { name: "Crypto Marketing", link: "/" },
-          { name: "Software Marketing", link: "/" },
-          { name: "Startup Marketing", link: "/" },
-          { name: "Small Business Marketing", link: "/" },
-          { name: "eCommerce Marketing", link: "/" },
-          { name: "Game Marketing", link: "/" },
-          { name: "Esports Marketing", link: "/" },
+          { name: "Fintech Marketing", link: "/industries/fintech" },
+          { name: "Crypto Marketing", link: "/industries/crypto" },
+          { name: "Software Marketing", link: "/industries/software" },
+          { name: "Startup Marketing", link: "/industries/startup" },
+          {
+            name: "Small Business Marketing",
+            link: "/industries/smallBusiness",
+          },
+          { name: "eCommerce Marketing", link: "/industries/ecommerce" },
+          { name: "Game Marketing", link: "/industries/gaming" },
+          { name: "Esports Marketing", link: "/industries/esport" },
         ],
       },
     ],
@@ -63,9 +66,9 @@ export const links = [
     sublinks: [
       {
         sublink: [
-          { name: "About", link: "/" },
-          { name: "Career", link: "/" },
-          { name: "Blogs", link: "/" },
+          { name: "About", link: "/about" },
+          { name: "Career", link: "/careers" },
+          // { name: "Blogs", link: "/" },
         ],
       },
     ],

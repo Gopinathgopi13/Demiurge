@@ -1,7 +1,8 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-function FintechThirdContainer() {
+
+function CryptoFourthContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto px-4 py-16 space-y-10 grid md:grid-cols-2 items-center">
       <div className="space-y-16">
@@ -43,4 +44,4 @@ function FintechThirdContainer() {
   );
 }
 
-export default FintechThirdContainer;
+export default CryptoFourthContainer;
