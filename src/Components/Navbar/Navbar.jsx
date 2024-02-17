@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="text-white hover:bg-black w-full">
       <div className="w-[1280px] mx-auto flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-12" />
+          <a href="/">
+            <img src={Logo} alt="logo" className="md:cursor-pointer h-12" />
+          </a>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>

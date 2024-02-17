@@ -35,23 +35,22 @@ function App() {
           <Route path="/careers" element={<Careers />} />
 
           {/* Service */}
-          <Route path="/service" element={<Service />}/>
-          
-          <Route path="/socialMedia" element={<SocialMedia />} />
-          <Route path="/seo" element={<SEO />} />
-          <Route path="/ppc" element={<PPC />} />
-          <Route path="/paidsocial" element={<PaidSocial />} />
-          <Route path="/pr" element={<PR />} />
-          <Route path="/video-marketing" element={<VideoMarketing />} />
-          <Route path="/brand" element={<Branding />} />
-          <Route path="/community" element={<Community />} />
-          <Route path="/web" element={<Web />} />
-          <Route path="/cgi" element={<CGI />} />
-          <Route path="/mobile" element={<MobileApp />} />
-          <Route path="/blockchain" element={<Blockchain />} />
-          <Route path="/lead" element={<LeadGeneration />} />
-          <Route path="/arvr" element={<ARVR />} />
+          <Route path="/service" element={<Service />} />
 
+          <Route path="/service/socialMedia" element={<SocialMedia />} />
+          <Route path="/service/seo" element={<SEO />} />
+          <Route path="/service/ppc" element={<PPC />} />
+          <Route path="/service/paidsocial" element={<PaidSocial />} />
+          <Route path="/service/pr" element={<PR />} />
+          <Route path="/service/video-marketing" element={<VideoMarketing />} />
+          <Route path="/service/brand" element={<Branding />} />
+          <Route path="/service/community" element={<Community />} />
+          <Route path="/service/web" element={<Web />} />
+          <Route path="/service/cgi" element={<CGI />} />
+          <Route path="/service/mobile" element={<MobileApp />} />
+          <Route path="/service/blockchain" element={<Blockchain />} />
+          <Route path="/service/lead" element={<LeadGeneration />} />
+          <Route path="/service/arvr" element={<ARVR />} />
 
           {/* Industries */}
         </Routes>

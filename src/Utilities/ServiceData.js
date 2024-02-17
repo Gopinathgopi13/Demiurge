@@ -16,7 +16,7 @@ import leadGen from "../assets/SVG/lead-gen.svg";
 const serviceData = [
   {
     id: 1,
-    path: "/socialMedia",
+    path: "/service/socialMedia",
     logo: socialMedia,
     name: "Social Media",
     description:
@@ -24,7 +24,7 @@ const serviceData = [
   },
   {
     id: 2,
-    path: "/seo",
+    path: "/service/seo",
     logo: SEO,
     name: "SEO",
     description:
@@ -32,7 +32,7 @@ const serviceData = [
   },
   {
     id: 3,
-    path: "/ppc",
+    path: "/service/ppc",
     logo: paidMedia,
     name: "Paid Media",
     description:
@@ -40,7 +40,7 @@ const serviceData = [
   },
   {
     id: 4,
-    path: "/paidsocial",
+    path: "/service/paidsocial",
     logo: paidSocial,
     name: "Paid Social",
     description:
@@ -48,7 +48,7 @@ const serviceData = [
   },
   {
     id: 5,
-    path: "/pr",
+    path: "/service/pr",
     logo: PR,
     name: "PR",
     description:
@@ -56,7 +56,7 @@ const serviceData = [
   },
   {
     id: 6,
-    path: "/video-marketing",
+    path: "/service/video-marketing",
     logo: VideoMarketing,
     name: "Video Marketing",
     description:
@@ -64,7 +64,7 @@ const serviceData = [
   },
   {
     id: 7,
-    path: "/brand",
+    path: "/service/brand",
     logo: Branding,
     name: "Branding",
     description:
@@ -72,7 +72,7 @@ const serviceData = [
   },
   {
     id: 8,
-    path: "/community",
+    path: "/service/community",
     logo: Community_M,
     name: "Community Management",
     description:
@@ -80,7 +80,7 @@ const serviceData = [
   },
   {
     id: 9,
-    path: "/web",
+    path: "/service/web",
     logo: Website,
     name: "Website Development",
     description:
@@ -88,7 +88,7 @@ const serviceData = [
   },
   {
     id: 10,
-    path: "/cgi",
+    path: "/service/cgi",
     logo: websiteDesign,
     name: "CGI Advertisement",
     description:
@@ -96,7 +96,7 @@ const serviceData = [
   },
   {
     id: 11,
-    path: "/mobile",
+    path: "/service/mobile",
     logo: MblApp,
     name: "Mobile App Development",
     description:
@@ -104,7 +104,7 @@ const serviceData = [
   },
   {
     id: 12,
-    path: "/arvr",
+    path: "/service/arvr",
     logo: MblAppDesign,
     name: "AR/VR Advertisement",
     description:
@@ -112,7 +112,7 @@ const serviceData = [
   },
   {
     id: 13,
-    path: "/blockchain",
+    path: "/service/blockchain",
     logo: Blockchain,
     name: "Blockchain Development",
     description:
@@ -120,7 +120,7 @@ const serviceData = [
   },
   {
     id: 14,
-    path: "/lead",
+    path: "/service/lead",
     logo: leadGen,
     name: "Lead Generation",
     description:
