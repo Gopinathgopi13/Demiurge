@@ -9,7 +9,7 @@ function  BrandingFourthContainer() {
       </div>
       <div className="grid lg:grid-cols-3 gap-20 my-10">
         <div className="flex flex-col items-center h-60 gap-5">
-          <div className="lg:h-[40%] flex flex-col justify-center items-center ">
+          <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
             <div className="text-xl font-semibold">Lorem, ipsum.</div>
           </div>
@@ -22,7 +22,7 @@ function  BrandingFourthContainer() {
         </div>
 
         <div className="flex flex-col items-center h-60 gap-5">
-          <div className="lg:h-[40%] flex flex-col justify-center items-center ">
+          <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
             <div className="text-xl font-semibold">Lorem, ipsum.</div>
           </div>
@@ -35,7 +35,7 @@ function  BrandingFourthContainer() {
         </div>
 
         <div className="flex flex-col items-center h-60 gap-5">
-          <div className="lg:h-[40%] flex flex-col justify-center items-center ">
+          <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
             <div className="text-xl font-semibold">Lorem, ipsum.</div>
           </div>
@@ -48,7 +48,7 @@ function  BrandingFourthContainer() {
         </div>
 
         <div className="flex flex-col items-center h-60 gap-5">
-          <div className="lg:h-[40%] flex flex-col justify-center items-center ">
+          <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
             <div className="text-xl font-semibold">Lorem, ipsum.</div>
           </div>
@@ -61,7 +61,7 @@ function  BrandingFourthContainer() {
         </div>
 
         <div className="flex flex-col items-center h-60 gap-5">
-          <div className="lg:h-[40%] flex flex-col justify-center items-center ">
+          <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
             <div className="text-xl font-semibold">Lorem, ipsum.</div>
           </div>
