@@ -47,19 +47,6 @@ export const links = [
     ],
   },
   {
-    name: "Work",
-    path: "/work",
-    submenu: true,
-    sublinks: [
-      {
-        sublink: [
-          { name: "Case", link: "/" },
-          { name: "Portfolio", link: "/" },
-        ],
-      },
-    ],
-  },
-  {
     name: "Company",
     path: "",
     submenu: true,
