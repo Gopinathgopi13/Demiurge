@@ -4,9 +4,9 @@ import web4 from "../../../../assets/web4.jpg";
 function WebThirdContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto space-y-10 py-20 sm:px-5">
-      <div className="sm:text-5xl">Why partner with us?</div>
+      <div className="md:text-6xl text-3xl">Why partner with us?</div>
       <div>
-        <div class="grid sm:grid-rows-3 sm:grid-flow-col gap-4 h-[300px]">
+        <div class="grid sm:grid-rows-3 sm:grid-flow-col gap-4">
           <div class="sm:row-span-3 relative rounded-xl overflow-hidden">
             <div className="h-full">
               <img src={web3} className="h-full" alt="" />

@@ -16,10 +16,10 @@ function VideoMarketing() {
         </div>
         <VideoMarketingMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <VideoMarketingSecondContainer />
       </div>
-      <div className="bg-blue-400">
+      <div className="bg-blue-400 py-20">
         <VideoMarketingThirdContainer />
       </div>
       <div>

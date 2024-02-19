@@ -5,11 +5,11 @@ import servicesGrid from "../../../../assets/SVG/services-grid.svg";
 function OrganicPaid() {
   return (
     <div className="w-full">
-      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] grid lg:grid-cols-2 grid-cols-1">
+      <div className="lg:w-[1280px] mx-auto px-4 grid lg:grid-cols-2 grid-cols-1">
         {/* Organic Container */}
-        <div className="bg-slate-100 w-[90%] shadow-2xl py-5 px-10 rounded-3xl lg:relative left-24 flex flex-col justify-around items-center pr-10">
-          <div className="text-6xl font-semibold">Organic Social</div>
-          <div className="space-y-2 text-lg grid grid-cols-2 grid-rows-2">
+        <div className="bg-slate-100 w-[90%] shadow-2xl py-10 px-10 rounded-3xl lg:relative left-24 flex flex-col gap-10  justify-around items-center md:pr-10">
+          <div className="md:text-6xl text-3xl font-semibold">Organic Social</div>
+          <div className="space-y-2 text-lg grid grid-cols-2 grid-rows-2 gap-5">
             <div className="flex items-center gap-4 ">
               <div>
                 <FaArrowRight size={15} />
@@ -90,8 +90,8 @@ function OrganicPaid() {
           </Link>
         </div>
         {/* Paid Container */}
-        <div className="bg-black text-white w-[90%] rounded-3xl z-20 flex flex-col justify-around items-center">
-          <div className="text-6xl font-semibold">Paid Social</div>
+        <div className="bg-black text-white w-[90%] py-10 shadow-xl rounded-3xl z-20 flex flex-col gap-10 justify-around items-center">
+          <div className="md:text-6xl text-3xl font-semibold">Paid Social</div>
           <div className="space-y-2 text-lg gap-2 grid px-10 grid-cols-2 grid-rows-2">
             <div className="flex items-center gap-4">
               <div>

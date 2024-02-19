@@ -5,14 +5,18 @@ import ContactForm from "../../../Home/ContactForm/ContactForm";
 import BlockChainMainPage from "./BlockChainMainPage";
 import BockchainSeondContainer from "./BockchainSeondContainer";
 import BlockchainThirdContainer from "./BlockchainThirdContainer";
-
+import block from "../../../../assets/blockchain.jpg";
 function Blockchain() {
   return (
     <div className="w-full">
-      <div className="bg-blockchain bg-cover">
+      <div className="">
         <div className="w-full sticky top-0">
           <Navbar />
         </div>
+        <img
+          src={block}
+          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
+        />
         <BlockChainMainPage />
       </div>
       <div>

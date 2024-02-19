@@ -24,19 +24,19 @@ function Home() {
         <MainPage />
       </div>
       {/* Services */}
-      <div className="w-full pt-20">
+      <div className="w-full my-20">
         <ServiceContainer></ServiceContainer>
       </div>
       <div className="w-full">
         <CallToTeam />
       </div>
-      <div className="w-full">
+      <div className="w-full my-20">
         <IndustriesComponent />
       </div>
       <div>
         <FQA />
       </div>
-      <div className="w-full">
+      <div className="w-full my-20">
         <Clients />
       </div>
       <div className="w-full">

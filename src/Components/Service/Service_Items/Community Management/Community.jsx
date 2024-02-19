@@ -15,13 +15,13 @@ function Community() {
         </div>
         <CommunityMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <CommunitySecondContainer />
       </div>
       <div>
         <CommunityThirdContainer />
       </div>
-      <div>
+      <div className="my-20">
         <CommunityFourthContainer />
       </div>
       <div>

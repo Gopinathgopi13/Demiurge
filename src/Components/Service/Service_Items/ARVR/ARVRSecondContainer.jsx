@@ -7,12 +7,12 @@ import ar5 from "../../../../assets/ar5.webp";
 import ar6 from "../../../../assets/ar6.webp";
 function ARVRSecondContainer() {
   return (
-    <div className="lg:w-[1280px] mx-auto space-y-10 py-20">
+    <div className="lg:w-[1280px] mx-auto space-y-10">
       <div className=" space-y-10 px-5">
-        <div className="lg:text-6xl text-3xl">
+        <div className="md:text-6xl text-3xl">
           Acquire state-of-the-art designs with a proven web development company
         </div>
-        <div className="text-xl">
+        <div className="text-lg">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
             nesciunt autem, consequatur voluptas voluptatum dicta porro aliquid
@@ -29,8 +29,8 @@ function ARVRSecondContainer() {
         <div className="w-full rounded-xl overflow-hidden">
           <img src={ar1} className="w-full h-full" alt="" />
         </div>
-        <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl ">
+        <div className="space-y-5 flex flex-col justify-center md:px-5">
+          <div className="font-semibold md:text-2xl text-xl ">
             Training & Education In Metaverse
           </div>
           <p>
@@ -50,8 +50,8 @@ function ARVRSecondContainer() {
         <div className="rounded-xl overflow-hidden">
           <img src={ar2} className="w-full h-full" alt="" />
         </div>
-        <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl ">
+        <div className="space-y-5 flex flex-col justify-center md:px-5">
+          <div className="font-semibold md:text-2xl text-xl"> 
             Gaming Metaverse Development
           </div>
           <p>
@@ -71,8 +71,8 @@ function ARVRSecondContainer() {
         <div className="rounded-xl overflow-hidden">
           <img src={ar3} className="w-full h-full" alt="" />
         </div>
-        <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl ">
+        <div className="space-y-5 flex flex-col justify-center md:px-5">
+          <div className="font-semibold md:text-2xl text-xl ">
             E-commerce Metaverse Development
           </div>
           <p>
@@ -92,8 +92,8 @@ function ARVRSecondContainer() {
         <div className="rounded-xl overflow-hidden">
           <img src={ar4} className="w-full h-full" alt="" />
         </div>
-        <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl ">
+        <div className="space-y-5 flex flex-col justify-center md:px-5">
+          <div className="font-semibold md:text-2xl text-xl">
             Metaverse NFT Marketplace Development
           </div>
           <p>
@@ -113,8 +113,8 @@ function ARVRSecondContainer() {
         <div className="rounded-xl overflow-hidden">
           <img src={ar5} className="w-full h-full" alt="" />
         </div>
-        <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl ">
+        <div className="space-y-5 flex flex-col justify-center md:px-5">
+          <div className="font-semibold md:text-2xl text-xl">
             Metaverse Token Development
           </div>
           <p>

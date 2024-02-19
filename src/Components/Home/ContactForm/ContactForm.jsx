@@ -6,7 +6,7 @@ function ContactForm() {
     <div className="w-full px-5 py-20 bg-blue-600 bg-cover bg-no-repeat">
       <div className="lg:w-[1280px] grid lg:grid-cols-2 gap-5 items-center justify-center mx-auto">
         <div className="text-white flex flex-col justify-around gap-5">
-          <div className="lg:text-5xl text-3xl font-semibold">
+          <div className="lg:text-6xl text-3xl font-semibold">
             Get in touch with Demiurge
           </div>
           <div className="lg:text-lg font-light">

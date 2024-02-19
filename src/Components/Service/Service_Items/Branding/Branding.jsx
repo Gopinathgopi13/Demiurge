@@ -16,7 +16,7 @@ function Branding() {
         </div>
         <BrandingMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <BrandingSecondContainer />
       </div>
       <div className="bg-black">

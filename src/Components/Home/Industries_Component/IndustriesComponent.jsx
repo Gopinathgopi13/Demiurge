@@ -3,9 +3,9 @@ import IndustriesCard from "./IndustriesCard";
 import industriesData from "../../../Utilities/IndustriesData";
 function IndustriesComponent() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center px-4 my-20 mx-auto">
-      <div className="lg:text-7xl text-4xl font-medium my-5">Our Industries</div>
-      <div className="lg:text-xl lg:w-[60%] mb-12 text-justify">
+    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center px-4 mx-auto">
+      <div className="lg:text-6xl text-3xl font-medium my-5">Our Industries</div>
+      <div className="lg:text-xl lg:w-[60%] mb-12">
         Our creative digital marketing firm has helped a diverse range of
         businesses and organizations achieve their advertising objectives. With
         extensive experience working in numerous industries, we have the

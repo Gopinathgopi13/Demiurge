@@ -6,7 +6,7 @@ function MobileSecondContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto space-y-10 py-20">
       <div className="text-white space-y-10 px-5">
-        <div className="lg:text-6xl text-3xl">
+        <div className="md:text-6xl text-3xl">
           Acquire state-of-the-art designs with a proven web development company
         </div>
         <div className="text-xl">
@@ -21,7 +21,7 @@ function MobileSecondContainer() {
       </div>
 
       {/* IOS App Development */}
-      <div className="w-[95%] grid sm:grid-cols-2 mx-auto py-10 px-10 gap-5 bg-[#121212] rounded-xl text-white">
+      <div className="w-[95%] grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#121212] rounded-xl text-white">
         <div className="w-full rounded-xl overflow-hidden">
           <img src={SearchEO} className="w-full h-full" alt="" />
         </div>
@@ -41,7 +41,7 @@ function MobileSecondContainer() {
       </div>
 
       {/* Android App Development */}
-      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 px-10 gap-5 bg-[#121212] rounded-xl text-white">
+      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#121212] rounded-xl text-white">
         <div className="rounded-xl overflow-hidden">
           <img src={SearchEO2} className="w-full h-full" alt="" />
         </div>
@@ -61,7 +61,7 @@ function MobileSecondContainer() {
       </div>
 
       {/* Cross-Platform App Development */}
-      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 px-10 gap-5 bg-[#121212] rounded-xl text-white">
+      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#121212] rounded-xl text-white">
         <div className="rounded-xl overflow-hidden">
           <img src={SearchEO2} className="w-full h-full" alt="" />
         </div>

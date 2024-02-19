@@ -15,15 +15,13 @@ function PPC() {
         </div>
         <PPCMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <PPCSecondContainer />
       </div>
-      <div>
+      <div className="my-20">
         <PPCThirdContainer />
       </div>
-      {/* <div>
-        <SEOFourthConitainer />
-      </div> */}
+
       <div>
         <ContactForm />
       </div>

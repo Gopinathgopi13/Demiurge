@@ -15,10 +15,10 @@ function PaidSocial() {
         </div>
         <PaidSocialMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <PaidSocialSecondContainer />
       </div>
-      <div>
+      <div className="my-20">
         <PaidSocialThirdContainer />
       </div>
       <div>

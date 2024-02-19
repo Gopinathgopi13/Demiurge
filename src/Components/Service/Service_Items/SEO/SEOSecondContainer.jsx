@@ -2,8 +2,8 @@ import React from "react";
 import SearchEO from "../../../../assets/SVG/SearchEO.svg";
 function SEOSecondContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-20 px-4">
-      <div className="lg:text-5xl font-medium my-5">
+    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
+      <div className="lg:text-6xl text-3xl font-medium my-5">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
         recusandae distinctio.
       </div>

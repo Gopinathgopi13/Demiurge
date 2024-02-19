@@ -16,13 +16,13 @@ function SEO() {
         </div>
         <SEOMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <SEOSecondContainer />
       </div>
       <div>
         <SEOThirdContainer />
       </div>
-      <div>
+      <div className="my-20">
         <SEOFourthConitainer />
       </div>
       <div>

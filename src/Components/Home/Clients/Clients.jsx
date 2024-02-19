@@ -4,7 +4,7 @@ import clientLogo from "../../../Utilities/ClientLogos";
 function Clients() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="lg:w-[1280px] my-20">
+      <div className="lg:w-[1280px]">
         <div className="lg:text-6xl text-3xl font-semibold text-center underline">
           Join our growing list of happy clients
         </div>

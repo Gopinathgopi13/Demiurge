@@ -17,13 +17,13 @@ function SocialMedia() {
         </div>
         <SocialMediaMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <MarketingService />
       </div>
       <div className="bg-[#161616]">
         <CTA />
       </div>
-      <div className="my-10">
+      <div className="my-20">
         <OrganicPaid />
       </div>
 
@@ -33,7 +33,7 @@ function SocialMedia() {
       <div>
         <Footer />
       </div>
-      <Outlet/>
+      <Outlet />
     </div>
   );
 }

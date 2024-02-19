@@ -5,7 +5,7 @@ import ContactForm from "../../../Home/ContactForm/ContactForm";
 import LeadMainPage from "./LeadMainPage";
 import LeadSecondContainer from "./LeadSecondContainer";
 import LeadThirdGeneration from "./LeadThirdGeneration";
-
+import lead from "../../../../assets/lead.jpg";
 function LeadGeneration() {
   return (
     <div className="w-full">
@@ -13,9 +13,13 @@ function LeadGeneration() {
         <div className="w-full sticky top-0">
           <Navbar />
         </div>
+        <img
+          src={lead}
+          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
+        />
         <LeadMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <LeadSecondContainer />
       </div>
       <div className="border-2">

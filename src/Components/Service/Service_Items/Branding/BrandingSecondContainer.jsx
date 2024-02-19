@@ -3,14 +3,14 @@ import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
 
 function BrandingSecondContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
-      <div className="lg:text-5xl font-medium my-5">
+    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
+      <div className="md:text-6xl text-3xl font-medium my-5">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
         recusandae distinctio.
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="w-[70%] h-[80%]" alt="" />
+          <img src={SearchEO} className="md:w-[70%] h-[80%]" alt="" />
         </div>
         <div className="flex flex-col justify-around text-justify px-2 gap-5">
           <p>

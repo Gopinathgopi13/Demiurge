@@ -16,7 +16,7 @@ function CGI() {
         </div>
         <CGIMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <PRSecondContainer />
       </div>
       <div>

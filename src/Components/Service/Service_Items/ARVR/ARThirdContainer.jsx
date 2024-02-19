@@ -7,10 +7,10 @@ import ARTech5 from "../../../../assets/ARTech5.webp";
 function ARThirdContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh]flex flex-col justify-center items-center text-center space-y-5 py-10">
-      <div className="lg:text-4xl text-4xl lg:w-[90%] font-extrabold leading-snug">
+      <div className="lg:text-4xl text-2xl lg:w-[90%] font-extrabold leading-snug">
         AR Application Development Technology Stack
       </div>
-      <div className="text-xl lg:w-[90%] text-center leading-snug">
+      <div className="text-lg lg:w-[90%] text-center leading-snug">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, impedit?
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
         voluptate!

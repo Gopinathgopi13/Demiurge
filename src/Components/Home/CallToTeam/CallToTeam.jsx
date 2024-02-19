@@ -7,7 +7,7 @@ function CallToTeam() {
         <div className="lg:text-6xl text-3xl font-semibold leading-normal">
           Partner With a Digital Marketing Agency That Delivers Growth
         </div>
-        <div className="lg:text-lg">
+        <div className="md:text-lg">
           We’re a full-service digital marketing agency that helps brands that
           want to get noticed and dominate their industry. We love marketing. We
           eat, sleep and breathe it. But more importantly, we love seeing our

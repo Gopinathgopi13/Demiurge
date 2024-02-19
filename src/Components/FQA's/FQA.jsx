@@ -36,22 +36,20 @@ const FQA = () => {
   };
 
   return (
-    <div>
-      <div className="w-full px-4 bg-[url(black_background.jpg)] bg-cover bg-no-repeat mt-20">
-        <div className="lg:w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
-          <div className="text-center text-white mb-5">
-            <h2 className="text-6xl mx-auto">FQA's</h2>
-          </div>
-          {accordions.map((accordion) => (
-            <Accordion
-              key={accordion.key}
-              title={accordion.title}
-              data={accordion.data}
-              isOpen={accordion.isOpen}
-              toggleAccordion={() => toggleAccordion(accordion.key)}
-            />
-          ))}
+    <div className="w-full px-4 bg-BlueBG bg-cover bg-no-repeat py-10">
+      <div className="lg:w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
+        <div className="text-center text-white mb-5">
+          <h2 className="text-6xl mx-auto">FQA's</h2>
         </div>
+        {accordions.map((accordion) => (
+          <Accordion
+            key={accordion.key}
+            title={accordion.title}
+            data={accordion.data}
+            isOpen={accordion.isOpen}
+            toggleAccordion={() => toggleAccordion(accordion.key)}
+          />
+        ))}
       </div>
     </div>
   );

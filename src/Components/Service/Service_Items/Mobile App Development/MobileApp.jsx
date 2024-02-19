@@ -6,14 +6,18 @@ import MobileThirdContainer from "./MobileThirdContainer";
 import MobileFourthCOntainer from "./MobileFourthCOntainer";
 import ContactForm from "../../../Home/ContactForm/ContactForm";
 import Footer from "../../../Footer/Footer";
-
+import mbl from "../../../../assets/mbl2.jpg";
 function MobileApp() {
   return (
     <div className="w-full">
-      <div className="bg-mbl bg-cover bg-no-repeat w-full">
+      <div className="w-full">
         <div className="w-full sticky top-0">
           <Navbar />
         </div>
+        <img
+          src={mbl}
+          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
+        />
         <MobileMainPage />
       </div>
       <div className="bg-black">
@@ -22,9 +26,7 @@ function MobileApp() {
       <div>
         <MobileThirdContainer />
       </div>
-      <div>
-        <MobileFourthCOntainer />
-      </div>
+
       <div>
         <ContactForm />
       </div>

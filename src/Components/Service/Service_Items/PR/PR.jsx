@@ -16,13 +16,13 @@ function PR() {
         </div>
         <PRMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <PRSecondContainer />
       </div>
-      <div>
+      <div className="my-20">
         <PRThirdContainer />
       </div>
-      <div>
+      <div className="my-20">
         <PRFourthContainer />
       </div>
       <div>

@@ -15,7 +15,7 @@ function Service() {
       <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
         <ServiceMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <ServiceContainer />
       </div>
       <div className="w-full">

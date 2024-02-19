@@ -3,11 +3,11 @@ import ServicesCard from "./ServicesCard";
 import serviceData from "../../../Utilities/ServiceData";
 function ServiceContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-20 px-4">
-      <div className="lg:text-6xl text-4xl font-bold my-5">
+    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
+      <div className="lg:text-6xl text-3xl font-bold my-10">
         Our Digital <br /> Marketing Services
       </div>
-      <div className="lg:text-xl lg:w-[60%] mb-12 text-justify">
+      <div className="lg:text-xl lg:w-[60%] mb-12">
         We’re experts in all things marketing. Business-to-business,
         cryptocurrency, NFT, and high-growth startup brands are our sweet spot.
         Discover how we can scale your business to new heights through our

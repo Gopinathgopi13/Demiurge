@@ -6,14 +6,19 @@ import WebMainPage from "./WebMainPage";
 import WebSecondContainer from "./WebSecondContainer";
 import WebFourthContainer from "./WebFourthContainer";
 import WebThirdContainer from "./WebThirdContainer";
+import web from "../../../../assets/web.jpg";
 
 function Web() {
   return (
     <div className="w-full">
-      <div className="bg-web bg-cover">
+      <div className="">
         <div className="w-full sticky top-0">
           <Navbar />
         </div>
+        <img
+          src={web}
+          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
+        />
         <WebMainPage />
       </div>
       <div className="bg-black">
@@ -21,9 +26,6 @@ function Web() {
       </div>
       <div>
         <WebThirdContainer />
-      </div>
-      <div>
-        <WebFourthContainer />
       </div>
       <div>
         <ContactForm />

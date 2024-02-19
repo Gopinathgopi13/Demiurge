@@ -2,12 +2,12 @@ import React from "react";
 
 function SEOFourthConitainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-20 px-4">
-      <div className="lg:text-6xl font-medium my-5">
+    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
+      <div className="md:text-6xl text-3xl font-medium my-5">
         Never underestimate the power of SEO marketing
       </div>
       <div className=" mx-auto">
-        <div className="px-2 space-y-3 text-xl font-light">
+        <div className="px-2 space-y-3 md:text-xl font-light">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
             asperiores fuga odio incidunt. Nulla, rerum explicabo similique
