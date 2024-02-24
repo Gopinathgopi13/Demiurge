@@ -35,7 +35,12 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="md:block hidden">
+        <div
+          className="md:block hidden"
+          data-aos="fade-left"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
           <Button />
         </div>
         {/* Mobile nav */}

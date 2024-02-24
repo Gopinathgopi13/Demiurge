@@ -1,6 +1,9 @@
 export default function Accordion(props) {
   return (
-    <div className="rounded-lg mb-5 overflow-hidden">
+    <div className="rounded-lg mb-5 overflow-hidden"
+    data-aos="fade-down"
+    data-aos-duration="500"
+    >
       <button
         className="w-full p-4 text-left flex md:px-28 justify-between items-center bg-gray-200 
 						hover:bg-gray-300 transition duration-300"

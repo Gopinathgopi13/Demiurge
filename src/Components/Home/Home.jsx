@@ -14,7 +14,12 @@ function Home() {
   return (
     <div className="w-full">
       <div className="w-full">
-        <div className="w-full sticky top-0">
+        <div
+          className="w-full sticky top-0"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <Navbar />
         </div>
         <img
@@ -42,7 +47,7 @@ function Home() {
       <div className="w-full">
         <ContactForm />
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
     </div>

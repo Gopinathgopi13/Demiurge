@@ -15,16 +15,20 @@ function Industries() {
       <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
         <IndustriesMainPage />
       </div>
-      <div>
+      <div className="my-20">
         <IndustriesComponent />
       </div>
-      <div className="w-full">
+      {/* <div className="w-full my-20">
         <Clients />
-      </div>
+      </div> */}
       <div className="w-full">
         <ContactForm />
       </div>
-      <div>
+      <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-once="true"
+      >
         <Footer />
       </div>
     </div>
