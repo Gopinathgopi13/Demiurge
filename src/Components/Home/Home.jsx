@@ -13,7 +13,7 @@ import industriesBG from "../../assets/industriesBG.jpg";
 function Home() {
   return (
     <div className="w-full">
-      <div className="w-full">
+      <div className="w-full bg-[#0C2D57]">
         <div
           className="w-full sticky top-0"
           data-aos="fade-down"
@@ -22,10 +22,10 @@ function Home() {
         >
           <Navbar />
         </div>
-        <img
+        {/* <img
           src={industriesBG}
           className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
-        />
+        /> */}
         <MainPage />
       </div>
       {/* Services */}

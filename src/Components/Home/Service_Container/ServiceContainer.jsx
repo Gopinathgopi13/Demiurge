@@ -4,7 +4,7 @@ function ServiceContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
       <div
-        className="lg:text-6xl text-3xl font-bold my-10"
+        className="lg:text-6xl text-3xl font-bold my-10 text-[#E48F45]"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
@@ -33,7 +33,6 @@ function ServiceContainer() {
               description={description}
               path={path}
               key={index}
-              
             />
           );
         })}

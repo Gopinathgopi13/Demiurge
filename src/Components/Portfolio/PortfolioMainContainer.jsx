@@ -29,6 +29,7 @@ function PortfolioMainContainer() {
                 className="h-[300px] w-[300px] mx-auto"
                 data-aos="zoom-in"
                 data-aos-duration="500"
+                data-aos-once="true"
               >
                 <img src={img} className="h-full w-full" alt="" />
               </div>

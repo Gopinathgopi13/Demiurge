@@ -6,14 +6,14 @@ function ServicesCard({ id, logo, name, description, path }) {
   return (
     <Link to={path}>
       <div
-        className=" lg:w-96 text-base p-6 rounded-tl-3xl rounded-br-3xl hover:text-black transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30 hover:bg-gradient-to-r from-blue-600 to-violet-600"
+        className=" lg:w-96 h-72 text-base p-6 rounded-tl-3xl rounded-br-3xl shadow-md transform transition duration-500 hover:scale-110"
         data-aos="fade-left"
         data-aos-duration="1500"
         data-aos-once="true"
       >
         <div className=" flex mb-5 items-center gap-2">
           <img src={logo} alt="" />
-          <div className="text-xl font-semibold">{name}</div>
+          <div className="text-xl font-semibold text-[#E48F45]">{name}</div>
         </div>
         <div className="text-gray-600 font-normal">{description}</div>
       </div>

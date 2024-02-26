@@ -92,7 +92,7 @@ const serviceData = [
     logo: websiteDesign,
     name: "CGI Advertisement",
     description:
-      "Our ads aren't just promotions; they're an immersive journey into the future. Imagine visuals so captivating, they go beyond selling – they create an unforgettable experience. We're not just advertisers; we're pioneers defining a new standard in how brands communicate, leaving a lasting impact that speaks volumes.",
+      "Our ads aren't just promotions, they're an immersive journey into the future. Imagine visuals so captivating, they go beyond selling – they create an unforgettable experience. We're pioneers defining a new standard in how brands communicate, leaving a lasting impact that speaks volumes.",
   },
   {
     id: 11,
@@ -100,7 +100,7 @@ const serviceData = [
     logo: MblApp,
     name: "Mobile App Development",
     description:
-      "We code, design, and refine, creating apps that aren't just tech marvels but seamless extensions of your needs. It's not just about functionality; it's about crafting a digital sidekick that makes your life easier. We're not just developers; we're the architects of apps that fit right into your daily groove.",
+      "We code, design, and refine, creating apps that aren't just tech marvels but seamless extensions of your needs. it's about crafting a digital sidekick that makes your life easier. We're not just developers; we're the architects of apps that fit right into your daily groove.",
   },
   {
     id: 12,
@@ -108,7 +108,7 @@ const serviceData = [
     logo: MblAppDesign,
     name: "AR/VR Advertisement",
     description:
-      "we're transforming ads into experiences. Picture this – interactive promotions that go beyond the screen, letting you dive into the narrative. It's not just about marketing; it's about living the ad. We're not just advertisers; we're architects of a new advertising reality."
+      "we're transforming ads into experiences. Picture this – interactive promotions that go beyond the screen, letting you dive into the narrative. It's about living the ad. We're not just advertisers, we're architects of a new advertising reality."
   },
   {
     id: 13,
@@ -116,7 +116,7 @@ const serviceData = [
     logo: Blockchain,
     name: "Blockchain Development",
     description:
-      "We build more than code; we're crafting a secure, decentralized way for digital interactions. It's not just about programming; it's about reshaping how we trust and trade in the online world.",
+      "We build more than code - we're crafting a secure, decentralized way for digital interactions. It's not just about programming - it's about reshaping how we trust and trade in the online world.",
   },
   {
     id: 14,
@@ -124,7 +124,7 @@ const serviceData = [
     logo: leadGen,
     name: "Lead Generation",
     description:
-      "our promise is quality over quantity. We're not just collecting leads; we're curating a select group of prospects tailored to fit your business like a glove. It's not about floodgates; it's about delivering leads that have the genuine potential to convert.",
+      "our promise is quality over quantity. We're not just collecting leads - we're curating a select group of prospects tailored to fit your business like a glove. It's not about floodgates - it's about delivering leads that have the genuine potential to convert.",
   },
 ];
 
