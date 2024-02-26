@@ -8,7 +8,7 @@ function Clients() {
         <div className="lg:text-6xl text-3xl font-semibold text-center underline">
           Join our growing list of happy clients
         </div>
-        <div className=" grid lg:grid-cols-4 grid-cols-2 lg:gap-8">
+        <div className=" grid lg:grid-cols-6 grid-cols-3 lg:gap-8">
           {clientLogo.map(({ id, logo }) => {
             return <ClientLogo key={id} logo={logo} />;
           })}

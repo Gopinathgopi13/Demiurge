@@ -1,6 +1,9 @@
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 function Footer() {
+  const handlePhoneNumberClick = ({ phoneNumber }) => {
+    window.open(`tel:${phoneNumber}`);
+  };
   return (
     <footer className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -198,7 +201,10 @@ function Footer() {
                   <IoMdMail /> <div>philomenjohn@demiurge.in</div>
                 </li>
 
-                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2">
+                <li
+                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2"
+                  onClick={() => handlePhoneNumberClick(6369907822)}
+                >
                   <FaPhone /> <div>9627396283</div>
                 </li>
               </ul>

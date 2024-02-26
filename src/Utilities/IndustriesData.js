@@ -15,7 +15,7 @@ const industriesData = [
     id: 1,
     path: "/industries/fintech",
     logo: socialMedia,
-    name: "Fintech Marketing",
+    name: "Fintech",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -23,7 +23,7 @@ const industriesData = [
     id: 2,
     path: "/industries/crypto",
     logo: SEO,
-    name: "Crypto Marketing",
+    name: "Crypto",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -31,7 +31,7 @@ const industriesData = [
     id: 3,
     path: "/industries/software",
     logo: paidMedia,
-    name: "Software Marketing",
+    name: "Saas",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -39,7 +39,7 @@ const industriesData = [
     id: 4,
     path: "/industries/startup",
     logo: paidSocial,
-    name: "Startup Marketing",
+    name: "Startup",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -47,7 +47,7 @@ const industriesData = [
     id: 5,
     path: "/industries/smallBusiness",
     logo: influMarketing,
-    name: "Small Business Marketing",
+    name: "Small Business",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -55,7 +55,7 @@ const industriesData = [
     id: 6,
     path: "/industries/ecommerce",
     logo: Email,
-    name: "eCommerce Marketing",
+    name: "eCommerce",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -63,7 +63,7 @@ const industriesData = [
     id: 7,
     path: "/industries/gaming",
     logo: PR,
-    name: "Gaming Marketing",
+    name: "Gaming",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
@@ -71,7 +71,63 @@ const industriesData = [
     id: 8,
     path: "/industries/esport",
     logo: Video,
-    name: "Esports Marketing",
+    name: "Esports",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 9,
+    path: "/industries/esport",
+    logo: Video,
+    name: "B2B",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 10,
+    path: "/industries/esport",
+    logo: Video,
+    name: "B2C",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 11,
+    path: "/industries/esport",
+    logo: Video,
+    name: "Realestate",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 12,
+    path: "/industries/esport",
+    logo: Video,
+    name: "Education",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 13,
+    path: "/industries/esport",
+    logo: Video,
+    name: "Education",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 14,
+    path: "/industries/esport",
+    logo: Video,
+    name: "Healthcare",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+  },
+  {
+    id: 15,
+    path: "/industries/esport",
+    logo: Video,
+    name: "Tourism",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },

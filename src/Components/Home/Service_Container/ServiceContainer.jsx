@@ -22,7 +22,7 @@ function ServiceContainer() {
         Discover how we can scale your business to new heights through our
         strategic services below:
       </div>
-      <div className="grid lg:grid-cols-4 grid-cols-1 gap-9">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
         {serviceData.map(({ id, logo, name, description, path }, index) => {
           // console.log(id)
           return (

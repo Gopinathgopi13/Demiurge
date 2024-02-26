@@ -29,6 +29,7 @@ import SmallBusiness from "./Components/Industries/Industries Item/Small Busines
 import ECommerceMarketing from "./Components/Industries/Industries Item/eCommerce Marketing/ECommerceMarketing";
 import GamingMarketing from "./Components/Industries/Industries Item/Gaming Marketing/GamingMarketing";
 import EsportsMarketing from "./Components/Industries/Industries Item/Esports Marketing/EsportsMarketing";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
