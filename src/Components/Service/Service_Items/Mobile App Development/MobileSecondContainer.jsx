@@ -21,7 +21,7 @@ function MobileSecondContainer() {
       </div>
 
       {/* IOS App Development */}
-      <div className="w-[95%] grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#121212] rounded-xl text-white">
+      <div className="w-[95%] grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-white rounded-xl ">
         <div className="w-full rounded-xl overflow-hidden">
           <img src={SearchEO} className="w-full h-full" alt="" />
         </div>
@@ -29,7 +29,9 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl ">IOS App Development</div>
+          <div className="font-semibold text-2xl text-[#e48f45]">
+            IPhone App Development Services
+          </div>
           <p>
             Your website provides a window into your brand, and ideally you want
             to put your best foot forward. You need a memorable and highly
@@ -41,7 +43,7 @@ function MobileSecondContainer() {
       </div>
 
       {/* Android App Development */}
-      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#121212] rounded-xl text-white">
+      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-white rounded-xl ">
         <div className="rounded-xl overflow-hidden">
           <img src={SearchEO2} className="w-full h-full" alt="" />
         </div>
@@ -49,7 +51,9 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl ">Android App Development</div>
+          <div className="font-semibold text-2xl text-[#e48f45]">
+            Android App Development Services
+          </div>
           <p>
             Your website provides a window into your brand, and ideally you want
             to put your best foot forward. You need a memorable and highly
@@ -61,7 +65,7 @@ function MobileSecondContainer() {
       </div>
 
       {/* Cross-Platform App Development */}
-      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#121212] rounded-xl text-white">
+      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-white rounded-xl ">
         <div className="rounded-xl overflow-hidden">
           <img src={SearchEO2} className="w-full h-full" alt="" />
         </div>
@@ -69,8 +73,52 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl ">
-            Cross-Platform App Development
+          <div className="font-semibold text-2xl text-[#e48f45]">
+            Hybrid App Development Services
+          </div>
+          <p>
+            Your website provides a window into your brand, and ideally you want
+            to put your best foot forward. You need a memorable and highly
+            responsive site with intuitive navigation. Ultimately, you want your
+            consumers to have a seamless browsing experience that engages them
+            long enough to discover your unique offering.
+          </p>
+        </div>
+      </div>
+
+      {/* Progressive Web App Development Services */}
+      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-white rounded-xl ">
+        <div className="rounded-xl overflow-hidden">
+          <img src={SearchEO2} className="w-full h-full" alt="" />
+        </div>
+        <div className="space-y-5 flex flex-col justify-center px-5">
+          <div>
+            <img src={phone} alt="" />
+          </div>
+          <div className="font-semibold text-2xl text-[#e48f45]">
+            Progressive Web App Development Services
+          </div>
+          <p>
+            Your website provides a window into your brand, and ideally you want
+            to put your best foot forward. You need a memorable and highly
+            responsive site with intuitive navigation. Ultimately, you want your
+            consumers to have a seamless browsing experience that engages them
+            long enough to discover your unique offering.
+          </p>
+        </div>
+      </div>
+
+      {/*  */}
+      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-white rounded-xl ">
+        <div className="rounded-xl overflow-hidden">
+          <img src={SearchEO2} className="w-full h-full" alt="" />
+        </div>
+        <div className="space-y-5 flex flex-col justify-center px-5">
+          <div>
+            <img src={phone} alt="" />
+          </div>
+          <div className="font-semibold text-2xl text-[#e48f45]">
+            Mobile App Development Consulting Services
           </div>
           <p>
             Your website provides a window into your brand, and ideally you want

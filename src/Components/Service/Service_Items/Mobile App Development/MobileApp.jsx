@@ -10,20 +10,16 @@ import mbl from "../../../../assets/mbl2.jpg";
 function MobileApp() {
   return (
     <div className="w-full">
-      <div className="w-full">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
-        <img
-          src={mbl}
-          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
-        />
+      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className="bg-[#0C2D57]">
         <MobileMainPage />
       </div>
-      <div className="bg-black">
+      <div className="bg-[#0C2D57]">
         <MobileSecondContainer />
       </div>
-      <div>
+      <div className="py-20">
         <MobileThirdContainer />
       </div>
 

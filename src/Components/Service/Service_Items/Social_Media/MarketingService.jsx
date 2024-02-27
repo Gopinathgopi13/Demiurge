@@ -5,19 +5,27 @@ function MarketingService() {
   return (
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 text-black flex flex-col items-center gap-y-24">
-        <div className="md:text-6xl text-3xl  font-bold">
+        <div className="md:text-6xl text-3xl  font-bold text-[#E48F45]">
           Our Social Media{" "}
-          <span className="backgroundColorGradient px-3">
-            Marketing Services
-          </span>
+          <span className="bg-[#0c2d57] px-3">Marketing Services</span>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 justify-around w-full">
-          <div className="px-5">
+          <div
+            className="px-5"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             <div className="md:text-3xl text-xl font-medium">
               At Demiurge, We Understand Social Media And We Live For Marketing
             </div>
           </div>
-          <div className="px-5 text-xl space-y-6">
+          <div
+            className="px-5 text-xl space-y-6"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             <div className="flex gap-4 ">
               <div>
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
@@ -51,7 +59,7 @@ function MarketingService() {
               </div>
               <div>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-                ullam aspernatur numquam voluptatibus, quas ex? 
+                ullam aspernatur numquam voluptatibus, quas ex?
               </div>
             </div>
           </div>

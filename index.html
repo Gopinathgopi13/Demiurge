@@ -2,20 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/src/assets/DEMIURGE_logo.png" /> -->
+    <link rel="icon" type="image/svg+xml" href="OrginalLogo1.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demiurge</title>
+    <style>
+      #img{
+        height: 50px;
+        width: 100px;
+      }
+    </style>
   </head>
-  <body>
+  <body class="w-full">
+    <div
+      id="spinner"
+      class="w-full bg-[#0c2d57] m-auto flex items-center justify-center h-[100vh]"
+    >
+      <!-- <div class="loading"></div> -->
+      <img id="img" src="Infinity_3.gif" />
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+    
   </body>
 </html>

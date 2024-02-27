@@ -10,16 +10,16 @@ import VideoMarketingFourthContainer from "./VideoMarketingFourthContainer";
 function VideoMarketing() {
   return (
     <div className="w-full">
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <VideoMarketingMainPage />
       </div>
       <div className="my-20">
         <VideoMarketingSecondContainer />
       </div>
-      <div className="bg-blue-400 py-20">
+      <div className="bg-[#0c2d57] py-20">
         <VideoMarketingThirdContainer />
       </div>
       <div>
@@ -28,7 +28,7 @@ function VideoMarketing() {
       <div>
         <ContactForm />
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
     </div>

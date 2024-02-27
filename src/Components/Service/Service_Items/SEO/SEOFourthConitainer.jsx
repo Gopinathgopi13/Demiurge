@@ -2,8 +2,13 @@ import React from "react";
 
 function SEOFourthConitainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
-      <div className="md:text-6xl text-3xl font-medium my-5">
+    <div
+      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <div className="md:text-6xl text-3xl font-medium my-5 text-[#E48F45]">
         Never underestimate the power of SEO marketing
       </div>
       <div className=" mx-auto">

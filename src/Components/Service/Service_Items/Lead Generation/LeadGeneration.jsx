@@ -9,14 +9,10 @@ import lead from "../../../../assets/lead.jpg";
 function LeadGeneration() {
   return (
     <div className="w-full">
-      <div className="bg-lead bg-cover">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
-        <img
-          src={lead}
-          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
-        />
+      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <LeadMainPage />
       </div>
       <div className="my-20">
@@ -31,7 +27,7 @@ function LeadGeneration() {
       <div>
         <ContactForm />
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
     </div>

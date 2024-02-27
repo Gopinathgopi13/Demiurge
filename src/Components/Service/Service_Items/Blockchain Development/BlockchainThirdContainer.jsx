@@ -4,7 +4,7 @@ function BlockchainThirdContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto py-20 sm:px-5 grid md:grid-cols-5 gap-5 border-t-2">
       <div className="col-span-3 flex justify-center items-center">
-        <div className="w-[80%] md:text-5xl text-3xl font-semibold">A track record of success</div>
+        <div className="w-[80%] md:text-5xl text-3xl font-semibold text-[#e48f45]">A track record of success</div>
       </div>
       <div className="col-span-2 grid md:grid-cols-3 gap-10 items-center">
         <div>

@@ -3,12 +3,21 @@ import SearchEO from "../../../../assets/SVG/SearchEO.svg";
 function SEOSecondContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
-      <div className="lg:text-6xl text-3xl font-medium my-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
-        recusandae distinctio.
+      <div
+        className="lg:text-6xl text-3xl font-medium my-5 text-[#E48F45]"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
       </div>
       <div className="grid lg:grid-cols-2 mx-auto">
-        <div className="flex flex-col justify-around text-justify px-2">
+        <div
+          className="flex flex-col justify-around text-justify px-2"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
             asperiores fuga odio incidunt. Nulla, rerum explicabo similique
@@ -26,7 +35,12 @@ function SEOSecondContainer() {
             facere fugiat?
           </p>
         </div>
-        <div className="mx-auto">
+        <div
+          className="mx-auto"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
           <img src={SearchEO} alt="" />
         </div>
       </div>

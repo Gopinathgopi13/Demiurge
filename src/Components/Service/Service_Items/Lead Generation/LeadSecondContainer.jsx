@@ -4,8 +4,7 @@ function LeadSecondContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4 ">
       <div className="md:text-6xl text-3xl font-medium my-5 py-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati
-        eligendi velit! Expedita, dignissimos neque.
+        Our Lead Generation Services
       </div>
       <div className="my-5 py-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati
@@ -20,9 +19,15 @@ function LeadSecondContainer() {
         similique magnam animi. Ipsum aspernatur error ad corporis?
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="0"
+        >
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               LinkedIn Lead Generation
             </div>
           </div>
@@ -34,9 +39,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="200"
+        >
           <div>
-            <div className="text-xl font-semibold">Demand Generation</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Demand Generation
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -46,9 +59,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="400"
+        >
           <div>
-            <div className="text-xl font-semibold">SaaS Lead Generation</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              SaaS Lead Generation
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,9 +79,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="600"
+        >
           <div>
-            <div className="text-xl font-semibold">IT Lead Generation</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              IT Lead Generation
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,9 +99,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="800"
+        >
           <div>
-            <div className="text-xl font-semibold">B2C Lead Generation</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              B2C Lead Generation
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -82,9 +119,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="1000"
+        >
           <div>
-            <div className="text-xl font-semibold">Account-Based Marketing</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Account-Based Marketing
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,9 +139,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="1200"
+        >
           <div>
-            <div className="text-xl font-semibold">Account-Based Marketing</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Account-Based Marketing
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,9 +159,15 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="1400"
+        >
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               Conversion Rate Optimization.
             </div>
           </div>
@@ -120,9 +179,17 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="1600"
+        >
           <div>
-            <div className="text-xl font-semibold">Email Marketing.</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Email Marketing.
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -132,9 +199,37 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="1800"
+        >
           <div>
-            <div className="text-xl font-semibold">Content Marketing</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Content Marketing
+            </div>
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
+            Voluptatibus, praesentium?
+          </div>
+        </div>
+
+        <div
+          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="2000"
+        >
+          <div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Analytics & Reporting
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

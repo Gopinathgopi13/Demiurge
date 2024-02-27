@@ -10,19 +10,19 @@ import CGIMainPage from "./CGIMainPage";
 function CGI() {
   return (
     <div className="w-full">
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
-      <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <CGIMainPage />
       </div>
       <div className="my-20">
         <PRSecondContainer />
       </div>
-      <div>
+      <div className="bg-[#0C2D57] py-20">
         <PRThirdContainer />
       </div>
-      <div>
+      <div className="py-20">
         <PRFourthContainer />
       </div>
       <div>

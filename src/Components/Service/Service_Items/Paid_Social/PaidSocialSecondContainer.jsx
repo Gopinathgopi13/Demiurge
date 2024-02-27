@@ -2,10 +2,14 @@ import React from "react";
 import SearchEO from "../../../../assets/SVG/paid-social-media.svg";
 function PaidSocialSecondContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto  px-4 py-4">
-      <div className="md:text-6xl text-3xl font-medium my-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
-        recusandae distinctio.
+    <div
+      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto  px-4 py-4"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <div className="md:text-6xl text-3xl font-medium my-5  text-[#E48F45]">
+        Our Paid Social Media Marketing Services
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">

@@ -11,17 +11,13 @@ import web from "../../../../assets/web.jpg";
 function Web() {
   return (
     <div className="w-full">
-      <div className="">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
-        <img
-          src={web}
-          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
-        />
+      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <WebMainPage />
       </div>
-      <div className="bg-black">
+      <div className="">
         <WebSecondContainer />
       </div>
       <div>
@@ -30,7 +26,7 @@ function Web() {
       <div>
         <ContactForm />
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
     </div>

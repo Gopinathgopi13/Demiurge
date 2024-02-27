@@ -3,10 +3,14 @@ import SearchEO from "../../../../assets/SVG/ppc-management.svg";
 
 function VideoMarketingSecondContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
-      <div className="lg:text-5xl font-medium my-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
-        recusandae distinctio.
+    <div
+      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <div className="lg:text-5xl font-medium my-5 text-[#e48f45]">
+        Level up your brand strategy using professional video marketing services
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">

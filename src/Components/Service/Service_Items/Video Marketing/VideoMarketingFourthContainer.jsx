@@ -5,8 +5,7 @@ function VideoMarketingFourthContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
       <div className="md:text-6xl text-3xl font-medium my-5">
-        Lorem ipsum dolor sit amet, consectetur elit. elitsdf Dolorum,
-        recusandae distinctio.
+        Integrate social media video marketing into your digital strategy
       </div>
       <div className="mx-auto md:w-[80%] w-[95%] border rounded-lg space-y-10 py-10 px-5">
         <div className="flex flex-col justify-around text-justify text-xl px-2 gap-5 ">
@@ -21,7 +20,7 @@ function VideoMarketingFourthContainer() {
         </div>
         <div className="sm:w-[30%] w-[80%] overflow-hidden">
           <Link to="/contactForm">
-            <div className="px-5 py-3 text-xl bg-blue-700 flex items-center gap-4 cursor-pointer">
+            <div className="px-5 py-3 text-xl bg-[#0c2d57] text-white flex items-center gap-4 cursor-pointer">
               <Link to="/contact">Book a Consultation</Link>
             </div>
           </Link>

@@ -9,7 +9,7 @@ function ARVRSecondContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto space-y-10">
       <div className=" space-y-10 px-5">
-        <div className="md:text-6xl text-3xl">
+        <div className="md:text-6xl text-3xl text-[#E48F45]">
           Acquire state-of-the-art designs with a proven web development company
         </div>
         <div className="text-lg">
@@ -30,7 +30,7 @@ function ARVRSecondContainer() {
           <img src={ar1} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center md:px-5">
-          <div className="font-semibold md:text-2xl text-xl ">
+          <div className="font-semibold md:text-2xl text-xl text-[#E48F45] ">
             Training & Education In Metaverse
           </div>
           <p>
@@ -51,7 +51,7 @@ function ARVRSecondContainer() {
           <img src={ar2} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center md:px-5">
-          <div className="font-semibold md:text-2xl text-xl"> 
+          <div className="font-semibold md:text-2xl text-xl text-[#E48F45]">
             Gaming Metaverse Development
           </div>
           <p>
@@ -72,7 +72,7 @@ function ARVRSecondContainer() {
           <img src={ar3} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center md:px-5">
-          <div className="font-semibold md:text-2xl text-xl ">
+          <div className="font-semibold md:text-2xl text-xl text-[#E48F45]">
             E-commerce Metaverse Development
           </div>
           <p>
@@ -93,7 +93,7 @@ function ARVRSecondContainer() {
           <img src={ar4} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center md:px-5">
-          <div className="font-semibold md:text-2xl text-xl">
+          <div className="font-semibold md:text-2xl text-xl text-[#E48F45]">
             Metaverse NFT Marketplace Development
           </div>
           <p>
@@ -114,7 +114,7 @@ function ARVRSecondContainer() {
           <img src={ar5} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center md:px-5">
-          <div className="font-semibold md:text-2xl text-xl">
+          <div className="font-semibold md:text-2xl text-xl text-[#E48F45]">
             Metaverse Token Development
           </div>
           <p>

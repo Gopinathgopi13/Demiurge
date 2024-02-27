@@ -6,28 +6,25 @@ import BlockChainMainPage from "./BlockChainMainPage";
 import BockchainSeondContainer from "./BockchainSeondContainer";
 import BlockchainThirdContainer from "./BlockchainThirdContainer";
 import block from "../../../../assets/blockchain.jpg";
+import BlockchainFourthContainer from "./BlockchainFourthContainer";
 function Blockchain() {
   return (
     <div className="w-full">
-      <div className="">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
-        <img
-          src={block}
-          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
-        />
+      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className=" bg-[#0c2d57] ">
         <BlockChainMainPage />
       </div>
       <div>
         <BockchainSeondContainer />
       </div>
-      <div>
+      <div className="bg-[#0c2d57] text-white">
         <BlockchainThirdContainer />
       </div>
-      {/* <div>
-        <WebFourthContainer />
-      </div> */}
+      <div>
+        <BlockchainFourthContainer />
+      </div>
       <div>
         <ContactForm />
       </div>

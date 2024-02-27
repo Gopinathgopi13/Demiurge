@@ -3,15 +3,21 @@ import SearchEO from "../../../../assets/SVG/ppc-management.svg";
 
 function PRThirdContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
-      <div className="md:text-6xl text-3xl font-medium my-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    <div
+      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <div className="md:text-6xl text-3xl font-medium my-5 text-[#e48f45]">
+        Utilise our extensive network of media connections to control the
+        narrative surrounding your brand
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
           <img src={SearchEO} className="md:w-[70%] h-[80%]" alt="" />
         </div>
-        <div className="flex flex-col justify-around text-justify px-2 gap-5">
+        <div className="flex flex-col justify-around text-justify px-2 gap-5 text-lg text-white">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
             asperiores fuga odio incidunt. Nulla, rerum explicabo similique

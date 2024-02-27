@@ -3,7 +3,7 @@ import web3 from "../../../../assets/web3.jpg";
 import web4 from "../../../../assets/web4.jpg";
 function WebThirdContainer() {
   return (
-    <div className="lg:w-[1280px] mx-auto space-y-10 py-20 sm:px-5">
+    <div className="lg:w-[1280px] mx-auto space-y-20 py-20 sm:px-5">
       <div className="md:text-6xl text-3xl">Why partner with us?</div>
       <div>
         <div class="grid sm:grid-rows-3 sm:grid-flow-col gap-4">

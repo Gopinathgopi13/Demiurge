@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Service from "./Components/Service/Service";
@@ -32,8 +32,18 @@ import EsportsMarketing from "./Components/Industries/Industries Item/Esports Ma
 import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
+  
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
+
   return (
-    <>
+    !loading && (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -68,12 +78,15 @@ function App() {
           <Route path="/industries/software" element={<SoftwareMarketing />} />
           <Route path="/industries/startup" element={<StartupMarketing />} />
           <Route path="/industries/smallBusiness" element={<SmallBusiness />} />
-          <Route path="/industries/ecommerce" element={<ECommerceMarketing />} />
+          <Route
+            path="/industries/ecommerce"
+            element={<ECommerceMarketing />}
+          />
           <Route path="/industries/gaming" element={<GamingMarketing />} />
           <Route path="/industries/esport" element={<EsportsMarketing />} />
         </Routes>
       </BrowserRouter>
-    </>
+    )
   );
 }
 

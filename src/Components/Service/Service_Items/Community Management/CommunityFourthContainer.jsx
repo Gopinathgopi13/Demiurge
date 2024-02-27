@@ -5,8 +5,7 @@ function CommunityFourthContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto  px-4 py-4">
       <div className="md:text-6xl text-3xl font-medium my-5">
-        Lorem ipsum dolor sit amet, consectetur elit. elitsdf Dolorum,
-        recusandae distinctio.
+        Your crypto community is what stands between success and failure
       </div>
       <div className="mx-auto md:w-[80%] w-[95%] border-2 border-black rounded-tl-3xl rounded-br-3xl space-y-10 py-10 px-5">
         <div className="flex flex-col justify-around text-justify text-lg px-2 gap-5 ">

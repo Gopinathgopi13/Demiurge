@@ -9,16 +9,16 @@ import Footer from "../../../Footer/Footer";
 function Community() {
   return (
     <div className="w-full">
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+      <div className="w-full sticky top-0  bg-[#0c2d57] shadow-md z-50">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <CommunityMainPage />
       </div>
       <div className="my-20">
         <CommunitySecondContainer />
       </div>
-      <div>
+      <div className="bg-[#0c2d57] text-white">
         <CommunityThirdContainer />
       </div>
       <div className="my-20">
@@ -27,7 +27,7 @@ function Community() {
       <div>
         <ContactForm />
       </div>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
     </div>
