@@ -201,12 +201,12 @@ function Footer() {
               </p>
 
               <ul className="mt-6 space-y-4 text-sm">
-                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2">
+                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2 cursor-pointer">
                   <IoMdMail />{" "}
                   <div onClick={handleClick}>philomenjohn@demiurge.in</div>
                 </li>
 
-                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2">
+                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2 cursor-pointer">
                   <FaPhone />{" "}
                   <div onClick={handlePhoneNumberClick}>9627396283</div>
                 </li>
@@ -238,7 +238,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
                 >
                   <span className="sr-only">Facebook</span>
 
@@ -262,7 +262,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
                 >
                   <span className="sr-only">Instagram</span>
 
@@ -286,7 +286,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
                 >
                   <span className="sr-only">Twitter</span>
 
@@ -306,7 +306,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
                 >
                   <span className="sr-only">Youtube</span>
                   <svg

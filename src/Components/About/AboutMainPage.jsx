@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 function AboutMainPage() {
   return (
     <div className="w-full">
-      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 pt-20">
-        <div className="flex flex-col items-center space-y-5">
-          <div className="text-center text-3xl">About Us</div>
-          <div className="text-center text-5xl">
-            Our Vision is to make work inspiring and fulfilling
-          </div>
+      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 text-white py-20 space-y-10">
+        <div className="lg:text-7xl text-4xl text-[#E48F45] text-center font-bold">
+          About Us
+        </div>
+        <div className="text-4xl text-center">
+          Our Vision is to make work inspiring and fulfilling
         </div>
       </div>
     </div>

@@ -9,10 +9,10 @@ import IndustriesMainPage from "./IndustriesMainPage";
 function Industries() {
   return (
     <div>
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)] lg:sticky top-0 z-50">
+      <div className="bg-[#0c2d57] lg:sticky top-0 z-50">
         <Navbar />
       </div>
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)]">
+      <div className="bg-[#0c2d57]">
         <IndustriesMainPage />
       </div>
       <div className="my-20">

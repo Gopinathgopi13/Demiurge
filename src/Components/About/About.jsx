@@ -10,10 +10,10 @@ import Page from "./Page";
 function About() {
   return (
     <div>
-      <div className="bg-[url(https://ninjapromo.io/wp-content/themes/ninjapromo/assets/img/hero-section/hero-bg-front.jpg)] lg:sticky top-0 z-50">
+      <div className="bg-[#0c2d57] lg:sticky top-0 z-50 shadow-md">
         <Navbar />
       </div>
-      <div>
+      <div className="bg-[#0c2d57]">
         <AboutMainPage />
       </div>
       <div>

@@ -11,7 +11,7 @@ export default function Accordion(props) {
       >
         <span className="font-"> {props.title}</span>
         <span
-          className={`float-end transform ${
+          className={`float-end transform text-[#E48F45] ${
             props.isOpen ? "rotate-180" : "rotate-0"
           } 
 								transition-transform duration-300`}
@@ -19,7 +19,7 @@ export default function Accordion(props) {
           &#9660;
         </span>
       </button>
-      {props.isOpen && <div className="p-4 text-white">{props.data}</div>}
+      {props.isOpen && <div className="p-4 bg-gray-100 text-[#0C2D57]">{props.data}</div>}
     </div>
   );
 }

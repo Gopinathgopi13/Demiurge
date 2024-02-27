@@ -22,10 +22,6 @@ function Home() {
         >
           <Navbar />
         </div>
-        {/* <img
-          src={industriesBG}
-          className="absolute -z-30 w-full h-[100vh] top-0 left-0 border-none object-cover"
-        /> */}
         <MainPage />
       </div>
       {/* Services */}

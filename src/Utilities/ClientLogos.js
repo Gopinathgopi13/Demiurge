@@ -24,31 +24,7 @@ const clientLogo = [
   {
     id: 6,
     logo: clientlogo1,
-  },
-  {
-    id: 7,
-    logo: clientlogo2,
-  },
-  {
-    id: 8,
-    logo: clientlogo1,
-  },
-  {
-    id: 9,
-    logo: clientlogo1,
-  },
-  {
-    id: 10,
-    logo: clientlogo2,
-  },
-  {
-    id: 11,
-    logo: clientlogo1,
-  },
-  {
-    id: 12,
-    logo: clientlogo2,
-  },
+  }
 ];
 
 

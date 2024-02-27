@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function ContactForm() {
   return (
-    <div className="w-full px-5 py-20 bg-blue-600 bg-cover bg-no-repeat">
+    <div className="w-full px-5 py-20  bg-[#0C2D57]">
       <div className="lg:w-[1280px] grid lg:grid-cols-2 gap-5 items-center justify-center mx-auto">
         <div
           className="text-white flex flex-col justify-around gap-5"
@@ -19,11 +19,7 @@ function ContactForm() {
             <div> Give us a few details and we will be in touch soon.</div>
           </div>
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
           <Form />
         </div>
       </div>

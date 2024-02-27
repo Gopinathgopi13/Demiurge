@@ -5,7 +5,7 @@ function IndustriesComponent() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center px-4 mx-auto">
       <div
-        className="lg:text-6xl text-3xl font-medium my-5"
+        className="lg:text-6xl text-3xl font-bold my-5 text-[#E48F45]"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"

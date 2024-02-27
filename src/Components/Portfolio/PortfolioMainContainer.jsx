@@ -4,7 +4,7 @@ function PortfolioMainContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
       <div
-        className="lg:text-6xl text-3xl font-bold my-10"
+        className="lg:text-6xl text-3xl text-center font-bold my-10"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
@@ -12,7 +12,7 @@ function PortfolioMainContainer() {
         Our Past Projects
       </div>
       <div
-        className="lg:text-xl lg:w-[60%] mb-12"
+        className="text-2xl text-[#E48F45] mb-12 text-center"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"

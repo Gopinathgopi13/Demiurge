@@ -4,7 +4,7 @@ import PositionDetails from "./PositionDetails";
 function OpenPosition() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center items-center text-center  mx-auto my-10 px-4">
-      <div className="lg:text-6xl text-4xl font-bold my-5">
+      <div className="lg:text-6xl text-4xl font-bold my-5 text-[#E48F45]">
         Explore our open positions
       </div>
       <div className="lg:w-[70%]">
