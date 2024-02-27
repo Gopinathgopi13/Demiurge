@@ -6,7 +6,7 @@ function Footer() {
     window.open(`tel:${phoneNumber}`);
   };
   const handleClick = () => {
-    window.location.href = `mailto:email@example.com`;
+    window.location.href = `mailto:philomenjohn@demiurge.in`;
   };
   return (
     <footer className="bg-white dark:bg-gray-900">
