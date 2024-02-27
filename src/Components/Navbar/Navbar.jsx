@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { IoMenu, IoClose  } from "react-icons/io5";
 // import Logo from "../../assets/DEMIURGE_LOGO.png";
 // import OrginalLogo  from
 import Button from "../Button";
@@ -11,13 +12,17 @@ const Navbar = () => {
       <div className="lg:w-[1280px] mx-auto flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <a href="/">
-            <img src="./OrginalLogo1.png" alt="logo" className="md:cursor-pointer h-16" />
+            <img
+              src="./OrginalLogo1.png"
+              alt="logo"
+              className="md:cursor-pointer h-16"
+            />
           </a>
           <div
-            className="text-3xl md:hidden text-[#e48f45]"
+            className="text-3xl md:hidden flex justify-center items-center text-[#e48f45]"
             onClick={() => setOpen(!open)}
           >
-            <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+            {open ? <IoMenu size={30}/> : <IoClose size={30} /> }
           </div>
         </div>
         <ul className="md:flex hidden items-center gap-3 font-[Poppins]">
