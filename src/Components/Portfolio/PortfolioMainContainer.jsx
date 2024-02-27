@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../../Utilities/WorkImages.json";
+import img1 from '../../../public/static/Works/oluntier1.jpg'
 function PortfolioMainContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
@@ -31,7 +32,7 @@ function PortfolioMainContainer() {
                 data-aos-duration="500"
                 data-aos-once="true"
               >
-                <img src={img} className="h-full w-full" alt="" />
+                <img src={img1} className="h-full w-full" alt="" />
               </div>
             </>
           );
