@@ -1,28 +1,27 @@
-import clientlogo1 from "../assets/client-16.png";
 const clientLogo = [
   {
     id: 1,
-    logo: clientlogo1,
+    logo: "../assets/ClientLOgo.png",
   },
   {
     id: 2,
-    logo: clientlogo1,
+    logo: "../assets/ClientLOgo.png",
   },
   {
     id: 3,
-    logo: clientlogo1,
+    logo: "../assets/ClientLOgo.png",
   },
   {
     id: 4,
-    logo: clientlogo1,
+    logo: "../assets/ClientLOgo.png",
   },
   {
     id: 5,
-    logo: clientlogo1,
+    logo: "../assets/ClientLOgo.png",
   },
   {
     id: 6,
-    logo: clientlogo1,
+    logo: "../assets/ClientLOgo.png",
   },
 ];
 
