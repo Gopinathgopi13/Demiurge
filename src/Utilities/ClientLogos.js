@@ -1,5 +1,4 @@
 import clientlogo1 from "../assets/client-16.png";
-import clientlogo2 from "../assets/ClientLogo.png";
 const clientLogo = [
   {
     id: 1,
@@ -7,7 +6,7 @@ const clientLogo = [
   },
   {
     id: 2,
-    logo: clientlogo2,
+    logo: clientlogo1,
   },
   {
     id: 3,
@@ -15,17 +14,16 @@ const clientLogo = [
   },
   {
     id: 4,
-    logo: clientlogo2,
+    logo: clientlogo1,
   },
   {
     id: 5,
-    logo: clientlogo2,
+    logo: clientlogo1,
   },
   {
     id: 6,
     logo: clientlogo1,
-  }
+  },
 ];
-
 
 export default clientLogo;
