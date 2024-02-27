@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { IoMenu, IoClose  } from "react-icons/io5";
+import { IoMenu, IoClose } from "react-icons/io5";
 // import Logo from "../../assets/DEMIURGE_LOGO.png";
 // import OrginalLogo  from
 import Button from "../Button";
@@ -22,7 +22,7 @@ const Navbar = () => {
             className="text-3xl md:hidden flex justify-center items-center text-[#e48f45]"
             onClick={() => setOpen(!open)}
           >
-            {open ? <IoMenu size={30}/> : <IoClose size={30} /> }
+            {open ? <IoClose size={30} /> : <IoMenu size={30} />}
           </div>
         </div>
         <ul className="md:flex hidden items-center gap-3 font-[Poppins]">
