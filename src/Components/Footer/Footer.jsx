@@ -41,7 +41,7 @@ function Footer() {
                     className="w-full border-none focus:border-transparent focus:ring-transparent outline-none sm:text-sm dark:bg-gray-900 dark:text-white"
                   />
 
-                  <button className="mt-1 w-full bg-blue-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-blue-600 sm:mt-0 sm:w-auto sm:shrink-0">
+                  <button className="mt-1 w-full bg-[#0c2d57] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none sm:mt-0 sm:w-auto sm:shrink-0">
                     Sign Up
                   </button>
                 </div>
