@@ -17,7 +17,7 @@ function OrganicPaid() {
             Organic Social
           </div>
           <div className="space-y-2 text-lg grid grid-cols-2 grid-rows-2 gap-5">
-            <div className="flex items-center gap-4 ">
+            <div className="flex flex-wrap items-center gap-4 ">
               <div>
                 <FaArrowRight size={15} />
               </div>
@@ -105,7 +105,7 @@ function OrganicPaid() {
         >
           <div className="md:text-6xl text-3xl font-semibold">Paid Social</div>
           <div className="space-y-2 text-lg gap-2 grid px-10 grid-cols-2 grid-rows-2">
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               <div>
                 <FaArrowRight size={15} />
               </div>
