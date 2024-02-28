@@ -116,8 +116,8 @@ const industriesData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 14    ,
-    path: "c",
+    id: 14,
+    path: "/industries/tour",
     logo: Video,
     name: "Tourism",
     description:
