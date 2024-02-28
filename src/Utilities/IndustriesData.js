@@ -101,7 +101,7 @@ const industriesData = [
   },
   {
     id: 12,
-    path: "#",
+    path: "/industries/education",
     logo: Video,
     name: "Education",
     description:
