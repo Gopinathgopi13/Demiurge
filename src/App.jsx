@@ -32,6 +32,7 @@ import EsportsMarketing from "./Components/Industries/Industries Item/Esports Ma
 import Portfolio from "./Components/Portfolio/Portfolio";
 import RealEstateMarketing from "./Components/Industries/Industries Item/RealEstate Marketing/RealEstateMarketing";
 import Tourism from "./Components/Industries/Industries Item/Tourism/Tourism";
+import Healthcare from "./Components/Industries/Industries Item/Healthcare/Healthcare";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -90,6 +91,7 @@ function App() {
             element={<RealEstateMarketing />}
           />
           <Route path="/industries/tour" element={<Tourism />} />
+          <Route path="/industries/healthcare" element={<Healthcare />} />
         </Routes>
       </BrowserRouter>
     )

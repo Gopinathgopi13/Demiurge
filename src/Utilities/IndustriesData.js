@@ -109,7 +109,7 @@ const industriesData = [
   },
   {
     id: 13,
-    path: "#",
+    path: "/industries/healthcare",
     logo: Video,
     name: "Healthcare",
     description:
@@ -117,7 +117,7 @@ const industriesData = [
   },
   {
     id: 14    ,
-    path: "/industries/tour",
+    path: "c",
     logo: Video,
     name: "Tourism",
     description:

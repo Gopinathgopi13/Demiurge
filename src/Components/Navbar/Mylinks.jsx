@@ -46,7 +46,7 @@ export const links = [
           { name: "B2C", link: "#" },
           { name: "Real Estate", link: "/industries/real-Estate" },
           { name: "Education", link: "#" },
-          { name: "Healthcare", link: "#" },
+          { name: "Healthcare", link: "/industries/healthcare" },
           { name: "Tourism", link: "/industries/tour" },
         ],
       },
