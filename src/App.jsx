@@ -33,6 +33,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import RealEstateMarketing from "./Components/Industries/Industries Item/RealEstate Marketing/RealEstateMarketing";
 import Tourism from "./Components/Industries/Industries Item/Tourism/Tourism";
 import Healthcare from "./Components/Industries/Industries Item/Healthcare/Healthcare";
+import B2bMarketing from "./Components/Industries/Industries Item/B2B Marketing/B2bMarketing";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -92,6 +93,7 @@ function App() {
           />
           <Route path="/industries/tour" element={<Tourism />} />
           <Route path="/industries/healthcare" element={<Healthcare />} />
+          <Route path="/industries/b2b" element={<B2bMarketing />} />
         </Routes>
       </BrowserRouter>
     )

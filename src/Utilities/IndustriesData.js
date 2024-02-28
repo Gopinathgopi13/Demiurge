@@ -77,7 +77,7 @@ const industriesData = [
   },
   {
     id: 9,
-    path: "#",
+    path: "/industries/b2b",
     logo: Video,
     name: "B2B",
     description:

@@ -42,7 +42,7 @@ export const links = [
           { name: "eCommerce Marketing", link: "/industries/ecommerce" },
           { name: "Game Marketing", link: "/industries/gaming" },
           { name: "Esports Marketing", link: "/industries/esport" },
-          { name: "B2B", link: "#" },
+          { name: "B2B", link: "/industries/b2b" },
           { name: "B2C", link: "#" },
           { name: "Real Estate", link: "/industries/real-Estate" },
           { name: "Education", link: "#" },
