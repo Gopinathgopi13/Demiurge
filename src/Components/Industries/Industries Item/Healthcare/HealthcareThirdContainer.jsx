@@ -1,8 +1,8 @@
 import React from "react";
-import tourismIcon1 from "../../../../../public/SVG/tourismIcon1.svg";
-import tourismIcon2 from "../../../../../public/SVG/tourismIcon2.svg";
-import tourismIcon3 from "../../../../../public/SVG/tourismIcon3.svg";
-import tourismIcon4 from "../../../../../public/SVG/tourismIcon4.svg";
+import tourismIcon1 from "../../../../assets/SVG/SVG/tourismIcon1.svg";
+import tourismIcon2 from "../../../../assets/SVG/SVG/tourismIcon2.svg";
+import tourismIcon3 from "../../../../assets/SVG/SVG/tourismIcon3.svg";
+import tourismIcon4 from "../../../../assets/SVG/SVG/tourismIcon4.svg";
 const HealthcareThirdContainer = () => {
   return (
     <div className="lg:w-[1280px] mx-auto px-4 py-10 flex flex-col justify-center items-start gap-10">
