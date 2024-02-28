@@ -10,10 +10,10 @@ import SmallBusinessThirdContainer from "./SmallBusinessThirdContainer";
 function SmallBusiness() {
   return (
     <div className="w-full">
-      <div className="bg-blue-800 bg-cover">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+      <div className="w-full sticky top-0 z-50 shadow-md bg-[#0c2d57]">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57] bg-cover">
         <SmallBusinessMainContainer />
       </div>
       <div>

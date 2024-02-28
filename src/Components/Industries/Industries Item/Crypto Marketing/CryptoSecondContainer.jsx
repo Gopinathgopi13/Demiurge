@@ -3,7 +3,7 @@ import React from "react";
 function CryptoSecondContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto px-4 space-y-10">
-      <div className="md:text-7xl font-bold">Our Industries</div>
+      <div className="md:text-7xl font-bold text-[#e48f45]">Our Industries</div>
       <div className="grid md:grid-cols-4 gap-5">
         <div className="hover:bg-blue-400 h-[300px] flex flex-col justify-center items-center gap-5 shadow-lg rounded-3xl">
           <div className="text-5xl font-bold">&#x2780;</div>

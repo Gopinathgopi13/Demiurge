@@ -3,7 +3,7 @@ import React from "react";
 function EcommerceThirdContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10">
-      <div className="lg:text-5xl font-medium my-5 py-5">
+      <div className="lg:text-5xl font-medium my-5 py-5 text-[#e48f45]">
         Our eCommerce Marketing Services
       </div>
       <div className="my-5 py-5">
@@ -15,7 +15,9 @@ function EcommerceThirdContainer() {
       <div className="grid lg:grid-cols-3 gap-10 my-10">
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">eCommerce SEO</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              eCommerce SEO
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -27,7 +29,9 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">eCommerce PPC</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              eCommerce PPC
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -39,7 +43,9 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">Social Media Marketing</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Social Media Marketing
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -51,7 +57,7 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               eCommerce Content Marketing
             </div>
           </div>
@@ -65,7 +71,7 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               eCommerce Website Development & Web Design
             </div>
           </div>
@@ -79,7 +85,7 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               Conversion Rate Optimization
             </div>
           </div>
@@ -93,7 +99,7 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               eCommerce Email Marketing
             </div>
           </div>
@@ -107,7 +113,7 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">
+            <div className="text-xl font-semibold text-[#e48f45]">
               eCommerce Video Production
             </div>
           </div>
@@ -121,7 +127,9 @@ function EcommerceThirdContainer() {
 
         <div className="flex flex-col h-60 shadow-lg rounded-lg p-5 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold">Amazon Marketing</div>
+            <div className="text-xl font-semibold text-[#e48f45]">
+              Amazon Marketing
+            </div>
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

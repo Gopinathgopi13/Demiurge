@@ -13,7 +13,7 @@ function EcommerceFourthContainer() {
         accusantium voluptatem distinctio?
       </div>
       <Link to="/contactForm">
-        <div className="px-16 py-5 text-2xl w-[300px] text-white bg-blue-700 flex items-center gap-4 cursor-pointer">
+        <div className="px-16 py-5 text-2xl w-[300px] text-white bg-[#0c2d57] flex items-center gap-4 cursor-pointer">
           <Link to="/contact">Get in touch</Link>
         </div>
       </Link>

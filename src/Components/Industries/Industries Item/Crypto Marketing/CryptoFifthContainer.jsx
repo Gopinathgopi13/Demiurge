@@ -2,7 +2,7 @@ import React from "react";
 import SearchEO from "../../../../assets/SVG/ppc-management.svg";
 function CryptoFifthContainer() {
   return (
-    <div className="lg:w-[1280px] mx-auto px-4 text-white">
+    <div className="lg:w-[1280px] mx-auto px-4 ">
       <div className="grid md:grid-cols-3 items-center">
         <div className="col-span-1 h-[400px]">
           <img src={SearchEO} className="w-[90%] h-[100%]" alt="" />

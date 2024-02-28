@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoMenu, IoClose } from "react-icons/io5";
-// import Logo from "../../assets/DEMIURGE_LOGO.png";
-// import OrginalLogo  from
 import Button from "../Button";
 import NavLinks from "./NavLinks";
+import OrginalLogo1 from '../../../public/OrginalLogo1.png'
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -13,7 +12,7 @@ const Navbar = () => {
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <a href="/">
             <img
-              src="./OrginalLogo1.png"
+              src={OrginalLogo1}
               alt="logo"
               className="md:cursor-pointer h-16"
             />
@@ -44,12 +43,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div
-          className="md:block hidden"
-          data-aos="fade-left"
-          data-aos-delay="500"
-          data-aos-duration="1000"
-        >
+        <div className="md:block hidden">
           <Button />
         </div>
         {/* Mobile nav */}

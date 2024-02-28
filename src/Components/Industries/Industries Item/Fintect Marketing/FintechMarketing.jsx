@@ -12,26 +12,26 @@ import FintechSixthContainer from "./FintechSixthContainer";
 function FintechMarketing() {
   return (
     <div className="w-full">
-      <div className="bg-blue-800 bg-cover">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+      <div className="w-full sticky top-0 bg-[#0c2d57] z-50 shadow-md">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <FintechMainContainer />
       </div>
       <div>
         <FintechSecondContainer />
       </div>
-      <div className="border-2">
+      <div className="bg-[#0c2d57] py-10">
         <FintechThirdContainer />
       </div>
       <div>
         <FintechFourthContainer />
       </div>
       <div>
-        <FintechFifthContainer/>
+        <FintechFifthContainer />
       </div>
-      <div className="bg-blue-500">
-        <FintechSixthContainer/>
+      <div>
+        <FintechSixthContainer />
       </div>
       <div>
         <ContactForm />

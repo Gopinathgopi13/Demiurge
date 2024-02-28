@@ -18,9 +18,9 @@ function SoftwareThirdContainer() {
             perspiciatis cumque atque natus! Illo voluptatum iure repudiandae.
           </p>
         </div>
-        <div className="sm:w-[30%] w-[50%] rounded-xl overflow-hidden">
+        <div className="sm:w-[30%] w-[50%] overflow-hidden">
           <Link to="/contactForm">
-            <div className="px-5 py-3 lg:text-2xl bg-blue-700 flex items-center gap-4 cursor-pointer">
+            <div className="px-5 py-3 lg:text-2xl bg-[#0c2d57] text-white flex items-center gap-4 cursor-pointer">
               <Link to="/contact">Book a Consultation</Link>
             </div>
           </Link>

@@ -6,14 +6,15 @@ import EcommerceMainPage from "./EcommerceMainPage";
 import EcommerceSecondContainer from "./EcommerceSecondContainer";
 import EcommerceThirdContainer from "./EcommerceThirdContainer";
 import EcommerceFourthContainer from "./EcommerceFourthContainer";
+import EcommerceFifthContainer from "./EcommerceFifthContainer";
 
 function ECommerceMarketing() {
   return (
     <div className="w-full">
-      <div className="bg-blue-800 bg-cover">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+      <div className="w-full sticky top-0 z-50 shadow-md bg-[#0c2d57]">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57] bg-cover">
         <EcommerceMainPage />
       </div>
       <div>
@@ -24,6 +25,9 @@ function ECommerceMarketing() {
       </div>
       <div>
         <EcommerceFourthContainer />
+      </div>
+      <div>
+        <EcommerceFifthContainer />
       </div>
       <div>
         <ContactForm />

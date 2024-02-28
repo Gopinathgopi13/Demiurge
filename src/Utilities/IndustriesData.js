@@ -77,7 +77,7 @@ const industriesData = [
   },
   {
     id: 9,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "B2B",
     description:
@@ -85,7 +85,7 @@ const industriesData = [
   },
   {
     id: 10,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "B2C",
     description:
@@ -93,7 +93,7 @@ const industriesData = [
   },
   {
     id: 11,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "Realestate",
     description:
@@ -101,7 +101,7 @@ const industriesData = [
   },
   {
     id: 12,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "Education",
     description:
@@ -109,7 +109,7 @@ const industriesData = [
   },
   {
     id: 13,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "Education",
     description:
@@ -117,7 +117,7 @@ const industriesData = [
   },
   {
     id: 14,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "Healthcare",
     description:
@@ -125,7 +125,7 @@ const industriesData = [
   },
   {
     id: 15,
-    path: "/industries/esport",
+    path: "#",
     logo: Video,
     name: "Tourism",
     description:

@@ -10,24 +10,24 @@ import CryptoFifthContainer from "./CryptoFifthContainer";
 
 function CryptoMarketing() {
   return (
-    <div className="w-full space-y-20">
-      <div className="bg-blue-600 bg-cover">
-        <div className="w-full sticky top-0">
-          <Navbar />
-        </div>
+    <div className="w-full">
+      <div className="w-full sticky top-0 bg-[#0c2d57] z-50 shadow-md">
+        <Navbar />
+      </div>
+      <div className="bg-[#0c2d57]">
         <CryptoMainContainer />
       </div>
-      <div>
+      <div className="my-20">
         <CryptoSecondContainer />
       </div>
-      <div>
+      <div className="bg-[#0c2d57]">
         <CryptoThirdContainer />
       </div>
       <div>
         <CryptoFourthContainer />
       </div>
-      <div className="bg-blue-400">
-        <CryptoFifthContainer/>
+      <div>
+        <CryptoFifthContainer />
       </div>
       <div>
         <ContactForm />

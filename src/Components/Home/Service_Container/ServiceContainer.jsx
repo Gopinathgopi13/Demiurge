@@ -1,5 +1,6 @@
 import ServicesCard from "./ServicesCard";
 import serviceData from "../../../Utilities/ServiceData";
+import Card from "./Card";
 function ServiceContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
@@ -36,6 +37,9 @@ function ServiceContainer() {
             />
           );
         })}
+      </div>
+      <div>
+        {/* <Card/> */}
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ function EcommerceSecondContainer() {
         <div className="mx-auto">
           <img src={SearchEO} className="w-[70%] h-[80%]" alt="" />
         </div>
-        <div className="flex flex-col justify-around text-justify px-2 gap-5">
+        <div className="flex flex-col justify-around text-justify px-2 gap-10 font-medium">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
             asperiores fuga odio incidunt. Nulla, rerum explicabo similique
@@ -35,6 +35,15 @@ function EcommerceSecondContainer() {
             quos nam soluta saepe ipsum iste temporibus laborum corrupti? Esse
             iste repudiandae quasi eos ipsum ipsa, adipisci suscipit iusto! Ex,
             facere fugiat?
+          </p>
+          <p className="px-3">
+            <ul className="list-disc"> 
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            </ul>
           </p>
         </div>
       </div>
