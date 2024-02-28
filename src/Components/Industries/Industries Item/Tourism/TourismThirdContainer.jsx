@@ -1,9 +1,9 @@
 import React from "react";
-import tourismIcon1 from "../../../../assets/SVG/SVG/tourismIcon1.svg";
-import tourismIcon2 from "../../../../assets/SVG/SVG/tourismIcon2.svg";
-import tourismIcon3 from "../../../../assets/SVG/SVG/tourismIcon3.svg";
-import tourismIcon4 from "../../../../assets/SVG/SVG/tourismIcon4.svg";
-import tourismIcon5 from "../../../../assets/SVG/SVG/tourismIcon5.svg";
+import tourismIcon1 from "../../../../../public/static/PNG/tourismIcon1.png";
+import tourismIcon2 from "../../../../../public/static/PNG/tourismIcon2.png";
+import tourismIcon3 from "../../../../../public/static/PNG/tourismIcon3.png";
+import tourismIcon4 from "../../../../../public/static/PNG/tourismIcon4.png";
+import tourismIcon5 from "../../../../../public/static/PNG/tourismIcon5.png";
 function TourismThirdContainer() {
   return (
     <div className="lg:w-[1280px] mx-auto px-4 py-10 flex flex-col justify-center items-start gap-10">
