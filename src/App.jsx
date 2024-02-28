@@ -30,9 +30,10 @@ import ECommerceMarketing from "./Components/Industries/Industries Item/eCommerc
 import GamingMarketing from "./Components/Industries/Industries Item/Gaming Marketing/GamingMarketing";
 import EsportsMarketing from "./Components/Industries/Industries Item/Esports Marketing/EsportsMarketing";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import RealEstateMarketing from "./Components/Industries/Industries Item/RealEstate Marketing/RealEstateMarketing";
+import Tourism from "./Components/Industries/Industries Item/Tourism/Tourism";
 
 function App() {
-  
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
   if (spinner) {
@@ -84,6 +85,11 @@ function App() {
           />
           <Route path="/industries/gaming" element={<GamingMarketing />} />
           <Route path="/industries/esport" element={<EsportsMarketing />} />
+          <Route
+            path="/industries/real-Estate"
+            element={<RealEstateMarketing />}
+          />
+          <Route path="/industries/tour" element={<Tourism />} />
         </Routes>
       </BrowserRouter>
     )

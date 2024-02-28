@@ -93,7 +93,7 @@ const industriesData = [
   },
   {
     id: 11,
-    path: "#",
+    path: "/industries/real-Estate",
     logo: Video,
     name: "Realestate",
     description:
@@ -111,21 +111,13 @@ const industriesData = [
     id: 13,
     path: "#",
     logo: Video,
-    name: "Education",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
-  },
-  {
-    id: 14,
-    path: "#",
-    logo: Video,
     name: "Healthcare",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   },
   {
-    id: 15,
-    path: "#",
+    id: 14    ,
+    path: "/industries/tour",
     logo: Video,
     name: "Tourism",
     description:
