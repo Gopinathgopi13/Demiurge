@@ -1,6 +1,7 @@
-  import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./Mylinks";
+import { FaAngleDown } from "react-icons/fa";
 
 const NavLinks = () => {
   return (
@@ -9,9 +10,11 @@ const NavLinks = () => {
         <div>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1 className="py-7 flex justify-between items-center md:pr-0 pr-5 group">
-              <Link to={link.path}>{link.name}</Link>
+              <Link to={link.path} className="hover:text-[#e48f45]">
+                {link.name}
+              </Link>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
-                <ion-icon name="chevron-down"></ion-icon>
+                <FaAngleDown />
               </span>
             </h1>
             {link.submenu && (

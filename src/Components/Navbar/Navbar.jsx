@@ -26,19 +26,19 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden items-center gap-3 font-[Poppins]">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="py-7 px-3 inline-block hover:text-[#e48f45]">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className="py-7 px-3 inline-block">
+            <Link to="/portfolio" className="py-7 px-3 inline-block hover:text-[#e48f45]">
               Portfolio
             </Link>
           </li>
           <NavLinks />
 
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block">
+            <Link to="/contact" className="py-7 px-3 inline-block hover:text-[#e48f45]">
               Contact
             </Link>
           </li>
