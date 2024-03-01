@@ -9,7 +9,7 @@ export default function Accordion(props) {
 						hover:bg-gray-300 transition duration-300"
         onClick={props.toggleAccordion}
       >
-        <span className="font-"> {props.title}</span>
+        <span className="font-semibold text-lg"> {props.title}</span>
         <span
           className={`float-end transform text-[#E48F45] ${
             props.isOpen ? "rotate-180" : "rotate-0"
@@ -19,7 +19,7 @@ export default function Accordion(props) {
           &#9660;
         </span>
       </button>
-      {props.isOpen && <div className="py-4 bg-gray-100 text-[#0C2D57]">{props.data}</div>}
+      {props.isOpen && <div className="py-4 md:px-10 text-lg bg-gray-100 text-[#0C2D57]">{props.data}</div>}
     </div>
   );
 }

@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function IndustriesCard({ id, logo, name, description, path }) {
   return (
-    <Link to={path}>
       <div
         className="lg:w-96 text-base p-3 rounded-tl-3xl rounded-br-3xl shadow-md transform transition duration-500 hover:bg-[#0c2c579f] group"
         data-aos="fade-left"
@@ -18,7 +16,6 @@ function IndustriesCard({ id, logo, name, description, path }) {
           {description}
         </div>
       </div>
-    </Link>
   );
 }
 

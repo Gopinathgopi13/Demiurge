@@ -29,7 +29,6 @@ function IndustriesComponent() {
           return (
             <IndustriesCard
               id={id}
-              path={path}
               logo={logo}
               name={name}
               description={description}

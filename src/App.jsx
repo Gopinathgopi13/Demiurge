@@ -76,7 +76,7 @@ function App() {
           <Route path="/service/arvr" element={<ARVR />} />
 
           {/* Industries */}
-          <Route path="/industries" element={<Industries />} />
+          {/* <Route path="/industries" element={<Industries />} />
           <Route path="/industries/fintech" element={<FintechMarketing />} />
           <Route path="/industries/crypto" element={<CryptoMarketing />} />
           <Route path="/industries/software" element={<SoftwareMarketing />} />
@@ -95,7 +95,7 @@ function App() {
           <Route path="/industries/tour" element={<Tourism />} />
           <Route path="/industries/healthcare" element={<Healthcare />} />
           <Route path="/industries/b2b" element={<B2bMarketing />} />
-          <Route path="/industries/education" element={<Education />} />
+          <Route path="/industries/education" element={<Education />} /> */}
         </Routes>
       </BrowserRouter>
     )
