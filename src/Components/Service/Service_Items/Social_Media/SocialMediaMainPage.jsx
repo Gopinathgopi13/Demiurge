@@ -17,12 +17,11 @@ function SocialMediaMainPage() {
         </div>
         {/* <div className="text-lg">Social Media</div> */}
         <div className="lg:text-5xl text-3xl lg:w-[60%] font-extrabold text-[#E48F45] lg:text-start text-center">
-          Experience the power of data-driven social media marketing that gets
-          results.
+          Unlock Your Brand's Social Potential with Us!
         </div>
         <div className="lg:w-[50%] lg:text-xl text-justify">
-          A strategic social media approach is your key to connecting with the
-          right people and achieving lasting success.
+          Discover how we can amplify your brand's impact through social media
+          expertise.
         </div>
         <Link
           to="/contactForm"

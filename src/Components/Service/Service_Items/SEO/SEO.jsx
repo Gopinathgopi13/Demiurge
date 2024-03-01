@@ -25,9 +25,9 @@ function SEO() {
       <div className="my-20">
         <SEOFourthConitainer />
       </div>
-      <div>
+      {/* <div>
         <ContactForm />
-      </div>
+      </div> */}
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>

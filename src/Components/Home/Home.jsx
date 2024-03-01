@@ -5,10 +5,11 @@ import Clients from "./Clients/Clients";
 import ContactForm from "./ContactForm/ContactForm";
 import MainPage from "./Main_Page/MainPage";
 import Footer from "../Footer/Footer";
-import FQA from "../FQA's/FQA";
+// import FQA from "../FQA's/FQA";
 import IndustriesComponent from "./Industries_Component/IndustriesComponent";
 import { motion } from "framer-motion";
 import industriesBG from "../../assets/industriesBG.jpg";
+import FAQ from "../FAQ's/FQA";
 // import backgroundVideo from "../../assets/Background-Video.mp4";
 function Home() {
   return (
@@ -35,7 +36,7 @@ function Home() {
         <IndustriesComponent />
       </div>
       <div>
-        <FQA />
+        <FAQ />
       </div>
       <div className="w-full my-20">
         <Clients />

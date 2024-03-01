@@ -17,7 +17,8 @@ function MarketingService() {
             data-aos-once="true"
           >
             <div className="md:text-3xl text-xl font-medium">
-              At Demiurge, We Understand Social Media And We Live For Marketing
+              We're experts in social media, driven by a passion for marketing.
+              Let's elevate your brand's online presence together.
             </div>
           </div>
           <div
@@ -31,8 +32,9 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Adipisci non nesciunt beatae. Quasi, aliquid perferendis?
+                From viral-worthy videos to scroll-stopping graphics, our
+                content speaks louder than words and leaves your audience
+                craving more.
               </div>
             </div>
             <div className="flex gap-4 ">
@@ -40,8 +42,9 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-                ullam aspernatur numquam voluptatibus, quas ex?
+                We're not just social media managers—we're community architects.
+                With a sprinkle of wit and a dash of charm, we turn followers
+                into loyal fans.
               </div>
             </div>
             <div className="flex gap-4 ">
@@ -49,8 +52,9 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-                ullam aspernatur numquam voluptatibus, quas ex?
+                Ready to make an entrance? Our ads are designed to command
+                attention, drive action, and make your brand the talk of the
+                town.
               </div>
             </div>
             <div className="flex gap-4 ">
@@ -58,8 +62,9 @@ function MarketingService() {
                 <img src={servicesGrid} className="h-14 w-14" alt="" />
               </div>
               <div>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-                ullam aspernatur numquam voluptatibus, quas ex?
+                Numbers aren't just numbers—they're stories waiting to be told.
+                Our analytics unravel the mysteries of social media, providing
+                insights that guide our journey to digital greatness.
               </div>
             </div>
           </div>

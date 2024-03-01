@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoMenu, IoClose } from "react-icons/io5";
 import Button from "../Button";
 import NavLinks from "./NavLinks";
-import OrginalLogo1 from '../../../public/OrginalLogo1.png'
+import OrginalLogo1 from "../../../public/OrginalLogo1.png";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -26,19 +26,35 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden items-center gap-3 font-[Poppins]">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block hover:text-[#e48f45]">
+            <Link
+              to="/"
+              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className="py-7 px-3 inline-block hover:text-[#e48f45]">
+            <Link
+              to="/portfolio"
+              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+            >
               Portfolio
             </Link>
           </li>
           <NavLinks />
-
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block hover:text-[#e48f45]">
+            <Link
+              to="/contact"
+              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+            >
+              Case Studies
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+            >
               Contact
             </Link>
           </li>

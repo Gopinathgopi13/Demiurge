@@ -20,16 +20,16 @@ function SocialMedia() {
       <div className="my-20">
         <MarketingService />
       </div>
-      <div className="bg-[#0c2d57]">
-        <CTA />
-      </div>
       <div className="my-20">
         <OrganicPaid />
       </div>
-
-      <div>
-        <ContactForm />
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
+
+      {/* <div>
+        <ContactForm />
+      </div> */}
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>

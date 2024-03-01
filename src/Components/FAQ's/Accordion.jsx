@@ -19,7 +19,7 @@ export default function Accordion(props) {
           &#9660;
         </span>
       </button>
-      {props.isOpen && <div className="p-4 bg-gray-100 text-[#0C2D57]">{props.data}</div>}
+      {props.isOpen && <div className="py-4 bg-gray-100 text-[#0C2D57]">{props.data}</div>}
     </div>
   );
 }

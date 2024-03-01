@@ -24,34 +24,34 @@ export const links = [
       },
     ],
   },
-  {
-    name: "Industries",
-    path: "/industries",
-    submenu: true,
-    sublinks: [
-      {
-        sublink: [
-          { name: "Fintech Marketing", link: "/industries/fintech" },
-          { name: "Crypto Marketing", link: "/industries/crypto" },
-          { name: "Software Marketing", link: "/industries/software" },
-          { name: "Startup Marketing", link: "/industries/startup" },
-          {
-            name: "Small Business Marketing",
-            link: "/industries/smallBusiness",
-          },
-          { name: "eCommerce Marketing", link: "/industries/ecommerce" },
-          { name: "Game Marketing", link: "/industries/gaming" },
-          { name: "Esports Marketing", link: "/industries/esport" },
-          { name: "B2B", link: "/industries/b2b" },
-          { name: "B2C", link: "#" },
-          { name: "Real Estate", link: "/industries/real-Estate" },
-          { name: "Education", link: "/industries/education" },
-          { name: "Healthcare", link: "/industries/healthcare" },
-          { name: "Tourism", link: "/industries/tour" },
-        ],
-      },
-    ],
-  },
+  // {
+  //   name: "Industries",
+  //   path: "/industries",
+  //   submenu: true,
+  //   sublinks: [
+  //     {
+  //       sublink: [
+  //         { name: "Fintech Marketing", link: "/industries/fintech" },
+  //         { name: "Crypto Marketing", link: "/industries/crypto" },
+  //         { name: "Software Marketing", link: "/industries/software" },
+  //         { name: "Startup Marketing", link: "/industries/startup" },
+  //         {
+  //           name: "Small Business Marketing",
+  //           link: "/industries/smallBusiness",
+  //         },
+  //         { name: "eCommerce Marketing", link: "/industries/ecommerce" },
+  //         { name: "Game Marketing", link: "/industries/gaming" },
+  //         { name: "Esports Marketing", link: "/industries/esport" },
+  //         { name: "B2B", link: "/industries/b2b" },
+  //         { name: "B2C", link: "#" },
+  //         { name: "Real Estate", link: "/industries/real-Estate" },
+  //         { name: "Education", link: "/industries/education" },
+  //         { name: "Healthcare", link: "/industries/healthcare" },
+  //         { name: "Tourism", link: "/industries/tour" },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     name: "Company",
     path: "",

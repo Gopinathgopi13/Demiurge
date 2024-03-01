@@ -49,7 +49,7 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8">
             <img src={SEOImage} className="h-[40%]" />
-            <div className="text-xl text-[#0c2d57]">Facebook Ads</div>
+            <div className="text-xl text-[#0c2d57]">Meta Ads</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -151,7 +151,7 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8">
             <img src={SEOImage} className="h-[40%]" />
-            <div className="text-xl text-[#0c2d57]">Yahoo Ads</div>
+            <div className="text-xl text-[#0c2d57]">Sharechat Ads</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
