@@ -8,7 +8,7 @@ function MainPage() {
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 h-[90vh] text-white flex flex-col justify-center items-center gap-y-14">
         <div
-          className="lg:text-6xl text-3xl lg:w-[70%] text-center font-extrabold leading-snug text-[#E48F45]"
+          className="lg:text-6xl text-3xl lg:w-[70%] text-center font-extrabold leading-snug text-[#FF8400]"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -21,7 +21,9 @@ function MainPage() {
             <div className="line ">Leads</div>
             <div className="line ">ROI</div>
           </span>
-          <span className="lg:ml-[220px] ml-[200px]"><br /> without lifting a finger</span>
+          <span className="lg:ml-[220px] ml-[200px]">
+            <br /> without lifting a finger
+          </span>
         </div>
 
         <Link
@@ -34,7 +36,7 @@ function MainPage() {
             <Link to="/contact" id="shine">
               Unlock a no-cost proposal
             </Link>
-            <FaArrowRight size={20} className="text-[#E48F45]" />
+            <FaArrowRight size={20} className="text-[#FF8400]" />
           </div>
         </Link>
       </div>

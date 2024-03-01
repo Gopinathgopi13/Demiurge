@@ -18,7 +18,7 @@ const Navbar = () => {
             />
           </a>
           <div
-            className="text-3xl md:hidden flex justify-center items-center text-[#e48f45]"
+            className="text-3xl md:hidden flex justify-center items-center text-[#FF8400]"
             onClick={() => setOpen(!open)}
           >
             {open ? <IoClose size={30} /> : <IoMenu size={30} />}
@@ -28,7 +28,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
-              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+              className="py-7 px-3 inline-block hover:text-[#FF8400]"
             >
               Home
             </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/portfolio"
-              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+              className="py-7 px-3 inline-block hover:text-[#FF8400]"
             >
               Portfolio
             </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/contact"
-              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+              className="py-7 px-3 inline-block hover:text-[#FF8400]"
             >
               Case Studies
             </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/contact"
-              className="py-7 px-3 inline-block hover:text-[#e48f45]"
+              className="py-7 px-3 inline-block hover:text-[#FF8400]"
             >
               Contact
             </Link>
