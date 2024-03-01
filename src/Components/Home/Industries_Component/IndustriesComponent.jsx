@@ -23,7 +23,7 @@ function IndustriesComponent() {
         extensive experience working in numerous industries, we have the
         insights and expertise to help you discover your true potential.
       </div>
-      <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-9">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-9">
         {industriesData.map(({ id, logo, name, description, path }, index) => {
           // console.log(id)
           return (
