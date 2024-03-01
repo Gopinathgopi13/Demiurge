@@ -19,7 +19,7 @@ function MainPage() {
           >
             <div className="line">sales</div>
             <div className="line ">Leads</div>
-            <div className="line ">Roi</div>
+            <div className="line ">ROI</div>
           </span>
           <span className="lg:ml-[220px] ml-[200px]"><br /> without lifting a finger</span>
         </div>
