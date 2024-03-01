@@ -37,7 +37,7 @@
   /* display: inline-block; */
 }
 .line:first-child {
-  animation: anim 10s infinite;
+  animation: anim 5s infinite;
 }
 
 @media only screen and (max-width: 600px) {

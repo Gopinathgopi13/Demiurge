@@ -13,7 +13,7 @@ const NavLinks = () => {
               <Link to={link.path} className="hover:text-[#e48f45]">
                 {link.name}
               </Link>
-              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-1">
                 <FaAngleDown />
               </span>
             </h1>
@@ -30,7 +30,7 @@ const NavLinks = () => {
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-md text-white my-2.5 hover:text-blue-400">
+                          <li className="text-md text-white my-2.5 hover:text-[#e48f45]">
                             <Link
                               to={slink.link}
                               className="hover:text-primary"

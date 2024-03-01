@@ -15,13 +15,13 @@ function MainPage() {
           <span className="mr-[10px]">Increase</span>
           <span
             id="animated-text"
-            className="bg-[#e48f45] lg:w-[220px] w-[120px] text-center lg:h-[60px] h-[40px] z-10"
+            className=" lg:w-[220px] w-[120px] text-center lg:h-[60px] h-[40px] z-10"
           >
             <div className="line">sales</div>
             <div className="line ">Leads</div>
-            <div className="line ">ROI</div>
+            <div className="line ">Roi</div>
           </span>
-          <span className="lg:ml-[220px] ml-[200px]"> without lifting a finger</span>
+          <span className="lg:ml-[220px] ml-[200px]"><br /> without lifting a finger</span>
         </div>
 
         <Link

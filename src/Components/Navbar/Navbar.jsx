@@ -7,7 +7,7 @@ import OrginalLogo1 from '../../../public/OrginalLogo1.png'
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="text-white hover:bg-black w-full z-50">
+    <nav className="text-white hover:bg-black w-full z-50 sticky top-0">
       <div className="lg:w-[1280px] mx-auto flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <a href="/">
