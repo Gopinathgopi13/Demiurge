@@ -9,29 +9,32 @@ function PPCSecondContainer() {
       data-aos-once="true"
     >
       <div className="lg:text-6xl text-3xl font-medium my-5 primaryColor">
-        Our Pay-Per-Click Advertising Services
+        Our Performance Marketing Services:
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
           <img src={SearchEO} className="md:w-[70%] h-[80%]" alt="" />
         </div>
-        <div className="flex flex-col justify-around text-justify px-2 gap-5">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
-            asperiores fuga odio incidunt. Nulla, rerum explicabo similique
-            illum facere ullam, amet laudantium a labore fugiat incidunt,
-            tempore aspernatur ex corporis cumque eligendi assumenda impedit
-            necessitatibus id officia consectetur quisquam suscipit. Minus
-            perspiciatis cumque atque natus! Illo voluptatum iure repudiandae.
+        <div className="flex flex-col justify-around px-3 gap-5">
+          <p className="text-xl ">
+            Our approach is rooted in data and analytics. We dive deep into your
+            audience insights, market trends, and competitor analysis to
+            identify the most lucrative opportunities. Then, armed with this
+            knowledge, we craft tailored strategies to reach your goals
+            efficiently and effectively.With performance marketing, you can
+            finally say goodbye to wasted ad spend and guesswork.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quae
-            quas? Eaque deleniti accusamus eius veritatis distinctio sint hic
-            voluptatum dolore error esse nisi, et maxime, voluptatibus libero
-            quos nam soluta saepe ipsum iste temporibus laborum corrupti? Esse
-            iste repudiandae quasi eos ipsum ipsa, adipisci suscipit iusto! Ex,
-            facere fugiat?
-          </p>
+          <ul className="space-y-4 list-outside list-disc px-5 marker:text-[#ff8400]">
+            <li className="text-lg font-popins">Pay-Per-Click (PPC) Advertising</li>
+            <li className="text-lg font-popins">Social Media Advertising</li>
+            <li className="text-lg font-popins">Conversion Rate Optimization (CRO)</li>
+            <li className="text-lg font-popins">Email Marketing</li>
+            <li className="text-lg font-popins">Content Marketing</li>
+            <li className="text-lg font-popins">Affiliate Marketing</li>
+            <li className="text-lg font-popins">Data Analytics and Reporting</li>
+            <li className="text-lg font-popins">Landing Page Optimization</li>
+            <li className="text-lg font-popins">Remarketing and Retargeting</li>
+          </ul>
         </div>
       </div>
     </div>

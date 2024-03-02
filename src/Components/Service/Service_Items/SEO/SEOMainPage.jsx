@@ -19,8 +19,8 @@ function SEOMainPage() {
           SEO isn't just a tool—it's your secret weapon
         </div>
         <div className="lg:w-[50%] lg:text-xl text-justify">
-          A strategic social media approach is your key to connecting with the
-          right people and achieving lasting success.
+          Your roadmap to online visibility, ensuring your brand stands out and
+          attracts the right audience.
         </div>
         <Link
           to="/contactForm"

@@ -13,10 +13,13 @@ function PPCMainPage() {
         <div className="lg:absolute right-0 bottom-40">
           <img src={Performance_marketing_Home_Page} alt="" />
         </div>
-        <div className="text-lg">Performance Marketing</div>
-        <div className="md:text-6xl text-3xl lg:w-[60%] font-extrabold leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+        {/* <div className="text-lg">Performance Marketing</div> */}
+        <div className="md:text-6xl text-3xl lg:w-[70%] font-extrabold leading-snug primaryColor">
+          Power Up Your Goals with Performance Marketing
+        </div>
+        <div className="lg:w-[50%] lg:text-xl text-justify">
+          The strategic engine that propels your brand forward, delivering
+          measurable results and maximizing your online impact.
         </div>
         <Link
           to="/contactForm"

@@ -5,7 +5,7 @@ function PRMainPage() {
   return (
     <div className="w-full">
       <div
-        className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-white flex flex-col lg:pt-40 lg:items-start items-center justify-center gap-y-10 relative"
+        className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-white flex flex-col lg:pt-40 lg:items-start items-center gap-y-10 relative"
         // data-aos="fade-down"
         // data-aos-duration="1000"
         // data-aos-once="true"
@@ -13,10 +13,13 @@ function PRMainPage() {
         <div className="lg:absolute right-0  bottom-40">
           <img src={PR_Home_Page} alt="" />
         </div>
-        <div className="text-lg">PR</div>
-        <div className="md:text-6xl text-3xl lg:w-[60%] font-extrabold leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+        {/* <div className="text-lg">PR</div> */}
+        <div className="md:text-6xl text-3xl lg:w-[70%] font-extrabold leading-snug primaryColor">
+          Amplify Your Influence with Dynamic PR Strategies.
+        </div>
+        <div className="lg:w-[50%] lg:text-xl text-justify">
+          Expert PR Strategies is a new way to connect with the right people
+          and achieve lasting success.
         </div>
         <Link
           to="/contactForm"

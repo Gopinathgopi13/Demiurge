@@ -19,15 +19,17 @@ function PR() {
       <div className="my-20">
         <PRSecondContainer />
       </div>
-      <div className="my-20 bg-[#0c2d57] py-20">
+      <div className="my-20 ">
         <PRThirdContainer />
       </div>
       <div className="my-20">
         <PRFourthContainer />
       </div>
-      <div>
+
+      {/* Call To action */}
+      {/* <div>
         <ContactForm />
-      </div>
+      </div> */}
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
