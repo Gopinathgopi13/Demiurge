@@ -8,7 +8,7 @@ export const links = [
         sublink: [
           { name: "Social Media", link: "/service/socialMedia" },
           { name: "SEO", link: "/service/seo" },
-          { name: "Paid Media", link: "/service/ppc" },
+          { name: "Performance Marketing", link: "/service/ppc" },
           { name: "Paid Social", link: "/service/paidsocial" },
           { name: "PR", link: "/service/pr" },
           { name: "Video Marketing", link: "/service/video-marketing" },
