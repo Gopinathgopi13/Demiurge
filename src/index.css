@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+.primaryColor {
+  color: #ff8400;
+}
+
 .btn {
   color: blue;
   text-transform: uppercase;
@@ -29,7 +33,7 @@
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   width: 0%;

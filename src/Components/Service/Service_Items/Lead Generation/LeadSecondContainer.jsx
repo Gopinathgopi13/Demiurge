@@ -27,7 +27,7 @@ function LeadSecondContainer() {
           data-aos-delay="0"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               LinkedIn Lead Generation
             </div>
           </div>
@@ -47,7 +47,7 @@ function LeadSecondContainer() {
           data-aos-delay="200"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Demand Generation
             </div>
           </div>
@@ -67,7 +67,7 @@ function LeadSecondContainer() {
           data-aos-delay="400"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               SaaS Lead Generation
             </div>
           </div>
@@ -87,7 +87,7 @@ function LeadSecondContainer() {
           data-aos-delay="600"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               IT Lead Generation
             </div>
           </div>
@@ -107,7 +107,7 @@ function LeadSecondContainer() {
           data-aos-delay="800"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               B2C Lead Generation
             </div>
           </div>
@@ -127,7 +127,7 @@ function LeadSecondContainer() {
           data-aos-delay="1000"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Account-Based Marketing
             </div>
           </div>
@@ -147,7 +147,7 @@ function LeadSecondContainer() {
           data-aos-delay="1200"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Account-Based Marketing
             </div>
           </div>
@@ -167,7 +167,7 @@ function LeadSecondContainer() {
           data-aos-delay="1400"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Conversion Rate Optimization.
             </div>
           </div>
@@ -187,7 +187,7 @@ function LeadSecondContainer() {
           data-aos-delay="1600"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Email Marketing.
             </div>
           </div>
@@ -207,7 +207,7 @@ function LeadSecondContainer() {
           data-aos-delay="1800"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Content Marketing
             </div>
           </div>
@@ -227,7 +227,7 @@ function LeadSecondContainer() {
           data-aos-delay="2000"
         >
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor ">
               Analytics & Reporting
             </div>
           </div>

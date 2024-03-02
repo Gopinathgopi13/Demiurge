@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    // colors:{
+    //   heading1:""
+    // },
     extend: {
       backgroundImage: {
         AboutBG: "url('./src/assets/AboutBG.png')",

@@ -12,14 +12,14 @@ function PortfolioMainContainer() {
         Our Past Projects
       </div>
       <div
-        className="text-2xl text-[#E48F45] mb-12 text-center"
+        className="text-2xl primaryColor mb-12 text-center"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
       >
         Social Media Posts & Ads
       </div>
-      <div className="grid lg:grid-cols-3 gap-3">
+      <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
         {data.map(({ id, img }) => {
           console.log(img);
           return (

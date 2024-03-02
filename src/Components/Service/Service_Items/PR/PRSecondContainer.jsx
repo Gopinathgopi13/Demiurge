@@ -8,7 +8,7 @@ function PRSecondContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5 text-[#E48F45]">
+      <div className="md:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Our Expertise
       </div>
       <div className="grid lg:grid-cols-3 gap-5 my-10">

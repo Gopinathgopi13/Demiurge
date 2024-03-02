@@ -9,7 +9,7 @@ function VideoMarketingSecondContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="lg:text-5xl font-medium my-5 text-[#e48f45]">
+      <div className="lg:text-5xl font-medium my-5 primaryColor">
         Level up your brand strategy using professional video marketing services
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">

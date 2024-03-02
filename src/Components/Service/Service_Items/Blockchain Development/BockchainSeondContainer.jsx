@@ -3,7 +3,7 @@ import SEOImage from "../../../../assets/SVG/google_icon.svg";
 function BockchainSeondContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5 text-[#e48f45]">
+      <div className="md:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Enhance business performance by partnering with a blockchain development
       </div>
       <div className="text-lg md:w-[80%] my-10">

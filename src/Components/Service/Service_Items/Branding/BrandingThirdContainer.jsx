@@ -8,7 +8,7 @@ function BrandingThirdContainer() {
           <img src={SearchEO} className="w-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ]">
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Website Branding
           </div>
           <p className="text-lg font-light ">
@@ -27,7 +27,7 @@ function BrandingThirdContainer() {
           <img src={SearchEO} className="w-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ]">
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Social Media Branding
           </div>
           <p className="text-lg font-light">
@@ -46,7 +46,7 @@ function BrandingThirdContainer() {
           <img src={SearchEO} className="w-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ]">
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Corporate Branding
           </div>
           <p className="text-lg font-light ">

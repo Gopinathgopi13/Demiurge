@@ -9,7 +9,7 @@ function PRThirdContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="md:text-6xl text-3xl font-medium my-5 text-[#e48f45]">
+      <div className="md:text-6xl text-3xl font-medium my-5 primaryColor">
         Utilise our extensive network of media connections to control the
         narrative surrounding your brand
       </div>

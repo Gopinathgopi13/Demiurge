@@ -11,7 +11,7 @@ const Portfolio = () => {
         <Navbar />
       </div>
       <div className="bg-[#0c2d57] w-full">
-        <div className="lg:w-[1280px] lg:h-[35vh] mx-auto px-4 py-10 text-[#E48F45] lg:text-7xl text-4xl flex justify-center items-center font-extrabold leading-snug">
+        <div className="lg:w-[1280px] lg:h-[35vh] mx-auto px-4 py-10 primaryColor lg:text-7xl text-4xl flex justify-center items-center font-extrabold leading-snug">
           Portfolio
         </div>
       </div>

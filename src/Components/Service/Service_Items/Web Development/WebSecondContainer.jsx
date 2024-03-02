@@ -28,7 +28,7 @@ function WebSecondContainer() {
           <img src={SearchEO} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Harness The Expertise Of A Leading Website Development Company
           </div>
           <p>
@@ -52,7 +52,7 @@ function WebSecondContainer() {
           <img src={SearchEO2} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Specialist Website Development Services That Scale Your Business
           </div>
           <p>

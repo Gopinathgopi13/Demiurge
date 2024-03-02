@@ -8,7 +8,7 @@ function PPCSecondContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="lg:text-6xl text-3xl font-medium my-5 text-[#E48F45]">
+      <div className="lg:text-6xl text-3xl font-medium my-5 primaryColor">
         Our Pay-Per-Click Advertising Services
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">

@@ -11,7 +11,7 @@ function BlockChainMainPage() {
         data-aos-once="true"
       >
         <div className="text-lg">Video Marketing</div>
-        <div className="md:text-6xl text-4xl lg:w-[90%] font-extrabold leading-snug text-[#e48f45]">
+        <div className="md:text-6xl text-4xl lg:w-[90%] font-extrabold leading-snug primaryColor">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
           impedit?
         </div>
@@ -21,11 +21,11 @@ function BlockChainMainPage() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <div className="lg:px-10 px-10 py-5 lg:text-xl font-semibold border-2 flex justify-center items-center text-[#E48F45] cursor-pointer">
+          <div className="lg:px-10 px-10 py-5 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="text-[#E48F45]" /> */}
+            {/* <FaArrowRight size={20} className="primaryColor" /> */}
           </div>
         </Link>
       </div>

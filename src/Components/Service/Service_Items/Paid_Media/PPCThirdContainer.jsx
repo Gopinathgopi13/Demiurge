@@ -4,7 +4,7 @@ import SEOImage from "../../../../assets/SVG/google_icon.svg";
 function PPCThirdContainer() {
   return (
     <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
-      <div className="lg:text-6xl text-3xl font-medium my-5 py-5 text-[#E48F45]">
+      <div className="lg:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Our Platforms
       </div>
       <div className="grid lg:grid-cols-3 gap-5 my-10">

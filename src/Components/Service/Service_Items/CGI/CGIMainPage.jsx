@@ -10,7 +10,7 @@ function CGIMainPage() {
       data-aos-once="true"
     >
       <div className="text-lg">CGI</div>
-      <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug text-[#e48f45]">
+      <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug primaryColor">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </div>
       <div className=" text-4xl lg:w-[90%]  leading-snug">

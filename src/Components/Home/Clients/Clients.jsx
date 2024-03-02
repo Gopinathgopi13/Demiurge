@@ -18,7 +18,7 @@ import Marquee from "react-fast-marquee";
 function Clients() {
   return (
     <div className="lg:w-[1280px] mx-auto">
-      <div className="lg:text-6xl text-3xl font-bold text-[#e48f45] text-center">
+      <div className="lg:text-6xl text-3xl font-bold primaryColor text-center">
         Our Clients
       </div>
       <Marquee>

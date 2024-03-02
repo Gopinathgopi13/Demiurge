@@ -9,7 +9,7 @@ function SEOFourthConitainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="md:text-5xl text-3xl text-center font-medium my-5 text-[#E48F45]">
+      <div className="md:text-5xl text-3xl text-center font-medium my-5 primaryColor">
         Ready to wield the power of SEO ? 
       </div>
       <div className="px-14 space-y-3 md:text-xl font-light flex flex-col justify-center items-center gap-5">
@@ -22,7 +22,7 @@ function SEOFourthConitainer() {
         </p>
         <div>
           <Link to="/contactForm">
-            <div className="px-10 w-auto py-3 rounded-sm text-xl font-semibold text-[#E48F45] bg-white flex items-center gap-4 cursor-pointer">
+            <div className="px-10 w-auto py-3 rounded-sm text-xl font-semibold primaryColor bg-white flex items-center gap-4 cursor-pointer">
               <Link to="/contact">Book A Call Now</Link>
             </div>
           </Link>

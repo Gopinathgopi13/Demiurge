@@ -9,7 +9,7 @@ function CommunitySecondContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="lg:text-6xl text-3xl font-medium my-5 text-[#e48f45]">
+      <div className="lg:text-6xl text-3xl font-medium my-5 primaryColor">
         Building a discord community can transform your crypto project
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">

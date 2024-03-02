@@ -29,7 +29,7 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             IPhone App Development Services
           </div>
           <p>
@@ -51,7 +51,7 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Android App Development Services
           </div>
           <p>
@@ -73,7 +73,7 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Hybrid App Development Services
           </div>
           <p>
@@ -95,7 +95,7 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Progressive Web App Development Services
           </div>
           <p>
@@ -117,7 +117,7 @@ function MobileSecondContainer() {
           <div>
             <img src={phone} alt="" />
           </div>
-          <div className="font-semibold text-2xl text-[#e48f45]">
+          <div className="font-semibold text-2xl primaryColor">
             Mobile App Development Consulting Services
           </div>
           <p>

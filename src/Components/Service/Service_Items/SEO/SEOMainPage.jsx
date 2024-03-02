@@ -15,7 +15,7 @@ function SEOMainPage() {
           <img src={SEO_Home_Page} alt="" />
         </div>
         {/* <div className="text-lg">SEO</div> */}
-        <div className="md:text-5xl text-[6vw] lg:w-[60%] font-extrabold leading-snug text-[#E48F45]">
+        <div className="md:text-5xl text-[6vw] lg:w-[60%] font-extrabold leading-snug primaryColor">
           SEO isn't just a tool—it's your secret weapon
         </div>
         <div className="lg:w-[50%] lg:text-xl text-justify">
@@ -28,11 +28,11 @@ function SEOMainPage() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <div className="lg:px-10 px-5  lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center text-[#E48F45] cursor-pointer">
+          <div className="lg:px-10 px-5  lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            <FaArrowRight size={20} className="text-[#E48F45]" />
+            <FaArrowRight size={20} className="primaryColor" />
           </div>
         </Link>
       </div>

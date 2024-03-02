@@ -5,7 +5,7 @@ function MarketingService() {
   return (
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 text-black flex flex-col items-center gap-y-24">
-        <div className="md:text-6xl text-3xl  font-bold text-[#E48F45]">
+        <div className="md:text-6xl text-3xl  font-bold primaryColor">
           Our Social Media{" "}
           <span className="bg-[#0c2d57] px-3">Marketing Services</span>
         </div>

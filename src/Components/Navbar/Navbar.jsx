@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoMenu, IoClose } from "react-icons/io5";
 import Button from "../Button";
 import NavLinks from "./NavLinks";
-import OrginalLogo1 from "../../../public/OrginalLogo1.png";
+import OrginalLogo1 from "../../../public/OrginalLogo2.png";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (

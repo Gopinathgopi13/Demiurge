@@ -155,7 +155,7 @@ function OrganicPaid() {
             </div>
           </div>
           <Link to="/contactForm">
-            <div className="px-4 py-3 rounded-sm text-2xl bg-[#E48F45] flex items-center gap-4 cursor-pointer">
+            <div className="px-4 py-3 rounded-sm text-2xl bg-[#ff8400] flex items-center gap-4 cursor-pointer">
               <Link to="/contact">Get a proposal</Link>
             </div>
           </Link>

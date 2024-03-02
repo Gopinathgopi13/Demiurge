@@ -10,7 +10,7 @@ function BrandingFourthContainer() {
         <div className="flex flex-col items-center h-60 gap-5">
           <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
-            <div className="text-xl font-semibold text-[#e48f45] ">Brand Messaging</div>
+            <div className="text-xl font-semibold primaryColor ">Brand Messaging</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -23,7 +23,7 @@ function BrandingFourthContainer() {
         <div className="flex flex-col items-center h-60 gap-5">
           <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
-            <div className="text-xl font-semibold text-[#e48f45] ">Logo Design</div>
+            <div className="text-xl font-semibold primaryColor ">Logo Design</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,7 +36,7 @@ function BrandingFourthContainer() {
         <div className="flex flex-col items-center h-60 gap-5">
           <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
-            <div className="text-xl font-semibold text-[#e48f45] ">Brand Positioning</div>
+            <div className="text-xl font-semibold primaryColor ">Brand Positioning</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,7 +49,7 @@ function BrandingFourthContainer() {
         <div className="flex flex-col items-center h-60 gap-5">
           <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
-            <div className="text-xl font-semibold text-[#e48f45] ">Brand Style</div>
+            <div className="text-xl font-semibold primaryColor ">Brand Style</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,7 +62,7 @@ function BrandingFourthContainer() {
         <div className="flex flex-col items-center h-60 gap-5">
           <div className="h-[40%] flex flex-col justify-center items-center ">
             <img src={SEOImage} className="h-[80%]" />
-            <div className="text-xl font-semibold text-[#e48f45] ">Brand Tone Of Voice</div>
+            <div className="text-xl font-semibold primaryColor ">Brand Tone Of Voice</div>
           </div>
           <div className=" text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

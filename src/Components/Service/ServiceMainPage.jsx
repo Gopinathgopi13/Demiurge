@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ServiceMainPage() {
   return (
     <div className="w-full">
-      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-[#E48F45] flex flex-col justify-center items-center gap-y-14">
+      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] primaryColor flex flex-col justify-center items-center gap-y-14">
         <div className="lg:text-6xl text-3xl lg:w-[70%] text-center font-extrabold leading-snug"
         data-aos="fade-down"
         data-aos-duration="1000"
@@ -19,7 +19,7 @@ function ServiceMainPage() {
         >
           <div className="px-16 py-5 text-xl border-2 text-white flex items-center gap-4 cursor-pointer">
             <Link to="/contact">Get proposal</Link>
-            <FaArrowRight size={20} className="text-[#E48F45]"/>
+            <FaArrowRight size={20} className="primaryColor"/>
           </div>
         </Link>
       </div>

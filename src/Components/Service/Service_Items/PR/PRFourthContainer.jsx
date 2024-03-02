@@ -8,7 +8,7 @@ function PRFourthContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5 text-[#e48f45]">
+      <div className="md:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Our SEO Agency Can Help You By:
       </div>
       <div className="grid lg:grid-cols-3 gap-5">

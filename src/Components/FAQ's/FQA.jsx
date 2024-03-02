@@ -58,7 +58,7 @@ const FAQ = () => {
           data-aos-duration="1000"
           data-aos-once="ture"
         >
-          <h2 className="text-6xl mx-auto">FQA's</h2>
+          <h2 className="text-6xl mx-auto primaryColor">FAQ's</h2>
         </div>
         {accordions.map((accordion) => (
           <Accordion

@@ -14,7 +14,7 @@ function PRMainPage() {
           <img src={PR_Home_Page} alt="" />
         </div>
         <div className="text-lg">PR</div>
-        <div className="md:text-6xl text-3xl lg:w-[60%] font-extrabold leading-snug text-[#E48F45]">
+        <div className="md:text-6xl text-3xl lg:w-[60%] font-extrabold leading-snug primaryColor">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
           impedit?
         </div>
@@ -24,11 +24,11 @@ function PRMainPage() {
           // data-aos-duration="1000"
           // data-aos-delay="500"
         >
-          <div className="lg:px-10 px-10 py-5 lg:text-xl font-semibold border-2 flex justify-center items-center text-[#E48F45] cursor-pointer">
+          <div className="lg:px-10 px-10 py-5 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="text-[#E48F45]" /> */}
+            {/* <FaArrowRight size={20} className="primaryColor" /> */}
           </div>
         </Link>
       </div>

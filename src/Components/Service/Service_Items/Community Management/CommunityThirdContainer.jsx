@@ -5,7 +5,7 @@ function CommunityThirdContainer() {
     data-aos="fade-down"
     dara-aos-duration="1000"
     data-aos-once="true">
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5 text-[#e48f45]">
+      <div className="md:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Our Crypto Community Management Services
       </div>
       <div className="my-5 py-5 text-lg">
@@ -17,7 +17,7 @@ function CommunityThirdContainer() {
       <div className="grid lg:grid-cols-3 gap-10 my-10">
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor">
               Event Planning And Execution: 
             </div>
           </div>
@@ -31,7 +31,7 @@ function CommunityThirdContainer() {
 
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">Growth Management:</div>
+            <div className="text-xl font-semibold primaryColor">Growth Management:</div>
           </div> 
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -43,7 +43,7 @@ function CommunityThirdContainer() {
 
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">Engagement Services:</div>
+            <div className="text-xl font-semibold primaryColor">Engagement Services:</div>
           </div> 
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -55,7 +55,7 @@ function CommunityThirdContainer() {
 
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor">
               Content Creation And Curation: 
             </div>
           </div>
@@ -69,7 +69,7 @@ function CommunityThirdContainer() {
 
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
-            <div className="text-xl font-semibold text-[#e48f45]">
+            <div className="text-xl font-semibold primaryColor">
               Group Creation And Management: 
             </div>
           </div>

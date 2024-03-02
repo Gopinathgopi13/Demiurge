@@ -8,7 +8,7 @@ function MainPage() {
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 h-[90vh] text-white flex flex-col justify-center items-center gap-y-14">
         <div
-          className="lg:text-6xl text-3xl lg:w-[70%] text-center font-extrabold leading-snug text-[#FF8400]"
+          className="lg:text-6xl text-3xl lg:w-[70%] text-center font-extrabold leading-snug primaryColor"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -32,11 +32,11 @@ function MainPage() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <div className="lg:px-16 px-10 py-5 lg:text-xl font-semibold border-2 flex items-center gap-4 cursor-pointer">
+          <div className="lg:px-16 px-10 py-5 lg:text-xl font-semibold border-2 hover:border-[#ff8400] flex items-center gap-4 cursor-pointer">
             <Link to="/contact" id="shine">
               Unlock a no-cost proposal
             </Link>
-            <FaArrowRight size={20} className="text-[#FF8400]" />
+            <FaArrowRight size={20} className="primaryColor" />
           </div>
         </Link>
       </div>

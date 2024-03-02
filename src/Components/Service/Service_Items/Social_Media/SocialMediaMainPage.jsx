@@ -16,7 +16,7 @@ function SocialMediaMainPage() {
           <img src={SocialMedia_Home_Page} alt="" />
         </div>
         {/* <div className="text-lg">Social Media</div> */}
-        <div className="lg:text-5xl text-3xl lg:w-[60%] font-extrabold text-[#E48F45] lg:text-start text-center">
+        <div className="lg:text-5xl text-3xl lg:w-[60%] font-extrabold primaryColor lg:text-start text-center">
           Unlock Your Brand's Social Potential with Us!
         </div>
         <div className="lg:w-[50%] lg:text-xl text-justify">
@@ -29,11 +29,11 @@ function SocialMediaMainPage() {
           // data-aos-duration="1000"
           // data-aos-delay="500"
         >
-          <div className="lg:px-10 px-10 lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center text-[#E48F45] cursor-pointer">
+          <div className="lg:px-10 px-10 lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="text-[#E48F45]" /> */}
+            {/* <FaArrowRight size={20} className="primaryColor" /> */}
           </div>
         </Link>
       </div>
