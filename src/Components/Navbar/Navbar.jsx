@@ -7,14 +7,14 @@ import OrginalLogo1 from "../../../public/OrginalLogo2.png";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="text-white hover:bg-black w-full z-50 sticky top-0">
-      <div className="lg:w-[1280px] mx-auto flex items-center font-medium justify-around">
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
+    <nav className="text-white w-full z-50">
+      <div className="lg:w-[1280px] mx-auto flex items-center font-medium justify-around rounded-full">
+        <div className="z-50 px-5 md:w-auto w-full flex justify-between">
           <a href="/">
             <img
               src={OrginalLogo1}
               alt="logo"
-              className="md:cursor-pointer h-16"
+              className="md:cursor-pointer h-14"
             />
           </a>
           <div
