@@ -1,13 +1,13 @@
 import React from "react";
-import google from "../../../../assets/PM SVG/google.svg";
-import googleShopping from "../../../../assets/PM SVG/shopping.svg";
-import Meta from "../../../../assets/PM SVG/meta.svg";
-import YouTube from "../../../../assets/PM SVG/youTube.svg";
-import LinkedIn from "../../../../assets/PM SVG/linkedIn.svg";
-import Bing from "../../../../assets/PM SVG/bing.svg";
-import Twitter from "../../../../assets/PM SVG/twitter.svg";
-import Amazon from "../../../../assets/PM SVG/amazon.svg";
-import Sharechat from "../../../../assets/PM SVG/sharechat.svg";
+// import google from "../../../../assets/PM SVG/google.svg";
+// import googleShopping from "../../../../assets/PM SVG/shopping.svg";
+// import Meta from "../../../../assets/PM SVG/meta.svg";
+// import YouTube from "../../../../assets/PM SVG/youTube.svg";
+// import LinkedIn from "../../../../assets/PM SVG/linkedIn.svg";
+// import Bing from "../../../../assets/PM SVG/bing.svg";
+// import Twitter from "../../../../assets/PM SVG/twitter.svg";
+// import Amazon from "../../../../assets/PM SVG/amazon.svg";
+// import Sharechat from "../../../../assets/PM SVG/sharechat.svg";
 
 function PPCThirdContainer() {
   return (
@@ -23,7 +23,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={google} className="h-[40%]" />
+            {/* <img src={google} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Google Ads</div>
           </div>
           <div className=" ">
@@ -40,7 +40,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8 ">
-            <img src={googleShopping} className="h-[40%]" />
+            {/* <img src={googleShopping} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Google Shopping Ads</div>
           </div>
           <div className=" ">
@@ -55,7 +55,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={Meta} className="h-[40%]" />
+            {/* <img src={Meta} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Meta Ads</div>
           </div>
           <div className=" ">
@@ -72,7 +72,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={YouTube} className="h-[40%]" />
+            {/* <img src={YouTube} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">YouTube Ads</div>
           </div>
           <div className=" ">
@@ -89,7 +89,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={LinkedIn} className="h-[40%]" />
+            {/* <img src={LinkedIn} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">LinkedIn Ads</div>
           </div>
           <div className=" ">
@@ -106,7 +106,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={Bing} className="h-[40%]" />
+            {/* <img src={Bing} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Bing Ads</div>
           </div>
           <div className=" ">
@@ -122,7 +122,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={Twitter} className="h-[40%]" />
+            {/* <img src={Twitter} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Twitter Ads</div>
           </div>
           <div className=" ">
@@ -139,7 +139,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={Amazon} className="h-[40%]" />
+            {/* <img src={Amazon} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Amazon Ads</div>
           </div>
           <div className=" ">
@@ -155,7 +155,7 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            <img src={Sharechat} className="h-[40%]" />
+            {/* <img src={Sharechat} className="h-[40%]" /> */}
             <div className="text-xl text-[#0c2d57]">Sharechat Ads</div>
           </div>
           <div className=" ">
