@@ -5,7 +5,7 @@ function CallToTeam() {
     <div className="w-full px-4 bg-[#0C2D57] h-[700px] flex flex-col justify-center bg-cover bg-no-repeat">
       <div className="lg:w-[1280px] mx-auto flex flex-col justify-around items-center gap-y-10 text-white">
         <div
-          className="lg:text-5xl text-3xl text-center font-semibold leading-normal primaryColor"
+          className="lg:text-4xl text-3xl text-center font-bold leading-normal primaryColor"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"

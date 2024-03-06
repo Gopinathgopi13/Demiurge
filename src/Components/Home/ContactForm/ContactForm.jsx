@@ -11,7 +11,7 @@ function ContactForm() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <div className="lg:text-6xl text-3xl font-semibold">
+          <div className="lg:text-4xl text-3xl font-semibold">
             Get in touch with Demiurge
           </div>
           <div className="lg:text-lg font-light">
