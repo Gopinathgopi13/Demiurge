@@ -10,6 +10,9 @@ import IndustriesComponent from "./Industries_Component/IndustriesComponent";
 import { motion } from "framer-motion";
 import industriesBG from "../../assets/industriesBG.jpg";
 import FAQ from "../FAQ's/FQA";
+import { Link } from "react-router-dom";
+import FloatingSocialMedia from "../Common/FloatingSocialMedia";
+import CookieBar from "../Common/CookieBar";
 // import backgroundVideo from "../../assets/Background-Video.mp4";
 function Home() {
   return (
@@ -47,6 +50,12 @@ function Home() {
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>
+      <div>
+        <FloatingSocialMedia />
+      </div>
+      {/* <div>
+        <CookieBar/>
+      </div> */}
     </div>
   );
 }

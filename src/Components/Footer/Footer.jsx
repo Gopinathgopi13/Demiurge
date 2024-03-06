@@ -13,7 +13,7 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
-            <div className="col-span-2">
+            {/* <div className="col-span-2">
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                   Get the latest news!
@@ -24,9 +24,9 @@ function Footer() {
                   non cupiditate quae nam molestias.
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
+            {/* <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
               <form className="w-full">
                 <label htmlFor="UserEmail" className="sr-only">
                   {" "}
@@ -46,7 +46,7 @@ function Footer() {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
 
             <div className="col-span-2 sm:col-span-1">
               <p className="font-medium text-gray-900 dark:text-white">
@@ -355,14 +355,14 @@ function Footer() {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a
                   href="#"
                   className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
                 >
                   Cookies
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

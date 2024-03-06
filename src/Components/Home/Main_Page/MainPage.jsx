@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../Home.css";
+import ServiceAmountDetails from "../ServiceAmountDetails";
 
 function MainPage() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  };
   return (
     <div className="w-full">
       <div className="lg:w-[1280px] mx-auto px-4 h-[90vh] text-white flex flex-col justify-center items-center gap-y-14">
@@ -25,20 +31,15 @@ function MainPage() {
             <br /> without lifting a finger
           </span>
         </div>
-
-        <Link
-          to="/contactForm"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="500"
+        <ServiceAmountDetails></ServiceAmountDetails>
+        {/* <button
+          className="lg:px-16 px-10 py-5 lg:text-xl font-semibold border-2 hover:border-[#ff8400] flex items-center gap-4 cursor-pointer "
+          onClick={togglePopup}
         >
-          <div className="lg:px-16 px-10 py-5 lg:text-xl font-semibold border-2 hover:border-[#ff8400] flex items-center gap-4 cursor-pointer">
-            <Link to="/contact" id="shine">
-              Unlock a no-cost proposal
-            </Link>
-            <FaArrowRight size={20} className="primaryColor" />
-          </div>
-        </Link>
+          <div id="shine">Unlock a no-cost proposal</div>
+          <FaArrowRight size={20} className="primaryColor" />
+        </button> */}
+        {/* {showPopup && <ServiceAmountDetails onClose={togglePopup} />} */}
       </div>
     </div>
   );

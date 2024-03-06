@@ -6,6 +6,7 @@ import Navbar from "../../../Navbar/Navbar";
 import ContactForm from "../../../Home/ContactForm/ContactForm";
 import Footer from "../../../Footer/Footer";
 import CTA from "./CTA";
+import PPCFourthContainer from "./PPCFourthContainer";
 
 function PPC() {
   return (
@@ -22,10 +23,12 @@ function PPC() {
       <div className="my-20">
         <PPCThirdContainer />
       </div>
+      <div>
+        <PPCFourthContainer/>
+      </div>
       <div className="bg-[#0c2d57]">
         <CTA />
       </div>
-
       <div>
         <Footer />
       </div>

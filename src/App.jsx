@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Service from "./Components/Service/Service";
 import Contact from "./Components/Contact/Contact";
-import Industries from "./Components/Industries/Industries";
 import Work from "./Components/Work/Work";
 import SocialMedia from "./Components/Service/Service_Items/Social_Media/SocialMedia";
 import About from "./Components/About/About";
@@ -21,20 +20,8 @@ import MobileApp from "./Components/Service/Service_Items/Mobile App Development
 import Blockchain from "./Components/Service/Service_Items/Blockchain Development/Blockchain";
 import LeadGeneration from "./Components/Service/Service_Items/Lead Generation/LeadGeneration";
 import ARVR from "./Components/Service/Service_Items/ARVR/ARVR";
-import CryptoMarketing from "./Components/Industries/Industries Item/Crypto Marketing/CryptoMarketing";
-import FintechMarketing from "./Components/Industries/Industries Item/Fintect Marketing/FintechMarketing";
-import SoftwareMarketing from "./Components/Industries/Industries Item/Software Marketing/SoftwareMarketing";
-import StartupMarketing from "./Components/Industries/Industries Item/Startup Marketing/StartupMarketing";
-import SmallBusiness from "./Components/Industries/Industries Item/Small Business Marketing/SmallBusiness";
-import ECommerceMarketing from "./Components/Industries/Industries Item/eCommerce Marketing/ECommerceMarketing";
-import GamingMarketing from "./Components/Industries/Industries Item/Gaming Marketing/GamingMarketing";
-import EsportsMarketing from "./Components/Industries/Industries Item/Esports Marketing/EsportsMarketing";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import RealEstateMarketing from "./Components/Industries/Industries Item/RealEstate Marketing/RealEstateMarketing";
-import Tourism from "./Components/Industries/Industries Item/Tourism/Tourism";
-import Healthcare from "./Components/Industries/Industries Item/Healthcare/Healthcare";
-import B2bMarketing from "./Components/Industries/Industries Item/B2B Marketing/B2bMarketing";
-import Education from "./Components/Industries/Industries Item/Education Marketing/Education";
+
 
 function App() {
   const [loading, setLoading] = useState(true);
