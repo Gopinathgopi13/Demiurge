@@ -19,26 +19,24 @@ const CGISecondContainer = () => {
         </div>
         <div className="flex flex-col justify-around text-justify px-2 gap-5">
           <p className="leading-6">
-            Community management is integral to establishing a brand's identity
-            and reputation. By actively engaging with community members, brands
-            can cultivate meaningful relationships, foster a sense of belonging,
-            and drive loyalty and advocacy. This interaction humanizes the
-            brand, making it more approachable and relatable to its audience.
-            Satisfied customers can be transformed into enthusiastic brand
-            advocates, expanding the brand's reach and influence through
-            word-of-mouth promotion.
+            Transform your brand's presence with CGI ads that defy boundaries
+            and captivate audiences. Through mesmerizing visuals and innovative
+            storytelling, our CGI creations transport viewers into immersive
+            worlds where imagination knows no limits. From vibrant landscapes to
+            dynamic characters, each frame is meticulously crafted to evoke
+            emotion and spark curiosity. With CGI ads, your brand can break
+            through the noise and forge meaningful connections with consumers,
+            elevating your outreach to new heights of engagement and impact.
+            Experience the transformative power of CGI ads and unlock boundless
+            possibilities for your brand's success.
           </p>
-          <p className="leading-6">
-            Furthermore, community management serves as a valuable feedback loop
-            for brands. By listening to community members' opinions,
-            suggestions, and concerns, brands gain insights into customer
-            preferences, pain points, and trends. This feedback informs product
-            development, marketing strategies, and overall brand positioning,
-            contributing to its growth and evolution. Through personalized
-            communication, exclusive perks, and rewards, community managers can
-            strengthen the emotional connection between customers and the brand,
-            fostering long-term loyalty and retention.
-          </p>
+          <ul className="list-disc px-5 text-lg font-popins ">
+            <li>Unlimited Creativity</li>
+            <li> Targeted Personalization</li>
+            <li> Brand Consistency</li>
+            <li>Cost-Effective Solutions</li>
+            <li>Interactive Experiences</li>
+          </ul>
         </div>
       </div>
     </div>
