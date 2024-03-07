@@ -10,10 +10,14 @@ function WebMainPage() {
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="text-lg">Website Development</div>
+        {/* <div className="text-lg">Website Development</div> */}
         <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+          Empowering Your Online Presence with Expert Website Development.
+        </div>
+        <div className="lg:w-[50%] lg:text-xl text-justify">
+          With our strategic approach to website development, we'll help you
+          stand out in the crowded online landscape and achieve your business
+          objectives.
         </div>
         <Link
           to="/contactForm"

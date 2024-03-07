@@ -1,83 +1,81 @@
 import React from "react";
 function CommunityThirdContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10" 
-    data-aos="fade-down"
-    dara-aos-duration="1000"
-    data-aos-once="true">
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
-        Our Crypto Community Management Services
-      </div>
-      <div className="my-5 py-5 text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati
-        eligendi velit! Expedita, dignissimos neque. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Sequi obcaecati eligendi velit! Expedita,
-        dignissimos neque.
+    <div
+      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10"
+      data-aos="fade-down"
+      dara-aos-duration="1000"
+      data-aos-once="true"
+    >
+      <div className="md:text-4xl text-3xl font-semibold my-5 py-5 primaryColor">
+        Our Comprehensive Community Management Services
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
             <div className="text-xl font-semibold primaryColor">
-              Event Planning And Execution: 
+              Social Media Platforms
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
-          </div>
-        </div>
-
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
-            <div className="text-xl font-semibold primaryColor">Growth Management:</div>
-          </div> 
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
-          </div>
-        </div>
-
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
-            <div className="text-xl font-semibold primaryColor">Engagement Services:</div>
-          </div> 
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Social media platforms such as Facebook, Twitter, Instagram,
+            LinkedIn, and Pinterest are popular choices for building and
+            managing communities. These platforms offer features such as groups,
+            pages, and hashtags that facilitate interaction and engagement among
+            community members.
           </div>
         </div>
 
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
             <div className="text-xl font-semibold primaryColor">
-              Content Creation And Curation: 
+              Online Forums
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Dedicated online forums, such as Reddit, Quora, and niche-specific
+            forums, provide a structured platform for discussions, Q&A, and
+            sharing of information within a particular interest or topic area.
           </div>
         </div>
 
         <div className="flex flex-col h-60 gap-5 py-5">
           <div>
             <div className="text-xl font-semibold primaryColor">
-              Group Creation And Management: 
+              Community Management Software
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            There are also specialized community management software platforms,
+            such as Discourse, Vanilla Forums, and Salesforce Community Cloud,
+            designed specifically for managing online communities.
+          </div>
+        </div>
+
+        <div className="flex flex-col h-60 gap-5 py-5">
+          <div>
+            <div className="text-xl font-semibold primaryColor">
+              Branded Community Platforms
+            </div>
+          </div>
+          <div>
+            Some brands choose to create their own branded community platforms,
+            such as forums, blogs, or membership sites, hosted on their own
+            websites. These platforms offer brands full control over community
+            interactions.
+          </div>
+        </div>
+
+        <div className="flex flex-col h-60 gap-5 py-5">
+          <div>
+            <div className="text-xl font-semibold primaryColor">
+              Messaging Apps
+            </div>
+          </div>
+          <div>
+            Messaging apps like WhatsApp, Slack, Discord, and Telegram can also
+            be used for community management, particularly for smaller, more
+            intimate communities or internal teams.
           </div>
         </div>
       </div>

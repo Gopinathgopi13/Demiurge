@@ -6,6 +6,10 @@ import PRSecondContainer from "../PR/PRSecondContainer";
 import PRThirdContainer from "../PR/PRThirdContainer";
 import PRFourthContainer from "../PR/PRFourthContainer";
 import CGIMainPage from "./CGIMainPage";
+import CGISecondContainer from "./CGISecondContainer";
+import CGIThirdContainer from "./CGIThirdContainer";
+import FAQ from "./FAQ";
+import CTA from "./CTA";
 
 function CGI() {
   return (
@@ -17,16 +21,16 @@ function CGI() {
         <CGIMainPage />
       </div>
       <div className="my-20">
-        <PRSecondContainer />
+        <CGISecondContainer />
       </div>
       <div className="bg-[#0C2D57] py-20">
-        <PRThirdContainer />
+        <CGIThirdContainer />
       </div>
       <div className="py-20">
-        <PRFourthContainer />
+        <FAQ />
       </div>
-      <div>
-        <ContactForm />
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
       <div>
         <Footer />

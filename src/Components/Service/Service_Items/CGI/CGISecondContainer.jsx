@@ -1,7 +1,7 @@
 import React from "react";
 import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
 
-function CommunitySecondContainer() {
+const CGISecondContainer = () => {
   return (
     <div
       className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4"
@@ -10,8 +10,8 @@ function CommunitySecondContainer() {
       data-aos-once="true"
     >
       <div className="lg:text-4xl text-2xl font-semibold w-[80%] mx-auto text-center my-5 primaryColor">
-        Humanizing your brand will establish a deeper connection with your
-        audience.
+        Harness the impactful capabilities of CGI ads to elevate your brand's
+        outreach to unparalleled levels
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
@@ -43,6 +43,6 @@ function CommunitySecondContainer() {
       </div>
     </div>
   );
-}
+};
 
-export default CommunitySecondContainer;
+export default CGISecondContainer;

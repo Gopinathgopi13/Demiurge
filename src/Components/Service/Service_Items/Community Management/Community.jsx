@@ -5,6 +5,8 @@ import CommunityThirdContainer from "./CommunityThirdContainer";
 import CommunityFourthContainer from "./CommunityFourthContainer";
 import ContactForm from "../../../Home/ContactForm/ContactForm";
 import Footer from "../../../Footer/Footer";
+import CTA from "./CTA";
+import FAQ from "./FAQ";
 
 function Community() {
   return (
@@ -21,11 +23,11 @@ function Community() {
       <div className="bg-[#0c2d57] text-white">
         <CommunityThirdContainer />
       </div>
-      <div className="my-20">
-        <CommunityFourthContainer />
-      </div>
       <div>
-        <ContactForm />
+        <FAQ/>
+      </div>
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />

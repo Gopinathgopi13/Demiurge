@@ -9,12 +9,13 @@ function CGIMainPage() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="text-lg">CGI</div>
       <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug primaryColor">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Experience the visual revolution. Elevate your brand's storytelling with
+        CGI!
       </div>
-      <div className=" text-4xl lg:w-[90%]  leading-snug">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, impedit?
+      <div className=" text-xl lg:w-[60%] leading-snug">
+        Unlock the power of CGI to revolutionize your brand's storytelling.
+        Elevate your visuals and captivate your audience like never before.
       </div>
       <Link to="/contactForm">
         <div className="px-16 py-5 text-xl bg-blue-700 flex items-center gap-4 cursor-pointer">

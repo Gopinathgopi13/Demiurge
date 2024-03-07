@@ -23,7 +23,7 @@ function WebSecondContainer() {
           </p>
         </div>
       </div>
-      <div className="w-[95%] grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl text-white">
+      {/* <div className="w-[95%] grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl text-white">
         <div className="w-full rounded-xl overflow-hidden">
           <img src={SearchEO} className="w-full h-full" alt="" />
         </div>
@@ -46,7 +46,7 @@ function WebSecondContainer() {
             long enough to discover your unique offering.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl text-white">
         <div className="rounded-xl overflow-hidden">
           <img src={SearchEO2} className="w-full h-full" alt="" />

@@ -10,13 +10,13 @@ function CommunityMainPage() {
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="text-lg">Community Management</div>
+        {/* <div className="text-lg">Community Management</div> */}
         <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Let Us Manage Your Community with Expertise and Care.
         </div>
-        <div className=" text-2xl lg:w-[90%] leading-snug">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+        <div className=" text-xl lg:w-[60%] leading-snug">
+          Humanizing your brand is a transformative approach that connects your
+          brand with people on a personal and emotional level.
         </div>
         <Link
           to="/contactForm"
