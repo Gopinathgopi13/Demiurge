@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../../../Navbar/Navbar";
-import ContactForm from "../../../Home/ContactForm/ContactForm";
 import Footer from "../../../Footer/Footer";
 import VideoMarketingSecondContainer from "./VideoMarketingSecondContainer";
 import VideoMarketingMainPage from "./VideoMarketingMainPage";
 import VideoMarketingThirdContainer from "./VideoMarketingThirdContainer";
-import VideoMarketingFourthContainer from "./VideoMarketingFourthContainer";
+import CTA from "./CTA";
+import FAQ from "./FAQ";
 
 function VideoMarketing() {
   return (
@@ -23,10 +23,10 @@ function VideoMarketing() {
         <VideoMarketingThirdContainer />
       </div>
       <div>
-        <VideoMarketingFourthContainer />
+        <FAQ />
       </div>
-      <div>
-        <ContactForm />
+      <div className="bg-[#0c2d57]">
+       <CTA/>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />

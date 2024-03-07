@@ -9,31 +9,32 @@ function PRThirdContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="md:text-6xl text-3xl font-medium my-5 primaryColor">
-        Utilise our extensive network of media connections to control the
-        narrative surrounding your brand
+      <div className="md:text-4xl font-semibold text-3xl my-5 primaryColor">
+        Your brand's narrative is an ongoing conversation, whether you're
+        actively shaping it or not. Why leave it to chance? At Demiurge, we
+        understand the importance of taking control of your story
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="md:w-[70%] h-[80%]" alt="" />
+          <img src={SearchEO} className="md:w-[95%] h-[80%]" alt="" />
         </div>
-        <div className="flex flex-col justify-around text-justify px-2 gap-5 text-lg text-white">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
-            asperiores fuga odio incidunt. Nulla, rerum explicabo similique
-            illum facere ullam, amet laudantium a labore fugiat incidunt,
-            tempore aspernatur ex corporis cumque eligendi assumenda impedit
-            necessitatibus id officia consectetur quisquam suscipit. Minus
-            perspiciatis cumque atque natus! Illo voluptatum iure repudiandae.
+        <div className="text-justify text-xl px-2 gap-5 text-white">
+          <p className="leading-8">
+            Through our strategic PR services, we empower you to lead the
+            conversation. Leveraging our team's extensive background in the
+            media industry, we've cultivated invaluable connections to ensure
+            your brand's narrative is not only heard but also resonates
+            positively. Let us guide you in shaping perceptions, safeguarding
+            your brand's reputation, and ultimately, driving your success.
           </p>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quae
             quas? Eaque deleniti accusamus eius veritatis distinctio sint hic
             voluptatum dolore error esse nisi, et maxime, voluptatibus libero
             quos nam soluta saepe ipsum iste temporibus laborum corrupti? Esse
             iste repudiandae quasi eos ipsum ipsa, adipisci suscipit iusto! Ex,
             facere fugiat?
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

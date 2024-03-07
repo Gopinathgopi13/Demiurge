@@ -6,6 +6,7 @@ import PRMainPage from "./PRMainPage";
 import PRSecondContainer from "./PRSecondContainer";
 import PRThirdContainer from "./PRThirdContainer";
 import PRFourthContainer from "./PRFourthContainer";
+import CTA from "./CTA";
 
 function PR() {
   return (
@@ -27,9 +28,9 @@ function PR() {
       </div>
 
       {/* Call To action */}
-      {/* <div>
-        <ContactForm />
-      </div> */}
+      <div className="bg-[#0c2d57]">
+        <CTA/>
+      </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>

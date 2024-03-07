@@ -18,8 +18,8 @@ function PRMainPage() {
           Amplify Your Influence with Dynamic PR Strategies.
         </div>
         <div className="lg:w-[50%] lg:text-xl text-justify">
-          Expert PR Strategies is a new way to connect with the right people
-          and achieve lasting success.
+          Position your brand for recognition and reputation growth with our
+          strategic public relations tactics.
         </div>
         <Link
           to="/contactForm"

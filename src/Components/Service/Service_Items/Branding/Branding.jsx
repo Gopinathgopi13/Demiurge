@@ -6,6 +6,7 @@ import BrandingMainPage from "./BrandingMainPage";
 import BrandingSecondContainer from "./BrandingSecondContainer";
 import BrandingThirdContainer from "./BrandingThirdContainer";
 import BrandingFourthContainer from "./BrandingFourthContainer";
+import CTA from "./CTA";
 
 function Branding() {
   return (
@@ -25,8 +26,8 @@ function Branding() {
       <div>
         <BrandingFourthContainer />
       </div>
-      <div>
-        <ContactForm />
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
       <div>
         <Footer />

@@ -10,10 +10,14 @@ function VideoMarketingMainPage() {
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="text-lg">Video Marketing</div>
+        {/* <div className="text-lg">Video Marketing</div> */}
         <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug primaryColor ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+          Watch Your Brand Shine with Video Marketing for All
+        </div>
+        <div className="lg:w-[60%] lg:text-xl text-justify">
+          Video marketing is essential for brand success in 2024 and years to
+          come. Engage your audience, communicate your message effectively, and
+          elevate your brand's presence with video.
         </div>
         <Link
           to="/contactForm"

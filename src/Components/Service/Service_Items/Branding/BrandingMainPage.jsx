@@ -12,8 +12,11 @@ function BrandingMainPage() {
       >
         <div className="text-lg">Branding</div>
         <div className="md:text-6xl text-3xl lg:w-[90%] font-extrabold leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+          Craft a digital identity for your brand that leaves a lasting mark.
+        </div>
+        <div className="lg:w-[60%] lg:text-xl text-justify">
+          Our strategic visionaries dive deep into the core of your brand,
+          unraveling its essence, values, and aspirations.
         </div>
         <Link
           to="/contactForm"

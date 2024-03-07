@@ -1,5 +1,6 @@
 import React from "react";
 import SEOImage from "../../../../assets/SVG/seo-analytics.svg";
+import PNG from "../../../../assets/PNG.png";
 function PRFourthContainer() {
   return (
     <div
@@ -8,37 +9,36 @@ function PRFourthContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
-        Our SEO Agency Can Help You By:
-      </div>
-      <div className="grid lg:grid-cols-3 gap-5">
+      {/* <div className="md:text-4xl text-3xl font-medium my-5 py-5 primaryColor">
+        Crafting perceptions, guarding reputations, and leading industries
+      </div> */}
+      <div className="grid lg:grid-cols-3 gap-10">
         <div className="flex flex-col items-center">
           <div className="h-[70%]">
-            <img src={SEOImage} className="h-full" />
+            <img src={PNG} className="w-[80px]" />
           </div>
           <div className="h-[30%] text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?
+            Expertly shape and maintain how your brand is perceived.
           </div>
         </div>
 
         <div className="flex flex-col items-center">
           <div className="h-[70%]">
-            <img src={SEOImage} className="h-full" />
+            <img src={PNG} className="w-[80px]" />
           </div>
           <div className="h-[30%] text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?
+            Shield your reputation from negative events with our strategic
+            management.
           </div>
         </div>
 
         <div className="flex flex-col items-center">
           <div className="h-[70%]">
-            <img src={SEOImage} className="h-full" />
+            <img src={PNG} className="w-[80px]" />
           </div>
           <div className="h-[30%] text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?
+            Ascend to the top of your industry by establishing authority with
+            our PR prowess.
           </div>
         </div>
       </div>

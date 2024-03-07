@@ -9,39 +9,31 @@ function VideoMarketingSecondContainer() {
       data-aos-duration="1000"
       data-aos-once="true"
     >
-      <div className="lg:text-5xl font-medium my-5 primaryColor">
-        Level up your brand strategy using professional video marketing services
+      <div className="lg:text-4xl font-semibold lg:w-[90%] my-5 primaryColor">
+        Experience the power of Video Marketing to propel your Reach to new
+        heights
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="md:w-[70%] h-[80%]" alt="" />
+          <img src={SearchEO} className="md:w-[95%] h-[95%]" alt="" />
         </div>
         <div className="flex flex-col justify-around text-justify px-2 gap-5">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi enim
-            asperiores fuga odio incidunt. Nulla, rerum explicabo similique
-            illum facere ullam, amet laudantium a labore fugiat incidunt,
-            tempore aspernatur ex corporis cumque eligendi assumenda impedit
-            necessitatibus id officia consectetur quisquam suscipit. Minus
-            perspiciatis cumque atque natus! Illo voluptatum iure repudiandae.
+          <p className="leading-7">
+            Video marketing isn't just about boosting engagement metrics; it's
+            also about showcasing brand personality and driving innovation in a
+            competitive market. Through creative storytelling and authentic
+            content, brands can differentiate themselves from competitors,
+            humanize their message, and build trust with their audience.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quae
-            quas? Eaque deleniti accusamus eius veritatis distinctio sint hic
-            voluptatum dolore error esse nisi, et maxime, voluptatibus libero
-            quos nam soluta saepe ipsum iste temporibus laborum corrupti? Esse
-            iste repudiandae quasi eos ipsum ipsa, adipisci suscipit iusto! Ex,
-            facere fugiat?
-          </p>
-          <p>
-            <ul className="list-disc ml-5">
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-              <li>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo?
-              </li>
-              <li>Lorem ipsum dolor sit amet.</li>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-            </ul>
+          <p className="leading-7">
+            Whether it's through product demonstrations, customer testimonials,
+            or behind-the-scenes footage, video marketing allows brands to
+            connect with their audience on a deeper level, driving brand loyalty
+            and sustainable growth in today's ever-evolving digital landscape.
+            With the widespread use of social media and video-sharing platforms,
+            video marketing presents unparalleled opportunities for brands to
+            expand their reach, foster authenticity, and ultimately, drive
+            meaningful engagement that translates into long-term success.
           </p>
         </div>
       </div>
