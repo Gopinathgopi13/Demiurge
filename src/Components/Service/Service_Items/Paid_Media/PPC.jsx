@@ -20,7 +20,7 @@ function PPC() {
       <div className="my-20">
         <PPCSecondContainer />
       </div>
-      <div className="my-20">
+      <div className="my-20 bg-[#0c2d57]">
         <PPCThirdContainer />
       </div>
       <div>

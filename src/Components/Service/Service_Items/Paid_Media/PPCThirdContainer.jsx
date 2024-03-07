@@ -1,13 +1,13 @@
 import React from "react";
-// import google from "../../../../assets/PM SVG/google.svg";
-// import googleShopping from "../../../../assets/PM SVG/shopping.svg";
-// import Meta from "../../../../assets/PM SVG/meta.svg";
-// import YouTube from "../../../../assets/PM SVG/youTube.svg";
-// import LinkedIn from "../../../../assets/PM SVG/linkedIn.svg";
-// import Bing from "../../../../assets/PM SVG/bing.svg";
-// import Twitter from "../../../../assets/PM SVG/twitter.svg";
-// import Amazon from "../../../../assets/PM SVG/amazon.svg";
-// import Sharechat from "../../../../assets/PM SVG/sharechat.svg";
+import google from "../../../../assets/PM SVG/google.svg";
+import googleShopping from "../../../../assets/PM SVG/shopping.svg";
+import Meta from "../../../../assets/PM SVG/meta.svg";
+import YouTube from "../../../../assets/PM SVG/youTube.svg";
+import LinkedIn from "../../../../assets/PM SVG/linkedIn.svg";
+import Bing from "../../../../assets/PM SVG/bing.svg";
+import Twitter from "../../../../assets/PM SVG/twitter.svg";
+import Amazon from "../../../../assets/PM SVG/amazon.svg";
+import Sharechat from "../../../../assets/PM SVG/sharechat.svg";
 
 function PPCThirdContainer() {
   return (
@@ -23,10 +23,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={google} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Google Ads</div>
+            <img src={google} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Google Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             We craft targeted ad campaigns on Google's expansive network to
             boost your visibility, drive website traffic, and increase
             conversions.
@@ -40,10 +40,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8 ">
-            {/* <img src={googleShopping} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Google Shopping Ads</div>
+            <img src={googleShopping} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Google Shopping Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Utilizing Google's shopping platform, we showcase your products to
             potential customers, driving qualified leads and maximizing sales.
           </div>
@@ -55,10 +55,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={Meta} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Meta Ads</div>
+            <img src={Meta} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Meta Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             With Meta Ads, we engage your audience across Facebook and
             Instagram, leveraging precise targeting to deliver impactful
             messages and drive results.
@@ -72,10 +72,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={YouTube} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">YouTube Ads</div>
+            <img src={YouTube} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">YouTube Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Harnessing the power of video, we create compelling YouTube ad
             campaigns to captivate audiences, drive brand awareness, and inspire
             action.
@@ -89,10 +89,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={LinkedIn} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">LinkedIn Ads</div>
+            <img src={LinkedIn} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">LinkedIn Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Targeting professionals on LinkedIn, we deliver tailored ads that
             resonate with your B2B audience, driving leads and fostering
             business growth.
@@ -106,10 +106,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={Bing} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Bing Ads</div>
+            <img src={Bing} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Bing Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Expand your reach beyond Google with Bing Ads, reaching a diverse
             audience and driving targeted traffic to your website or products.
           </div>
@@ -122,10 +122,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={Twitter} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Twitter Ads</div>
+            <img src={Twitter} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Twitter Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Engage with your audience in real-time with Twitter Ads, delivering
             timely messages and promotions to drive engagement and boost brand
             visibility.
@@ -139,10 +139,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={Amazon} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Amazon Ads</div>
+            <img src={Amazon} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Amazon Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Tap into the massive e-commerce audience on Amazon with targeted ad
             campaigns, increasing product visibility and driving sales.
           </div>
@@ -155,10 +155,10 @@ function PPCThirdContainer() {
           data-aos-once="true"
         >
           <div className="h-[40%] flex items-center gap-8">
-            {/* <img src={Sharechat} className="h-[40%]" /> */}
-            <div className="text-xl text-[#0c2d57]">Sharechat Ads</div>
+            <img src={Sharechat} className="h-[40%]" />
+            <div className="text-xl font-semibold primaryColor">Sharechat Ads</div>
           </div>
-          <div className=" ">
+          <div className="text-white">
             Reach India's diverse and engaged audience on ShareChat with
             targeted ads that drive brand awareness and engagement.
           </div>

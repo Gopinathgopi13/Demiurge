@@ -6,6 +6,7 @@ import VideoMarketingMainPage from "./VideoMarketingMainPage";
 import VideoMarketingThirdContainer from "./VideoMarketingThirdContainer";
 import CTA from "./CTA";
 import FAQ from "./FAQ";
+import VideoMarketingFourthContainer from "./VideoMarketingFourthContainer";
 
 function VideoMarketing() {
   return (
@@ -21,6 +22,9 @@ function VideoMarketing() {
       </div>
       <div className="bg-[#0c2d57] py-20">
         <VideoMarketingThirdContainer />
+      </div>
+      <div>
+        <VideoMarketingFourthContainer/>
       </div>
       <div>
         <FAQ />
