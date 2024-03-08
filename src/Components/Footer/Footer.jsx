@@ -49,7 +49,7 @@ function Footer() {
             </div> */}
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 dark:text-white">
+              <p className="font-medium text-gray-900 ">
                 Services
               </p>
 
@@ -57,7 +57,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     SEO Optimisation
                   </a>
@@ -66,7 +66,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Web Development
                   </a>
@@ -75,7 +75,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Graphic Design
                   </a>
@@ -84,7 +84,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Brand Development
                   </a>
@@ -93,7 +93,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Youtube Marketing
                   </a>
@@ -101,7 +101,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     PPC Service
                   </a>
@@ -110,7 +110,7 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 dark:text-white">
+              <p className="font-medium text-gray-900 ">
                 Company
               </p>
 
@@ -118,7 +118,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     About
                   </a>
@@ -127,7 +127,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Meet the Team
                   </a>
@@ -136,7 +136,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Careers
                   </a>
@@ -145,7 +145,7 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 dark:text-white">
+              <p className="font-medium text-gray-900 ">
                 Industries
               </p>
 
@@ -153,7 +153,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Small Business
                   </a>
@@ -162,7 +162,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     eCommerce
                   </a>
@@ -171,7 +171,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Mobile
                   </a>
@@ -179,7 +179,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     Startup
                   </a>
@@ -187,7 +187,7 @@ function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                    className="text-gray-700 transition hover:opacity-75 "
                   >
                     B2B
                   </a>
@@ -196,17 +196,17 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 dark:text-white">
+              <p className="font-medium text-gray-900 ">
                 Contact Us
               </p>
 
               <ul className="mt-6 space-y-4 text-sm">
-                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2 cursor-pointer">
+                <li className="text-gray-700 transition hover:opacity-75  flex items-center gap-2 cursor-pointer">
                   <IoMdMail />{" "}
                   <div onClick={handleClick}>philomenjohn@demiurge.in</div>
                 </li>
 
-                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex items-center gap-2 cursor-pointer">
+                <li className="text-gray-700 transition hover:opacity-75  flex items-center gap-2 cursor-pointer">
                   <FaPhone />{" "}
                   <div onClick={handlePhoneNumberClick}>9627396283</div>
                 </li>
@@ -214,12 +214,12 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 dark:text-white">
+              <p className="font-medium text-gray-900 ">
                 Address
               </p>
 
               <ul className="mt-6 space-y-4 text-sm">
-                <li className="text-gray-700 transition hover:opacity-75 dark:text-gray-200 flex gap-2">
+                <li className="text-gray-700 transition hover:opacity-75 flex gap-2">
                   <div className="pt-1">
                     <FaLocationDot />
                   </div>
@@ -238,7 +238,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 "
                 >
                   <span className="sr-only">Facebook</span>
 
@@ -262,7 +262,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 "
                 >
                   <span className="sr-only">Instagram</span>
 
@@ -286,7 +286,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 "
                 >
                   <span className="sr-only">Twitter</span>
 
@@ -306,7 +306,7 @@ function Footer() {
                   href="#"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-[#E48F45] transition hover:opacity-75 dark:text-gray-200"
+                  className="text-[#E48F45] transition hover:opacity-75 "
                 >
                   <span className="sr-only">Youtube</span>
                   <svg
@@ -330,9 +330,9 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
+        <div className="mt-8 border-t border-gray-100 pt-8 ">
           <div className="sm:flex sm:justify-between">
-            <p className="text-xs text-gray-500 dark:text-gray-400">
+            <p className="text-xs text-gray-500 ">
               &copy; 2024. Demiurge. All rights reserved.
             </p>
 
@@ -340,7 +340,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
+                  className="text-gray-500 transition hover:opacity-75 "
                 >
                   Terms & Conditions
                 </a>
@@ -349,7 +349,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
+                  className="text-gray-500 transition hover:opacity-75 "
                 >
                   Privacy Policy
                 </a>
@@ -358,7 +358,7 @@ function Footer() {
               {/* <li>
                 <a
                   href="#"
-                  className="text-gray-500 transition hover:opacity-75 dark:text-gray-400"
+                  className="text-gray-500 transition hover:opacity-75 "
                 >
                   Cookies
                 </a>
