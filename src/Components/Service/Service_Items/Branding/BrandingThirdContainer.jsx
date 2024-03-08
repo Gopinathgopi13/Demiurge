@@ -2,7 +2,7 @@ import React from "react";
 import trumpet from '../../../../assets/trumpet.png'
 function BrandingThirdContainer() {
   return (
-    <div className="lg:w-[1280px] mx-auto space-y-10 py-20">
+    <div className="max-w-[1280px] mx-auto space-y-10 py-20">
       <div className="w-[95%] grid sm:grid-cols-2 mx-auto md:py-10 py-5 gap-5 bg-white rounded-xl text-black">
         <div className="w-full flex justify-center items-center">
           <img src={trumpet} className="w-[200px]" alt="" />

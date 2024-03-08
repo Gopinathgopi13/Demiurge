@@ -17,7 +17,7 @@ import Marquee from "react-fast-marquee";
 // import cl13 from "../../../assets/client/cl13.webp";
 function Clients() {
   return (
-    <div className="lg:w-[1280px] mx-auto">
+    <div className="max-w-[1280px] mx-auto">
       <div className="lg:text-4xl text-3xl font-bold primaryColor text-center">
         Our Clients
       </div>

@@ -4,7 +4,7 @@ import SearchEO2 from "../../../../assets/wev2.jpg";
 import phone from "../../../../assets/SVG/phone.svg";
 function MobileSecondContainer() {
   return (
-    <div className="lg:w-[1280px] mx-auto space-y-10 py-20">
+    <div className="max-w-[1280px] mx-auto space-y-10 py-20">
       <div className="text-white space-y-10 px-5">
         <div className="md:text-4xl font-semibold primaryColor text-3xl">
           Crafting modern designs is our specialty. As a professional mobile app

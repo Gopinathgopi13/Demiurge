@@ -4,7 +4,7 @@ import Form from "./Form";
 function ContactForm() {
   return (
     <div className="w-full px-5 py-20  bg-[#0C2D57]">
-      <div className="lg:w-[1280px] grid lg:grid-cols-2 gap-5 items-center justify-center mx-auto">
+      <div className="max-w-[1280px] grid lg:grid-cols-2 gap-5 items-center justify-center mx-auto">
         <div
           className="text-white flex flex-col justify-around gap-5"
           data-aos="fade-right"

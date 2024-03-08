@@ -5,7 +5,7 @@ import star from "../../../../assets/star.png";
 const PPCFourthContainer = () => {
   return (
     <div
-      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-10"
+      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-10"
       //   data-aos="fade-down"
       //   data-aos-duration="1000"
       //   data-aos-once="true"

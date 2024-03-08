@@ -6,7 +6,7 @@ import star from "../../../../assets/star.png";
 
 function VideoMarketingFourthContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
       <div className="md:text-4xl text-center text-3xl font-semibold primaryColor my-5">
         Our dynamic 5-Stage Journey in Video Marketing
       </div>

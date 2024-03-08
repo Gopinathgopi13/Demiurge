@@ -3,7 +3,7 @@ import PNG from "../../../../assets/PNG.png";
 const CGIThirdContainer = () => {
   return (
     <div
-      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10 mx-auto px-10 text-white"
+      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10 mx-auto px-10 text-white"
     //   data-aos="fade-down"
     //   dara-aos-duration="1000"
     //   data-aos-once="true"

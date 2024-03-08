@@ -2,11 +2,11 @@ import React from "react";
 
 function CallToTeam() {
   return (
-    <div className="w-full px-4 bg-[#0C2D57] h-[700px] flex flex-col justify-center bg-cover bg-no-repeat">
-      <div className="lg:w-[1280px] mx-auto flex flex-col justify-around items-center gap-y-10 text-white">
+    <div className="w-full px-4 bg-[#0C2D57] py-10 flex flex-col justify-center bg-cover bg-no-repeat">
+      <div className="max-w-[1280px] mx-auto flex flex-col justify-around items-center gap-y-10 text-white">
         <div
-          className="lg:text-4xl text-3xl text-center font-bold leading-normal primaryColor"
-          data-aos="fade-down"
+          className="lg:text-4xl text-xl text-center font-bold leading-normal primaryColor"
+          // data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
         >
@@ -14,8 +14,8 @@ function CallToTeam() {
           but delivers it.
         </div>
         <div
-          className="md:text-lg text-center"
-          data-aos="fade-down"
+          className="md:text-lg text-md text-center"
+          // data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
         >

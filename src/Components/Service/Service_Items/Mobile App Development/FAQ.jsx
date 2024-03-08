@@ -38,7 +38,7 @@ const FAQ = () => {
 
   return (
     <div className="w-full px-4 bg-cover bg-no-repeat py-10">
-      <div className="lg:w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
+      <div className="max-w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
         <div
           className="text-center text-white mb-5"
           data-aos="fade-down"

@@ -3,7 +3,7 @@ import SEOImage from "../../../../assets/SVG/google_icon.svg";
 
 function MobileThirdContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-5 mx-auto px-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-5 mx-auto px-4">
       <div className="md:text-4xl text-3xl font-semibold primaryColor py-5">
         Industries We Serve
       </div>

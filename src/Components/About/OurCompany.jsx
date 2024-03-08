@@ -3,7 +3,7 @@ import CoFounder from "../../assets/3D_Image/CoFounder.jpg";
 function OurCompany() {
   return (
     <div className="w-full">
-      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-16 h-[70vh] grid lg:grid-cols-2 grid-cols-1 justify-center items-center">
+      <div className="max-w-[1280px] mx-auto px-4 lg:pb-16 h-[70vh] grid lg:grid-cols-2 grid-cols-1 justify-center items-center">
         <div className="w-[90%] h-[90%] flex flex-col justify-center lg:space-y-10 space-y-5">
           <div className="lg:text-7xl text-4xl font-bold text-[#E48F45]">Our Company</div>
           <div className="text-3xl font-light">Small Team, Big Dreams</div>

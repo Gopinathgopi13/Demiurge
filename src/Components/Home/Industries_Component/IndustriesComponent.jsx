@@ -3,7 +3,7 @@ import IndustriesCard from "./IndustriesCard";
 import industriesData from "../../../Utilities/IndustriesData";
 function IndustriesComponent() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center px-4 mx-auto">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center px-4 mx-auto">
       <div
         className="lg:text-4xl text-3xl font-bold my-5 primaryColor"
         data-aos="fade-down"
@@ -23,7 +23,7 @@ function IndustriesComponent() {
         extensive experience working in numerous industries, we have the
         insights and expertise to help you discover your true potential.
       </div>
-      <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-9">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-9">
         {industriesData.map(({ id, logo, name, description, path }, index) => {
           // console.log(id)
           return (

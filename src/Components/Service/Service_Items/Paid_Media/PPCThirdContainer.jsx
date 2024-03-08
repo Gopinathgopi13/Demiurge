@@ -11,7 +11,7 @@ import React from "react";
 
 function PPCThirdContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
       <div className="lg:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Our Platforms
       </div>
@@ -41,7 +41,9 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8 ">
             {/* <img src={googleShopping} className="h-[40%]" /> */}
-            <div className="text-xl font-semibold primaryColor">Google Shopping Ads</div>
+            <div className="text-xl font-semibold primaryColor">
+              Google Shopping Ads
+            </div>
           </div>
           <div className="text-white">
             Utilizing Google's shopping platform, we showcase your products to
@@ -73,7 +75,9 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8">
             {/* <img src={YouTube} className="h-[40%]" /> */}
-            <div className="text-xl font-semibold primaryColor">YouTube Ads</div>
+            <div className="text-xl font-semibold primaryColor">
+              YouTube Ads
+            </div>
           </div>
           <div className="text-white">
             Harnessing the power of video, we create compelling YouTube ad
@@ -90,7 +94,9 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8">
             {/* <img src={LinkedIn} className="h-[40%]" /> */}
-            <div className="text-xl font-semibold primaryColor">LinkedIn Ads</div>
+            <div className="text-xl font-semibold primaryColor">
+              LinkedIn Ads
+            </div>
           </div>
           <div className="text-white">
             Targeting professionals on LinkedIn, we deliver tailored ads that
@@ -123,7 +129,9 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8">
             {/* <img src={Twitter} className="h-[40%]" /> */}
-            <div className="text-xl font-semibold primaryColor">Twitter Ads</div>
+            <div className="text-xl font-semibold primaryColor">
+              Twitter Ads
+            </div>
           </div>
           <div className="text-white">
             Engage with your audience in real-time with Twitter Ads, delivering
@@ -156,7 +164,9 @@ function PPCThirdContainer() {
         >
           <div className="h-[40%] flex items-center gap-8">
             {/* <img src={Sharechat} className="h-[40%]" /> */}
-            <div className="text-xl font-semibold primaryColor">Sharechat Ads</div>
+            <div className="text-xl font-semibold primaryColor">
+              Sharechat Ads
+            </div>
           </div>
           <div className="text-white">
             Reach India's diverse and engaged audience on ShareChat with

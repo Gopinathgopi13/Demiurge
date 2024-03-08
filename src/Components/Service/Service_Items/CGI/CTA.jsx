@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <div className="w-full">
       <div
-        className="lg:w-[1280px] mx-auto px-4 py-20 lg:pb-20 flex flex-col justify-center gap-y-14"
+        className="max-w-[1280px] mx-auto px-4 py-20 lg:pb-20 flex flex-col justify-center gap-y-14"
         data-aos="fade-down"
         data-aos-duration="1000"
       >

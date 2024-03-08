@@ -2,7 +2,7 @@ import React from "react";
 import SEOImage from "../../../../assets/SVG/SearchEO.svg";
 function BrandingFourthContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10">
       <div className="md:text-4xl font-semibold text-3xl primaryColor my-5 py-5">
         Services for establishing and maintaining a strong and cohesive brand
         identity.

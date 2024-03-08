@@ -5,7 +5,7 @@ import servicesGrid from "../../../../assets/SVG/services-grid.svg";
 function OrganicPaid() {
   return (
     <div className="w-full">
-      <div className="lg:w-[1280px] mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 -z-50">
+      <div className="max-w-[1280px] mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 -z-50">
         {/* Organic Container */}
         <div
           className="bg-slate-100 w-[90%] shadow-2xl py-10 px-10 rounded-3xl lg:relative left-24 flex flex-col gap-10  justify-around items-center md:pr-10"
@@ -16,8 +16,8 @@ function OrganicPaid() {
           <div className="md:text-6xl text-3xl font-semibold">
             Organic Social
           </div>
-          <div className="space-y-2 text-lg grid grid-cols-2 grid-rows-2 gap-5">
-            <div className="flex flex-wrap items-center gap-4 ">
+          <div className="space-y-2 text-lg grid md:grid-cols-2 gap-5">
+            <div className="flex items-center gap-4 ">
               <div>
                 <FaArrowRight size={15} />
               </div>
@@ -104,7 +104,7 @@ function OrganicPaid() {
           data-aos-once="true"
         >
           <div className="md:text-6xl text-3xl font-semibold">Paid Social</div>
-          <div className="space-y-2 text-lg gap-2 grid px-10 grid-cols-2 grid-rows-2">
+          <div className="space-y-2 text-lg gap-2 grid px-10 md:grid-cols-2">
             <div className="flex flex-wrap items-center gap-4">
               <div>
                 <FaArrowRight size={15} />

@@ -7,7 +7,7 @@ import ar5 from "../../../../assets/ar5.webp";
 import ar6 from "../../../../assets/ar6.webp";
 function ARVRSecondContainer() {
   return (
-    <div className="lg:w-[1280px] mx-auto space-y-10">
+    <div className="max-w-[1280px] mx-auto space-y-10">
       <div className=" space-y-10 px-5">
         <div className="md:text-6xl text-3xl primaryColor">
           Acquire state-of-the-art designs with a proven web development company

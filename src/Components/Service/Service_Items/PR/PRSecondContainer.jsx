@@ -4,7 +4,7 @@ import PNG from '../../../../assets/PNG.png'
 function PRSecondContainer() {
   return (
     <div
-      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4"
+      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4"
       // data-aos="fade-down"
       // data-aos-duration="1000"
       // data-aos-once="true"

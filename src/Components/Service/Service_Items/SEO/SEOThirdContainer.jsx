@@ -2,7 +2,7 @@ import React from "react";
 import SEOImage from "../../../../assets/SVG/seo-analytics.svg";
 function SEOThirdContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-5 space-y-5 text-white px-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-5 space-y-5 text-white px-4">
       <div className="lg:text-6xl text-3xl font-semibold my-5 py-5 primaryColor">
         Our SEO Strategy can deliver:
       </div>

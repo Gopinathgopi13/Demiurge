@@ -4,7 +4,7 @@ import PNG from "../../../../assets/PNG.png";
 function PRFourthContainer() {
   return (
     <div
-      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4"
+      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4"
       data-aos="fade-down"
       data-aos-duration="1000"
       data-aos-once="true"

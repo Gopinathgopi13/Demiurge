@@ -5,7 +5,7 @@ function BlockChainMainPage() {
   return (
     <div className="w-full">
       <div
-        className="lg:w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-white flex flex-col justify-center items-start gap-y-14"
+        className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-white flex flex-col justify-center items-start gap-y-14"
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"

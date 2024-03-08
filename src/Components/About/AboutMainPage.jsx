@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function AboutMainPage() {
   return (
     <div className="w-full">
-      <div className="lg:w-[1280px] mx-auto px-4 lg:pb-20 text-white py-20 space-y-10">
+      <div className="max-w-[1280px] mx-auto px-4 lg:pb-20 text-white py-20 space-y-10">
         <div className="lg:text-7xl text-4xl text-[#E48F45] text-center font-bold">
           About Us
         </div>

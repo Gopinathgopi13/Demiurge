@@ -2,7 +2,7 @@ import React from "react";
 import SearchEO from "../../../../assets/SVG/SearchEO.svg";
 function SEOSecondContainer() {
   return (
-    <div className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
       <div
         className="lg:text-5xl text-2xl font-semibold my-5 primaryColor"
         data-aos="fade-down"

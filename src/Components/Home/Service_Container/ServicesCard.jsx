@@ -6,7 +6,7 @@ function ServicesCard({ id, logo, name, description, path }) {
   return (
     <Link to={path}>
       <div
-        className=" lg:w-96 text-base p-6 rounded-tl-3xl rounded-br-3xl shadow-md transform transition duration-500 hover:bg-[#0c2c579f] group"
+        className="text-base p-6 rounded-tl-3xl rounded-br-3xl shadow-md transform transition duration-500 hover:bg-[#0c2c579f] group"
         data-aos="fade-left"
         data-aos-duration="1500"
         data-aos-once="true"

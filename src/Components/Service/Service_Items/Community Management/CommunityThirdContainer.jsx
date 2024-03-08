@@ -2,7 +2,7 @@ import React from "react";
 function CommunityThirdContainer() {
   return (
     <div
-      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10"
+      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10"
       data-aos="fade-down"
       dara-aos-duration="1000"
       data-aos-once="true"

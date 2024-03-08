@@ -4,7 +4,7 @@ import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
 function CommunitySecondContainer() {
   return (
     <div
-      className="lg:w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4"
+      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4"
       data-aos="fade-down"
       data-aos-duration="1000"
       data-aos-once="true"
