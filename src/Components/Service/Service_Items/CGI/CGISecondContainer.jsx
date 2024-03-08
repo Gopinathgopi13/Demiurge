@@ -30,7 +30,7 @@ const CGISecondContainer = () => {
             Experience the transformative power of CGI ads and unlock boundless
             possibilities for your brand's success.
           </p>
-          <ul className="list-disc px-5 text-lg font-popins ">
+          <ul className="list-disc px-5 text-lg font-popins  ">
             <li>Unlimited Creativity</li>
             <li> Targeted Personalization</li>
             <li> Brand Consistency</li>

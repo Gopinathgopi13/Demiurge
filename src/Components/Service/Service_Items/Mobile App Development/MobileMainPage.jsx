@@ -10,13 +10,13 @@ function MobileMainPage() {
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="text-lg">Mobile App Development</div>
+        {/* <div className="text-lg">Mobile App Development</div> */}
         <div className="md:text-6xl text-3xl font-extrabold  leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Unleash your business potential with our mobile app solutions
         </div>
         <div className="sm:w-[60%] text-xl leading-snug">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
-          dolor sit amet consectetur adipisicing elit.
+          Ready to take your brand worldwide? Our bespoke mobile app designs are
+          your ticket. Start your global journey today!
         </div>
         <Link
           to="/contactForm"

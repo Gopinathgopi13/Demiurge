@@ -7,6 +7,8 @@ import MobileFourthCOntainer from "./MobileFourthCOntainer";
 import ContactForm from "../../../Home/ContactForm/ContactForm";
 import Footer from "../../../Footer/Footer";
 import mbl from "../../../../assets/mbl2.jpg";
+import CTA from "./CTA";
+import FAQ from "./FAQ";
 function MobileApp() {
   return (
     <div className="w-full">
@@ -16,15 +18,17 @@ function MobileApp() {
       <div className="bg-[#0C2D57]">
         <MobileMainPage />
       </div>
-      <div className="bg-[#0C2D57]">
+      <div>
         <MobileSecondContainer />
       </div>
-      <div className="py-20">
+      <div className="py-20 bg-[#0c2d57]">
         <MobileThirdContainer />
       </div>
-
       <div>
-        <ContactForm />
+        <FAQ />
+      </div>
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
       <div>
         <Footer />

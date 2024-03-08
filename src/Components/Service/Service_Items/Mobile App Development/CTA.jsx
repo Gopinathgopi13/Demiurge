@@ -10,14 +10,14 @@ const CTA = () => {
         data-aos-duration="1000"
       >
         <div className="p-5 text-black flex flex-col items-center gap-5 rounded-lg  bg-gray-100">
-          <div className="lg:text-4xl text-xl text-[#E48F45]">
-            Ready to revolutionize your brand's image?
+          <div className="lg:text-4xl text-xl text-center text-[#E48F45]">
+            Ready to revolutionize your business with a tailor-made mobile app?
           </div>
           <div className="w-[80%] md:text-xl text-center">
-            Unlock the power of imagination with CGI! Elevate your brand,
-            captivate your audience, and bring your visions to life. Contact us
-            today to discover how CGI can transform your next project into a
-            stunning visual masterpiece!
+            Schedule a consultation with one of our mobile app experts to
+            explore your unique needs and goals. Together, we'll craft a
+            strategy that sets your app apart and resonates with your audience
+            on a profound level.
           </div>
           <div>
             <Link to="/contactForm">
