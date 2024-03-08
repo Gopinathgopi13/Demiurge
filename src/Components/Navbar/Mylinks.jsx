@@ -59,8 +59,9 @@ export const links = [
     sublinks: [
       {
         sublink: [
-          { name: "About", link: "/about" },
+          // { name: "About", link: "/about" },
           { name: "Career", link: "/careers" },
+          { name: "Case Studies", link: "/" },
           // { name: "Blogs", link: "/" },
         ],
       },

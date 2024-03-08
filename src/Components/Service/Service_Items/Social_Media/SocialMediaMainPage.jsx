@@ -7,19 +7,15 @@ function SocialMediaMainPage() {
   return (
     <div className="w-full">
       <div
-        className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-white flex flex-col lg:pt-40 lg:items-start items-center gap-y-10 relative"
-        data-aos="fade-down"
+        className={`max-w-[1280px] mx-auto px-4 lg:pb-20 h-[100vh] text-white flex flex-col lg:pt-40 md:items-start justify-center items-center gap-y-10`}
+        // data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="lg:absolute right-0  bottom-40">
-          <img src={SocialMedia_Home_Page} alt="" />
-        </div>
-        {/* <div className="text-lg">Social Media</div> */}
-        <div className="lg:text-5xl text-3xl lg:w-[60%] font-extrabold primaryColor lg:text-start text-center">
+        <div className="lg:text-5xl text-3xl md:w-[60%] font-extrabold primaryColor lg:text-start text-center">
           Unlock Your Brand's Social Potential with Us!
         </div>
-        <div className="lg:w-[50%] lg:text-xl text-justify">
+        <div className="md:w-[50%] lg:text-xl text-justify">
           Discover how we can amplify your brand's impact through social media
           expertise.
         </div>

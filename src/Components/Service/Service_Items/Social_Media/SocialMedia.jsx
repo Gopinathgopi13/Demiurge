@@ -7,14 +7,17 @@ import Footer from "../../../Footer/Footer";
 import CTA from "./CTA";
 import ContactForm from "../../../Home/ContactForm/ContactForm";
 import { Outlet } from "react-router-dom";
-
+import Social_Media_Home_Page from "../../../../assets/Social_Media_Home_Page.jpg";
 function SocialMedia() {
   return (
     <div>
-      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+      <div className="w-full fixed top-0  shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57]">
+      <div
+        className="bg-cover bg-right"
+        style={{ backgroundImage: `url(${Social_Media_Home_Page})` }}
+      >
         <SocialMediaMainPage />
       </div>
       <div className="my-20">

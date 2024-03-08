@@ -7,14 +7,17 @@ import ContactForm from "../../../Home/ContactForm/ContactForm";
 import Footer from "../../../Footer/Footer";
 import CTA from "./CTA";
 import PPCFourthContainer from "./PPCFourthContainer";
-
+import Performance_Marketing_Home_Page from "../../../../assets/Performance_Marketing_Home_Page.jpg"
 function PPC() {
   return (
     <div className="w-full">
-      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+      <div className="w-full fixed top-0 shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57] ">
+      <div
+        className="bg-cover bg-right"
+        style={{ backgroundImage: `url(${Performance_Marketing_Home_Page})` }}
+      >
         <PPCMainPage />
       </div>
       <div className="my-20">
@@ -24,7 +27,7 @@ function PPC() {
         <PPCThirdContainer />
       </div>
       <div>
-        <PPCFourthContainer/>
+        <PPCFourthContainer />
       </div>
       <div className="bg-[#0c2d57]">
         <CTA />

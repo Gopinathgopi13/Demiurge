@@ -44,10 +44,10 @@ const Navbar = () => {
           <NavLinks />
           <li>
             <Link
-              to="/contact"
+              to="/about"
               className="py-7 px-3 inline-block hover:text-[#FF8400]"
             >
-              Case Studies
+              About
             </Link>
           </li>
           <li>

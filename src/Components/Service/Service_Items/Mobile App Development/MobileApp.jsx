@@ -12,7 +12,7 @@ import FAQ from "./FAQ";
 function MobileApp() {
   return (
     <div className="w-full">
-      <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
+      <div className="w-full fixed top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
       <div className="bg-[#0C2D57]">

@@ -4,8 +4,8 @@ function SEOSecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
       <div
-        className="lg:text-5xl text-2xl font-semibold my-5 primaryColor"
-        data-aos="fade-down"
+        className="lg:text-4xl text-2xl font-semibold primaryColor"
+        // data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
       >
@@ -14,11 +14,11 @@ function SEOSecondContainer() {
       <div className="grid lg:grid-cols-2 mx-auto">
         <div
           className="flex flex-col justify-around text-justify px-2"
-          data-aos="fade-right"
+          // data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <p className="text-xl">
+          <p className="text-xl font-light">
             With us as your SEO ally, you're not just another client – you're a
             valued collaborator in our mission for digital excellence. Together,
             we'll navigate the complexities of the online landscape, crafting
@@ -39,11 +39,11 @@ function SEOSecondContainer() {
         </div>
         <div
           className="mx-auto"
-          data-aos="fade-left"
+          // data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <img src={SearchEO} alt="" />
+          <img src={SearchEO} className="h-full w-full" alt="" />
         </div>
       </div>
     </div>

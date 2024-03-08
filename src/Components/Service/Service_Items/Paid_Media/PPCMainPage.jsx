@@ -5,19 +5,16 @@ function PPCMainPage() {
   return (
     <div className="w-full">
       <div
-        className="max-w-[1280px] mx-auto px-4 md:pb-20 h-[90vh] text-white flex flex-col lg:pt-40 lg:items-start items-center gap-y-10 relative"
+        className="max-w-[1280px] mx-auto px-4 h-[100vh] text-white flex flex-col lg:pt-40 md:items-start justify-center items-center gap-y-10 relative"
         // data-aos="fade-down"
         // data-aos-duration="1000"
         // data-aos-once="true"
       >
-        <div className="lg:absolute right-0 bottom-40">
-          <img src={Performance_marketing_Home_Page} alt="" />
-        </div>
         {/* <div className="text-lg">Performance Marketing</div> */}
-        <div className="md:text-6xl text-3xl lg:w-[70%] font-extrabold leading-snug primaryColor">
+        <div className="md:text-6xl text-3xl md:w-[70%] font-extrabold leading-snug primaryColor">
           Power Up Your Goals with Performance Marketing
         </div>
-        <div className="lg:w-[50%] lg:text-xl text-justify">
+        <div className="md:w-[50%] lg:text-xl text-justify">
           The strategic engine that propels your brand forward, delivering
           measurable results and maximizing your online impact.
         </div>

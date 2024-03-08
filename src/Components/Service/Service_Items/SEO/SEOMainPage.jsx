@@ -6,25 +6,23 @@ function SEOMainPage() {
   return (
     <div className="w-full">
       <div
-        className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[90vh] text-white flex flex-col lg:pt-40 lg:items-start items-center gap-y-10 relative"
-        data-aos="fade-down"
+        className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[100vh] text-white flex flex-col lg:pt-40 md:items-start justify-center items-center gap-y-10 "
+        // data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="lg:absolute right-0 bottom-40">
-          <img src={SEO_Home_Page} alt="" />
-        </div>
+        
         {/* <div className="text-lg">SEO</div> */}
-        <div className="md:text-5xl text-[6vw] lg:w-[60%] font-extrabold leading-snug primaryColor">
+        <div className="md:text-5xl text-[6vw] md:w-[60%] font-extrabold leading-snug primaryColor">
           SEO isn't just a tool—it's your secret weapon
         </div>
-        <div className="lg:w-[50%] lg:text-xl text-justify">
+        <div className="md:w-[50%] lg:text-xl text-justify">
           Your roadmap to online visibility, ensuring your brand stands out and
           attracts the right audience.
         </div>
         <Link
           to="/contactForm"
-          data-aos="fade-right"
+          // data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-delay="500"
         >

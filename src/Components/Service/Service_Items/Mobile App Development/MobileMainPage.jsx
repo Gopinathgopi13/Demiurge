@@ -5,8 +5,8 @@ function MobileMainPage() {
   return (
     <div className="w-full">
       <div
-        className="max-w-[1280px] mx-auto sm:px-4 lg:pb-20 h-[90vh] px-5 text-white flex flex-col justify-center items-start gap-y-14 overflow-hidden"
-        data-aos="fade-down"
+        className="max-w-[1280px] mx-auto sm:px-4 h-[100vh] px-5 text-white flex flex-col justify-center items-start gap-y-14 overflow-hidden"
+        // data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-once="true"
       >
@@ -20,7 +20,7 @@ function MobileMainPage() {
         </div>
         <Link
           to="/contactForm"
-          data-aos="fade-right"
+          // data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-delay="500"
         >
