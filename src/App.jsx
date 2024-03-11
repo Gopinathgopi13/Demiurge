@@ -23,6 +23,7 @@ import ARVR from "./Components/Service/Service_Items/ARVR/ARVR";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import ScrollToTop from "./ScrollToTop";
 import ErrorPAge from "./Components/ErrorPAge";
+import { IoIosMail, IoIosCall } from "react-icons/io";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,40 +37,52 @@ function App() {
 
   return (
     !loading && (
-      <BrowserRouter>
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/careers" element={<Careers />} />
+      <>
+        <div className="bg-[#e48f45] flex justify-between px-10">
+          <div>
+            <IoIosMail size={25} className="inline-block text-[#0c2d57]" />{" "}
+            philomenjohn@demiurge.in{" "}
+          </div>
+          <div>
+            <IoIosCall size={25} className="inline-block text-[#0c2d57]" /> +91
+            9627396283
+          </div>
+        </div>
+        <BrowserRouter>
+          <ScrollToTop>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/careers" element={<Careers />} />
 
-            {/* Service */}
-            <Route path="/service" element={<Service />} />
+              {/* Service */}
+              <Route path="/service" element={<Service />} />
 
-            <Route path="/service/socialMedia" element={<SocialMedia />} />
-            <Route path="/service/seo" element={<SEO />} />
-            <Route path="/service/ppc" element={<PPC />} />
-            <Route path="/service/paidsocial" element={<PaidSocial />} />
-            <Route path="/service/pr" element={<PR />} />
-            <Route
-              path="/service/video-marketing"
-              element={<VideoMarketing />}
-            />
-            <Route path="/service/brand" element={<Branding />} />
-            <Route path="/service/community" element={<Community />} />
-            <Route path="/service/web" element={<Web />} />
-            <Route path="/service/cgi" element={<CGI />} />
-            <Route path="/service/mobile" element={<MobileApp />} />
-            <Route path="/service/blockchain" element={<Blockchain />} />
-            <Route path="/service/lead" element={<LeadGeneration />} />
-            <Route path="/service/arvr" element={<ARVR />} />
-            <Route path="*" element={<ErrorPAge />} />
-          </Routes>
-        </ScrollToTop>
-      </BrowserRouter>
+              <Route path="/service/socialMedia" element={<SocialMedia />} />
+              <Route path="/service/seo" element={<SEO />} />
+              <Route path="/service/ppc" element={<PPC />} />
+              <Route path="/service/paidsocial" element={<PaidSocial />} />
+              <Route path="/service/pr" element={<PR />} />
+              <Route
+                path="/service/video-marketing"
+                element={<VideoMarketing />}
+              />
+              <Route path="/service/brand" element={<Branding />} />
+              <Route path="/service/community" element={<Community />} />
+              <Route path="/service/web" element={<Web />} />
+              <Route path="/service/cgi" element={<CGI />} />
+              <Route path="/service/mobile" element={<MobileApp />} />
+              <Route path="/service/blockchain" element={<Blockchain />} />
+              <Route path="/service/lead" element={<LeadGeneration />} />
+              <Route path="/service/arvr" element={<ARVR />} />
+              <Route path="*" element={<ErrorPAge />} />
+            </Routes>
+          </ScrollToTop>
+        </BrowserRouter>
+      </>
     )
   );
 }
