@@ -1,6 +1,11 @@
 import React from "react";
 import SEOImage from "../../../../assets/SVG/google_icon.svg";
-
+import Docs from '../../../../assets/Blockchain/DiscoveryAndDocs.webp'
+import UI from '../../../../assets/Blockchain/UI_UX.webp'
+import UnitTesting from '../../../../assets/Blockchain/unitTesting.webp'
+import QA from '../../../../assets/Blockchain/QA.webp'
+import Deployement from '../../../../assets/Blockchain/deployment.webp'
+import Support from '../../../../assets/Blockchain/SupportAndMaintenance.webp'
 function BlockchainFourthContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
@@ -10,7 +15,7 @@ function BlockchainFourthContainer() {
       <div className="grid lg:grid-cols-3 gap-10 my-10 w-[80%] mx-auto">
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="space-y-3">
-            <img src={SEOImage} className="h-10" />
+            <img src={Docs} className="h-10" />
             <div className="text-xl text-blue-500">
               Development & Integration
             </div>
@@ -26,7 +31,7 @@ function BlockchainFourthContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="space-y-3">
-            <img src={SEOImage} className="h-10" />
+            <img src={UI} className="h-10" />
             <div className="text-xl text-blue-500">
               UI/UX Design
             </div>
@@ -42,7 +47,7 @@ function BlockchainFourthContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="space-y-3">
-            <img src={SEOImage} className="h-10" />
+            <img src={UnitTesting} className="h-10" />
             <div className="text-xl text-blue-500">
               Development and Unit Testing
             </div>
@@ -58,7 +63,7 @@ function BlockchainFourthContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="space-y-3">
-            <img src={SEOImage} className="h-10" />
+            <img src={QA} className="h-10" />
             <div className="text-xl text-blue-500">
               Quality Assurance
             </div>
@@ -73,7 +78,7 @@ function BlockchainFourthContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="space-y-3">
-            <img src={SEOImage} className="h-10" />
+            <img src={Deployement} className="h-10" />
             <div className="text-xl text-blue-500">Deployment</div>
           </div>
           <div className="text-balance">
@@ -86,7 +91,7 @@ function BlockchainFourthContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="space-y-3">
-            <img src={SEOImage} className="h-10" />
+            <img src={Support} className="h-10" />
             <div className="text-xl text-blue-500">
               Support & Maintenance
             </div>
