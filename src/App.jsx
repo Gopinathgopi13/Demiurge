@@ -9,7 +9,7 @@ import About from "./Components/About/About";
 import Careers from "./Components/Careers/Careers";
 import SEO from "./Components/Service/Service_Items/SEO/SEO";
 import PPC from "./Components/Service/Service_Items/Paid_Media/PPC";
-import PaidSocial from "./Components/Service/Service_Items/Paid_Social/PaidSocial";
+// import PaidSocial from "./Components/Service/Service_Items/Paid_Social/PaidSocial";
 import PR from "./Components/Service/Service_Items/PR/PR";
 import VideoMarketing from "./Components/Service/Service_Items/Video Marketing/VideoMarketing";
 import Branding from "./Components/Service/Service_Items/Branding/Branding";
