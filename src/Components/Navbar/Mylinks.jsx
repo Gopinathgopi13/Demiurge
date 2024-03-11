@@ -9,7 +9,7 @@ export const links = [
           { name: "Social Media", link: "/service/socialMedia" },
           { name: "SEO", link: "/service/seo" },
           { name: "Performance Marketing", link: "/service/ppc" },
-          { name: "Paid Social", link: "/service/paidsocial" },
+          // { name: "Paid Social", link: "/service/paidsocial" },
           { name: "PR", link: "/service/pr" },
           { name: "Video Marketing", link: "/service/video-marketing" },
           { name: "Branding", link: "/service/brand" },

@@ -64,7 +64,7 @@ function App() {
               <Route path="/service/socialMedia" element={<SocialMedia />} />
               <Route path="/service/seo" element={<SEO />} />
               <Route path="/service/ppc" element={<PPC />} />
-              <Route path="/service/paidsocial" element={<PaidSocial />} />
+              {/* <Route path="/service/paidsocial" element={<PaidSocial />} /> */}
               <Route path="/service/pr" element={<PR />} />
               <Route
                 path="/service/video-marketing"
