@@ -3,24 +3,22 @@ import React from "react";
 function LeadSecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4 ">
-      <div className="md:text-6xl text-3xl font-medium my-5 py-5">
+      <div className="md:text-5xl text-3xl font-semibold my-5 primaryColor">
         Our Lead Generation Services
       </div>
-      <div className="my-5 py-5">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati
-        eligendi velit! Expedita, dignissimos neque. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Sequi obcaecati eligendi velit! Expedita,
-        dignissimos neque. Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Impedit id nobis quis incidunt! Corporis, aperiam numquam ex
-        adipisci ut quis reprehenderit amet sed laudantium, laboriosam
-        distinctio, quasi in alias! Sed suscipit aliquam quia architecto
-        exercitationem libero quibusdam iusto illo, optio veritatis sequi nihil
-        adipisci vel sit distinctio porro asperiores perspiciatis quos deleniti
-        similique magnam animi. Ipsum aspernatur error ad corporis?
+      <div className="my-5">
+        Are you facing difficulties in generating quality leads? Finding it
+        tough to stand out in a crowded marketplace inundated with marketing
+        messages? It's time to make your voice heard. Introducing Demiurge –
+        your partner in elevating lead generation, stimulating demand, and
+        amplifying ROI. Our lead generation agency is dedicated to targeting,
+        capturing, nurturing, and converting leads using cutting-edge,
+        performance-driven techniques. Here's a sneak peek into what we can
+        achieve for businesses like yours:
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -32,15 +30,13 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Harness the potential of LinkedIn to expand your network and
+            generate curiosity around your brand.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -52,15 +48,13 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Boost your market share and amplify brand recognition through potent
+            demand-generation marketing tactics.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -72,15 +66,13 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Drive the expansion of your software-as-a-service business and
+            elevate engagement levels with a bespoke lead generation plan.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -92,15 +84,14 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Experience high-performance lead generation tailored for the B2C
+            industry. IT Lead Generation: Propel your tech company to success in
+            the market with our innovative lead generation tactics.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -112,15 +103,13 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Capture consumer interest and boost sales with our high-performance
+            lead generation services designed specifically for the B2C industry.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -132,15 +121,14 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Direct your efforts towards high-value accounts and nurture
+            connections that result in amplified revenue with our specialized
+            approach to account-based marketing (ABM).
           </div>
         </div>
 
-        <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+        {/* <div
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -157,10 +145,10 @@ function LeadSecondContainer() {
             adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
             Voluptatibus, praesentium?
           </div>
-        </div>
+        </div> */}
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -168,19 +156,18 @@ function LeadSecondContainer() {
         >
           <div>
             <div className="text-xl font-semibold primaryColor ">
-              Conversion Rate Optimization.
+              Conversion Rate Optimization
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Enhance your website's performance and expertly guide visitors
+            through their buyer's journey with strategic tactics aimed at
+            boosting conversions effectively.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -188,19 +175,17 @@ function LeadSecondContainer() {
         >
           <div>
             <div className="text-xl font-semibold primaryColor ">
-              Email Marketing.
+              Email Marketing
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Foster stronger connections with your current customer base and
+            attract new customers through highly effective email communication.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -212,15 +197,14 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Entice prospective buyers eager to explore your brand and convert
+            them into high-value, qualified leads through targeted content
+            offerings.
           </div>
         </div>
 
         <div
-          className="flex flex-col h-60 gap-5 py-5 bg-[#0c2d57] p-3 rounded-md text-white"
+          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -232,10 +216,8 @@ function LeadSecondContainer() {
             </div>
           </div>
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
+            Track the performance of your lead generation marketing strategies
+            and gain valuable insights into their effectiveness.
           </div>
         </div>
       </div>

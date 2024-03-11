@@ -10,14 +10,14 @@ function BlockChainMainPage() {
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <div className="text-lg">Video Marketing</div>
-        <div className="md:text-6xl text-4xl md:w-[90%] font-extrabold leading-snug primaryColor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-          impedit?
+        {/* <div className="text-lg">Video Marketing</div> */}
+        <div className="md:text-5xl text-4xl md:w-[90%] font-extrabold leading-snug primaryColor">
+          Forging the Future: Crafting Your Path in Blockchain Development
         </div>
         <div className=" text-xl md:w-[60%] leading-snug">
-          Humanizing your brand is a transformative approach that connects your
-          brand with people on a personal and emotional level.
+          Discover how to navigate through the complexities of decentralized
+          technologies, unlock innovative solutions, and shape the future of
+          finance, governance, and beyond.
         </div>
         <Link
           to="/contactForm"
@@ -25,7 +25,7 @@ function BlockChainMainPage() {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-          <div className="lg:px-10 px-10 py-5 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
+          <div className="lg:px-10 px-10 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>

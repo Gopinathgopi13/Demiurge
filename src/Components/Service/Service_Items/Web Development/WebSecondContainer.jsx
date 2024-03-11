@@ -10,16 +10,17 @@ function WebSecondContainer() {
       data-aos-once="true"
     >
       <div className="space-y-10">
-        <div className="md:text-6xl text-3xl">
-          Acquire state-of-the-art designs with a proven web development company
+        <div className="md:text-4xl font-semibold primaryColor text-3xl">
+          Get cutting-edge designs from a proven web development service
         </div>
         <div className="text-lg">
           <p>
-            Your website provides a window into your brand, and ideally you want
-            to put your best foot forward. You need a memorable and highly
-            responsive site with intuitive navigation. Ultimately, you want your
-            consumers to have a seamless browsing experience that engages them
-            long enough to discover your unique offering.
+            Your website acts as a gateway to your brand, and naturally, you
+            want to make a strong impression. You need a memorable and highly
+            responsive site with intuitive navigation. Ultimately, your aim is
+            to provide consumers with a seamless browsing experience that
+            captures their interest long enough for them to uncover your unique
+            offerings.
           </p>
         </div>
       </div>
@@ -56,21 +57,21 @@ function WebSecondContainer() {
             Specialist Website Development Services That Scale Your Business
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolor ab
-            ut voluptate numquam cupiditate! Voluptate beatae tempora aliquid
-            tempore autem excepturi reprehenderit, ducimus in harum, deserunt
-            doloremque? Accusamus, tempore? Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Nesciunt, quasi? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Quis, ipsam! Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Tenetur, provident.
+            Our approach is straightforward: We create high-performing,
+            user-friendly websites that ensure customer retention.
           </p>
-          <p>
-            Your website provides a window into your brand, and ideally you want
-            to put your best foot forward. You need a memorable and highly
-            responsive site with intuitive navigation. Ultimately, you want your
-            consumers to have a seamless browsing experience that engages them
-            long enough to discover your unique offering.
-          </p>
+          <p>We are a full-service web development company, offering:</p>
+          <ul>
+            <li>Custom Website Design & Development</li>
+            <li>E-commerce Website Development</li>
+            <li>Third Party API Development & Integration</li>
+            <li>Web App Development</li>
+            <li>Mobile App Development</li>
+            <li>HTML5 Web Development</li>
+            <li>WordPress Web Development</li>
+            <li>UX/UI Design</li>
+            <li>CMS Integration</li>
+          </ul>
         </div>
       </div>
     </div>

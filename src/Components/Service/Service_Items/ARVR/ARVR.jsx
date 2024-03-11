@@ -6,6 +6,8 @@ import ARVRMainPage from "./ARVRMainPage";
 import ARVRSecondContainer from "./ARVRSecondContainer";
 import ARThirdContainer from "./ARThirdContainer";
 import ARVRi from "../../../../assets/AR-VR.jpg";
+import FAQ from "./FAQ";
+import CTA from "./CTA";
 function ARVR() {
   return (
     <div className="w-full">
@@ -18,14 +20,14 @@ function ARVR() {
       <div className="my-20">
         <ARVRSecondContainer />
       </div>
-      <div className="border-2">
+      <div className="bg-[#0c2d57] text-white">
         <ARThirdContainer />
       </div>
-      {/* <div>
-      <WebFourthContainer />
-    </div> */}
       <div>
-        <ContactForm />
+        <FAQ />
+      </div>
+      <div className="bg-[#0c2d57]">
+        <CTA/>
       </div>
       <div>
         <Footer />

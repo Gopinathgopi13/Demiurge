@@ -7,6 +7,7 @@ import WebSecondContainer from "./WebSecondContainer";
 import WebFourthContainer from "./WebFourthContainer";
 import WebThirdContainer from "./WebThirdContainer";
 import web from "../../../../assets/web.jpg";
+import CTA from "./CTA";
 
 function Web() {
   return (
@@ -24,7 +25,10 @@ function Web() {
         <WebThirdContainer />
       </div>
       <div>
-        <ContactForm />
+        <WebFourthContainer />
+      </div>
+      <div className="bg-[#0c2d57]">
+        <CTA/>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />

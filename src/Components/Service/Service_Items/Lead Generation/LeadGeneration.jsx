@@ -6,6 +6,8 @@ import LeadMainPage from "./LeadMainPage";
 import LeadSecondContainer from "./LeadSecondContainer";
 import LeadThirdGeneration from "./LeadThirdGeneration";
 import lead from "../../../../assets/lead.jpg";
+import LeadFourthGeneration from "./LeadFourthGeneration";
+import CTA from "./CTA";
 function LeadGeneration() {
   return (
     <div className="w-full">
@@ -18,14 +20,14 @@ function LeadGeneration() {
       <div className="my-20">
         <LeadSecondContainer />
       </div>
-      <div className="border-2">
+      {/* <div className="border-2">
         <LeadThirdGeneration />
-      </div>
-      {/* <div>
-        <WebFourthContainer />
       </div> */}
       <div>
-        <ContactForm />
+        <LeadFourthGeneration />
+      </div>
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />

@@ -21,7 +21,7 @@ function Careers() {
       <div>
         <OpenPosition/>
       </div>
-      <div>
+      <div className="bg-[#0c2d57]">
         <Querys/>
       </div>
       <div>

@@ -11,13 +11,14 @@ function WebMainPage() {
         data-aos-once="true"
       >
         {/* <div className="text-lg">Website Development</div> */}
-        <div className="md:text-6xl text-3xl md:w-[90%] font-extrabold leading-snug primaryColor">
-          Empowering Your Online Presence with Expert Website Development.
+        <div className="md:text-5xl text-3xl md:w-[90%] font-extrabold leading-snug primaryColor">
+          Tailored web development solutions that translate your requirements
+          into impactful solutions.
         </div>
-        <div className="md:w-[50%] lg:text-xl text-justify">
-          With our strategic approach to website development, we'll help you
-          stand out in the crowded online landscape and achieve your business
-          objectives.
+        <div className="md:w-[70%] lg:text-xl text-justify">
+          By understanding your requirements in depth, we craft solutions that
+          not only address your immediate needs but also deliver long-lasting
+          impact.
         </div>
         <Link
           to="/contactForm"

@@ -7,6 +7,8 @@ import BockchainSeondContainer from "./BockchainSeondContainer";
 import BlockchainThirdContainer from "./BlockchainThirdContainer";
 import block from "../../../../assets/blockchain.jpg";
 import BlockchainFourthContainer from "./BlockchainFourthContainer";
+import CTA from "./CTA";
+import FAQ from "./FAQ";
 function Blockchain() {
   return (
     <div className="w-full">
@@ -26,7 +28,10 @@ function Blockchain() {
         <BlockchainFourthContainer />
       </div>
       <div>
-        <ContactForm />
+        <FAQ/>
+      </div>
+      <div className="bg-[#0c2d57]">
+        <CTA />
       </div>
       <div>
         <Footer />

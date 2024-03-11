@@ -1,0 +1,33 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const CTA = () => {
+  return (
+    <div className="w-full">
+      <div
+        className="max-w-[1280px] mx-auto px-4 py-20 lg:pb-20 flex flex-col justify-center gap-y-14"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
+        <div className="p-5 text-black flex flex-col items-center gap-5 rounded-lg  bg-gray-100">
+          <div className="lg:text-4xl text-xl text-[#E48F45]">
+            Step Beyond Reality: Elevate Your Brand with AR/VR Advertising
+          </div>
+          <div className="w-[80%] md:text-xl text-center">
+            Reach out to us now and let's transform your marketing into
+            immersive experiences that leave a lasting impact
+          </div>
+          <div>
+            <Link to="/contactForm">
+              <div className="px-10 w-auto py-3 rounded-sm text-xl text-[#E48F45] bg-[#0c2d57] flex items-center gap-4 cursor-pointer">
+                <Link to="/contact">Book A Call Now</Link>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CTA;

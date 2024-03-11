@@ -16,35 +16,35 @@ function ARThirdContainer() {
         voluptate!
       </div>
       <div className="grid md:grid-cols-5 gap-5">
-        <div className="flex justify-center items-center shadow-xl rounded-3xl">
+        <div className="flex justify-center items-center shadow-xl rounded-3xl bg-white">
           <img
             src={ARTech1}
             className="h-[50%] w-[50%] object-contain"
             alt=""
           />
         </div>
-        <div className="flex justify-center items-center shadow-xl rounded-3xl">
+        <div className="flex justify-center items-center shadow-xl rounded-3xl bg-white">
           <img
             src={ARTech2}
             className="h-[50%] w-[50%] object-contain"
             alt=""
           />
         </div>
-        <div className="flex justify-center items-center shadow-xl rounded-3xl">
+        <div className="flex justify-center items-center shadow-xl rounded-3xl bg-white">
           <img
             src={ARTech3}
             className="h-[50%] w-[50%] object-contain"
             alt=""
           />
         </div>
-        <div className="flex justify-center items-center shadow-xl rounded-3xl">
+        <div className="flex justify-center items-center shadow-xl rounded-3xl bg-white">
           <img
             src={ARTech4}
             className="h-[50%] w-[50%] object-contain"
             alt=""
           />
         </div>
-        <div className="flex justify-center items-center shadow-xl rounded-3xl">
+        <div className="flex justify-center items-center shadow-xl rounded-3xl bg-white">
           <img
             src={ARTech5}
             className="h-[50%] w-[50%] object-contain"
