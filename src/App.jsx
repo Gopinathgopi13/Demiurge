@@ -22,6 +22,7 @@ import LeadGeneration from "./Components/Service/Service_Items/Lead Generation/L
 import ARVR from "./Components/Service/Service_Items/ARVR/ARVR";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import ScrollToTop from "./ScrollToTop";
+import ErrorPAge from "./Components/ErrorPAge";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -65,28 +66,7 @@ function App() {
             <Route path="/service/blockchain" element={<Blockchain />} />
             <Route path="/service/lead" element={<LeadGeneration />} />
             <Route path="/service/arvr" element={<ARVR />} />
-
-            {/* Industries */}
-            {/* <Route path="/industries" element={<Industries />} />
-          <Route path="/industries/fintech" element={<FintechMarketing />} />
-          <Route path="/industries/crypto" element={<CryptoMarketing />} />
-          <Route path="/industries/software" element={<SoftwareMarketing />} />
-          <Route path="/industries/startup" element={<StartupMarketing />} />
-          <Route path="/industries/smallBusiness" element={<SmallBusiness />} />
-          <Route
-            path="/industries/ecommerce"
-            element={<ECommerceMarketing />}
-          />
-          <Route path="/industries/gaming" element={<GamingMarketing />} />
-          <Route path="/industries/esport" element={<EsportsMarketing />} />
-          <Route
-            path="/industries/real-Estate"
-            element={<RealEstateMarketing />}
-          />
-          <Route path="/industries/tour" element={<Tourism />} />
-          <Route path="/industries/healthcare" element={<Healthcare />} />
-          <Route path="/industries/b2b" element={<B2bMarketing />} />
-          <Route path="/industries/education" element={<Education />} /> */}
+            <Route path="*" element={<ErrorPAge />} />
           </Routes>
         </ScrollToTop>
       </BrowserRouter>
