@@ -38,7 +38,7 @@ function App() {
   return (
     !loading && (
       <>
-        <div className="bg-[#e48f45] flex justify-between px-10">
+        <div className="bg-[#e48f45] items-center justify-between md:px-10 md:flex hidden">
           <div>
             <IoIosMail size={25} className="inline-block text-[#0c2d57]" />{" "}
             philomenjohn@demiurge.in{" "}

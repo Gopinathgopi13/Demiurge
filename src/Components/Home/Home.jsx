@@ -18,7 +18,7 @@ function Home() {
   return (
     <div className="w-full">
       <div
-        className="bg-[#0c2d57] lg:sticky top-0 z-50 shadow-md"
+        className="bg-[#0c2d57] sticky top-0 z-50 shadow-md"
         // data-aos="fade-down"
         // data-aos-duration="1000"
         // data-aos-once="true"

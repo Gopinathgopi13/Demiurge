@@ -8,8 +8,8 @@ import teamMember4 from "../../assets/3D_Image/Member4.jpg";
 function OurTeam() {
   return (
     <div className="w-full">
-      <div className="max-w-[1280px] mx-auto px-4 lg:pb-20 pt-20">
-        <div className="text-6xl font-bold primaryColor my-10">Our team</div>
+      <div className="max-w-[1280px] mx-auto px-4 lg:pb-20">
+        <div className="text-5xl font-bold primaryColor my-10">Our team</div>
         <div className="w-full">
           <div className="container">
             <div className="card-wrapper">
