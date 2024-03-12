@@ -5,7 +5,6 @@ import MarketingService from "./MarketingService";
 import OrganicPaid from "./OrganicPaid";
 import Footer from "../../../Footer/Footer";
 import CTA from "./CTA";
-import ContactForm from "../../../Home/ContactForm/ContactForm";
 import { Outlet } from "react-router-dom";
 import Social_Media_Home_Page from "../../../../assets/Social_Media_Home_Page.jpg";
 function SocialMedia() {
@@ -15,7 +14,7 @@ function SocialMedia() {
         <Navbar />
       </div>
       <div
-        className="bg-cover bg-right"
+        className="bg-cover bg-center"
         style={{ backgroundImage: `url(${Social_Media_Home_Page})` }}
       >
         <SocialMediaMainPage />
