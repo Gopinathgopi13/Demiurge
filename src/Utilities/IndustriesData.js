@@ -17,7 +17,7 @@ const industriesData = [
     logo: socialMedia,
     name: "Fintech",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Enhance your position in the fintech industry with our tailored marketing strategies. Our methods are designed to boost visibility, instill trust, and fuel lasting growth, giving you a competitive advantage.",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const industriesData = [
     logo: SEO,
     name: "Crypto",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Effectively promote your cryptocurrency, ICO, or blockchain offering within a complex and fast-evolving digital landscape through targeted cryptocurrency promotion.",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const industriesData = [
     logo: paidMedia,
     name: "Saas",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Maximize the growth potential of your SaaS business through the implementation of a strategic framework tailored to bolster engagement and drive heightened customer acquisition rates.",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const industriesData = [
     logo: paidSocial,
     name: "Startup",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Embark on your startup journey equipped with a comprehensive digital marketing strategy meticulously crafted to ensure success from the very start.",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const industriesData = [
     logo: influMarketing,
     name: "Small Business",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Take the first steps in expanding your small business by implementing targeted digital campaigns that are designed to nurture relationships and drive conversions effectively.",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const industriesData = [
     logo: Email,
     name: "eCommerce",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Empower your eCommerce venture to reach new heights and unlock its full potential with Demiurge by your side – your dedicated partner offering comprehensive digital solutions and expert marketing strategies tailored to your needs.",
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const industriesData = [
     logo: PR,
     name: "Gaming",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Captivate and connect with the vibrant gaming community by launching an impactful campaign that not only promotes your product but also fosters meaningful engagement, igniting excitement and driving lasting connections.",
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ const industriesData = [
     logo: Video,
     name: "Esports",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Amplify your footprint within the dynamic Esports landscape by implementing a meticulously designed strategy that not only increases brand awareness but also fosters deeper engagement, positioning your brand as a prominent player in the industry.",
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ const industriesData = [
     logo: Video,
     name: "B2B",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Captivate the interest of influential decision-makers and elevate your brand's visibility within the business-to-business sphere with our specialized expertise and tailored strategies, designed to make a lasting impact.",
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ const industriesData = [
     logo: Video,
     name: "B2C",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Ignite the curiosity of discerning consumers and amplify your brand's presence in the business-to-consumer realm with our unique insights and customized approaches, crafted to leave a lasting impression.",
   },
   {
     id: 11,
@@ -97,7 +97,7 @@ const industriesData = [
     logo: Video,
     name: "Realestate",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Enthrall discerning property investors and elevate your real estate brand's presence in the competitive market landscape with our unparalleled expertise and customized strategies, meticulously crafted to leave a lasting impression.",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const industriesData = [
     logo: Video,
     name: "Education",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Unlock the potential of aspiring minds and enrich their educational experience with our meticulously crafted content, designed to captivate interest and drive meaningful learning outcomes.",
   },
   {
     id: 13,
@@ -113,7 +113,7 @@ const industriesData = [
     logo: Video,
     name: "Healthcare",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Engage healthcare industry leaders and enhance your brand's recognition within the business-to-business sector through our specialized knowledge and custom-tailored strategies, aimed at leaving a lasting impression.",
   },
   {
     id: 14,
@@ -121,7 +121,7 @@ const industriesData = [
     logo: Video,
     name: "Tourism",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
+      "Capture the imagination of travelers and enhance your brand's visibility in the tourism industry with our specialized knowledge and personalized strategies, curated to create a lasting impact on your target audience.",
   },
 ];
 
