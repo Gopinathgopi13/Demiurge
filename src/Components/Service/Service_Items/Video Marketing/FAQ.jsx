@@ -76,7 +76,7 @@ function Accordion(props) {
         </span>
       </button>
       {props.isOpen && (
-        <div className="py-4 md:px-10 text-lg bg-gray-100 text-[#0C2D57]">
+        <div className="py-4 md:px-10 px-5 text-lg bg-gray-100 text-[#0C2D57]">
           {props.data}
         </div>
       )}

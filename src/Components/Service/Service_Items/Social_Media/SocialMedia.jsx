@@ -19,10 +19,10 @@ function SocialMedia() {
       >
         <SocialMediaMainPage />
       </div>
-      <div className="my-20">
+      <div className="my-10">
         <MarketingService />
       </div>
-      <div className="my-20">
+      <div className="my-10">
         <OrganicPaid />
       </div>
       <div className="bg-[#0c2d57]">

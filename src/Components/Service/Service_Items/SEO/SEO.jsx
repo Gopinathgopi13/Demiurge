@@ -14,24 +14,24 @@ function SEO() {
         <Navbar />
       </div>
       <div
-        className="bg-cover bg-right"
+        className="bg-cover bg-left"
         style={{ backgroundImage: `url(${SEO_Main_Page})` }}
       >
         <SEOMainPage />
       </div>
-      <div className="my-20">
+      <div className="my-10">
         <SEOSecondContainer />
       </div>
       <div className="bg-[#0c2d57] py-10">
         <SEOThirdContainer />
       </div>
-      <div className="my-20">
+      <div className="py-10">
         <SEOFourthConitainer />
       </div>
       {/* <div>
         <ContactForm />
       </div> */}
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+      <div>
         <Footer />
       </div>
     </div>

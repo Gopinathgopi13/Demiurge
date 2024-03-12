@@ -4,7 +4,7 @@ import SearchEO from "../../../../assets/SVG/ppc-management.svg";
 function PRThirdContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4">
-      <div className="md:text-4xl font-semibold text-3xl my-5 primaryColor">
+      <div className="md:text-4xl font-semibold text-2xl my-5 primaryColor">
         Your brand's narrative is an ongoing conversation, whether you're
         actively shaping it or not. Why leave it to chance? At Demiurge, we
         understand the importance of taking control of your story
@@ -13,8 +13,8 @@ function PRThirdContainer() {
         <div className="mx-auto">
           <img src={SearchEO} className="md:w-[95%] h-[80%]" alt="" />
         </div>
-        <div className="text-justify text-xl px-2 gap-5 text-white">
-          <p className="leading-8">
+        <div className="text-justify text-xl px-2 gap-5">
+          <p className="leading-8 text-white">
             Through our strategic PR services, we empower you to lead the
             conversation. Leveraging our team's extensive background in the
             media industry, we've cultivated invaluable connections to ensure

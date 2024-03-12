@@ -9,7 +9,7 @@ function PortfolioMainContainer() {
       <div className="text-2xl primaryColor mb-12 text-center">
         Social Media Posts & Ads
       </div>
-      <div className="columns-4 px-10">
+      <div className="md:columns-4 columns-2 md:px-10">
         {data.map(({ id, img }) => {
           console.log(img);
           return (

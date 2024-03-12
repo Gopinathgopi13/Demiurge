@@ -6,8 +6,8 @@ function PPCThirdContainer() {
       <div className="lg:text-6xl text-3xl font-medium my-5 py-5 primaryColor">
         Our Platforms
       </div>
-      <div className="grid lg:grid-cols-3 my-10">
-        <div className="flex flex-col h-52 gap-5 border-r-2 border-b-2 p-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 my-10">
+        <div className="flex flex-col h-52 gap-5 lg:border-r-2 lg:border-b-2 p-5">
           <div className="h-[40%] flex items-center gap-8">
             {/* <img src={google} className="h-[40%]" /> */}
             <div>
@@ -46,7 +46,7 @@ function PPCThirdContainer() {
         </div>
 
         <div
-          className="flex flex-col h-52 gap-5 border-r-2 border-b-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-r-2 lg:border-b-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -89,7 +89,7 @@ function PPCThirdContainer() {
           </div>
         </div>
         <div
-          className="flex flex-col h-52 gap-5 border-b-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-b-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -128,7 +128,7 @@ function PPCThirdContainer() {
         </div>
 
         <div
-          className="flex flex-col h-52 gap-5 border-r-2 border-b-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-r-2 lg:border-b-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -168,7 +168,7 @@ function PPCThirdContainer() {
         </div>
 
         <div
-          className="flex flex-col h-52 gap-5 border-r-2 border-b-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-r-2 lg:border-b-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -205,7 +205,7 @@ function PPCThirdContainer() {
         </div>
 
         <div
-          className="flex flex-col h-52 gap-5 border-b-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-b-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -234,7 +234,7 @@ function PPCThirdContainer() {
         </div>
 
         <div
-          className="flex flex-col h-52 gap-5 border-r-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-r-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"
@@ -275,7 +275,7 @@ function PPCThirdContainer() {
         </div>
 
         <div
-          className="flex flex-col h-52 gap-5 border-r-2 p-5"
+          className="flex flex-col h-52 gap-5 lg:border-r-2 p-5"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-once="true"

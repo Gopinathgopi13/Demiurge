@@ -8,7 +8,7 @@ function PRSecondContainer() {
         Driving Measurable Results in PR with Demiurge
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
-        <div className="flex flex-col h-52 gap-5">
+        <div className="flex flex-col gap-5">
           <div className=" space-y-3">
             <img src={PNG} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
@@ -21,7 +21,7 @@ function PRSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-52 gap-5">
+        <div className="flex flex-col gap-5">
           <div className="space-y-3">
             <img src={PNG} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
@@ -35,7 +35,7 @@ function PRSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-52 gap-5">
+        <div className="flex flex-col gap-5">
           <div className=" space-y-3">
             <img src={PNG} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
@@ -48,7 +48,7 @@ function PRSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-52 gap-5">
+        <div className="flex flex-col gap-5">
           <div className=" space-y-3">
             <img src={PNG} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
@@ -61,7 +61,7 @@ function PRSecondContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-52 gap-5">
+        <div className="flex flex-col gap-5">
           <div className=" space-y-3">
             <img src={PNG} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">

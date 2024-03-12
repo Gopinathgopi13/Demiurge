@@ -7,7 +7,7 @@ function SEOMainPage() {
     <div className="w-full">
       <div className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[100vh] text-white flex flex-col lg:pt-40 md:items-start justify-center items-center gap-y-10 ">
         {/* <div className="text-lg">SEO</div> */}
-        <div className="md:text-5xl text-[6vw] md:w-[60%] font-extrabold leading-snug primaryColor">
+        <div className="md:text-5xl text-3xl md:w-[60%] font-extrabold leading-snug primaryColor">
           SEO isn't just a tool—it's your secret weapon
         </div>
         <div className="md:w-[50%] lg:text-xl text-justify">

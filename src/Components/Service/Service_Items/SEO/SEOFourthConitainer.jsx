@@ -7,8 +7,8 @@ function SEOFourthConitainer() {
       <div className="md:text-5xl text-3xl text-center font-medium my-5 primaryColor">
         Ready to wield the power of SEO ?
       </div>
-      <div className="px-14 space-y-3 md:text-xl font-light flex flex-col justify-center items-center gap-5">
-        <p className="text-xl text-white">
+      <div className="md:px-14 space-y-3 md:text-xl font-light flex flex-col justify-center items-center gap-5">
+        <p className="text-xl text-white text-center">
           Unlock the power of SEO as your secret weapon for online success. With
           our proven strategies and expertise, we'll propel your brand to new
           heights in search engine rankings, driving organic traffic and

@@ -15,15 +15,15 @@ function PPC() {
         <Navbar />
       </div>
       <div
-        className="bg-cover bg-right"
+        className="bg-cover bg-left"
         style={{ backgroundImage: `url(${Performance_Marketing_Home_Page})` }}
       >
         <PPCMainPage />
       </div>
-      <div className="my-20">
+      <div className="my-10">
         <PPCSecondContainer />
       </div>
-      <div className="my-20 bg-[#0c2d57]">
+      <div className="my-10 bg-[#0c2d57]">
         <PPCThirdContainer />
       </div>
       <div>

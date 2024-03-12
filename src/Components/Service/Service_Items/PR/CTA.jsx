@@ -9,7 +9,7 @@ function CTA() {
       
       >
         <div className="p-5 text-black flex flex-col items-center gap-5 rounded-lg  bg-gray-100">
-          <div className="lg:text-4xl font-medium text-xl text-[#E48F45]">
+          <div className="lg:text-4xl font-medium text-center text-xl text-[#E48F45]">
             Your brand's narrative is an ongoing conversation, whether you're
             actively shaping it or not. Why leave it to chance? At Demiurge, we
             understand the importance of taking control of your story

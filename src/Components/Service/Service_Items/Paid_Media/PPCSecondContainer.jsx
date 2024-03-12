@@ -3,7 +3,7 @@ import SearchEO from "../../../../assets/Performance_Marketing/Performance MArke
 function PPCSecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
-      <div className="lg:text-6xl text-3xl font-medium my-5 primaryColor">
+      <div className="lg:text-5xl text-3xl font-medium my-3 primaryColor">
         Our Performance Marketing Services:
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
