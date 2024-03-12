@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="text-white w-full z-50">
       <div className="max-w-[1280px] mx-auto flex items-center font-medium justify-around rounded-full">
-        <div className="z-50 px-5 md:w-auto w-full flex justify-between">
+        <div className="z-50 p-3 md:w-auto w-full flex justify-between">
           <a href="/">
             <img
               src={OrginalLogo1}
@@ -79,7 +79,23 @@ const Navbar = () => {
               Portfolio
             </Link>
           </li>
-          <NavLinks />
+          <li>
+            <Link to="/service" className="py-7 px-3 inline-block">
+              Service
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="py-7 px-3 inline-block">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="py-7 px-3 inline-block">
+              Contact
+            </Link>
+          </li>
+          {/* <NavLinks />
+           */}
           <div className="py-5">
             <Button />
           </div>

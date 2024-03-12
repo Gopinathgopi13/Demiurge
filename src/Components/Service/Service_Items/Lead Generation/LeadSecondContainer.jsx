@@ -17,13 +17,7 @@ function LeadSecondContainer() {
         achieve for businesses like yours:
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="0"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               LinkedIn Lead Generation
@@ -35,13 +29,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="200"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               Demand Generation
@@ -53,13 +41,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="400"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               SaaS Lead Generation
@@ -71,13 +53,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="600"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               IT Lead Generation
@@ -90,13 +66,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="800"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               B2C Lead Generation
@@ -108,13 +78,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="1000"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               Account-Based Marketing
@@ -147,13 +111,7 @@ function LeadSecondContainer() {
           </div>
         </div> */}
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="1400"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               Conversion Rate Optimization
@@ -166,13 +124,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="1600"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               Email Marketing
@@ -184,13 +136,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="1800"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               Content Marketing
@@ -203,13 +149,7 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="2000"
-        >
+        <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div>
             <div className="text-xl font-semibold primaryColor ">
               Analytics & Reporting

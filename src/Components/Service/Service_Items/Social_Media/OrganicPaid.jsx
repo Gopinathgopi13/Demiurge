@@ -7,12 +7,7 @@ function OrganicPaid() {
     <div className="w-full">
       <div className="max-w-[1280px] mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 -z-50">
         {/* Organic Container */}
-        <div
-          className="bg-slate-100 w-[90%] shadow-2xl py-10 px-10 rounded-3xl lg:relative left-24 flex flex-col gap-10  justify-around items-center md:pr-10"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="bg-slate-100 w-[90%] shadow-2xl py-10 px-10 rounded-3xl lg:relative left-24 flex flex-col gap-10  justify-around items-center md:pr-10">
           <div className="md:text-6xl text-3xl font-semibold">
             Organic Social
           </div>
@@ -97,12 +92,7 @@ function OrganicPaid() {
           </Link>
         </div>
         {/* Paid Container */}
-        <div
-          className="bg-[#0c2d57] text-white w-[90%] py-10 shadow-xl rounded-3xl z-20 flex flex-col gap-10 justify-around items-center"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="bg-[#0c2d57] text-white w-[90%] py-10 shadow-xl rounded-3xl z-20 flex flex-col gap-10 justify-around items-center">
           <div className="md:text-6xl text-3xl font-semibold">Paid Social</div>
           <div className="space-y-2 text-lg gap-2 grid px-10 md:grid-cols-2">
             <div className="flex flex-wrap items-center gap-4">

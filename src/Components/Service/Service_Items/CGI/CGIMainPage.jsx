@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 
 function CGIMainPage() {
   return (
-    <div
-      className="max-w-[1280px] mx-auto px-4  h-[100vh] text-white flex flex-col justify-center items-start gap-y-14"
-      // data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] mx-auto px-4  h-[100vh] text-white flex flex-col justify-center items-start gap-y-14">
       <div className="md:text-6xl text-3xl md:w-[90%] font-extrabold leading-snug primaryColor">
         Experience the visual revolution. Elevate your brand's storytelling with
         CGI!
@@ -17,12 +12,7 @@ function CGIMainPage() {
         Unlock the power of CGI to revolutionize your brand's storytelling.
         Elevate your visuals and captivate your audience like never before.
       </div>
-      <Link
-        to="/contactForm"
-        // data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="500"
-      >
+      <Link to="/contactForm">
         <div className="lg:px-10 px-10 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
           <Link to="/contact" id="shine">
             Get in touch

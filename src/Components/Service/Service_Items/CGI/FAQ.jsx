@@ -11,8 +11,7 @@ const FAQ = () => {
     },
     {
       key: 2,
-      title:
-        "How does it differ from traditional advertising?",
+      title: "How does it differ from traditional advertising?",
       data: `
       CGI advertising utilizes computer-generated imagery to create visuals and animations for advertisements, offering limitless creative possibilities. In contrast, traditional advertising relies on physical sets, props, and actors, limiting creative flexibility and often requiring higher production costs.`,
       isOpen: false,
@@ -41,12 +40,7 @@ const FAQ = () => {
   return (
     <div className="w-full px-4 bg-cover bg-no-repeat py-10">
       <div className="max-w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
-        <div
-          className="text-center text-white mb-5"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-once="ture"
-        >
+        <div className="text-center text-white mb-5">
           <h2 className="text-4xl mx-auto font-semibold primaryColor">FAQ's</h2>
         </div>
         {accordions.map((accordion) => (

@@ -4,11 +4,7 @@ import { Link } from "react-router-dom";
 const CTA = () => {
   return (
     <div className="w-full">
-      <div
-        className="max-w-[1280px] mx-auto px-4 py-20 lg:pb-20 flex flex-col justify-center gap-y-14"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-      >
+      <div className="max-w-[1280px] mx-auto px-4 py-20 lg:pb-20 flex flex-col justify-center gap-y-14">
         <div className="p-5 text-black flex flex-col items-center gap-5 rounded-lg  bg-gray-100">
           <div className="lg:text-4xl text-xl text-[#E48F45]">
             Ready to revolutionize your brand's image?

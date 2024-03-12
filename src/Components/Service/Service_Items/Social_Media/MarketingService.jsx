@@ -10,23 +10,13 @@ function MarketingService() {
           <span className="bg-[#0c2d57] px-3">Marketing Services</span>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 justify-around w-full">
-          <div
-            className="px-5"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-once="true"
-          >
+          <div className="px-5">
             <div className="md:text-3xl text-xl font-medium">
               We're experts in social media, driven by a passion for marketing.
               Let's elevate your brand's online presence together.
             </div>
           </div>
-          <div
-            className="px-5 text-xl space-y-6"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-once="true"
-          >
+          <div className="px-5 text-xl space-y-6">
             <div className="flex gap-4 ">
               <div>
                 <img src={servicesGrid} className="h-14 w-14" alt="" />

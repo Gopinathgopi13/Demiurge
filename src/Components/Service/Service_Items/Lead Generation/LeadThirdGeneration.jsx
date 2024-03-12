@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 
 function LeadThirdGeneration() {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
       <div className="md:text-6xl text-3xl font-medium my-5">
         How Can a Lead Generation Service Help My Business?
       </div>

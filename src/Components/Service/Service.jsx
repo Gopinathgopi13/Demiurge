@@ -24,11 +24,7 @@ function Service() {
       <div className="w-full">
         <ContactForm />
       </div>
-      <div data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-once="true"
-      >
-
+      <div>
         <Footer />
       </div>
     </div>

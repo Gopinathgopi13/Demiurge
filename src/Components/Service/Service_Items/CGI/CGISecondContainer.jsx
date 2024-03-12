@@ -3,12 +3,7 @@ import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
 
 const CGISecondContainer = () => {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
       <div className="lg:text-4xl text-2xl font-semibold w-[80%] mx-auto text-center my-5 primaryColor">
         Harness the impactful capabilities of CGI ads to elevate your brand's
         outreach to unparalleled levels

@@ -1,11 +1,11 @@
 import React from "react";
-import SEO_1 from '../../../../assets/SEO/SEO_1.png'
-import SEO_2 from '../../../../assets/SEO/SEO_2.png'
-import SEO_3 from '../../../../assets/SEO/SEO_3.png'
-import SEO_4 from '../../../../assets/SEO/SEO_4.png'
-import SEO_5 from '../../../../assets/SEO/SEO_5.png'
-import SEO_6 from '../../../../assets/SEO/SEO_6.png'
-import SEO_7 from '../../../../assets/SEO/SEO_7.png'
+import SEO_1 from "../../../../assets/SEO/SEO_1.png";
+import SEO_2 from "../../../../assets/SEO/SEO_2.png";
+import SEO_3 from "../../../../assets/SEO/SEO_3.png";
+import SEO_4 from "../../../../assets/SEO/SEO_4.png";
+import SEO_5 from "../../../../assets/SEO/SEO_5.png";
+import SEO_6 from "../../../../assets/SEO/SEO_6.png";
+import SEO_7 from "../../../../assets/SEO/SEO_7.png";
 function SEOThirdContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-5 space-y-5 text-white px-4">
@@ -13,12 +13,7 @@ function SEOThirdContainer() {
         Our SEO Strategy can deliver:
       </div>
       <div className="grid lg:grid-cols-3 gap-5 px-10">
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_1} className="h-16" />
           </div>
@@ -27,12 +22,7 @@ function SEOThirdContainer() {
             are using to search for products or services.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_2} className="h-16" />
           </div>
@@ -42,12 +32,7 @@ function SEOThirdContainer() {
             rankings.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_3} className="h-16" />
           </div>
@@ -56,12 +41,7 @@ function SEOThirdContainer() {
             your target audience and aligns with search engine algorithms.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_4} className="h-16" />
           </div>
@@ -71,12 +51,7 @@ function SEOThirdContainer() {
             any issues that may affect search engine rankings.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_5} className="h-16" />
           </div>
@@ -86,12 +61,7 @@ function SEOThirdContainer() {
             engines.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_6} className="h-16" />
           </div>
@@ -102,12 +72,7 @@ function SEOThirdContainer() {
             listings.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_7} className="h-16" />
           </div>
@@ -117,12 +82,7 @@ function SEOThirdContainer() {
             consultation and support.
           </div>
         </div>
-        <div
-          className="flex flex-col items-center bg-white py-5 text-black rounded-lg"
-          data-aos="fade-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col items-center bg-white py-5 text-black rounded-lg">
           <div className="">
             <img src={SEO_3} className="h-16" />
           </div>

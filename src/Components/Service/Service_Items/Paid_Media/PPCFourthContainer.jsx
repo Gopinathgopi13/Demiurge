@@ -1,22 +1,17 @@
 import React from "react";
 import star from "../../../../assets/star.png";
-import Objective from '../../../../assets/Performance_Marketing/Objective.png';
-import Audience from '../../../../assets/Performance_Marketing/Audience.png';
-import Trends from '../../../../assets/Performance_Marketing/Trends.png';
-import Competition from '../../../../assets/Performance_Marketing/Competition.png';
-import Planning from '../../../../assets/Performance_Marketing/Planning.png';
-import Execution from '../../../../assets/Performance_Marketing/Execution.png';
-import Analysis from '../../../../assets/Performance_Marketing/Analysis.png';
-import Improvement from '../../../../assets/Performance_Marketing/Improvement.png';
+import Objective from "../../../../assets/Performance_Marketing/Objective.png";
+import Audience from "../../../../assets/Performance_Marketing/Audience.png";
+import Trends from "../../../../assets/Performance_Marketing/Trends.png";
+import Competition from "../../../../assets/Performance_Marketing/Competition.png";
+import Planning from "../../../../assets/Performance_Marketing/Planning.png";
+import Execution from "../../../../assets/Performance_Marketing/Execution.png";
+import Analysis from "../../../../assets/Performance_Marketing/Analysis.png";
+import Improvement from "../../../../assets/Performance_Marketing/Improvement.png";
 
 const PPCFourthContainer = () => {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-10"
-      //   data-aos="fade-down"
-      //   data-aos-duration="1000"
-      //   data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-10">
       <div className="md:text-4xl text-center text-3xl font-semibold primaryColor my-5">
         How Our PPC Management Company Drives ROI
       </div>

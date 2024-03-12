@@ -5,13 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 function SEOMainPage() {
   return (
     <div className="w-full">
-      <div
-        className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[100vh] text-white flex flex-col lg:pt-40 md:items-start justify-center items-center gap-y-10 "
-        // data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-once="true"
-      >
-        
+      <div className="max-w-[1280px] mx-auto px-4 lg:pb-20 h-[100vh] text-white flex flex-col lg:pt-40 md:items-start justify-center items-center gap-y-10 ">
         {/* <div className="text-lg">SEO</div> */}
         <div className="md:text-5xl text-[6vw] md:w-[60%] font-extrabold leading-snug primaryColor">
           SEO isn't just a tool—it's your secret weapon
@@ -20,12 +14,7 @@ function SEOMainPage() {
           Your roadmap to online visibility, ensuring your brand stands out and
           attracts the right audience.
         </div>
-        <Link
-          to="/contactForm"
-          // data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="500"
-        >
+        <Link to="/contactForm">
           <div className="lg:px-10 px-5  lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch

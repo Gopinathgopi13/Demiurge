@@ -2,12 +2,7 @@ import React from "react";
 import PNG from "../../../../assets/PNG.png";
 const CGIThirdContainer = () => {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10 mx-auto px-10 text-white"
-    //   data-aos="fade-down"
-    //   dara-aos-duration="1000"
-    //   data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10 mx-auto px-10 text-white">
       <div className="md:text-4xl text-3xl font-semibold py-5 primaryColor">
         Our Approach to CGI Advertising
       </div>
@@ -19,7 +14,9 @@ const CGIThirdContainer = () => {
         imagination.
       </div>
 
-      <div className="primaryColor text-2xl font-semibold">The process of creating a CGI advertisement typically involves:</div>
+      <div className="primaryColor text-2xl font-semibold">
+        The process of creating a CGI advertisement typically involves:
+      </div>
       <div className="grid lg:grid-cols-3 gap-10 my-5">
         <div className="flex flex-col items-center gap-5">
           <div className="">

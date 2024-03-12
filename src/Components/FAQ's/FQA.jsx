@@ -52,12 +52,7 @@ const FAQ = () => {
   return (
     <div className="w-full px-4 bg-[#0C2D57] bg-cover bg-no-repeat py-10">
       <div className="max-w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
-        <div
-          className="text-center text-white mb-5"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-once="ture"
-        >
+        <div className="text-center text-white mb-5">
           <h2 className="text-4xl font-bold mx-auto primaryColor">FAQ's</h2>
         </div>
         {accordions.map((accordion) => (

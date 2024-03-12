@@ -3,12 +3,7 @@ import SearchEO from "../../../../assets/web1.jpg";
 import SearchEO2 from "../../../../assets/wev2.jpg";
 function WebSecondContainer() {
   return (
-    <div
-      className="max-w-[1280px] mx-auto space-y-10 py-20 md:px-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] mx-auto space-y-10 py-20 md:px-4">
       <div className="space-y-10">
         <div className="md:text-4xl font-semibold primaryColor text-3xl">
           Get cutting-edge designs from a proven web development service

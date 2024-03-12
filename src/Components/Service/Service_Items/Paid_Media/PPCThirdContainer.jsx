@@ -7,12 +7,7 @@ function PPCThirdContainer() {
         Our Platforms
       </div>
       <div className="grid lg:grid-cols-3 my-10">
-        <div
-          className="flex flex-col h-52 gap-5 border-r-2 border-b-2 p-5"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col h-52 gap-5 border-r-2 border-b-2 p-5">
           <div className="h-[40%] flex items-center gap-8">
             {/* <img src={google} className="h-[40%]" /> */}
             <div>

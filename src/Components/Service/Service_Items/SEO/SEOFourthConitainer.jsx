@@ -3,14 +3,9 @@ import { Link } from "react-router-dom";
 
 function SEOFourthConitainer() {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto p-4 gap-5 bg-[#0c2d57]"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto p-4 gap-5 bg-[#0c2d57]">
       <div className="md:text-5xl text-3xl text-center font-medium my-5 primaryColor">
-        Ready to wield the power of SEO ? 
+        Ready to wield the power of SEO ?
       </div>
       <div className="px-14 space-y-3 md:text-xl font-light flex flex-col justify-center items-center gap-5">
         <p className="text-xl text-white">

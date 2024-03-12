@@ -3,12 +3,7 @@ import SearchEO from "../../../../assets/SVG/ppc-management.svg";
 
 function VideoMarketingSecondContainer() {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4">
       <div className="lg:text-4xl font-semibold lg:w-[90%] my-5 primaryColor">
         Experience the power of Video Marketing to propel your Reach to new
         heights

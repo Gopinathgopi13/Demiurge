@@ -3,12 +3,7 @@ import SearchEO from "../../../../assets/SVG/ppc-management.svg";
 
 function PRThirdContainer() {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4">
       <div className="md:text-4xl font-semibold text-3xl my-5 primaryColor">
         Your brand's narrative is an ongoing conversation, whether you're
         actively shaping it or not. Why leave it to chance? At Demiurge, we

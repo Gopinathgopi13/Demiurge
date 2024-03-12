@@ -14,12 +14,7 @@ function SEOSecondContainer() {
         Your SEO Partner Like No Other
       </div>
       <div className="grid lg:grid-cols-2 mx-auto">
-        <div
-          className="flex flex-col justify-around text-justify px-2"
-          // data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="flex flex-col justify-around text-justify px-2">
           <p className="text-xl leading-7 font-light">
             With us as your SEO ally, you're not just another client – you're a
             valued collaborator in our mission for digital excellence. Together,
@@ -39,12 +34,7 @@ function SEOSecondContainer() {
             facere fugiat?
           </p> */}
         </div>
-        <div
-          className="mx-auto"
-          // data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
+        <div className="mx-auto">
           <img src={SearchEO} className="h-[400px] w-full" alt="" />
         </div>
       </div>

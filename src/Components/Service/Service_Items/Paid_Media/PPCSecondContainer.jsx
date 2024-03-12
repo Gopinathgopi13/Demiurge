@@ -2,12 +2,7 @@ import React from "react";
 import SearchEO from "../../../../assets/Performance_Marketing/Performance MArketing.jpg";
 function PPCSecondContainer() {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
       <div className="lg:text-6xl text-3xl font-medium my-5 primaryColor">
         Our Performance Marketing Services:
       </div>
@@ -25,13 +20,19 @@ function PPCSecondContainer() {
             finally say goodbye to wasted ad spend and guesswork.
           </p>
           <ul className="space-y-4 list-outside list-disc px-5 marker:text-[#ff8400]">
-            <li className="text-lg font-popins">Pay-Per-Click (PPC) Advertising</li>
+            <li className="text-lg font-popins">
+              Pay-Per-Click (PPC) Advertising
+            </li>
             <li className="text-lg font-popins">Social Media Advertising</li>
-            <li className="text-lg font-popins">Conversion Rate Optimization (CRO)</li>
+            <li className="text-lg font-popins">
+              Conversion Rate Optimization (CRO)
+            </li>
             <li className="text-lg font-popins">Email Marketing</li>
             <li className="text-lg font-popins">Content Marketing</li>
             <li className="text-lg font-popins">Affiliate Marketing</li>
-            <li className="text-lg font-popins">Data Analytics and Reporting</li>
+            <li className="text-lg font-popins">
+              Data Analytics and Reporting
+            </li>
             <li className="text-lg font-popins">Landing Page Optimization</li>
             <li className="text-lg font-popins">Remarketing and Retargeting</li>
           </ul>

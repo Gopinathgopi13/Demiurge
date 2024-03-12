@@ -4,20 +4,10 @@ import industriesData from "../../../Utilities/IndustriesData";
 function IndustriesComponent() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center px-4 mx-auto">
-      <div
-        className="lg:text-4xl text-3xl font-bold my-5 primaryColor"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-once="true"
-      >
+      <div className="lg:text-4xl text-3xl font-bold my-5 primaryColor">
         Our Industries
       </div>
-      <div
-        className="lg:text-lg lg:w-[60%] mb-12"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-once="true"
-      >
+      <div className="lg:text-lg lg:w-[60%] mb-12">
         Our creative digital marketing firm has helped a diverse range of
         businesses and organizations achieve their advertising objectives. With
         extensive experience working in numerous industries, we have the

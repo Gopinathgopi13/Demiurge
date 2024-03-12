@@ -38,12 +38,7 @@ const FAQ = () => {
   return (
     <div className="w-full px-4 bg-cover bg-no-repeat py-10">
       <div className="max-w-[1280px] flex flex-col justify-center gap-5 mx-auto py-7">
-        <div
-          className="text-center text-white mb-5"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-once="ture"
-        >
+        <div className="text-center text-white mb-5">
           <h2 className="text-6xl mx-auto primaryColor">FAQ's</h2>
         </div>
         {accordions.map((accordion) => (
@@ -64,11 +59,7 @@ export default FAQ;
 
 function Accordion(props) {
   return (
-    <div
-      className="rounded-lg mb-5 overflow-hidden"
-      data-aos="fade-down"
-      data-aos-duration="500"
-    >
+    <div className="rounded-lg mb-5 overflow-hidden">
       <button
         className="w-full p-4 text-left flex md:px-28 justify-between items-center bg-gray-200 
                           hover:bg-gray-300 transition duration-300"

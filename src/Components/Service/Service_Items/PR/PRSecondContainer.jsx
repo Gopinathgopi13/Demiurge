@@ -1,14 +1,9 @@
 import React from "react";
-import PNG from '../../../../assets/PNG.png'
+import PNG from "../../../../assets/PNG.png";
 
 function PRSecondContainer() {
   return (
-    <div
-      className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4"
-      // data-aos="fade-down"
-      // data-aos-duration="1000"
-      // data-aos-once="true"
-    >
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
       <div className="md:text-4xl text-3xl font-semibold my-5 py-5 primaryColor">
         Driving Measurable Results in PR with Demiurge
       </div>

@@ -4,20 +4,10 @@ import Card from "./Card";
 function ServiceContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
-      <div
-        className="lg:text-4xl text-3xl font-bold my-10 primaryColor"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-once="true"
-      >
+      <div className="lg:text-4xl text-3xl font-bold my-10 primaryColor">
         Our Digital <br /> Marketing Services
       </div>
-      <div
-        className="lg:text-lg lg:w-[60%] mb-12"
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        data-aos-once="true"
-      >
+      <div className="lg:text-lg lg:w-[60%] mb-12">
         We’re experts in all things marketing. Business-to-business,
         cryptocurrency, NFT, and high-growth startup brands are our sweet spot.
         Discover how we can scale your business to new heights through our
@@ -38,9 +28,7 @@ function ServiceContainer() {
           );
         })}
       </div>
-      <div>
-        {/* <Card/> */}
-      </div>
+      <div>{/* <Card/> */}</div>
     </div>
   );
 }
