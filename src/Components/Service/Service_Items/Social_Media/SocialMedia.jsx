@@ -11,7 +11,7 @@ import Social_Media_Home_Page from "../../../../assets/Social_Media_Home_Page.jp
 function SocialMedia() {
   return (
     <div>
-      <div className="w-full fixed top-0  shadow-md z-50">
+      <div className="w-full bg-[#0c2d57] sticky top-0  shadow-md z-50">
         <Navbar />
       </div>
       <div

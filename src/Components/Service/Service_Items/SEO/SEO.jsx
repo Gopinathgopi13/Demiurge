@@ -10,7 +10,7 @@ import SEO_Main_Page from "../../../../assets/SEO_Main_Page.jpg";
 function SEO() {
   return (
     <div className="w-full">
-      <div className="w-full fixed top-0  z-50 shadow-md">
+      <div className="w-full sticky bg-[#0c2d57] top-0  z-50 shadow-md">
         <Navbar />
       </div>
       <div

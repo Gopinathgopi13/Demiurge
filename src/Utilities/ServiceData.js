@@ -1,17 +1,16 @@
-import socialMedia from "../assets/SVG/Social_media.svg";
-import SEO from "../assets/SVG/SEO.svg";
-import paidMedia from "../assets/SVG/Paid_Media.svg";
-import paidSocial from "../assets/SVG/Paid_Social.svg";
-import PR from "../assets/SVG/PR_Service.svg";
-import VideoMarketing from "../assets/SVG/video-marketing.svg";
-import Branding from "../assets/SVG/Branding.svg";
-import Community_M from "../assets/SVG/influencer_Marketing.svg";
-import Website from "../assets/SVG/website-development.svg";
-import websiteDesign from "../assets/SVG/web-design.svg";
-import MblApp from "../assets/SVG/Mobile_App.svg";
-import MblAppDesign from "../assets/SVG/Mobile_App_Design.svg";
-import Blockchain from "../assets/SVG/blockchain-development.svg";
-import leadGen from "../assets/SVG/lead-gen.svg";
+import socialMedia from "../assets/Social Logo/Social_Media.png";
+import SEO from "../assets/Social Logo/SEO.png";
+import paidMedia from "../assets/Social Logo/Performance_Marketing.png";
+import PR from "../assets/Social Logo/Public_Relation.png";
+import VideoMarketing from "../assets/Social Logo/Video_Marketing.png";
+import Branding from "../assets/Social Logo/Branding.png";
+import Community_M from "../assets/Social Logo/Community.png";
+import Website from "../assets/Social Logo/Website_Development.png";
+import websiteDesign from "../assets/Social Logo/CGI.png";
+import MblApp from "../assets/Social Logo/Mobile_Development.png";
+import MblAppDesign from "../assets/Social Logo/AR_VR.png";
+import Blockchain from "../assets/Social Logo/Blockchain.png";
+import leadGen from "../assets/Social Logo/Lead.png";
 
 const serviceData = [
   {

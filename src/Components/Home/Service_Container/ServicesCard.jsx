@@ -12,7 +12,7 @@ function ServicesCard({ id, logo, name, description, path }) {
         data-aos-once="true"
       >
         <div className=" flex mb-5 items-center gap-2">
-          <img src={logo} alt="" />
+          <img src={logo} className="h-12" alt="" />
           <div className="text-xl font-semibold primaryColor">{name}</div>
         </div>
         <div className="text-gray-600 font-normal group-hover:text-white line-clamp-5">{description}</div>

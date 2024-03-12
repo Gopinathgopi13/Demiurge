@@ -11,7 +11,7 @@ import Performance_Marketing_Home_Page from "../../../../assets/Performance_Mark
 function PPC() {
   return (
     <div className="w-full">
-      <div className="w-full fixed top-0 shadow-md z-50">
+      <div className="w-full sticky bg-[#0c2d57] top-0 shadow-md z-50">
         <Navbar />
       </div>
       <div

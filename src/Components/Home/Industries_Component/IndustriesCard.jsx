@@ -14,7 +14,7 @@ function IndustriesCard({ id, logo, name, description, path }) {
         <div className="font-bold text-xl primaryColor">{name}</div>
         <div>{description}</div>
       </div>
-    </div>
+    </div>  
     // </div>
   );
 }
