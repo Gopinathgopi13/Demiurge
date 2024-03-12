@@ -1,5 +1,11 @@
 import React from "react";
-import SEOImage from "../../../../assets/SVG/seo-analytics.svg";
+import SEO_1 from '../../../../assets/SEO/SEO_1.png'
+import SEO_2 from '../../../../assets/SEO/SEO_2.png'
+import SEO_3 from '../../../../assets/SEO/SEO_3.png'
+import SEO_4 from '../../../../assets/SEO/SEO_4.png'
+import SEO_5 from '../../../../assets/SEO/SEO_5.png'
+import SEO_6 from '../../../../assets/SEO/SEO_6.png'
+import SEO_7 from '../../../../assets/SEO/SEO_7.png'
 function SEOThirdContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto my-5 space-y-5 text-white px-4">
@@ -14,7 +20,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_1} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Identifying relevant keywords and phrases that potential customers
@@ -28,7 +34,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_2} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Optimizing various elements on your website, including meta tags,
@@ -43,7 +49,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_3} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Developing high-quality, keyword-rich content that resonates with
@@ -57,7 +63,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_4} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Conducting comprehensive audits of your website's technical aspects,
@@ -72,7 +78,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_5} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Acquiring high-quality backlinks from reputable websites to improve
@@ -87,7 +93,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_6} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Optimizing your website for local search queries to improve
@@ -103,7 +109,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_7} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Developing customized SEO strategies tailored to your business
@@ -118,7 +124,7 @@ function SEOThirdContainer() {
           data-aos-once="true"
         >
           <div className="">
-            <img src={SEOImage} className="h-16" />
+            <img src={SEO_3} className="h-16" />
           </div>
           <div className="px-5 text-lg font-light">
             Providing regular reporting and analysis of key performance metrics,

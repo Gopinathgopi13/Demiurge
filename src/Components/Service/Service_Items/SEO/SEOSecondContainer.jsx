@@ -1,5 +1,7 @@
 import React from "react";
-import SearchEO from "../../../../assets/SVG/SearchEO.svg";
+// import SearchEO from "../../../../assets/SVG/SearchEO.svg";
+import SearchEO from "../../../../assets/SEO.jpg";
+
 function SEOSecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
@@ -18,7 +20,7 @@ function SEOSecondContainer() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <p className="text-xl font-light">
+          <p className="text-xl leading-7 font-light">
             With us as your SEO ally, you're not just another client – you're a
             valued collaborator in our mission for digital excellence. Together,
             we'll navigate the complexities of the online landscape, crafting
@@ -43,7 +45,7 @@ function SEOSecondContainer() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <img src={SearchEO} className="h-full w-full" alt="" />
+          <img src={SearchEO} className="h-[400px] w-full" alt="" />
         </div>
       </div>
     </div>

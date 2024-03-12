@@ -1,6 +1,13 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import star from "../../../../assets/star.png";
+import Objective from '../../../../assets/Performance_Marketing/Objective.png';
+import Audience from '../../../../assets/Performance_Marketing/Audience.png';
+import Trends from '../../../../assets/Performance_Marketing/Trends.png';
+import Competition from '../../../../assets/Performance_Marketing/Competition.png';
+import Planning from '../../../../assets/Performance_Marketing/Planning.png';
+import Execution from '../../../../assets/Performance_Marketing/Execution.png';
+import Analysis from '../../../../assets/Performance_Marketing/Analysis.png';
+import Improvement from '../../../../assets/Performance_Marketing/Improvement.png';
 
 const PPCFourthContainer = () => {
   return (
@@ -13,10 +20,10 @@ const PPCFourthContainer = () => {
       <div className="md:text-4xl text-center text-3xl font-semibold primaryColor my-5">
         How Our PPC Management Company Drives ROI
       </div>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
         {/* 1 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Objective} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Objective
           </div>
@@ -29,7 +36,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 2 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Audience} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Audience
           </div>
@@ -42,7 +49,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 3 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Trends} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Trends
           </div>
@@ -55,7 +62,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 4 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Competition} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Competition
           </div>
@@ -68,7 +75,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 5 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Planning} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Planning
           </div>
@@ -81,7 +88,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 6 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Execution} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Execution
           </div>
@@ -94,7 +101,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 7 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Analysis} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Analysis
           </div>
@@ -107,7 +114,7 @@ const PPCFourthContainer = () => {
         </div>
         {/* 8 */}
         <div className="mx-auto space-y-5">
-          <img src={star} className="w-20 mx-auto" alt="" />
+          <img src={Improvement} className="w-20 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Improvement
           </div>

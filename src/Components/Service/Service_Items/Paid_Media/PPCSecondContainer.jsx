@@ -1,5 +1,5 @@
 import React from "react";
-import SearchEO from "../../../../assets/SVG/ppc-management.svg";
+import SearchEO from "../../../../assets/Performance_Marketing/Performance MArketing.jpg";
 function PPCSecondContainer() {
   return (
     <div
@@ -13,7 +13,7 @@ function PPCSecondContainer() {
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="md:w-[70%] h-[80%]" alt="" />
+          <img src={SearchEO} className="w-full h-full" alt="" />
         </div>
         <div className="flex flex-col justify-around px-3 gap-5">
           <p className="text-xl ">
