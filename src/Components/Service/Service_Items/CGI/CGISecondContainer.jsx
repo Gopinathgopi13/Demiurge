@@ -1,5 +1,6 @@
 import React from "react";
 import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
+import CGI from '../../../../assets/CGI/CGI.jpeg'
 
 const CGISecondContainer = () => {
   return (
@@ -8,11 +9,11 @@ const CGISecondContainer = () => {
         Harness the impactful capabilities of CGI ads to elevate your brand's
         outreach to unparalleled levels
       </div>
-      <div className="grid sm:grid-cols-2 mx-auto">
+      <div className="grid sm:grid-cols-2 gap-5 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="md:w-[95%] h-[90%]" alt="" />
+          <img src={CGI} className="" alt="" />
         </div>
-        <div className="flex flex-col justify-around text-justify px-2 gap-5">
+        <div className="flex flex-col text-justify justify-center px-2 gap-5">
           <p className="leading-6">
             Transform your brand's presence with CGI ads that defy boundaries
             and captivate audiences. Through mesmerizing visuals and innovative

@@ -2,7 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import star from "../../../../assets/star.png";
 
-
+import v1 from "../../../../assets/Vide_Marketing/v1.png";
+import v2 from "../../../../assets/Vide_Marketing/v2.png";
+import v3 from "../../../../assets/Vide_Marketing/v3.png";
+import v4 from "../../../../assets/Vide_Marketing/v4.png";
+import v5 from "../../../../assets/Vide_Marketing/v5.png";
 
 function VideoMarketingFourthContainer() {
   return (
@@ -13,7 +17,7 @@ function VideoMarketingFourthContainer() {
       <div className="space-y-10">
         {/* 1 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={v1} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Strategic Vision
           </div>
@@ -25,7 +29,7 @@ function VideoMarketingFourthContainer() {
         </div>
         {/* 2 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={v2} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Content Creation
           </div>
@@ -37,7 +41,7 @@ function VideoMarketingFourthContainer() {
         </div>
         {/* 3 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={v3} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Distribution
           </div>
@@ -49,7 +53,7 @@ function VideoMarketingFourthContainer() {
         </div>
         {/* 4 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={v4} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Optimization
           </div>
@@ -61,7 +65,7 @@ function VideoMarketingFourthContainer() {
         </div>
         {/* 5 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={v5} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Performance Measurement
           </div>

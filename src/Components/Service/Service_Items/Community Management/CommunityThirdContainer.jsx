@@ -1,4 +1,10 @@
 import React from "react";
+import c1 from "../../../../assets/Community_Management/c1.png";
+import c2 from "../../../../assets/Community_Management/c2.png";
+import c3 from "../../../../assets/Community_Management/c3.png";
+import c4 from "../../../../assets/Community_Management/c4.png";
+import c5 from "../../../../assets/Community_Management/c5.png";
+
 function CommunityThirdContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10">
@@ -6,8 +12,9 @@ function CommunityThirdContainer() {
         Our Comprehensive Community Management Services
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
+        <div className="flex flex-col text-center gap-3 py-5">
+          <div className="space-y-3">
+            <img src={c1} className="w-28 mx-auto" alt="" />
             <div className="text-xl font-semibold primaryColor">
               Social Media Platforms
             </div>
@@ -21,8 +28,9 @@ function CommunityThirdContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
+        <div className="flex flex-col text-center gap-3 py-5">
+          <div className="space-y-3">
+            <img src={c2} className="w-28 mx-auto" alt="" />
             <div className="text-xl font-semibold primaryColor">
               Online Forums
             </div>
@@ -34,8 +42,10 @@ function CommunityThirdContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
+        <div className="flex flex-col text-center gap-3 py-5">
+          <div className="space-y-3">
+            <img src={c3} className="w-28 mx-auto" alt="" />
+
             <div className="text-xl font-semibold primaryColor">
               Community Management Software
             </div>
@@ -47,8 +57,10 @@ function CommunityThirdContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
+        <div className="flex flex-col text-center gap-3 py-5">
+          <div className="space-y-3">
+            <img src={c4} className="w-28 mx-auto" alt="" />
+
             <div className="text-xl font-semibold primaryColor">
               Branded Community Platforms
             </div>
@@ -61,8 +73,10 @@ function CommunityThirdContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col h-60 gap-5 py-5">
-          <div>
+        <div className="flex flex-col text-center gap-3 py-5">
+          <div className="space-y-3">
+            <img src={c5} className="w-28 mx-auto" alt="" />
+
             <div className="text-xl font-semibold primaryColor">
               Messaging Apps
             </div>

@@ -3,7 +3,7 @@ import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
 
 function BrandingSecondContainer() {
   return (
-    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-5  mx-auto px-4 py-4">
       <div className="md:text-4xl font-semibold text-3xl my-5 primaryColor">
         Discover the Art and Science of Branding: A Dynamic Partnership Driving
         Brand Success.

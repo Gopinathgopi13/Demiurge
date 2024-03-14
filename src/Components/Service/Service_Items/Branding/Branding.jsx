@@ -17,7 +17,7 @@ function Branding() {
       <div className="bg-[#0c2d57]">
         <BrandingMainPage />
       </div>
-      <div className="my-20">
+      <div className="my-10">
         <BrandingSecondContainer />
       </div>
       <div className="bg-[#0c2d57]">

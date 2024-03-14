@@ -1,6 +1,6 @@
 import React from "react";
 import SearchEO from "../../../../assets/SVG/seo-analytics.svg";
-
+import CommunityManagement from '../../../../assets/Community_Management/CommunityManagement.jpg'
 function CommunitySecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto px-4 py-4">
@@ -10,9 +10,9 @@ function CommunitySecondContainer() {
       </div>
       <div className="grid sm:grid-cols-2 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="md:w-[95%] h-[90%]" alt="" />
+          <img src={CommunityManagement} className="" alt="" />
         </div>
-        <div className="flex flex-col justify-around text-justify px-2 gap-5">
+        <div className="flex flex-col text-justify justify-center font-light px-2 gap-5">
           <p className="leading-6">
             Community management is integral to establishing a brand's identity
             and reputation. By actively engaging with community members, brands

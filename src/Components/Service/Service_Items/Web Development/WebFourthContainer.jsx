@@ -1,6 +1,11 @@
 import React from "react";
 import star from "../../../../assets/star.png";
-
+import w1 from '../../../../assets/Website/w1.png'
+import w2 from '../../../../assets/Website/w2.png'
+import w3 from '../../../../assets/Website/w3.png'
+import w4 from '../../../../assets/Website/w4.png'
+import w5 from '../../../../assets/Website/w5.png'
+import w6 from '../../../../assets/Website/w6.png'
 function WebFourthContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
@@ -10,7 +15,7 @@ function WebFourthContainer() {
       <div className="space-y-10">
         {/* 1 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={w1} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Discovery Consultation
           </div>
@@ -23,7 +28,7 @@ function WebFourthContainer() {
         </div>
         {/* 2 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={w2} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Planning & Strategy
           </div>
@@ -38,7 +43,7 @@ function WebFourthContainer() {
         </div>
         {/* 3 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={w3} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Website Design & Copywriting
           </div>
@@ -52,7 +57,7 @@ function WebFourthContainer() {
         </div>
         {/* 4 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={w4} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Coding & Development
           </div>
@@ -66,7 +71,7 @@ function WebFourthContainer() {
         </div>
         {/* 5 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={w5} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Quality Assurance
           </div>
@@ -79,7 +84,7 @@ function WebFourthContainer() {
           </div>
         </div>
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={w6} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Deployment
           </div>

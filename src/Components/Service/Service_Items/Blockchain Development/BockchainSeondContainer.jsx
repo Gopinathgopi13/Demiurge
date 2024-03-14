@@ -1,5 +1,15 @@
 import React from "react";
 import SEOImage from "../../../../assets/SVG/google_icon.svg";
+import block1 from '../../../../assets/Blockchain/block1.png'
+import block2 from '../../../../assets/Blockchain/block2.png'
+import block3 from '../../../../assets/Blockchain/block3.png'
+import block4 from '../../../../assets/Blockchain/block4.png'
+import block5 from '../../../../assets/Blockchain/block5.png'
+import block6 from '../../../../assets/Blockchain/block6.png'
+import block7 from '../../../../assets/Blockchain/block7.png'
+import block8 from '../../../../assets/Blockchain/block8.png'
+import block9 from '../../../../assets/Blockchain/block9.png'
+import block10 from '../../../../assets/Blockchain/block10.png'
 function BockchainSeondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
@@ -26,7 +36,7 @@ function BockchainSeondContainer() {
       <div className="grid lg:grid-cols-3 gap-5 my-10">
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block1} className="h-12" />
             <div className="text-xl text-blue-500">
               Development & Integration
             </div>
@@ -40,7 +50,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block2} className="h-12" />
             <div className="text-xl text-blue-500">
               Enterprise Blockchain Development
             </div>
@@ -54,7 +64,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block3} className="h-12" />
             <div className="text-xl text-blue-500">Blockchain Consulting</div>
           </div>
           <div className=" p-5">
@@ -67,7 +77,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block4} className="h-12" />
             <div className="text-xl text-blue-500">
               DeFi Solutions Development
             </div>
@@ -81,7 +91,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block5} className="h-12" />
             <div className="text-xl text-blue-500">
               Non-Fungible Tokens (NFT) Development
             </div>
@@ -95,7 +105,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block6} className="h-12" />
             <div className="text-xl text-blue-500">
               Security Token Offering Solutions
             </div>
@@ -109,7 +119,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block7} className="h-12" />
             <div className="text-xl text-blue-500">
               Cryptocurrency Wallet Development
             </div>
@@ -123,7 +133,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block8} className="h-12" />
             <div className="text-xl text-blue-500">
               Cryptocurrency Exchange Development
             </div>
@@ -137,7 +147,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block9} className="h-12" />
             <div className="text-xl text-blue-500">
               Smart Contract Development & Audit
             </div>
@@ -151,7 +161,7 @@ function BockchainSeondContainer() {
 
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
-            <img src={SEOImage} className="h-12" />
+            <img src={block10} className="h-12" />
             <div className="text-xl text-blue-500">
               Play To Earn Game Development
             </div>

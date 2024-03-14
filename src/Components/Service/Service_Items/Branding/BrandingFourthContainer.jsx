@@ -1,5 +1,10 @@
 import React from "react";
 import SEOImage from "../../../../assets/SVG/SearchEO.svg";
+import b1 from '../../../../assets/Branding/b1.png'
+import b2 from '../../../../assets/Branding/b2.png'
+import b3 from '../../../../assets/Branding/b3.png'
+import b4 from '../../../../assets/Branding/b4.png'
+import b5 from '../../../../assets/Branding/b5.png'
 function BrandingFourthContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-10 py-10">
@@ -8,9 +13,9 @@ function BrandingFourthContainer() {
         identity.
       </div>
       <div className="grid lg:grid-cols-3 gap-20 my-10">
-        <div className="flex flex-col items-center h-60 gap-5">
-          <div className="h-[40%] flex flex-col justify-center items-center ">
-            <img src={SEOImage} className="h-[80%]" />
+        <div className="flex flex-col items-center text-center gap-3">
+          <div className="flex flex-col justify-center gap-4 items-center ">
+            <img src={b1} className="h-28" />
             <div className="text-xl font-semibold primaryColor ">
               Brand Strategy Development
             </div>
@@ -21,9 +26,9 @@ function BrandingFourthContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center h-60 gap-5">
-          <div className="h-[40%] flex flex-col justify-center items-center ">
-            <img src={SEOImage} className="h-[80%]" />
+        <div className="flex flex-col items-center text-center gap-3">
+          <div className="flex flex-col justify-center gap-4 items-center ">
+            <img src={b2} className="h-28" />
             <div className="text-xl font-semibold primaryColor ">
               Brand Identity Design
             </div>
@@ -34,9 +39,9 @@ function BrandingFourthContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center h-60 gap-5">
-          <div className="h-[40%] flex flex-col justify-center items-center ">
-            <img src={SEOImage} className="h-[80%]" />
+        <div className="flex flex-col items-center text-center gap-3">
+          <div className="flex flex-col justify-center gap-4 items-center ">
+            <img src={b3} className="h-28" />
             <div className="text-xl font-semibold primaryColor ">
               Brand Messaging and Tone of Voice
             </div>
@@ -47,9 +52,9 @@ function BrandingFourthContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center h-60 gap-5">
-          <div className="h-[40%] flex flex-col justify-center items-center ">
-            <img src={SEOImage} className="h-[80%]" />
+        <div className="flex flex-col items-center text-center gap-3">
+          <div className="flex flex-col justify-center gap-4 items-center ">
+            <img src={b4} className="h-28" />
             <div className="text-xl font-semibold primaryColor ">
               Brand Guidelines Creation
             </div>
@@ -60,9 +65,9 @@ function BrandingFourthContainer() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center h-60 gap-5">
-          <div className="h-[40%] flex flex-col justify-center items-center ">
-            <img src={SEOImage} className="h-[80%]" />
+        <div className="flex flex-col items-center text-center gap-3">
+          <div className="flex flex-col justify-center gap-4 items-center ">
+            <img src={b5} className="h-28" />
             <div className="text-xl font-semibold primaryColor ">
               Brand Launch Strategy
             </div>

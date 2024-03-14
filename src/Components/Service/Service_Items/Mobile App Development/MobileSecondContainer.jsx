@@ -2,6 +2,10 @@ import React from "react";
 import SearchEO from "../../../../assets/web1.jpg";
 import SearchEO2 from "../../../../assets/wev2.jpg";
 import phone from "../../../../assets/SVG/phone.svg";
+import cross from '../../../../assets/Mobile App Development/platform.png'
+import ios from '../../../../assets/Mobile App Development/apple.png'
+import android from '../../../../assets/Mobile App Development/android.png'
+import ux from '../../../../assets/Mobile App Development/ux-interface.png'
 function MobileSecondContainer() {
   return (
     <div className="max-w-[1280px] mx-auto space-y-10 py-20">
@@ -30,7 +34,7 @@ function MobileSecondContainer() {
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>
-            <img src={phone} alt="" />
+            <img src={ux} className="h-28 " alt="" />
           </div>
           <div className="font-semibold text-2xl primaryColor">
             Mobile App UX Design
@@ -52,7 +56,7 @@ function MobileSecondContainer() {
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>
-            <img src={phone} alt="" />
+            <img src={cross} className="h-28" alt="" />
           </div>
           <div className="font-semibold text-2xl primaryColor">
             Cross-Platform App Development
@@ -73,7 +77,7 @@ function MobileSecondContainer() {
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>
-            <img src={phone} alt="" />
+            <img src={ios} className="h-28" alt="" />
           </div>
           <div className="font-semibold text-2xl primaryColor">
             IOS App Development
@@ -95,7 +99,7 @@ function MobileSecondContainer() {
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>
-            <img src={phone} alt="" />
+            <img src={android} className="h-28" alt="" />
           </div>
           <div className="font-semibold text-2xl primaryColor">
             Android App Development

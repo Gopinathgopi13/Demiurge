@@ -1,5 +1,12 @@
 import React from "react";
-import SEOImage from "../../../../assets/SVG/google_icon.svg";
+
+import fintech from '../../../../assets/Mobile App Development/fintech.png'
+import eCommerce from '../../../../assets/Mobile App Development/marketplace.png'
+import lifestyle from '../../../../assets/Mobile App Development/needs.png'
+import gaming from '../../../../assets/Mobile App Development/game.png'
+import education from '../../../../assets/Mobile App Development/education.png'
+import health from '../../../../assets/Mobile App Development/healthcare.png'
+import social from '../../../../assets/Mobile App Development/social-media.png'
 
 function MobileThirdContainer() {
   return (
@@ -14,7 +21,7 @@ function MobileThirdContainer() {
       <div className="grid lg:grid-cols-3 gap-5 my-10">
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={fintech} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold">
               FinTech & Cryptocurrency
             </div>
@@ -32,7 +39,7 @@ function MobileThirdContainer() {
 
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={eCommerce} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold">Retail & E-Commerce</div>
           </div>
           <div className="space-y-3">
@@ -49,7 +56,7 @@ function MobileThirdContainer() {
 
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={lifestyle} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold">Lifestyle & Travel</div>
           </div>
           <div className="space-y-3">
@@ -65,7 +72,7 @@ function MobileThirdContainer() {
 
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={gaming} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold">Gaming & Entertainment</div>
           </div>
           <div className="space-y-3">
@@ -82,7 +89,7 @@ function MobileThirdContainer() {
 
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={education} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold">Learning & Education</div>
           </div>
           <div className="space-y-3">
@@ -99,7 +106,7 @@ function MobileThirdContainer() {
 
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={health} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold">Healthcare & Medicine</div>
           </div>
           <div className="space-y-3">
@@ -117,7 +124,7 @@ function MobileThirdContainer() {
 
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
-            <img src={SEOImage} className="h-20 mx-auto" />
+            <img src={social} className="h-20 mx-auto" />
             <div className="text-xl text-blue-500 font-semibold text-center">
               Social Networking & Telecommunications
             </div>

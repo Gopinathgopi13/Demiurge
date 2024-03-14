@@ -1,5 +1,15 @@
 import React from "react";
-
+import block2 from "../../../../assets/Blockchain/block2.png";
+import l1 from '../../../../assets/Lead/l1.png'
+import l2 from '../../../../assets/Lead/l2.png'
+import l3 from '../../../../assets/Lead/l3.png'
+import l4 from '../../../../assets/Lead/l4.png'
+import l5 from '../../../../assets/Lead/l5.png'
+import l6 from '../../../../assets/Lead/l6.png'
+import l7 from '../../../../assets/Lead/l7.png'
+import l8 from '../../../../assets/Lead/l8.png'
+import l9 from '../../../../assets/Lead/l9.png'
+import l10 from '../../../../assets/Lead/l10.png'
 function LeadSecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4 ">
@@ -18,7 +28,8 @@ function LeadSecondContainer() {
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l1} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               LinkedIn Lead Generation
             </div>
@@ -30,7 +41,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l2} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               Demand Generation
             </div>
@@ -42,7 +54,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l3} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               SaaS Lead Generation
             </div>
@@ -54,7 +67,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l4} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               IT Lead Generation
             </div>
@@ -67,7 +81,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l5} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               B2C Lead Generation
             </div>
@@ -79,7 +94,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l6} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               Account-Based Marketing
             </div>
@@ -91,28 +107,9 @@ function LeadSecondContainer() {
           </div>
         </div>
 
-        {/* <div
-          className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-once="true"
-          data-aos-delay="1200"
-        >
-          <div>
-            <div className="text-xl font-semibold primaryColor ">
-              Account-Based Marketing
-            </div>
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus, praesentium?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptatibus, praesentium? adipisicing elit.
-            Voluptatibus, praesentium?
-          </div>
-        </div> */}
-
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l7} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               Conversion Rate Optimization
             </div>
@@ -125,7 +122,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l8} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               Email Marketing
             </div>
@@ -137,7 +135,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l9} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               Content Marketing
             </div>
@@ -150,7 +149,8 @@ function LeadSecondContainer() {
         </div>
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
-          <div>
+          <div className="flex  items-center gap-3">
+            <img src={l10} className="h-24" />
             <div className="text-xl font-semibold primaryColor ">
               Analytics & Reporting
             </div>

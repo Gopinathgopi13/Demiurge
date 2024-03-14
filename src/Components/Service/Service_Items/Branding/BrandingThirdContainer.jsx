@@ -1,11 +1,14 @@
 import React from "react";
-import trumpet from '../../../../assets/trumpet.png'
+import trumpet from "../../../../assets/Branding/brand.jpg";
+import SocialMedia from "../../../../assets/Branding/SocialMedia_Branding.jpg";
+import website from "../../../../assets/Branding/website.png";
+import content from "../../../../assets/Branding/Content.jpg";
 function BrandingThirdContainer() {
   return (
     <div className="max-w-[1280px] mx-auto space-y-10 py-20">
       <div className="w-[95%] grid sm:grid-cols-2 mx-auto md:py-10 py-5 gap-5 bg-white rounded-xl text-black">
         <div className="w-full flex justify-center items-center">
-          <img src={trumpet} className="w-[200px]" alt="" />
+          <img src={trumpet} className="" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div className="font-semibold text-2xl primaryColor">
@@ -25,7 +28,7 @@ function BrandingThirdContainer() {
       </div>
       <div className="w-[95%]  grid sm:grid-cols-2 mx-auto md:py-10 py-5 gap-5 bg-white rounded-xl text-black">
         <div className="flex justify-center items-center">
-          <img src={trumpet} className="w-[200px]" alt="" />
+          <img src={trumpet} className="" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ">
           <div className="font-semibold text-2xl primaryColor">
@@ -46,7 +49,7 @@ function BrandingThirdContainer() {
       </div>
       <div className="w-[95%] grid sm:grid-cols-2 mx-auto md:py-10 py-5 gap-5 bg-white rounded-xl text-black">
         <div className="flex justify-center items-center">
-          <img src={trumpet} className="w-[200px]" alt="" />
+          <img src={SocialMedia} className="h-80 w-10/12" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ">
           <div className="font-semibold text-2xl primaryColor">
@@ -67,7 +70,7 @@ function BrandingThirdContainer() {
       </div>
       <div className="w-[95%] grid sm:grid-cols-2 mx-auto md:py-10 py-5 gap-5 bg-white rounded-xl text-black">
         <div className="flex justify-center items-center">
-          <img src={trumpet} className="w-[200px]" alt="" />
+          <img src={website} className="h-80 w-2/3" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ">
           <div className="font-semibold text-2xl primaryColor">
@@ -88,7 +91,7 @@ function BrandingThirdContainer() {
 
       <div className="w-[95%] grid sm:grid-cols-2 mx-auto md:py-10 py-5 gap-5 bg-white rounded-xl text-black">
         <div className="flex justify-center items-center">
-          <img src={trumpet} className="w-[200px]" alt="" />
+          <img src={content} className="" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5 ">
           <div className="font-semibold text-2xl primaryColor">

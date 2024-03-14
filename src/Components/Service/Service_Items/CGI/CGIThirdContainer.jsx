@@ -1,5 +1,8 @@
 import React from "react";
 import PNG from "../../../../assets/PNG.png";
+import CGI1 from '../../../../assets/CGI/CGI1.png'
+import CGI2 from '../../../../assets/CGI/CGI2.png'
+import CGI3 from '../../../../assets/CGI/CGI3.png'
 const CGIThirdContainer = () => {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10 mx-auto px-10 text-white">
@@ -20,7 +23,7 @@ const CGIThirdContainer = () => {
       <div className="grid lg:grid-cols-3 gap-10 my-5">
         <div className="flex flex-col items-center gap-5">
           <div className="">
-            <img src={PNG} className="w-[80px]" />
+            <img src={CGI1} className="w-[80px]" />
           </div>
           <div className="text-xl font-semibold text-center">
             Conceptualization
@@ -35,7 +38,7 @@ const CGIThirdContainer = () => {
 
         <div className="flex flex-col items-center gap-5">
           <div className="">
-            <img src={PNG} className="w-[80px]" />
+            <img src={CGI2} className="w-[80px]" />
           </div>
           <div className="text-xl font-semibold text-center">
             Cutting-Edge Technology
@@ -50,7 +53,7 @@ const CGIThirdContainer = () => {
 
         <div className="flex flex-col items-center gap-5">
           <div className="">
-            <img src={PNG} className="w-[80px]" />
+            <img src={CGI3} className="w-[80px]" />
           </div>
           <div className="text-xl font-semibold text-center">
             {" "}
