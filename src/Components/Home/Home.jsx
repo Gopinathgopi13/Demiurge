@@ -35,13 +35,13 @@ function Home() {
       <div className="w-full">
         <CallToTeam />
       </div>
-      <div className="w-full my-20">
+      <div className="w-full my-10">
         <IndustriesComponent />
       </div>
       <div>
         <FAQ />
       </div>
-      <div className="w-full my-20">
+      <div className="w-full my-10">
         <Clients />
       </div>
       <div className="w-full">
