@@ -12,6 +12,8 @@ import Gaming from "../../../assets/Industies/Gaming.jpg"
 import Education from "../../../assets/Industies/Education.jpg"
 import Realestate from '../../../assets/Industies/Realestate.jpg'
 import B2B from '../../../assets/Industies/B2B.jpeg'
+import Tourism from '../../../assets/Industies/Tourism.jpg';
+import Healthcare from "../../../assets/Industies/HealthCare.webp"
 function IndustriesComponent() {
   return (
     <div className="sm:flex sm:flex-col sm:justify-center mx-auto">
@@ -322,7 +324,7 @@ function IndustriesComponent() {
           id="item-10"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
-            backgroundImage: `url(${industries_Card_Image})`,
+            backgroundImage: `url(${Healthcare})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
@@ -347,7 +349,7 @@ function IndustriesComponent() {
           id="item-11"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
-            backgroundImage: `url(${industries_Card_Image})`,
+            backgroundImage: `url(${Tourism})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}

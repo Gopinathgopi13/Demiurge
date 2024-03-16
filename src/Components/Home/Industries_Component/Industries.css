@@ -1,4 +1,4 @@
-git #item-0 {
+#item-0 {
   background-color: #aeb5bf;
   /* border: 1px solid red; */
   height: 300px;
@@ -73,9 +73,9 @@ git #item-0 {
 #item-7 {
   background-color: #cddd6b;
   grid-row-start: 4;
-  grid-column-start: 3;
+  grid-column-start: 4;
   border-radius: 20px;
-  height: 200px;
+  height: 300px;
   /* align-items: end; */
   grid-row-end: 5;
   grid-column-end: 4;
@@ -85,15 +85,15 @@ git #item-0 {
   grid-row-start: 4;
   grid-column-start: 2;
   border-radius: 20px;
-  height: 200px;
-  grid-row-end: 5;
-  grid-column-end: 3;
+  height: 400px;
+  grid-row-end: 6;
+  grid-column-end: 4;
 }
 #item-9 {
   background-color: #9b9a75;
   grid-row-start: 3;
   grid-column-start: 4;
-  /* height: 200px; */
+  height: 300px;
   border-radius: 20px;
   grid-row-end: 4;
   grid-column-end: 5;
