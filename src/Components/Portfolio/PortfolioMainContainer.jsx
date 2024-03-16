@@ -20,9 +20,9 @@ function PortfolioMainContainer() {
                 className={` mx-auto ${
                   id % 2 == 0 ? "aspect-square" : "aspect-video"
                 } mb-6`}
-                // data-aos="zoom-in"
-                // data-aos-duration="500"
-                // data-aos-once="true"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+                data-aos-once="true"
                 alt=""
               />
             </>

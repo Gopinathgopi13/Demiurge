@@ -35,7 +35,7 @@ function Home() {
       <div className="w-full">
         <CallToTeam />
       </div>
-      <div className="w-full my-10">
+      <div className="w-full my-10 ">
         <IndustriesComponent />
       </div>
       <div>

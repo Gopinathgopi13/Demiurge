@@ -6,6 +6,9 @@ import cross from '../../../../assets/Mobile App Development/platform.png'
 import ios from '../../../../assets/Mobile App Development/apple.png'
 import android from '../../../../assets/Mobile App Development/android.png'
 import ux from '../../../../assets/Mobile App Development/ux-interface.png'
+import iosApp from '../../../../assets/Mobile App Development/IOS.jpg'
+import androidApp from '../../../../assets/Mobile App Development/Android.avif'
+import crossPlatform from '../../../../assets/Mobile App Development/Cross.jpg'
 function MobileSecondContainer() {
   return (
     <div className="max-w-[1280px] mx-auto space-y-10 py-20">
@@ -52,7 +55,7 @@ function MobileSecondContainer() {
       {/* Cross-Platform App Development */}
       <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl ">
         <div className="rounded-xl overflow-hidden">
-          <img src={SearchEO2} className="w-full h-full" alt="" />
+          <img src={crossPlatform} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>
@@ -73,7 +76,7 @@ function MobileSecondContainer() {
       {/*  IOS App Development */}
       <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl ">
         <div className="rounded-xl overflow-hidden">
-          <img src={SearchEO2} className="w-full h-full" alt="" />
+          <img src={iosApp} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>
@@ -95,7 +98,7 @@ function MobileSecondContainer() {
       {/* Android App Development */}
       <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl ">
         <div className="rounded-xl overflow-hidden">
-          <img src={SearchEO2} className="w-full h-full" alt="" />
+          <img src={androidApp} className="w-full h-full" alt="" />
         </div>
         <div className="space-y-5 flex flex-col justify-center px-5">
           <div>

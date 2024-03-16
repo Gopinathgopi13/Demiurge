@@ -67,7 +67,7 @@ function Clients() {
           cl19,
         ].map((cl, index) => (
           <div key={index}>
-            <img src={cl} className="h-36" alt="" />
+            <img src={cl} className="md:h-36 h-24" alt="" />
           </div>
         ))}
       </Marquee>
@@ -94,7 +94,7 @@ function Clients() {
           cl38,
         ].map((cl, index) => (
           <div key={index}>
-            <img src={cl} className="h-36" alt="" />
+            <img src={cl} className="md:h-36 h-24" alt="" />
           </div>
         ))}
       </Marquee>

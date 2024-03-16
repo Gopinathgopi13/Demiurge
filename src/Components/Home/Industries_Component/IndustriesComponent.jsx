@@ -8,12 +8,12 @@ import Saas from "../../../assets/Industies/SaaS.jpg";
 import Startup from "../../../assets/Industies/Startup.jpg";
 import SME from "../../../assets/Industies/SME..jpg";
 import Ecommerce from "../../../assets/Industies/eCommerce.jpg";
-import Gaming from "../../../assets/Industies/Gaming.jpg"
-import Education from "../../../assets/Industies/Education.jpg"
-import Realestate from '../../../assets/Industies/Realestate.jpg'
-import B2B from '../../../assets/Industies/B2B.jpeg'
-import Tourism from '../../../assets/Industies/Tourism.jpg';
-import Healthcare from "../../../assets/Industies/HealthCare.webp"
+import Gaming from "../../../assets/Industies/Gaming.jpg";
+import Education from "../../../assets/Industies/Education.jpg";
+import Realestate from "../../../assets/Industies/Realestate.jpg";
+import B2B from "../../../assets/Industies/B2B.jpeg";
+import Tourism from "../../../assets/Industies/Tourism.jpg";
+import Healthcare from "../../../assets/Industies/HealthCare.webp";
 function IndustriesComponent() {
   return (
     <div className="sm:flex sm:flex-col sm:justify-center mx-auto">
@@ -28,26 +28,14 @@ function IndustriesComponent() {
           insights and expertise to help you discover your true potential.
         </div>
       </div>
-      {/* <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-9">
-        {industriesData.map(({ id, logo, name, description, path }, index) => {
-          // console.log(id)
-          return (
-            <IndustriesCard
-              id={id}
-              logo={logo}
-              name={name}
-              description={description}
-              key={index}
-            />
-          );
-        })}
-      </div> */}
       {/* ----------------------------------------------------- */}
-      <div class="grid grid-rows-5 grid-cols-4 gap-5">
+      <div class="md:grid md:grid-rows-5 md:grid-cols-4 gap-5 space-y-2 px-5 overflow-hidden z-10">
         {/* 1) Fintech */}
         <div
           id="item-0"
-          className={`text-base rounded-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+          className={`md:relative md:bottom-[-100px] md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group relative grid-item`}
           style={{
             backgroundImage: `url(${industries_Card_Image})`,
             backgroundPosition: `center center`,
@@ -72,12 +60,14 @@ function IndustriesComponent() {
         {/* Crypto */}
         <div
           id="item-1"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:bottom-[-100px]  text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group grid-item `}
           style={{
             backgroundImage: `url(${crypto})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-in"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -97,12 +87,14 @@ function IndustriesComponent() {
         {/* Saas */}
         <div
           id="item-2"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group grid-item`}
           style={{
             backgroundImage: `url(${Saas})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-right"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -124,12 +116,14 @@ function IndustriesComponent() {
         {/* Startup */}
         <div
           id="item-3"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:bottom-[-100px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group  grid-item `}
           style={{
             backgroundImage: `url(${Startup})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-in"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -155,6 +149,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-left"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -182,6 +178,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-in"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -207,6 +205,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-in"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -232,6 +232,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-left"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -266,7 +268,7 @@ function IndustriesComponent() {
               amplify visibility, instill trust, and drive growth for a
               competitive edge.
             </div> */}
-          {/* </div> */}
+        {/* </div> */}
         {/* </div>  */}
 
         {/* Realestate */}
@@ -278,6 +280,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-up"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -303,6 +307,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-left"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -328,6 +334,8 @@ function IndustriesComponent() {
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-right"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -347,12 +355,14 @@ function IndustriesComponent() {
         {/* Tourism */}
         <div
           id="item-11"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${Tourism})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
+          data-aos="fade-right"
+          data-aos-duration="1500"
         >
           {/* <img
             src={industries_Card_Image}
@@ -360,7 +370,7 @@ function IndustriesComponent() {
             alt=""
           /> */}
           <div className="absolute bottom-1 px-3 text-white group-hover:drop-shadow-lg">
-            <div className="font-bold text-xl primaryColor">Tourismx</div>
+            <div className="font-bold text-xl primaryColor">Tourism</div>
             {/* <div>
               Boost your fintech standing with our tailored strategies. They
               amplify visibility, instill trust, and drive growth for a
