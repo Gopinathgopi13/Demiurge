@@ -8,6 +8,10 @@ import Saas from "../../../assets/Industies/SaaS.jpg";
 import Startup from "../../../assets/Industies/Startup.jpg";
 import SME from "../../../assets/Industies/SME..jpg";
 import Ecommerce from "../../../assets/Industies/eCommerce.jpg";
+import Gaming from "../../../assets/Industies/Gaming.jpg"
+import Education from "../../../assets/Industies/Education.jpg"
+import Realestate from '../../../assets/Industies/Realestate.jpg'
+import B2B from '../../../assets/Industies/B2B.jpeg'
 function IndustriesComponent() {
   return (
     <div className="sm:flex sm:flex-col sm:justify-center mx-auto">
@@ -197,7 +201,7 @@ function IndustriesComponent() {
           id="item-6"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
-            backgroundImage: `url(${industries_Card_Image})`,
+            backgroundImage: `url(${Gaming})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
@@ -222,7 +226,7 @@ function IndustriesComponent() {
           id="item-7"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
-            backgroundImage: `url(${industries_Card_Image})`,
+            backgroundImage: `url(${B2B})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
@@ -243,7 +247,7 @@ function IndustriesComponent() {
         </div>
 
         {/* B2C */}
-        <div
+        {/* <div
           id="item-8"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
@@ -252,11 +256,7 @@ function IndustriesComponent() {
             backgroundSize: "cover",
           }}
         >
-          {/* <img
-            src={industries_Card_Image}
-            className="w-full h-full blur-0  group-hover:blur-[2px]"
-            alt=""
-          /> */}
+
           <div className="absolute bottom-1 px-3 text-white group-hover:drop-shadow-lg">
             <div className="font-bold text-xl primaryColor">B2C</div>
             {/* <div>
@@ -264,15 +264,15 @@ function IndustriesComponent() {
               amplify visibility, instill trust, and drive growth for a
               competitive edge.
             </div> */}
-          </div>
-        </div>
+          {/* </div> */}
+        {/* </div>  */}
 
         {/* Realestate */}
         <div
-          id="item-9"
+          id="item-8"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
-            backgroundImage: `url(${industries_Card_Image})`,
+            backgroundImage: `url(${Realestate})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
@@ -294,10 +294,10 @@ function IndustriesComponent() {
 
         {/* Education */}
         <div
-          id="item-10"
+          id="item-9"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
-            backgroundImage: `url(${industries_Card_Image})`,
+            backgroundImage: `url(${Education})`,
             backgroundPosition: `center center`,
             backgroundSize: "cover",
           }}
@@ -319,7 +319,7 @@ function IndustriesComponent() {
 
         {/* Healthcare */}
         <div
-          id="item-11"
+          id="item-10"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${industries_Card_Image})`,
@@ -344,7 +344,7 @@ function IndustriesComponent() {
 
         {/* Tourism */}
         <div
-          id="item-12"
+          id="item-11"
           className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${industries_Card_Image})`,
@@ -358,7 +358,7 @@ function IndustriesComponent() {
             alt=""
           /> */}
           <div className="absolute bottom-1 px-3 text-white group-hover:drop-shadow-lg">
-            <div className="font-bold text-xl primaryColor">Fintech</div>
+            <div className="font-bold text-xl primaryColor">Tourismx</div>
             {/* <div>
               Boost your fintech standing with our tailored strategies. They
               amplify visibility, instill trust, and drive growth for a

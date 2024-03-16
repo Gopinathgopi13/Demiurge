@@ -4,7 +4,7 @@ git #item-0 {
   height: 300px;
   position: relative;
   bottom: -100px;
-  /* border-radius: 20px; */
+  border-radius: 20px;
   /* width: 100px; */
   grid-row-start: 1;
   grid-column-start: 2;
@@ -116,15 +116,15 @@ git #item-0 {
   grid-row-end: 5;
   grid-column-end: 2;
 }
-#item-12 {
+/* #item-12 {
   background-color: #f69656;
   grid-row-start: 4;
   grid-column-start: 4;
   border-radius: 20px;
   grid-row-end: 5;
   grid-column-end: 5;
-}
-#item-13 {
+} */
+#item-12 {
   background-color: #757b8d;
   grid-row-start: 5;
   grid-column-start: 2;
