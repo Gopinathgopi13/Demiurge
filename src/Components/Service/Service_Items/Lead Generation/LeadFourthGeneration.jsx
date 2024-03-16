@@ -1,6 +1,10 @@
 import React from "react";
 import star from "../../../../assets/star.png";
-
+import Goal from '../../../../assets/Lead/Goal Setting.png'
+import Analysis from '../../../../assets/Lead/Analysis.png'
+import design from '../../../../assets/Lead/Design & Development.png'
+import execution from '../../../../assets/Lead/execution.png'
+import reporting from '../../../../assets/Lead/Reporting.png'
 const LeadFourthGeneration = () => {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-10  mx-auto my-20 px-4 py-4">
@@ -10,7 +14,7 @@ const LeadFourthGeneration = () => {
       <div className="space-y-10">
         {/* 1 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={Goal} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Goal Setting
           </div>
@@ -24,7 +28,7 @@ const LeadFourthGeneration = () => {
         </div>
         {/* 2 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={Analysis} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Research & Analysis
           </div>
@@ -38,7 +42,7 @@ const LeadFourthGeneration = () => {
         </div>
         {/* 3 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={design} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Design & Development
           </div>
@@ -52,7 +56,7 @@ const LeadFourthGeneration = () => {
         </div>
         {/* 4 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={execution} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Execution & Optimization
           </div>
@@ -66,7 +70,7 @@ const LeadFourthGeneration = () => {
         </div>
         {/* 5 */}
         <div className="lg:w-[60%] mx-auto space-y-5">
-          <img src={star} className="w-28 mx-auto" alt="" />
+          <img src={reporting} className="w-28 mx-auto" alt="" />
           <div className="font-semibold text-[#0c2d57] text-2xl text-center">
             Reporting & Insights
           </div>
