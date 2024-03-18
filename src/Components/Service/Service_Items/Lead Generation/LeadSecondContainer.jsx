@@ -26,7 +26,7 @@ function LeadSecondContainer() {
         performance-driven techniques. Here's a sneak peek into what we can
         achieve for businesses like yours:
       </div>
-      <div className="grid lg:grid-cols-3 gap-10 my-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 my-10">
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div className="flex  items-center gap-3">
             <img src={l1} className="h-12" />

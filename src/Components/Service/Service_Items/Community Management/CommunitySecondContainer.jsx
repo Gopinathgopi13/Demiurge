@@ -8,7 +8,7 @@ function CommunitySecondContainer() {
         Humanizing your brand will establish a deeper connection with your
         audience.
       </div>
-      <div className="grid sm:grid-cols-2 mx-auto">
+      <div className="grid lg:grid-cols-2 mx-auto">
         <div className="mx-auto">
           <img src={CommunityManagement} className="" alt="" />
         </div>

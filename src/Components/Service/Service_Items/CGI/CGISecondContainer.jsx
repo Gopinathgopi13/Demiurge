@@ -9,7 +9,7 @@ const CGISecondContainer = () => {
         Harness the impactful capabilities of CGI ads to elevate your brand's
         outreach to unparalleled levels
       </div>
-      <div className="grid sm:grid-cols-2 gap-5 mx-auto">
+      <div className="grid lg:grid-cols-2 gap-5 mx-auto">
         <div className="mx-auto">
           <img src={CGI} className="" alt="" />
         </div>

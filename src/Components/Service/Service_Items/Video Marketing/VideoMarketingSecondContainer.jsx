@@ -8,7 +8,7 @@ function VideoMarketingSecondContainer() {
         Experience the power of Video Marketing to propel your Reach to new
         heights
       </div>
-      <div className="grid sm:grid-cols-2 mx-auto">
+      <div className="grid lg:grid-cols-2 mx-auto">
         <div className="mx-auto">
           <img src={videoMarketing} className="h-full w-full" alt="" />
         </div>

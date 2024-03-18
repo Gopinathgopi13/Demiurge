@@ -15,7 +15,7 @@ function ServiceContainer() {
         Discover how we can scale your business to new heights through our
         strategic services below:
       </div>
-      {/* <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 overflow-hidden">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 overflow-hidden">
         {serviceData.map(({ id, logo, name, description, path }, index) => {
           // console.log(id)
           return (
@@ -29,13 +29,13 @@ function ServiceContainer() {
             />
           );
         })}
-      </div> */}
-      <div
+      </div>
+      {/* <div
         className="overflow-hidden"
        
       >
         <ServiceSlider />
-      </div>
+      </div> */}
     </div>
   );
 }

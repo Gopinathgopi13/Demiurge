@@ -61,7 +61,7 @@ function Accordion(props) {
   return (
     <div className="rounded-lg mb-5 overflow-hidden">
       <button
-        className="w-full p-4 text-left flex md:px-28 justify-between items-center bg-gray-200 
+        className="w-[90%] p-4 text-left flex mx-auto md:px-16 justify-between items-center bg-gray-200 
                           hover:bg-gray-300 transition duration-300"
         onClick={props.toggleAccordion}
       >
@@ -76,7 +76,7 @@ function Accordion(props) {
         </span>
       </button>
       {props.isOpen && (
-        <div className="py-4 md:px-10 px-5 text-lg bg-gray-100 text-[#0C2D57]">
+        <div className="p-4 w-[90%] mx-auto md:px-10 px-5 text-lg bg-gray-100 text-[#0C2D57]">
           {props.data}
         </div>
       )}

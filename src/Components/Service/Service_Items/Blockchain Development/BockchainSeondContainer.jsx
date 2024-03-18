@@ -33,7 +33,7 @@ function BockchainSeondContainer() {
           deliver for our clients.
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 gap-5 my-10">
+      <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 my-10">
         <div className="flex flex-col px-5 gap-5 shadow-lg rounded-lg py-5">
           <div className="h-[20%] flex gap-5 justify-start items-center ">
             <img src={block1} className="h-12" />

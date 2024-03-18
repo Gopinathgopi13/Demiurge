@@ -15,7 +15,7 @@ function ARThirdContainer() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
         voluptate!
       </div>
-      <div className="grid md:grid-cols-5 gap-5">
+      <div className="grid md:grid-cols-5 grid-cols-3 gap-5">
         <div className="flex justify-center items-center shadow-xl rounded-3xl bg-white">
           <img
             src={ARTech1}

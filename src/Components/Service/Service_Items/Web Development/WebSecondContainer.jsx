@@ -4,7 +4,7 @@ import SearchEO2 from "../../../../assets/wev2.jpg";
 function WebSecondContainer() {
   return (
     <div className="max-w-[1280px] mx-auto space-y-10 py-20 md:px-4">
-      <div className="space-y-10">
+      <div className="space-y-10 px-5">
         <div className="md:text-4xl font-semibold primaryColor text-3xl">
           Get cutting-edge designs from a proven web development service
         </div>
@@ -43,7 +43,7 @@ function WebSecondContainer() {
           </p>
         </div>
       </div> */}
-      <div className="w-[95%]  grid sm:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl text-white">
+      <div className="w-[95%]  grid lg:grid-cols-2 mx-auto py-10 md:px-10 px-5 gap-5 bg-[#0c2d57] rounded-xl text-white">
         <div className="rounded-xl overflow-hidden">
           <img src={SearchEO2} className="w-full h-full" alt="" />
         </div>

@@ -3,10 +3,10 @@ import web3 from "../../../../assets/web3.jpg";
 import web4 from "../../../../assets/web4.jpg";
 function WebThirdContainer() {
   return (
-    <div className="max-w-[1280px] mx-auto space-y-10 py-20 sm:px-5">
+    <div className="max-w-[1280px] mx-auto space-y-10 py-20 px-5">
       <div className="md:text-4xl font-semibold primaryColor text-3xl">Why partner with us?</div>
       <div>
-        <div class="grid sm:grid-rows-3 sm:grid-flow-col gap-4">
+        <div class="grid md:grid-rows-3 md:grid-flow-col gap-4">
           <div class="sm:row-span-3 relative rounded-xl overflow-hidden">
             <div className="h-full">
               <img src={web3} className="h-full" alt="" />
@@ -34,11 +34,11 @@ function WebThirdContainer() {
               </span>
             </div>
           </div>
-          <div class="sm:row-span-3 relative rounded-xl overflow-hidden  h-[300px] ">
+          <div class="sm:row-span-3 relative rounded-xl overflow-hidden  h-[400px] ">
             <div className="h-full">
-              <img src={web4} className="h-full" alt="" />
+              <img src={web4} className="h-full w-full" alt="" />
             </div>
-            <div className="absolute top-20 left-16 text-black">
+            <div className="absolute top-20 lg:left-16 text-black">
               <span className="text-6xl font-bold block">100+</span>
               <span className="text-3xl font-semibold block">
                 Successfully delivered projects

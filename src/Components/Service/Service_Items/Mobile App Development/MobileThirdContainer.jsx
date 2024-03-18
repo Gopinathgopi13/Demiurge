@@ -18,7 +18,7 @@ function MobileThirdContainer() {
         A strategic social media approach is your key to connecting with the
         right people and achieving lasting success.
       </div>
-      <div className="grid lg:grid-cols-3 gap-5 my-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 my-10">
         <div className="flex flex-col items-center px-5 gap-5 shadow-lg rounded-lg py-5 bg-white">
           <div className="space-y-5 ">
             <img src={fintech} className="h-20 mx-auto" />
