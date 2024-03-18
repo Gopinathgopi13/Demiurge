@@ -1,8 +1,8 @@
 import ServicesCard from "./ServicesCard";
 import serviceData from "../../../Utilities/ServiceData";
 import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -15,14 +15,14 @@ const ServiceSlider = () => {
       <Swiper
         pagination={{
           type: "progressbar",
-          el: ".swiper-pagination",
+          el: ".swiper-progressbar",
         }}
         slidesPerView={3}
         spaceBetween={30}
         navigator={true}
         direction={"horizontal"}
         modules={[Pagination, Mousewheel]}
-        className="mySwiper"
+        className="mySwiper py-5"
         mousewheel={true}
         breakpoints={{
           // when window width is >= 640px

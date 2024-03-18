@@ -90,10 +90,17 @@ p {
   }
 }
 
-
 /* -------------------------------------- */
 
-.swiper-pagination-progressbar {
-  background-color: #ff0000; /* Red color */
-  height: 4px; /* Height 4px */
-}
+/* .swiper-pagination-progressbar {
+  background-color: #ff0000;
+  height: 24px;
+} */
+
+
+/* .swiper-progressbar-fill {
+  background-color: #007bff;
+  height: 4px;
+  width: auto;
+  transition: width 0.3s ease;
+} */
