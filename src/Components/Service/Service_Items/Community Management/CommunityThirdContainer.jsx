@@ -12,7 +12,7 @@ function CommunityThirdContainer() {
         Our Comprehensive Community Management Services
       </div>
       <div className="grid lg:grid-cols-3 gap-10 my-10">
-        <div className="flex flex-col text-center gap-3 py-5">
+        <div className="flex flex-col text-center gap-3 py-5 ">
           <div className="space-y-3">
             <img src={c1} className="w-28 mx-auto" alt="" />
             <div className="text-xl font-semibold primaryColor">

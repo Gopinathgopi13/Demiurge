@@ -1,15 +1,15 @@
 import React from "react";
-import block2 from "../../../../assets/Blockchain/block2.png";
-import l1 from '../../../../assets/Lead/l1.png'
-import l2 from '../../../../assets/Lead/l2.png'
-import l3 from '../../../../assets/Lead/l3.png'
-import l4 from '../../../../assets/Lead/l4.png'
-import l5 from '../../../../assets/Lead/l5.png'
-import l6 from '../../../../assets/Lead/l6.png'
-import l7 from '../../../../assets/Lead/l7.png'
-import l8 from '../../../../assets/Lead/l8.png'
-import l9 from '../../../../assets/Lead/l9.png'
-import l10 from '../../../../assets/Lead/l10.png'
+// import block2 from "../../../../assets/Blockchain/block2.png";
+import l1 from '../../../../assets/lead generation/linkedin.png'
+import l2 from '../../../../assets/lead generation/Demand.png'
+import l3 from '../../../../assets/lead generation/saas.svg'
+import l4 from '../../../../assets/lead generation/IT.svg'
+import l5 from '../../../../assets/lead generation/B2B.svg'
+import l6 from '../../../../assets/lead generation/Account.svg'
+import l7 from '../../../../assets/lead generation/Conversion.svg'
+import l8 from '../../../../assets/lead generation/Email.svg'
+import l9 from '../../../../assets/lead generation/Content_Marketing.svg'
+import l10 from '../../../../assets/lead generation/Analysis.png'
 function LeadSecondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4 ">
@@ -150,7 +150,7 @@ function LeadSecondContainer() {
 
         <div className="flex flex-col gap-5 bg-[#0c2d57] p-3 rounded-md text-white">
           <div className="flex  items-center gap-3">
-            <img src={l10} className="h-24" />
+            <img src={l10} className="h-12" />
             <div className="text-xl font-semibold primaryColor ">
               Analytics & Reporting
             </div>

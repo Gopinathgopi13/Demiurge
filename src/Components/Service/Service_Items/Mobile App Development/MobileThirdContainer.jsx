@@ -1,12 +1,12 @@
 import React from "react";
 
-import fintech from '../../../../assets/Mobile App Development/fintech.png'
-import eCommerce from '../../../../assets/Mobile App Development/marketplace.png'
-import lifestyle from '../../../../assets/Mobile App Development/needs.png'
-import gaming from '../../../../assets/Mobile App Development/game.png'
-import education from '../../../../assets/Mobile App Development/education.png'
-import health from '../../../../assets/Mobile App Development/healthcare.png'
-import social from '../../../../assets/Mobile App Development/social-media.png'
+import fintech from '../../../../assets/Mobile App Development/fintech.svg'
+import eCommerce from '../../../../assets/Mobile App Development/marketplace.svg'
+import lifestyle from '../../../../assets/Mobile App Development/needs.svg'
+import gaming from '../../../../assets/Mobile App Development/game.svg'
+import education from '../../../../assets/Mobile App Development/education.svg'
+import health from '../../../../assets/Mobile App Development/healthcare.svg'
+import social from '../../../../assets/Mobile App Development/social-media.svg'
 
 function MobileThirdContainer() {
   return (

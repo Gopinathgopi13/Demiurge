@@ -6,11 +6,13 @@ import VideoMarketing from "../assets/Social Logo/Video_Marketing.png";
 import Branding from "../assets/Social Logo/Branding.png";
 import Community_M from "../assets/Social Logo/Community.png";
 import Website from "../assets/Social Logo/Website_Development.png";
-import websiteDesign from "../assets/Social Logo/CGI.png";
+import websiteDesign from "../assets/Social Logo/CGI.svg";
 import MblApp from "../assets/Social Logo/Mobile_Development.png";
 import MblAppDesign from "../assets/Social Logo/AR_VR.png";
 import Blockchain from "../assets/Social Logo/Blockchain.png";
 import leadGen from "../assets/Social Logo/Lead.png";
+
+
 
 const serviceData = [
   {
@@ -46,7 +48,7 @@ const serviceData = [
   //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut adipiscing.",
   // },
   {
-    id: 5,
+    id: 4,
     path: "/service/pr",
     logo: PR,
     name: "PR",
@@ -54,7 +56,7 @@ const serviceData = [
       "We craft compelling tales, snag media coverage like badges of honor, and turn your story into a front-page sensation. It's not just about making noise; it's about creating a buzz that echoes, resonates, and leaves a lasting imprint on minds.",
   },
   {
-    id: 6,
+    id: 5,
     path: "/service/video-marketing",
     logo: VideoMarketing,
     name: "Video Marketing",
@@ -62,7 +64,7 @@ const serviceData = [
       "We cook up videos that go viral faster than a cat meme, creating a whirlwind of shares, likes, and comments. It's not just content; it's a rocket that propels your brand to the forefront of social chatter.",
   },
   {
-    id: 7,
+    id: 6,
     path: "/service/brand",
     logo: Branding,
     name: "Branding",
@@ -70,7 +72,7 @@ const serviceData = [
       "We paint your identity with bold strokes, creating a masterpiece that stands out in the crowded market. It's not just about a logo; it's about crafting an experience that resonates with your audience.",
   },
   {
-    id: 8,
+    id: 7,
     path: "/service/community",
     logo: Community_M,
     name: "Community Management",
@@ -78,7 +80,7 @@ const serviceData = [
       "We cultivate engagement, facilitate discussions, and transform followers into dedicated brand advocates. It's not just about social media; it's about building and maintaining a community that contributes to brand loyalty and business growth.",
   },
   {
-    id: 9,
+    id: 8,
     path: "/service/web",
     logo: Website,
     name: "Website Development",
@@ -86,7 +88,7 @@ const serviceData = [
       "We're the folks who build kick-butt websites. You've got a vision, and we bring it to life online. It's not just coding; it's making sure your site looks cool, works smooth, and gives your visitors a high-five experience.",
   },
   {
-    id: 10,
+    id: 9,
     path: "/service/cgi",
     logo: websiteDesign,
     name: "CGI Advertisement",
@@ -94,7 +96,7 @@ const serviceData = [
       "Our ads aren't just promotions, they're an immersive journey into the future. Imagine visuals so captivating, they go beyond selling – they create an unforgettable experience. We're pioneers defining a new standard in how brands communicate, leaving a lasting impact that speaks volumes.",
   },
   {
-    id: 11,
+    id: 10,
     path: "/service/mobile",
     logo: MblApp,
     name: "Mobile App Development",
@@ -102,7 +104,7 @@ const serviceData = [
       "We code, design, and refine, creating apps that aren't just tech marvels but seamless extensions of your needs. it's about crafting a digital sidekick that makes your life easier. We're not just developers; we're the architects of apps that fit right into your daily groove.",
   },
   {
-    id: 12,
+    id: 11,
     path: "/service/arvr",
     logo: MblAppDesign,
     name: "AR/VR Advertisement",
@@ -110,7 +112,7 @@ const serviceData = [
       "we're transforming ads into experiences. Picture this – interactive promotions that go beyond the screen, letting you dive into the narrative. It's about living the ad. We're not just advertisers, we're architects of a new advertising reality."
   },
   {
-    id: 13,
+    id: 12,
     path: "/service/blockchain",
     logo: Blockchain,
     name: "Blockchain Development",
@@ -118,7 +120,7 @@ const serviceData = [
       "We build more than code - we're crafting a secure, decentralized way for digital interactions. It's not just about programming - it's about reshaping how we trust and trade in the online world.",
   },
   {
-    id: 14,
+    id: 13,
     path: "/service/lead",
     logo: leadGen,
     name: "Lead Generation",

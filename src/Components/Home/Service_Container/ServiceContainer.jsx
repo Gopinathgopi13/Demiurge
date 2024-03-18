@@ -4,7 +4,8 @@ import Card from "./Card";
 import ServiceSlider from "./Card";
 function ServiceContainer() {
   return (
-    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
+    <div
+     className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
       <div className="lg:text-4xl text-3xl font-bold my-10 primaryColor">
         Our Digital <br /> Marketing Services
       </div>
@@ -29,8 +30,11 @@ function ServiceContainer() {
           );
         })}
       </div> */}
-      <div>
-        <ServiceSlider/>
+      <div
+        className="overflow-hidden"
+       
+      >
+        <ServiceSlider />
       </div>
     </div>
   );

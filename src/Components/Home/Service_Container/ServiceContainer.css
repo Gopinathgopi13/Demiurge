@@ -92,14 +92,26 @@ p {
 
 /* -------------------------------------- */
 
-/* .swiper-pagination-progressbar {
-  background-color: #ff0000;
-  height: 24px;
+/* .custom-progress-bar .swiper-progressbar-fill {
+  background-color: #ff8400;
+  height: 10px !important;
 } */
 
 
-/* .swiper-progressbar-fill {
-  background-color: #007bff;
+.swiper-pagination {
+  background-color: #ff8400;
+  /* font-size: 20px; */
+  position: relative;
+  padding: 10px;
+  margin-top: 15px;
+  top: 0px;
+  
+}
+
+
+
+/* .swiper-pagination .swiper-pagination-progressbar-fill {
+  background-color: #0c2d57;
   height: 4px;
   width: auto;
   transition: width 0.3s ease;

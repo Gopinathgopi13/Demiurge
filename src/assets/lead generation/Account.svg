@@ -1,0 +1,38 @@
+<svg id="Layer_1" enable-background="new 0 0 66 66" fill="#ffffff" height="512" viewBox="0 0 66 66"
+    width="512" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <g>
+            <g
+                style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10">
+                <path
+                    d="m35.5 60.2c0 2.1-1.7 3.8-3.8 3.8h-25.6c-2.1 0-3.8-1.7-3.8-3.8v-54.4c0-2.1 1.7-3.8 3.8-3.8h25.6c2.1 0 3.8 1.7 3.8 3.8z" />
+                <path d="m2.3 54.5v5.7c0 2.1 1.7 3.8 3.8 3.8h25.6c2.1 0 3.8-1.7 3.8-3.8v-5.7z" />
+                <path d="m35.5 11.5v-5.7c0-2.1-1.7-3.8-3.8-3.8h-25.6c-2.1 0-3.8 1.7-3.8 3.8v5.7z" />
+                <path d="m15.4 6.7h7" />
+                <path d="m16.4 59.3h5" />
+                <g>
+                    <path
+                        d="m23.3 28.7c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3 1.9-4.3 4.3-4.3 4.3 2 4.3 4.3z" />
+                    <circle cx="18.9" cy="33" r="12.4" />
+                    <path
+                        d="m27.8 41.6c-2.2 2.3-5.4 3.8-8.9 3.8s-6.7-1.5-8.9-3.8c-.1 0-.1-.1-.2-.2.8-2.7 3.2-4.6 6.1-4.6h5.9c2.8 0 5.3 1.9 6.1 4.6" />
+                </g>
+                <g>
+                    <path
+                        d="m40.9 27.4h10.1c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6h-10.1v7.1h10.1c7 0 12.7-5.7 12.7-12.7s-5.7-12.7-12.7-12.7h-10.1z" />
+                    <path d="m40.9 20.3h5.5v7.1h-5.5z" />
+                    <path d="m40.9 38.6h5.5v7.1h-5.5z" />
+                </g>
+            </g>
+            <g>
+                <path d="m49.5 33.3-4.5-1.7v2.8l-4.1-1.1"
+                    style="fill:none;stroke:#000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+            </g>
+        </g>
+        <g
+            style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10">
+            <path d="m58.4 5.6-9.9-3.6v4.1l-6.1-1.6v3.7l9.6 4.3v-4.9l6.4 2.2z" />
+            <path d="m58.4 57.1-9.9-3.6v4.1l-6.1-1.7v3.7l9.6 4.4v-4.9l6.4 2.2z" />
+        </g>
+    </g>
+</svg>

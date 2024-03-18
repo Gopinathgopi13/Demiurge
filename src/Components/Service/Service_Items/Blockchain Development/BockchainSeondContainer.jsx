@@ -1,15 +1,15 @@
 import React from "react";
 import SEOImage from "../../../../assets/SVG/google_icon.svg";
-import block1 from '../../../../assets/Blockchain/block1.png'
-import block2 from '../../../../assets/Blockchain/block2.png'
-import block3 from '../../../../assets/Blockchain/block3.png'
-import block4 from '../../../../assets/Blockchain/block4.png'
-import block5 from '../../../../assets/Blockchain/block5.png'
-import block6 from '../../../../assets/Blockchain/block6.png'
-import block7 from '../../../../assets/Blockchain/block7.png'
-import block8 from '../../../../assets/Blockchain/block8.png'
-import block9 from '../../../../assets/Blockchain/block9.png'
-import block10 from '../../../../assets/Blockchain/block10.png'
+import block1 from '../../../../assets/Blockchain/block1.svg'
+import block2 from '../../../../assets/Blockchain/block2.svg'
+import block3 from '../../../../assets/Blockchain/block3.svg'
+import block4 from '../../../../assets/Blockchain/block4.svg'
+import block5 from '../../../../assets/Blockchain/block5.svg'
+import block6 from '../../../../assets/Blockchain/block6.svg'
+import block7 from '../../../../assets/Blockchain/block7.svg'
+import block8 from '../../../../assets/Blockchain/block8.svg'
+import block9 from '../../../../assets/Blockchain/block9.svg'
+import block10 from '../../../../assets/Blockchain/block10.svg'
 function BockchainSeondContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center  mx-auto px-4">
