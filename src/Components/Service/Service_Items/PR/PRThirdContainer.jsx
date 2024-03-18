@@ -1,20 +1,20 @@
 import React from "react";
-import SearchEO from "../../../../assets/SVG/ppc-management.svg";
+import SearchEO from "../../../../assets/PR/PRImage.jpg";
 
 function PRThirdContainer() {
   return (
-    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-20  mx-auto px-4 py-4">
+    <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center gap-5 mx-auto px-4 py-5">
       <div className="md:text-4xl font-semibold text-2xl my-5 primaryColor">
         Your brand's narrative is an ongoing conversation, whether you're
         actively shaping it or not. Why leave it to chance? At Demiurge, we
         understand the importance of taking control of your story
       </div>
-      <div className="grid sm:grid-cols-2 mx-auto">
+      <div className="grid sm:grid-cols-2 gap-5 mx-auto">
         <div className="mx-auto">
-          <img src={SearchEO} className="md:w-[95%] h-[80%]" alt="" />
+          <img src={SearchEO} className="" alt="" />
         </div>
-        <div className="text-justify text-xl px-2 gap-5">
-          <p className="leading-8 text-white">
+        <div className="px-2 flex justify-center items-center">
+          <p className="leading-8 text-xl text-white">
             Through our strategic PR services, we empower you to lead the
             conversation. Leveraging our team's extensive background in the
             media industry, we've cultivated invaluable connections to ensure

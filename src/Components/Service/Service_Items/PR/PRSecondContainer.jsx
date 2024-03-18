@@ -1,5 +1,9 @@
 import React from "react";
-import PNG from "../../../../assets/PNG.png";
+import Strategy from '../../../../assets/PR/Strategy Development.png'
+import Targeted  from '../../../../assets/PR/Targeted Audience.png'
+import Media  from '../../../../assets/PR/Media Coverage.png'
+import Social  from '../../../../assets/PR/Social Media.png'
+import Performance  from '../../../../assets/PR/Performance Optimization.png'
 
 function PRSecondContainer() {
   return (
@@ -10,7 +14,7 @@ function PRSecondContainer() {
       <div className="grid lg:grid-cols-3 gap-10 my-10">
         <div className="flex flex-col gap-5">
           <div className=" space-y-3">
-            <img src={PNG} className="w-[80px]" />
+            <img src={Strategy} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
               Strategy Development{" "}
             </div>
@@ -23,7 +27,7 @@ function PRSecondContainer() {
 
         <div className="flex flex-col gap-5">
           <div className="space-y-3">
-            <img src={PNG} className="w-[80px]" />
+            <img src={Targeted} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
               Targeted Audience Engagement
             </div>
@@ -37,7 +41,7 @@ function PRSecondContainer() {
 
         <div className="flex flex-col gap-5">
           <div className=" space-y-3">
-            <img src={PNG} className="w-[80px]" />
+            <img src={Media} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
               Media Coverage and Visibility
             </div>
@@ -50,7 +54,7 @@ function PRSecondContainer() {
 
         <div className="flex flex-col gap-5">
           <div className=" space-y-3">
-            <img src={PNG} className="w-[80px]" />
+            <img src={Social} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
               Social Media Amplification:
             </div>
@@ -63,7 +67,7 @@ function PRSecondContainer() {
 
         <div className="flex flex-col gap-5">
           <div className=" space-y-3">
-            <img src={PNG} className="w-[80px]" />
+            <img src={Performance} className="w-[80px]" />
             <div className="text-xl font-semibold text-blue-500 ">
               Performance Optimization
             </div>

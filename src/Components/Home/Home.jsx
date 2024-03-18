@@ -13,8 +13,31 @@ import FAQ from "../FAQ's/FQA";
 import { Link } from "react-router-dom";
 import FloatingSocialMedia from "../Common/FloatingSocialMedia";
 import CookieBar from "../Common/CookieBar";
+import { useEffect, useState } from "react";
 // import backgroundVideo from "../../assets/Background-Video.mp4";
 function Home() {
+  let [show, setShow] = useState("hidden");
+  // setTimeout(() => {
+  //   setShow("flex");
+  // }, 3000);
+
+  const TOP_OFFSET = 600;
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= TOP_OFFSET) {
+        setShow("flex");
+      }
+      //  else {
+      //   setShow("hidden");
+      // }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="w-full">
       <div
@@ -56,6 +79,21 @@ function Home() {
       {/* <div>
         <CookieBar/>
       </div> */}
+      <div
+        className={`bg-[#e48f45] items-center gap-20 justify-center md:px-10 py-2 md:${show} h-[10vh] hidden fixed bottom-0 right-0 left-0 z-50 transition ease-in duration-[5000]`}
+      >
+        <div className="text-center">
+          <div className="text-2xl text-[#0c2d57] font-extrabold uppercase">
+            Kickstart your journey
+          </div>
+          <div className="">success with Demiurge today!</div>
+        </div>
+        <div>
+          <button className="p-2 border-2 border-[#0c2d57] text-[#0c2d57] text-md font-semibold">
+            Get a Quote
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

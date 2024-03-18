@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Service from "./Components/Service/Service";
@@ -33,18 +33,12 @@ function App() {
     setTimeout(() => {
       spinner.style.display = "none";
       setLoading(false);
-    }, 2000);
+    }, 0);
   }
-
-  let [show, setShow] = useState("hidden");
-  setTimeout(() => {
-    setShow("block")
-  }, 5000)
 
   return (
     !loading && (
       <>
-       
         <BrowserRouter>
           <ScrollToTop>
             <Routes>
@@ -79,16 +73,6 @@ function App() {
             </Routes>
           </ScrollToTop>
         </BrowserRouter>
-        <div className={`bg-[#e48f45] items-center justify-between md:px-10 py-1 md:flex hidden fixed bottom-0 right-0 left-0`}>
-          <div>
-            <IoIosMail size={25} className="inline-block text-[#0c2d57]" />
-            philomenjohn@demiurge.in
-          </div>
-          <div>
-            <IoIosCall size={25} className="inline-block text-[#0c2d57]" /> +91
-            9627396283
-          </div>
-        </div>
       </>
     )
   );
