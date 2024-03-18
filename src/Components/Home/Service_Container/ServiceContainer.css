@@ -89,3 +89,11 @@ p {
     color: #ffffff;
   }
 }
+
+
+/* -------------------------------------- */
+
+.swiper-pagination-progressbar {
+  background-color: #ff0000; /* Red color */
+  height: 4px; /* Height 4px */
+}

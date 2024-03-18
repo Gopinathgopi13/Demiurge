@@ -1,6 +1,7 @@
 import ServicesCard from "./ServicesCard";
 import serviceData from "../../../Utilities/ServiceData";
 import Card from "./Card";
+import ServiceSlider from "./Card";
 function ServiceContainer() {
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto px-4">
@@ -13,7 +14,7 @@ function ServiceContainer() {
         Discover how we can scale your business to new heights through our
         strategic services below:
       </div>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 overflow-hidden">
+      {/* <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 overflow-hidden">
         {serviceData.map(({ id, logo, name, description, path }, index) => {
           // console.log(id)
           return (
@@ -27,8 +28,10 @@ function ServiceContainer() {
             />
           );
         })}
+      </div> */}
+      <div>
+        <ServiceSlider/>
       </div>
-      <div>{/* <Card/> */}</div>
     </div>
   );
 }
