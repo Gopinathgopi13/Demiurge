@@ -60,7 +60,7 @@ function IndustriesComponent() {
         {/* Crypto */}
         <div
           id="item-1"
-          className={`md:relative md:bottom-[-100px]  text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group grid-item `}
+          className={`relative md:bottom-[-100px]  text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group grid-item `}
           style={{
             backgroundImage: `url(${crypto})`,
             backgroundPosition: `center center`,
@@ -87,7 +87,7 @@ function IndustriesComponent() {
         {/* Saas */}
         <div
           id="item-2"
-          className={`md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group grid-item`}
+          className={`relative md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group grid-item`}
           style={{
             backgroundImage: `url(${Saas})`,
             backgroundPosition: `center center`,
@@ -111,12 +111,10 @@ function IndustriesComponent() {
           </div>
         </div>
 
-        {/* <div id="item-1">&nbsp;</div> */}
-        {/* <div id="item-2">&nbsp;</div> */}
         {/* Startup */}
         <div
           id="item-3"
-          className={`md:relative md:bottom-[-100px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group  grid-item `}
+          className={`relative md:bottom-[-100px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden group  grid-item `}
           style={{
             backgroundImage: `url(${Startup})`,
             backgroundPosition: `center center`,
@@ -143,7 +141,7 @@ function IndustriesComponent() {
         {/* Small Bussiness */}
         <div
           id="item-4"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${SME})`,
             backgroundPosition: `center center`,
@@ -172,7 +170,7 @@ function IndustriesComponent() {
         {/* eCommerce */}
         <div
           id="item-5"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px]  text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${Ecommerce})`,
             backgroundPosition: `center center`,
@@ -199,7 +197,7 @@ function IndustriesComponent() {
         {/* Gaming */}
         <div
           id="item-6"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px]  text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${Gaming})`,
             backgroundPosition: `center center`,
@@ -226,7 +224,7 @@ function IndustriesComponent() {
         {/* B2B */}
         <div
           id="item-7"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${B2B})`,
             backgroundPosition: `center center`,
@@ -274,7 +272,7 @@ function IndustriesComponent() {
         {/* Realestate */}
         <div
           id="item-8"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[400px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${Realestate})`,
             backgroundPosition: `center center`,
@@ -301,7 +299,7 @@ function IndustriesComponent() {
         {/* Education */}
         <div
           id="item-9"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${Education})`,
             backgroundPosition: `center center`,
@@ -328,7 +326,7 @@ function IndustriesComponent() {
         {/* Healthcare */}
         <div
           id="item-10"
-          className={`text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px]  text-base rounded-tl-3xl rounded-br-3xl shadow-md group relative `}
           style={{
             backgroundImage: `url(${Healthcare})`,
             backgroundPosition: `center center`,
@@ -355,7 +353,7 @@ function IndustriesComponent() {
         {/* Tourism */}
         <div
           id="item-11"
-          className={`md:relative text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
+          className={`md:relative md:h-[300px] h-[200px] text-base rounded-tl-3xl rounded-br-3xl shadow-md overflow-hidden transform transition duration-700 hover:scale-110 hover:z-50 group relative `}
           style={{
             backgroundImage: `url(${Tourism})`,
             backgroundPosition: `center center`,

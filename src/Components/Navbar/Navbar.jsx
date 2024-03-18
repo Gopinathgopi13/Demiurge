@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="text-white w-full z-50">
       <div className="max-w-[1280px] mx-auto flex items-center font-medium justify-around rounded-full">
-        <div className="z-50 p-3 md:w-auto w-full flex justify-between">
+        <div className="z-50 p-3 lg:w-auto w-full flex justify-between">
           <a href="/">
             <img
               src={OrginalLogo1}
@@ -18,13 +18,13 @@ const Navbar = () => {
             />
           </a>
           <div
-            className="text-3xl md:hidden flex justify-center items-center text-[#FF8400]"
+            className="text-3xl lg:hidden flex justify-center items-center text-[#FF8400]"
             onClick={() => setOpen(!open)}
           >
             {open ? <IoClose size={30} /> : <IoMenu size={30} />}
           </div>
         </div>
-        <ul className="md:flex hidden items-center gap-3 font-[Poppins]">
+        <ul className="lg:flex hidden items-center gap-3 font-[Poppins]">
           <li>
             <Link
               to="/"
@@ -59,13 +59,13 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="md:block hidden">
+        <div className="lg:block hidden">
           <Button />
         </div>
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-[#0c2d57] fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 z-20
+        lg:hidden bg-[#0c2d57] fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4 z-20
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >

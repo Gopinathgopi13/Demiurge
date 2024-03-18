@@ -239,7 +239,7 @@
 #item-7 {
   grid-row-start: 4;
   grid-column-start: 4;
-  height: 300px;
+  /* height: 300px; */
   grid-row-end: 5;
   grid-column-end: 4;
 }
@@ -247,7 +247,7 @@
 #item-8 {
   grid-row-start: 4;
   grid-column-start: 2;
-  height: 400px;
+  /* height: 400px; */
   grid-row-end: 6;
   grid-column-end: 4;
 }
@@ -255,7 +255,7 @@
 #item-9 {
   grid-row-start: 3;
   grid-column-start: 4;
-  height: 300px;
+  /* height: 300px; */
   grid-row-end: 4;
   grid-column-end: 5;
 }
@@ -270,7 +270,7 @@
 #item-11 {
   grid-row-start: 4;
   grid-column-start: 1;
-  height: 300px;
+  /* height: 300px; */
   grid-row-end: 5;
   grid-column-end: 2;
 }
