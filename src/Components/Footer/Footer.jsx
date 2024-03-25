@@ -6,7 +6,7 @@ function Footer() {
     window.open(`tel:${phoneNumber}`);
   };
   const handleClick = () => {
-    window.location.href = `mailto:philomenjohn@demiurge.in`;
+    window.location.href = `mailto:john@demiurge.in`;
   };
   return (
     <footer className="bg-white">
@@ -203,7 +203,7 @@ function Footer() {
               <ul className="mt-6 space-y-4 text-sm">
                 <li className="text-gray-700 transition hover:opacity-75  flex items-center gap-2 cursor-pointer">
                   <IoMdMail />{" "}
-                  <div onClick={handleClick}>philomenjohn@demiurge.in</div>
+                  <div onClick={handleClick}>john@demiurge.in</div>
                 </li>
 
                 <li className="text-gray-700 transition hover:opacity-75  flex items-center gap-2 cursor-pointer">

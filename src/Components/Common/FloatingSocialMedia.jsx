@@ -7,7 +7,7 @@ const FloatingSocialMedia = () => {
     <div className="">
       <div className="wrapper">
         <a
-          href="https://api.whatsapp.com/send?phone=6369907822"
+          href="https://api.whatsapp.com/send?phone=9627396283"
           target="_blank"
         >
           <i className="fa fa-whatsapp">
