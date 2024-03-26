@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function ARVRMainPage() {
+  const handleEmailButtonClick = () => {
+    const emailAddress = "gopinathkathirvel13@gmail.com";
+    const mailtoLink = `mailto:${emailAddress}`;
+    window.location.href = mailtoLink;
+  };
   return (
     <div className="w-full">
       <div className="max-w-[1280px] mx-auto px-4 h-[100vh] text-white flex flex-col justify-center items-start gap-y-14">
@@ -13,7 +18,7 @@ function ARVRMainPage() {
           Discover immersive experiences that captivate and engage audiences in
           innovative ways, setting your brand apart in the digital landscape.
         </div>
-        <Link to="/contactForm">
+        <Link onClick={handleEmailButtonClick}>
           <div className="lg:px-10 px-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch

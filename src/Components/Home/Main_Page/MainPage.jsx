@@ -10,10 +10,7 @@ function MainPage() {
 
   const handleEmailButtonClick = () => {
     const emailAddress = 'gopinathkathirvel13@gmail.com';
- 
     const mailtoLink = `mailto:${emailAddress}`;
-
-    // window.open(mailtoLink);
     window.location.href = mailtoLink;
   };
   return (

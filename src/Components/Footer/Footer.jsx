@@ -13,45 +13,8 @@ function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
-            {/* <div className="col-span-2">
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                  Get the latest news!
-                </h2>
-
-                <p className="mt-4 text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
-                  non cupiditate quae nam molestias.
-                </p>
-              </div>
-            </div> */}
-
-            {/* <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-              <form className="w-full">
-                <label htmlFor="UserEmail" className="sr-only">
-                  {" "}
-                  Email{" "}
-                </label>
-
-                <div className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4 dark:border-gray-800">
-                  <input
-                    type="email"
-                    id="UserEmail"
-                    placeholder="$$$$$$$@gmail.com"
-                    className="w-full border-none focus:border-transparent focus:ring-transparent outline-none sm:text-sm dark:bg-gray-900 dark:text-white"
-                  />
-
-                  <button className="mt-1 w-full bg-[#0c2d57] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none sm:mt-0 sm:w-auto sm:shrink-0">
-                    Sign Up
-                  </button>
-                </div>
-              </form>
-            </div> */}
-
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 ">
-                Services
-              </p>
+              <p className="font-medium text-gray-900 ">Services</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -110,9 +73,7 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 ">
-                Company
-              </p>
+              <p className="font-medium text-gray-900 ">Company</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -145,9 +106,7 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 ">
-                Industries
-              </p>
+              <p className="font-medium text-gray-900 ">Industries</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -196,14 +155,11 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 ">
-                Contact Us
-              </p>
+              <p className="font-medium text-gray-900 ">Contact Us</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li className="text-gray-700 transition hover:opacity-75  flex items-center gap-2 cursor-pointer">
-                  <IoMdMail />{" "}
-                  <div onClick={handleClick}>john@demiurge.in</div>
+                  <IoMdMail /> <div onClick={handleClick}>john@demiurge.in</div>
                 </li>
 
                 <li className="text-gray-700 transition hover:opacity-75  flex items-center gap-2 cursor-pointer">
@@ -214,9 +170,7 @@ function Footer() {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900 ">
-                Address
-              </p>
+              <p className="font-medium text-gray-900 ">Address</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li className="text-gray-700 transition hover:opacity-75 flex gap-2">
@@ -235,7 +189,7 @@ function Footer() {
             <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
               <li>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/demiurge.demiurge.73"
                   rel="noreferrer"
                   target="_blank"
                   className="text-[#E48F45] transition hover:opacity-75 "
@@ -259,7 +213,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/demiurge.designs?igsh=bTBydDV4enE3a2N4"
                   rel="noreferrer"
                   target="_blank"
                   className="text-[#E48F45] transition hover:opacity-75 "
@@ -283,7 +237,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="https://twitter.com/DemiurgeDemi"
                   rel="noreferrer"
                   target="_blank"
                   className="text-[#E48F45] transition hover:opacity-75 "
@@ -303,7 +257,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="https://www.youtube.com/channel/UCA0ORji11--avF9yGMz5hGA  "
                   rel="noreferrer"
                   target="_blank"
                   className="text-[#E48F45] transition hover:opacity-75 "
