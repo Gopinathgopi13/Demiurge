@@ -13,10 +13,7 @@ function SocialMedia() {
       <div className="w-full bg-[#0c2d57] sticky top-0  shadow-md z-50">
         <Navbar />
       </div>
-      <div
-        className="bg-cover bg-center"
-        style={{ backgroundImage: `url(${Social_Media_Home_Page})` }}
-      >
+      <div className="bg-[url('https://img.freepik.com/premium-photo/decorative-background-colored-social-networks-ar-c_839793-36596.jpg?w=1380')] bg-cover bg-center">
         <SocialMediaMainPage />
       </div>
       <div className="my-10">

@@ -14,7 +14,14 @@ function ARVR() {
       <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57]">
+      <div
+        className="bg-[url('https://img.freepik.com/free-photo/man-with-vr-glasses-futuristic-city_23-2150904665.jpg?t=st=1711447706~exp=1711451306~hmac=caec33e6233eff2c98dd84004290470d3b7c66dd7110a42e23beb75cf685736f&w=1380')] bg-cover bg-center"
+        // style={{
+        //   backgroundImage: URL(
+        //     "https://img.freepik.com/free-photo/man-with-vr-glasses-futuristic-city_23-2150904665.jpg?t=st=1711447706~exp=1711451306~hmac=caec33e6233eff2c98dd84004290470d3b7c66dd7110a42e23beb75cf685736f&w=1380"
+        //   ),
+        // }}
+      >
         <ARVRMainPage />
       </div>
       <div className="my-20">
@@ -27,7 +34,7 @@ function ARVR() {
         <FAQ />
       </div>
       <div className="bg-[#0c2d57]">
-        <CTA/>
+        <CTA />
       </div>
       <div>
         <Footer />

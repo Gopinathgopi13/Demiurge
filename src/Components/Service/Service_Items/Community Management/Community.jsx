@@ -14,7 +14,7 @@ function Community() {
       <div className="w-full sticky top-0  bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57]">
+      <div className="bg-[url('https://img.freepik.com/premium-photo/businesspeople-working-meeting-working-studio-with-city-city-light-background-skyline_987366-7078.jpg?w=1380')] bg-cover bg-center">
         <CommunityMainPage />
       </div>
       <div className="my-20">
@@ -24,7 +24,7 @@ function Community() {
         <CommunityThirdContainer />
       </div>
       <div>
-        <FAQ/>
+        <FAQ />
       </div>
       <div className="bg-[#0c2d57]">
         <CTA />

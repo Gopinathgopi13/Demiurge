@@ -14,7 +14,7 @@ function LeadGeneration() {
       <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57]">
+      <div className="bg-[url('https://img.freepik.com/free-photo/businessman-working-futuristic-office_23-2151003756.jpg?t=st=1711449992~exp=1711453592~hmac=b1fb4cb55c1c50e1cc5109d25f5fb58ac2d43bd6f219c66828fcb6633ff6b93f&w=1380')] bg-cover bg-center">
         <LeadMainPage />
       </div>
       <div className="my-20">

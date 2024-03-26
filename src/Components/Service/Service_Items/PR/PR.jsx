@@ -14,7 +14,7 @@ function PR() {
       <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57]">
+      <div className="bg-[url('https://img.freepik.com/premium-photo/businesspeople-working-meeting-working-studio-with-city-city-light-background-skyline_987366-7145.jpg?w=1380')] bg-cover bg-center">
         <PRMainPage />
       </div>
       <div className="my-10">
@@ -28,9 +28,7 @@ function PR() {
       </div>
 
       {/* Call To action */}
-      <div className="bg-[#0c2d57]">
-        {/* <CTA/> */}
-      </div>
+      <div className="bg-[#0c2d57]">{/* <CTA/> */}</div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <Footer />
       </div>

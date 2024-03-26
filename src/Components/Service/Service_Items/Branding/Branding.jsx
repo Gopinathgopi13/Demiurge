@@ -14,7 +14,9 @@ function Branding() {
       <div className="w-full sticky top-0  bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0c2d57]">
+      <div 
+      className="bg-[url('https://img.freepik.com/premium-photo/graphic-designer-working-tablet-pc-ai_622301-6279.jpg?w=1380')] bg-cover bg-center"
+      >
         <BrandingMainPage />
       </div>
       <div className="my-10">

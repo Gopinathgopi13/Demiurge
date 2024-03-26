@@ -13,10 +13,7 @@ function SEO() {
       <div className="w-full sticky bg-[#0c2d57] top-0  z-50 shadow-md">
         <Navbar />
       </div>
-      <div
-        className="bg-cover bg-left"
-        style={{ backgroundImage: `url(${SEO_Main_Page})` }}
-      >
+      <div className="bg-[url('https://img.freepik.com/free-photo/glowing-blue-circuit-board-futuristic-technology-design-generated-by-ai_188544-31057.jpg?t=st=1711450199~exp=1711453799~hmac=508b6ce9afb149c6fe96c865f18eed2196c933d406b06543462031b5a7e4a2a7&w=1380')] bg-cover bg-center">
         <SEOMainPage />
       </div>
       <div className="my-10">

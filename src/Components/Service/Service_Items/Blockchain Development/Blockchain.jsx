@@ -15,7 +15,9 @@ function Blockchain() {
       <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className=" bg-[#0c2d57] ">
+      <div 
+      className="bg-[url('https://img.freepik.com/premium-photo/group-cubes-with-glowing-lights_917856-4389.jpg?w=1380')] bg-cover bg-center"
+      >
         <BlockChainMainPage />
       </div>
       <div>
@@ -28,7 +30,7 @@ function Blockchain() {
         <BlockchainFourthContainer />
       </div>
       <div>
-        <FAQ/>
+        <FAQ />
       </div>
       <div className="bg-[#0c2d57]">
         <CTA />

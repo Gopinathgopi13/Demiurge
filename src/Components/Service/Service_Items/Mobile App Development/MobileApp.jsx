@@ -15,7 +15,7 @@ function MobileApp() {
       <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[#0C2D57]">
+      <div className="bg-[url('https://img.freepik.com/premium-photo/closeup-android-hand-with-glowing-dot-large-intestine-4-created-using-generative-ai-tools_543222-3427.jpg?w=1380')] bg-cover bg-center">
         <MobileMainPage />
       </div>
       <div>
