@@ -12,11 +12,18 @@ function CallToTeam() {
           We're not your average marketing squad – we're the cool cats who live
           and breathe digital. we're all about helping brands stand out, rule
           their turf, and grow like there's no tomorrow.
-           {/* We dig marketing, sure,
+          {/* We dig marketing, sure,
           but what really gets us going is seeing our clients kick goals and
           level up their biz game.{" "} */}
         </div>
-        <div className="w-56 border-2 border-[#ff8400] h-14 flex item-center justify-center font-medium ">
+        <div
+          className="w-56 border-2 border-[#ff8400] h-14 flex item-center justify-center font-medium "
+          onClick={() => {
+            window.open(
+              "https://calendly.com/philomenjohn/digital-marketing-collab"
+            );
+          }}
+        >
           <button>Speak to our team</button>
         </div>
       </div>

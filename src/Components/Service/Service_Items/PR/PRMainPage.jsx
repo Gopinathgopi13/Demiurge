@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PR_Home_Page from "../../../../../public/static/PR_Home_Page.png";
+import CustomButton from "../../../Common/CustomButton";
 function PRMainPage() {
   return (
     <div className="w-full">
@@ -13,14 +14,15 @@ function PRMainPage() {
           Position your brand for recognition and reputation growth with our
           strategic public relations tactics.
         </div>
-        <Link to="/contactForm">
+        {/* <Link to="/contactForm">
           <div className="md:px-10 px-10 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="primaryColor" /> */}
+          
           </div>
-        </Link>
+        </Link> */}
+         <CustomButton text="Get in touch" />
       </div>
     </div>
   );

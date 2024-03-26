@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SEO_Home_Page from "../../../../../public/static/SEO_Home_Page.png";
 import { FaArrowRight } from "react-icons/fa";
+import CustomButton from "../../../Common/CustomButton";
 function SEOMainPage() {
   return (
     <div className="w-full">
@@ -14,14 +15,15 @@ function SEOMainPage() {
           Your roadmap to online visibility, ensuring your brand stands out and
           attracts the right audience.
         </div>
-        <Link to="/contactForm">
+        {/* <Link to="/contactForm">
           <div className="lg:px-10 px-5  lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
             <FaArrowRight size={20} className="primaryColor" />
           </div>
-        </Link>
+        </Link> */}
+         <CustomButton text="Get in touch" />
       </div>
     </div>
   );

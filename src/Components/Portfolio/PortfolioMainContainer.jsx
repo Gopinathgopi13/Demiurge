@@ -9,7 +9,7 @@ function PortfolioMainContainer() {
       <div className="text-2xl primaryColor mb-12 text-center">
         Social Media Posts & Ads
       </div>
-      <div className="md:columns-4 columns-2 md:px-10">
+      <div className="md:columns-3 columns-2 md:px-10">
         {data.map(({ id, img }) => {
           console.log(img);
           return (
@@ -18,7 +18,7 @@ function PortfolioMainContainer() {
                 src={img}
                 key={id}
                 className={` mx-auto ${
-                  id % 2 == 0 ? "aspect-square" : "aspect-video"
+                  id % 2 == 0 ? "aspect-square" : "aspect-square"
                 } mb-6`}
                 data-aos="zoom-in"
                 data-aos-duration="500"

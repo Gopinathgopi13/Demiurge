@@ -16,8 +16,8 @@ function OurCompany() {
           <div className="">
             <img src={Founder} className="h-80" alt="Founder" />
             <div className="">
-              <span className="block font-semibold">Lorem, ipsum.</span>
-              <span className="block">Founder</span>
+              {/* <span className="block font-semibold">Lorem, ipsum.</span> */}
+              {/* <span className="block">Founder</span> */}
             </div>
           </div>
         </div>

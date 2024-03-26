@@ -3,6 +3,10 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import servicesGrid from "../../../../assets/SVG/services-grid.svg";
 function OrganicPaid() {
+  const handlePhoneNumberClick = ({ phoneNumber = 9627396283 }) => {
+    console.log(phoneNumber);
+    window.open(`tel:${phoneNumber}`);
+  };
   return (
     <div className="w-full">
       <div className="max-w-[1280px] mx-auto px-4 grid lg:grid-cols-2 grid-cols-1 -z-50 overflow-hidden">
@@ -89,9 +93,9 @@ function OrganicPaid() {
               <div>Content creation</div>
             </div>
           </div>
-          <Link to="/contactForm">
+          <Link onClick={handlePhoneNumberClick}>
             <div className="px-4 py-3 rounded-sm text-2xl bg-[#0c2d57] text-[white] flex items-center gap-4 cursor-pointer">
-              <Link to="/contact">Get a proposal</Link>
+              <Link>Get a proposal</Link>
             </div>
           </Link>
         </div>
@@ -152,9 +156,9 @@ function OrganicPaid() {
               <div>Reaching the right audience</div>
             </div>
           </div>
-          <Link to="/contactForm">
+          <Link onClick={handlePhoneNumberClick}>
             <div className="px-4 py-3 rounded-sm text-2xl bg-[#ff8400] flex items-center gap-4 cursor-pointer">
-              <Link to="/contact">Get a proposal</Link>
+              <Link>Get a proposal</Link>
             </div>
           </Link>
         </div>

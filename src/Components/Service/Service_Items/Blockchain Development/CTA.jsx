@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const CTA = () => {
+  const handlePhoneNumberClick = ({ phoneNumber = 9627396283 }) => {
+    console.log(phoneNumber);
+    window.open(`tel:${phoneNumber}`);
+  };
   return (
     <div className="w-full">
       <div
@@ -20,9 +24,9 @@ const CTA = () => {
             success.
           </div>
           <div>
-            <Link to="/contactForm">
+            <Link onClick={handlePhoneNumberClick}>
               <div className="px-10 w-auto py-3 rounded-sm text-xl text-[#E48F45] bg-[#0c2d57] flex items-center gap-4 cursor-pointer">
-                <Link to="/contact">Book A Call Now</Link>
+                <Link>Book A Call Now</Link>
               </div>
             </Link>
           </div>

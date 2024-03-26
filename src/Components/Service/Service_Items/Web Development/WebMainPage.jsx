@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomButton from "../../../Common/CustomButton";
 
 function WebMainPage() {
   return (
@@ -15,14 +16,15 @@ function WebMainPage() {
           not only address your immediate needs but also deliver long-lasting
           impact.
         </div>
-        <Link to="/contactForm">
+        {/* <Link to="/contactForm">
           <div className="lg:px-10 px-10 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="primaryColor" /> */}
+           
           </div>
-        </Link>
+        </Link> */}
+         <CustomButton text="Get in touch" />
       </div>
     </div>
   );

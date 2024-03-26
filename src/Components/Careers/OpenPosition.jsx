@@ -11,7 +11,8 @@ function OpenPosition() {
         Apply to one of our open positions below, or send your resume and cover
         letter to{" "}
         <strong className="text-blue-500">
-          <a href="mailto:philomenjohn@demiurge.in">philomenjohn@demiurge.in</a>
+          <br />
+          <a href="mailto:philomenjohn@demiurge.in">john@demiurge.in</a>
         </strong>
         <div className="my-10">
           <PositionDetails />

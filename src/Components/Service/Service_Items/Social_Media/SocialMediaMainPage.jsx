@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import SocialMedia_Home_Page from "../../../../../public/static/SocialMedia_Home_Page.png";
+import CustomButton from "../../../Common/CustomButton";
 
 function SocialMediaMainPage() {
   return (
@@ -16,14 +17,15 @@ function SocialMediaMainPage() {
           Discover how we can amplify your brand's impact through social media
           expertise.
         </div>
-        <Link to="/contactForm">
+        {/* <Link to="/contactForm">
           <div className="lg:px-10 px-10 lg:py-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="primaryColor" /> */}
+           
           </div>
-        </Link>
+        </Link> */}
+         <CustomButton text="Get in touch" />
       </div>
     </div>
   );

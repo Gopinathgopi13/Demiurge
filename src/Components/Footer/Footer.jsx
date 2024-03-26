@@ -1,5 +1,6 @@
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 function Footer() {
   const handlePhoneNumberClick = ({ phoneNumber = 6369907822 }) => {
     console.log(phoneNumber);
@@ -18,17 +19,18 @@ function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/service/seo"
+                    // href="#"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
                     SEO Optimisation
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
                   <a
-                    href="#"
+                    href="/service/web"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
                     Web Development
@@ -37,10 +39,10 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="/service"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    Graphic Design
+                    Social Media Marketing
                   </a>
                 </li>
 
@@ -49,7 +51,7 @@ function Footer() {
                     href="#"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    Brand Development
+                    Branding
                   </a>
                 </li>
 
@@ -58,7 +60,7 @@ function Footer() {
                     href="#"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    Youtube Marketing
+                    Lead Generation
                   </a>
                 </li>
                 <li>
@@ -66,7 +68,7 @@ function Footer() {
                     href="#"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    PPC Service
+                    Blockchain Development
                   </a>
                 </li>
               </ul>
@@ -78,7 +80,7 @@ function Footer() {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/about"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
                     About
@@ -87,19 +89,19 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="/careers"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    Meet the Team
+                    Careers
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="#"
+                    href="/contact"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    Careers
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -132,7 +134,7 @@ function Footer() {
                     href="#"
                     className="text-gray-700 transition hover:opacity-75 "
                   >
-                    Mobile
+                    Healthcare
                   </a>
                 </li>
                 <li>
@@ -293,7 +295,7 @@ function Footer() {
             <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
               <li>
                 <a
-                  href="#"
+                  href="/terms"
                   className="text-gray-500 transition hover:opacity-75 "
                 >
                   Terms & Conditions
@@ -302,7 +304,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/privacy"
                   className="text-gray-500 transition hover:opacity-75 "
                 >
                   Privacy Policy

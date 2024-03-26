@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomButton from "../../../Common/CustomButton";
+import { FaArrowRight } from "react-icons/fa";
 
 function BlockChainMainPage() {
-  
   const handleEmailButtonClick = () => {
     const emailAddress = "gopinathkathirvel13@gmail.com";
     const mailtoLink = `mailto:${emailAddress}`;
     window.location.href = mailtoLink;
   };
-
 
   return (
     <div className="w-full">
@@ -22,14 +22,14 @@ function BlockChainMainPage() {
           technologies, unlock innovative solutions, and shape the future of
           finance, governance, and beyond.
         </div>
-        <Link onClick={handleEmailButtonClick}>
+        {/* <Link onClick={handleEmailButtonClick}>
           <div className="lg:px-10 px-10 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="primaryColor" /> */}
           </div>
-        </Link>
+        </Link> */}
+        <CustomButton text="Get in touch" />
       </div>
     </div>
   );

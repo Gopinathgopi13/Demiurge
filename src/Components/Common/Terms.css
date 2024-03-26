@@ -1,0 +1,11 @@
+h1{
+    font-size: larger;
+    font-weight: 700;   
+    /* color: rgba(0, 0, 0, 0.932); */
+    margin: 10px 0px;
+}
+
+ul{
+    list-style: circle;
+    margin-left: 20px;
+}   

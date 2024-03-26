@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomButton from "../../../Common/CustomButton";
 
 function MobileMainPage() {
   return (
@@ -13,14 +14,15 @@ function MobileMainPage() {
           Ready to take your brand worldwide? Our bespoke mobile app designs are
           your ticket. Start your global journey today!
         </div>
-        <Link to="/contactForm">
+        {/* <Link to="/contactForm">
           <div className="lg:px-10 px-10 py-5 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="primaryColor" /> */}
+            
           </div>
-        </Link>
+        </Link> */}
+         <CustomButton text="Get in touch" />
       </div>
     </div>
   );

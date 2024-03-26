@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function SEOFourthConitainer() {
+  const handlePhoneNumberClick = ({ phoneNumber = 6369907822 }) => {
+    console.log(phoneNumber);
+    window.open(`tel:${phoneNumber}`);
+  }
   return (
     <div className="max-w-[1280px] sm:flex sm:flex-col sm:justify-center mx-auto p-4 gap-5 bg-[#0c2d57]">
       <div className="md:text-5xl text-3xl text-center font-medium my-5 primaryColor">
@@ -16,7 +20,7 @@ function SEOFourthConitainer() {
           harness the full potential of SEO and watch your business thrive
         </p>
         <div>
-          <Link to="/contactForm">
+          <Link onClick={handlePhoneNumberClick}>
             <div className="px-10 w-auto py-3 rounded-sm text-xl font-semibold primaryColor bg-white flex items-center gap-4 cursor-pointer">
               <Link to="/contact">Book A Call Now</Link>
             </div>

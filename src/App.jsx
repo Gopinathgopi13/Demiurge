@@ -25,6 +25,8 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import ScrollToTop from "./ScrollToTop";
 import ErrorPAge from "./Components/ErrorPAge";
 import { IoIosMail, IoIosCall } from "react-icons/io";
+import TermsAndCondition from "./Components/Common/TermsAndCondition";
+import PrivacyPolicy from "./Components/Common/PrivacyPolicy";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -69,6 +71,9 @@ function App() {
               <Route path="/service/blockchain" element={<Blockchain />} />
               <Route path="/service/lead" element={<LeadGeneration />} />
               <Route path="/service/arvr" element={<ARVR />} />
+              <Route path="/terms" element={<TermsAndCondition />} />
+              <Route path="/privacy" element={<PrivacyPolicy />} />
+
               <Route path="*" element={<ErrorPAge />} />
             </Routes>
           </ScrollToTop>

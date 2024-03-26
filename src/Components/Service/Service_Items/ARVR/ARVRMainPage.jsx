@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomButton from "../../../Common/CustomButton";
 
 function ARVRMainPage() {
   const handleEmailButtonClick = () => {
@@ -18,14 +19,15 @@ function ARVRMainPage() {
           Discover immersive experiences that captivate and engage audiences in
           innovative ways, setting your brand apart in the digital landscape.
         </div>
-        <Link onClick={handleEmailButtonClick}>
+        {/* <Link onClick={handleEmailButtonClick}>
           <div className="lg:px-10 px-5 py-3 lg:text-xl font-semibold border-2 flex justify-center items-center primaryColor cursor-pointer">
             <Link to="/contact" id="shine">
               Get in touch
             </Link>
-            {/* <FaArrowRight size={20} className="primaryColor" /> */}
-          </div>
-        </Link>
+            // {/* <FaArrowRight size={20} className="primaryColor" /> */}
+        {/* </div> */}
+        {/* </Link> */}
+        <CustomButton text="Get in touch" />
       </div>
     </div>
   );

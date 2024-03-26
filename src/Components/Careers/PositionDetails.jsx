@@ -10,7 +10,8 @@ const PositionDetails = () => {
 
   return (
     <div>
-      <div className="hs-accordion-group">
+      <div className="uppercase">Currently No Hiring</div>
+      {/* <div className="hs-accordion-group">
         {accordions.map(({ id, heading, content }) => (
           <div
             className={`hs-accordion ${
@@ -60,7 +61,7 @@ const PositionDetails = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
