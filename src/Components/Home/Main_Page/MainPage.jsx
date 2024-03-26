@@ -10,10 +10,8 @@ function MainPage() {
 
   const handleEmailButtonClick = () => {
     const emailAddress = 'gopinathkathirvel13@gmail.com';
-    const subject = 'Sample Mail';
-    const body = 'Your email body goes here.';
-
-    const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+ 
+    const mailtoLink = `mailto:${emailAddress}`;
 
     // window.open(mailtoLink);
     window.location.href = mailtoLink;
