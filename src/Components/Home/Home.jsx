@@ -32,6 +32,11 @@ function Home() {
     };
   }, []);
 
+  const handlePhoneNumberClick = ({ phoneNumber = 6369907822 }) => {
+    console.log(phoneNumber);
+    window.open(`tel:${phoneNumber}`);
+  };
+
   return (
     <div className="w-full">
       <div className="bg-[#0c2d57] sticky top-0 z-50 shadow-md">
@@ -75,7 +80,9 @@ function Home() {
             <div className="">success with Demiurge today!</div>
           </div>
           <div>
-            <button className="p-2 border-2 border-[#0c2d57] text-[#0c2d57] text-md font-semibold">
+            <button className="p-2 border-2 border-[#0c2d57] text-[#0c2d57] text-md font-semibold"
+              onClick={handlePhoneNumberClick}
+            >
               Get a Quote
             </button>
           </div>
