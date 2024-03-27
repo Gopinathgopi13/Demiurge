@@ -8,6 +8,7 @@ import ARThirdContainer from "./ARThirdContainer";
 import ARVRi from "../../../../assets/AR-VR.jpg";
 import FAQ from "./FAQ";
 import CTA from "./CTA";
+import banner from '../../../../assets/Service Page Background/ARVR.jpg'
 function ARVR() {
   return (
     <div className="w-full">
@@ -15,12 +16,8 @@ function ARVR() {
         <Navbar />
       </div>
       <div
-        className="bg-[url('https://img.freepik.com/free-photo/man-with-vr-glasses-futuristic-city_23-2150904665.jpg?t=st=1711447706~exp=1711451306~hmac=caec33e6233eff2c98dd84004290470d3b7c66dd7110a42e23beb75cf685736f&w=1380')] bg-cover bg-center"
-        // style={{
-        //   backgroundImage: URL(
-        //     "https://img.freepik.com/free-photo/man-with-vr-glasses-futuristic-city_23-2150904665.jpg?t=st=1711447706~exp=1711451306~hmac=caec33e6233eff2c98dd84004290470d3b7c66dd7110a42e23beb75cf685736f&w=1380"
-        //   ),
-        // }}
+        className="bg-cover bg-center"
+        style={{ backgroundImage: `url('${banner}')` }}
       >
         <ARVRMainPage />
       </div>

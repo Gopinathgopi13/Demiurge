@@ -29,7 +29,7 @@ function IndustriesComponent() {
         </div>
       </div>
       {/* ----------------------------------------------------- */}
-      <div class="md:grid md:grid-rows-5 md:grid-cols-4 gap-5 space-y-2 px-5 overflow-hidden z-10">
+      <div class="md:grid md:grid-rows-5 md:grid-cols-4 gap-2 space-y-2 px-5 overflow-hidden z-10">
         {/* 1) Fintech */}
         <div
           id="item-0"

@@ -4,7 +4,7 @@ import CustomButton from "../../../Common/CustomButton";
 
 function CGIMainPage() {
   return (
-    <div className="max-w-[1280px] mx-auto px-4  h-[100vh] text-white flex flex-col justify-center items-start gap-y-14">
+    <div className="max-w-[1280px] mx-auto px-4  h-[90vh] text-white flex flex-col justify-center items-start gap-y-14">
       <div className="md:text-5xl text-3xl md:w-[90%] font-extrabold leading-snug primaryColor">
         Experience the visual revolution. Elevate your brand's storytelling with
         CGI!

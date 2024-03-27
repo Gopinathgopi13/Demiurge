@@ -6,6 +6,7 @@ import CGISecondContainer from "./CGISecondContainer";
 import CGIThirdContainer from "./CGIThirdContainer";
 import FAQ from "./FAQ";
 import CTA from "./CTA";
+import banner from '../../../../assets/CGIBanner1.jpg'
 
 function CGI() {
   return (
@@ -13,7 +14,9 @@ function CGI() {
       <div className="w-full sticky top-0 bg-[#0c2d57] shadow-md z-50">
         <Navbar />
       </div>
-      <div className="bg-[url('https://img.freepik.com/premium-photo/bold-cyber-monday-promotion-banner-with-dynamic-vi-00107-01_883586-110463.jpg?w=1380')] bg-cover bg-center">
+      <div className="bg-cover bg-center"
+      style={{backgroundImage: `url('${banner}')`}}
+      >
         <CGIMainPage />
       </div>
       <div className="my-20">

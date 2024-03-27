@@ -20,9 +20,9 @@ function OurTeam() {
 
                 <div className="details">
                   <h2>
-                    John Smith
+                    Philomenjohn
                     <br />
-                    <span className="job-title">UI Developer</span>
+                    <span className="job-title">Manager</span>
                   </h2>
                 </div>
               </div>
@@ -35,9 +35,9 @@ function OurTeam() {
 
                 <div className="details">
                   <h2>
-                    John Smith
+                    Vijayabalan
                     <br />
-                    <span className="job-title">UI Developer</span>
+                    <span className="job-title">Video Designer</span>
                   </h2>
                 </div>
               </div>
@@ -50,9 +50,9 @@ function OurTeam() {
 
                 <div className="details">
                   <h2>
-                    John Smith
+                    Annie
                     <br />
-                    <span className="job-title">UI Developer</span>
+                    <span className="job-title">Social Media Manager</span>
                   </h2>
                 </div>
               </div>
@@ -60,14 +60,16 @@ function OurTeam() {
             <div className="card-wrapper">
               <div className="card">
                 <div className="card-image">
-                  <img src={teamMember4} alt="profile one" className="h-full" />
+                  <img src={teamMember3} alt="profile one" className="h-full" />
                 </div>
 
                 <div className="details">
                   <h2>
-                    John Smith
+                    Jennifer
                     <br />
-                    <span className="job-title">UI Developer</span>
+                    <span className="job-title">
+                      Graphic & UI/UX Designer
+                    </span>
                   </h2>
                 </div>
               </div>
@@ -80,28 +82,14 @@ function OurTeam() {
 
                 <div className="details">
                   <h2>
-                    John Smith
+                    Gopinath
                     <br />
-                    <span className="job-title">UI Developer</span>
+                    <span className="job-title">Web Developer</span>
                   </h2>
                 </div>
               </div>
             </div>
-            <div className="card-wrapper">
-              <div className="card">
-                <div className="card-image">
-                  <img src={teamMember3} alt="profile one" className="h-full" />
-                </div>
 
-                <div className="details">
-                  <h2>
-                    John Smith
-                    <br />
-                    <span className="job-title">UI Developer</span>
-                  </h2>
-                </div>
-              </div>
-            </div>
             <div className="card-wrapper">
               <div className="card">
                 <div className="card-image">
@@ -110,9 +98,28 @@ function OurTeam() {
 
                 <div className="details">
                   <h2>
-                    John Smith
+                    Vignesh
                     <br />
-                    <span className="job-title">UI Developer</span>
+                    <span className="job-title">
+                      {" "}
+                      Graphic & UI/UX Designer
+                    </span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div className="card-wrapper">
+              <div className="card">
+                <div className="card-image">
+                  <img src={teamMember3} alt="profile one" className="h-full" />
+                </div>
+
+                <div className="details">
+                  <h2>
+                    Subithara
+                    <br />
+                    <span className="job-title">Intern</span>
                   </h2>
                 </div>
               </div>

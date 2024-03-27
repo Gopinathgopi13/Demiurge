@@ -67,7 +67,7 @@ function Accordion(props) {
       data-aos-duration="500"
     >
       <button
-        className="w-[90%] mx-auto rounded-lg p-4 text-left flex md:px-16 justify-between items-center bg-gray-200 
+        className="w-[90%] mx-auto rounded-t-lg p-4 text-left flex md:px-16 justify-between items-center bg-gray-200 
                           hover:bg-gray-300 transition duration-300"
         onClick={props.toggleAccordion}
       >
@@ -82,8 +82,8 @@ function Accordion(props) {
         </span>
       </button>
       {props.isOpen && (
-        <div className="p-4 w-[90%] mx-auto rounded-b-lg md:px-10  text-lg bg-gray-100 text-[#0C2D57]">
-          {props.data}
+        <div className="p-4 w-[90%] mx-auto rounded-b-lg md:px-16  text-lg bg-gray-100 text-[#0C2D57]">
+          <span className="primaryColor text-xl">Answer: </span>{props.data}
         </div>
       )}
     </div>
