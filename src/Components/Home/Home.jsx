@@ -66,7 +66,7 @@ function Home() {
       </div>
       <div className={`md:${show} hidden`}>
         <div
-          className={`bg-[#e48f45] items-center gap-20 justify-center md:px-10 py-2  h-[8vh] flex fixed bottom-0 right-0 left-0 z-50 transition ease-in duration-[5000ms]`}
+          className={`bg-[#e48f45] items-center gap-20 justify-center md:px-10 py-3  h-[8vh] flex fixed bottom-0 right-0 left-0 z-50 transition ease-in duration-[5000ms]`}
         >
           <div className="text-center">
             <div className="text-2xl text-[#0c2d57] font-extrabold uppercase">
